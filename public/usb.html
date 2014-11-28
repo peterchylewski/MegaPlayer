@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<title>USB Dial</title>
+
+	<link rel="stylesheet" href="style/bootstrap.min.css">
+	<link rel="stylesheet" href="style/elusive-webfont.css">
+	<link rel="stylesheet" href="style/fonts/franklin/franklin.font.css">
+	<style media="screen">
+			
+		* {
+			-webkit-font-smoothing: antialiased;
+			text-rendering: optimizeLegibility;
+			margin: 0;
+			padding: 0;
+			outline: 0 !important;
+			-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+			
+		}
+
+		body {
+			font-family: "FranklinGothicFSBook" !important;
+			margin: 32px;
+			color: #333;
+			background: #fff;
+		}
+		
+		h1, h2, h3, h4, h5, h6 {
+			font-family: "FranklinGothicFSHeavy" !important;
+			font-weight: 400 !important;
+			font-style: normal !important;
+		}
+		
+		h1 { font-size: 3em; letter-spacing: -.01em; color: } h2 { font-size: 1.8em; }
+		
+		
+		h1 {
+			font-size: 8em;
+			line-height: .85em;
+			letter-spacing: -.045em;
+			color: #D3D3D3;
+		}
+
+		* + h1, * + h2, * + h3, * + h4, * + h5, * + h6 {
+			margin-top: 16px;
+		}
+		
+		ul, ol {
+			list-style-position: inside;
+		}
+		
+		* + p {
+			margin-top: 8px;
+		}
+		
+		ul li {
+			list-style-type: none;
+			margin-left: 32px;
+		}
+		
+		h1#info {
+			min-height: 70px;
+		}
+		
+		.el-icon-volume-up {
+			position: relative;
+			top: 1px;
+			padding-left: 6px;
+			display: none;
+		}
+		
+		.el-icon-volume-up.active {
+			display: inline;
+		}
+	
+	</style>
+
+	<script src="js/jquery-2.0.3.min.js"></script>
+	<script src="js/jquery.knob.js"></script>
+
+	<script src="js/underscore-min.js"></script>
+	<script src="js/socket.io-1.2.1.js"></script>
+	
+	<script src="js/sound.js"></script>
+	
+	<script>
+
+		'use strict';
+		
+		
+		/* Create a SineWave generator from an AudioContext */
+		var context = new webkitAudioContext();
+		var sinewave = new SineWave(context);
+		//sinewave.play();
+		
+		
+		
+		var socket = io('http://192.168.1.200:3000/');
+		
+		socket.on('welcome', function() {
+			console.log('the server says: welcome!');
+		});
+		
+		socket.on('data', function(data) {
+			$('.dial')
+        		.val(data)
+        		.trigger('change');
+        	sinewave.setFrequency(440 + data);
+		});
+		
+		socket.on('keyDown', function(name) {
+			console.log('keyDown', name);
+			switch(name) {
+				case 'KEY_RIGHT':
+					$('.dial').trigger('configure', { 'fgColor': '#fc0' });
+				break;
+				case 'KEY_POWER_MATE':
+					$('.dial').trigger('configure', { 'fgColor': '#0f0' });
+				break;
+			}	
+		});
+		
+		socket.on('keyUp', function(name) {
+			console.log('keyUp', name);
+			switch(name) {
+				case 'KEY_RIGHT':
+				case 'KEY_POWER_MATE':
+					$('.dial').trigger('configure', { 'fgColor': '#f00' });
+				break;
+			}
+		});
+		
+		socket.on('disconnect', function() {
+			console.log('disconnected from server');
+		});
+		
+		$(document).ready(function() {
+			console.log('***ready');
+			$('.dial').knob({				// http://anthonyterrien.com/knob/
+				/*
+				'change': function(value) {
+    				console.log('change', value);
+    				
+    			},
+    			'draw': function(value) {
+    				console.log('draw', arguments);
+    			},
+    			*/
+				'min': 0,
+    			'max': 100,
+    			//'angleArc': 270,
+    			//'angleOffset': -135,
+    			'width': 800,
+    			'height': 800,
+    			'fgColor': '#f00'
+    			//'rotation': 'counterclockwise',
+    			
+    		});
+			socket.emit('ready', 'foobar');
+		});
+		
+		
+		
+
+	</script>
+	
+</head>
+<body>
+ <center>
+	 <input type="text" value="50" class="dial">
+	</center>
+</body>
+
+
+</html>

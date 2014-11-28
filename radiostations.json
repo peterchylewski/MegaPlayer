@@ -1,0 +1,132 @@
+{
+	"srf_regi_bs_bl": {
+		"name": "SRF Regio BS/BL",
+		"stream_url": "http://streaming.swisstxt.ch/m/regi_bs_bl/mp3_128"
+	},
+	"srf1": {
+		"name": "SRF 1",
+		"stream_url": "http://streaming.swisstxt.ch/m/drs1/mp3_128"
+	},
+	"srf2": {
+		"name": "SRF 2",
+		"stream_url": "http://stream.srg-ssr.ch/m/drs2/aacp_96"
+	},
+	"fm": {
+		"name": "France musique",
+		"stream_url": "http://mp3.live.tv-radio.com/francemusique/all/francemusiquehautdebit.mp3"
+	},
+	"fc": {
+		"name": "France culture",
+		"stream_url": "http://mp3.live.tv-radio.com/franceculture/all/franceculturehautdebit.mp3"
+	},
+	"abc": {
+		"name": "ABC Jazz",
+		"stream_url": "http://shoutmedia.abc.net.au:10430/"
+	},
+	"nrk_p2": {
+		"name": "NRK P2",
+		"stream_url": "http://lyd.nrk.no:80/nrk_radio_p2_mp3_h"
+	},
+	"nrk_jazz": {
+		"name": "NRK Jazz",
+		"stream_url": "http://lyd.nrk.no:80/nrk_radio_jazz_mp3_h"
+	},
+	"nrk_klassisk": {
+		"name": "NRK Klassisk",
+		"stream_url": "http://lyd.nrk.no:80/nrk_radio_klassisk_mp3_h"
+	},
+	"cro_d_dur": {
+		"name": "Cro D Dur flac",
+		"stream_url": "http://radio.cesnet.cz:8000/cro-d-dur.flac"
+	},
+	"cro_jazz": {
+		"name": "Cro Jazz",
+		"stream_url": "http://stream3.rozhlas.cz:8000/jazz_high.ogg"
+	},
+	"wdr3": {
+		"name": "WDR 3",
+		"stream_url": "http://wdr-3-320.akacast.akamaistream.net/7/827/119437/v1/gnl.akacast.akamaistream.net/wdr-3-320"
+	},
+	"swr2": {
+		"name": "SWR 2",
+		"stream_url": "http://swr-mp3-m-swr2.akacast.akamaistream.net/7/721/137135/v1/gnl.akacast.akamaistream.net/swr-mp3-m-swr2"
+	},
+	"ndr_info_spazial": {
+		"name": "NDR Info Spezial",
+		"stream_url": "http://ndr-ndrinfo-spezial-mp3.akacast.akamaistream.net/7/795/273757/v1/gnl.akacast.akamaistream.net/ndr_ndrinfo_spezial_mp3"
+	},
+	"ndr_kultur": {
+		"name": "NDR Kultur",
+		"stream_url": "http://ndr-ndrkultur-mp3.akacast.akamaistream.net/7/527/273758/v1/gnl.akacast.akamaistream.net/ndr_ndrkultur_mp3"
+	},
+	"br_klassik": {
+		"name": "BR Klassik 2",
+		"stream_url": "http://br-mp3-br-klassik-m.akacast.akamaistream.net/7/120/142693/v1/gnl.akacast.akamaistream.net/br_mp3_br-klassik_m"
+	},
+	"br_2_sued": {
+		"name": "BR 2 Süd",
+		"stream_url": "http://br-mp3-bayern2sued-m.akacast.akamaistream.net/7/731/256282/v1/gnl.akacast.akamaistream.net/br_mp3_bayern2sued_m"
+	},
+	"dlf": {
+		"name": "DLF",
+		"stream_url": "http://dradio_mp3_dlf_m.akacast.akamaistream.net/7/249/142684/v1/gnl.akacast.akamaistream.net/dradio_mp3_dlf_m"
+	},
+	"cz_jazz": {
+		"name": "Concertzender Jazz",
+		"stream_url": "http://streams.greenhost.nl:8080/jazz"
+	},
+	"cz_jazz_not_jazz": {
+		"name": "Concertzender Jazznotjazz",
+		"stream_url": "http://streams.greenhost.nl:8080/jazznotjazz"
+	},
+	"cz_nieuwemuziek": {
+		"name": "Concertzender Nieuwe muziek",
+		"stream_url": "http://streams.greenhost.nl:8080/nieuwemuziek"
+	},
+	"cz_gehoordestilte": {
+		"name": "Concertzender De gehoorde stilte",
+		"stream_url": "http://www.concertzender.nl/streams/gehoordestilte"
+	},
+	"cz_novembermusic": {
+		"name": "Concertzender November Music",
+		"stream_url": "http://www.concertzender.nl/streams/novembermusic"
+	},
+	"cz_klassiek": {
+		"name": "Concertzender Klassiek",
+		"stream_url": "http://www.concertzender.nl/streams/klassiek"
+	},
+	"sr_p2": {
+		"name": "SR P2",
+		"stream_url": "http://http-live.sr.se/p2-mp3-192"
+	},
+	"dr_p1": {
+		"name": "DR P1",
+		"stream_url": "http://live-icy.gss.dr.dk:8000/A/A03H.mp3"
+	},
+	"dr_p8": {
+		"name": "DR P8 Jazz",
+		"stream_url": "http://live-icy.gss.dr.dk/A/A22H.mp3"
+	},
+	"rte_lyric": {
+		"name": "RTÉ lyric",
+		"stream_url": "http://icecast2.rte.ie/lyric"
+	},
+	"cbc": {
+		"name": "CBC Radio-Canada",
+		"stream_url": "http://2QMTL0.akacast.akamaistream.net:80/7/953/177387/v1/rc.akacast.akamaistream.net/2QMTL0"
+	},
+	"radio_birdseye": {
+		"name": "Bird’s Eye",
+		"stream_url": "http://rs33.stream24.org:8610/stream"
+	},
+	"radio_x": {
+		"name": "Radio X",
+		"stream_url": "http://mp3.radiox.ch:8000/standard.ogg"
+	},
+	"radio_jazz_moscow": {
+		"name": "Radio Jazz 89.1 FM (Moscow)",
+		"stream_url": "http://jssr01.jazzandclassic.ru:14534/rjstream.mp3"
+	}
+	
+
+}

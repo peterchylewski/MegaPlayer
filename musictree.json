@@ -649,8 +649,8 @@
       "path": "/media/music/Herbie Mann and Bill Evans - Nirvana (1962) [Jazz][flac][h33t][schon55]",
       "name": "Herbie Mann and Bill Evans - Nirvana (1962) [Jazz][flac][h33t][schon55]",
       "atime": "2014-11-03T20:43:39.000Z",
-      "ctime": "2014-11-03T20:45:03.000Z",
-      "mtime": "2014-11-03T20:45:03.000Z",
+      "ctime": "2014-11-27T17:18:26.000Z",
+      "mtime": "2014-11-27T17:18:26.000Z",
       "type": "folder",
       "children": [
         {
@@ -806,6 +806,15 @@
           "mtime": "2014-07-05T17:43:04.000Z",
           "type": "file",
           "extension": "cue"
+        },
+        {
+          "path": "/media/music/Herbie Mann and Bill Evans - Nirvana (1962) [Jazz][flac][h33t][schon55]/playlist",
+          "name": "playlist",
+          "atime": "2014-11-27T17:18:26.000Z",
+          "ctime": "2014-11-27T17:18:26.000Z",
+          "mtime": "2014-11-27T17:18:26.000Z",
+          "type": "file",
+          "extension": ""
         }
       ]
     },

@@ -42,6 +42,8 @@
 			letter-spacing: -.045em;
 			color: #D3D3D3;
 		}
+		
+		h2 { color: #D3D3D3; }
 
 		* + h1, * + h2, * + h3, * + h4, * + h5, * + h6 { margin-top: 16px; }
 		
@@ -132,6 +134,10 @@
 				e.preventDefault();
 				_setStation($(this).attr('href'));
 			});
+		});
+		
+		socket.on('musictree', function(musictree) {
+			console.log('music tree received: ', musictree);
 		});
 		
 		socket.on('station_id', function(id) {

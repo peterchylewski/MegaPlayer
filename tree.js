@@ -1,8 +1,4 @@
 
-var tree = require('tm-FileTree')();
-//console.log(JSON.stringify(tree, null, 2));
-//return;
+var tree = require('txtm-FileTree')('/media/music');
 
-var x = tree.walk('/media/music');
-
-console.log(JSON.stringify(x, null, 2));
+console.log(JSON.stringify(tree.getData(), null, 2));

@@ -6,6 +6,7 @@ var MUSIC_HOME = '/media/music',
 	http = require('http').Server(app),
 	io = require('socket.io')(http),
 	stations = require('./radiostations.json'),
+	musictree = require('./musictree.json'),
 	player = require('SimplePlayer'),
 	_socket;
 
@@ -21,15 +22,13 @@ function startCatchingKeyboardEvents() {
 	process.stdin.on('keypress', function (ch, key) {
 		console.log('got "keypress"', key);
 		switch (key.name) {
-			case 'up':
-				//player.prev();
-				//console.log(stations);
-				var tree = require('tm-FileTree')(MUSIC_HOME, { addDates: true });
+			case 't':
+				var tree = require('txtm-FileTree')(MUSIC_HOME, { addDates: true });
 				//console.log(JSON.stringify(tree.getData(), null, 2));
 				var fs = require('fs');
 				fs.writeFile(__dirname + '/musictree.json', JSON.stringify(tree.getData(), null, 2), 'utf8', function(err) {
-					if (err !== null) { throw err; }
-					console.log('file musictree.json has been written.');
+					if (err !== null) { throw err; return; }
+					console.log('file "musictree.json" has been sucessfully written.');
 				});
 			break;
 			case 'down':
@@ -87,6 +86,7 @@ io.on('connection', function(socket) {
 	socket.on('ready', function(msg) {
 		console.log('client ready, message: ' + msg);
 		socket.emit('radiostations', stations);
+		socket.emit('musictree', stations);
 	});
 	
 	socket.on('station', function(id) {

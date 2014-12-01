@@ -9,7 +9,7 @@
 	},
 	"srf2": {
 		"name": "SRF 2",
-		"stream_url": "http://stream.srg-ssr.ch/m/drs2/aacp_96"
+		"stream_url": "http://stream.srg-ssr.ch/m/drs2/mp3_128"
 	},
 	"fm": {
 		"name": "France musique",
@@ -126,7 +126,13 @@
 	"radio_jazz_moscow": {
 		"name": "Radio Jazz 89.1 FM (Moscow)",
 		"stream_url": "http://jssr01.jazzandclassic.ru:14534/rjstream.mp3"
+	},
+	"classic_and_jazz": {
+		"name": "Classic & Jazz",
+		"stream_url": "http://classicandjazzaac.ice.infomaniak.ch/classicandjazzaac.mp3"
+	},
+	"classic_and_jazz": {
+		"name": "Soul & Funk",
+		"stream_url": "http://soulandfunkaac.ice.infomaniak.ch/soulandfunkaac-0.mp3"
 	}
-	
-
 }

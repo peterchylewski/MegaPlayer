@@ -7,7 +7,7 @@
 
 	<link rel="stylesheet" href="style/bootstrap.min.css">
 	<link rel="stylesheet" href="style/elusive-webfont.css">
-	<link rel="stylesheet" href="style/fonts/franklin/franklin.font.css">
+	<link rel="stylesheet" href="style/fonts/Franklin/Franklin.font.css">
 	<style media="screen">
 			
 		* {
@@ -74,6 +74,20 @@
 		.el-icon-volume-up.active {
 			display: inline;
 		}
+		
+		.glyphicon {
+			position: relative;
+			top: 8px;
+			font-size: 2em;
+		}
+		
+		.glyphicon-ok-sign {
+			color: #0CA70C;
+		}
+		
+		.glyphicon-ban-circle {
+			color: red;
+		}
 	
 	</style>
 
@@ -101,6 +115,7 @@
 		
 		socket.on('welcome', function() {
 			console.log('the server says: welcome!');
+			$('#connection').html('<i class="glyphicon glyphicon-ok-sign"></i>&nbsp;connected');
 		});
 		
 		socket.on('data', function(data) {
@@ -134,6 +149,7 @@
 		
 		socket.on('disconnect', function() {
 			console.log('disconnected from server');
+			$('#connection').html('<i class="glyphicon glyphicon-ban-circle"></i>&nbsp;disconnected');
 		});
 		
 		$(document).ready(function() {
@@ -168,6 +184,7 @@
 	
 </head>
 <body>
+	<div id="connection"></div>
  <center>
 	 <input type="text" value="50" class="dial">
 	</center>

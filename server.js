@@ -86,7 +86,7 @@ io.on('connection', function(socket) {
 	socket.on('ready', function(msg) {
 		console.log('client ready, message: ' + msg);
 		socket.emit('radiostations', stations);
-		socket.emit('musictree', stations);
+		socket.emit('musictree', musictree);
 	});
 	
 	socket.on('station', function(id) {
@@ -99,6 +99,14 @@ io.on('connection', function(socket) {
 		
 		player.on('foo', function(msg) {
 			//console.log('foo message', msg);
+			socket.emit('station_message', msg);
+		});
+	});
+	
+	socket.on('file', function(file) {
+		console.log('file', file);
+		player.play(file);
+		player.on('foo', function(msg) {
 			socket.emit('station_message', msg);
 		});
 	});

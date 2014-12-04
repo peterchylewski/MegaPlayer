@@ -5,9 +5,9 @@
 	
 	<title>MPLayerTunez</title>
 
-	<link rel="stylesheet" href="style/bootstrap.min.css">
-	<link rel="stylesheet" href="style/elusive-webfont.css">
-	<link rel="stylesheet" href="style/fonts/Franklin/Franklin.font.css">
+	<link rel="stylesheet" href="styles/bootstrap.min.css">
+	<link rel="stylesheet" href="styles/elusive-webfont.css">
+	<link rel="stylesheet" href="styles/fonts/Franklin/Franklin.font.css">
 	<style media="screen">
 			
 		* {
@@ -72,6 +72,12 @@
 		
 		td#info { padding-left: 32px; }
 		
+		table#files td {
+			font-size: 1em !important;
+			padding: 0 !important;
+			white-space: nowrap;
+		}
+		
 		h1 { min-height: 70px; }
 		
 		.el-icon-volume-up {
@@ -84,8 +90,14 @@
 		.el-icon-volume-up.active { display: inline; }
 	
 	</style>
-
+	
+	<link rel="stylesheet" href="styles/vendor/treetable/jquery.treetable.css">
+	<link rel="stylesheet" href="styles/vendor/treetable/jquery.treetable.theme.default.css">
+	
 	<script src="js/jquery-2.0.3.min.js"></script>
+	<script src="js/bootstrap-3.2.0.min.js"></script>
+	<script src="js/jquery.treetable.js"></script>
+	
 	<script src="js/underscore-min.js"></script>
 	<script src="js/socket.io-1.2.1.js"></script>
 
@@ -125,10 +137,10 @@
 			_stations = stations;
 			_stationIDs = _.keys(_stations);
 			
-			var html = $('#template').html(),
+			var html = $('#stations.template').html(),
 				template = _.template(html);
 
-			$('#stations').html(template({ data: stations }));
+			$('#streams-tab').html(template({ data: stations }));
 			$('a.station').click(function(e) {
 				console.log('klik');
 				e.preventDefault();
@@ -137,7 +149,21 @@
 		});
 		
 		socket.on('musictree', function(musictree) {
-			console.log('music tree received: ', musictree);
+			var _currentUUID = 0;
+			function _makeUUID() {
+				return _currentUUID++;
+			}
+			
+			var html = $('#files.template').html(),
+				template = _.template(html),
+				treetableOptions = { expandable: true, column: 0, indent: 32, initialState: 'expanded', clickableNodeNames: true },
+				$table = $(template({ makeUUID: _makeUUID, data: { children: [ musictree ] } })).treetable(treetableOptions);
+				
+			$('#files-tab').html($table);
+			$('table#files a').on('click', function(e) {
+				e.preventDefault();
+				socket.emit('file', $(this).attr('href'));
+			});
 		});
 		
 		socket.on('station_id', function(id) {
@@ -147,80 +173,110 @@
 			$('li[data-id="' + id + '"] i').addClass('active');
 		});
 		
-		socket.on('station_message', function(msg) {
-			$('h1').text(msg);
-		});
-		
-		socket.on('previous_station', function() {
-			_previousStation();
-		});
-		
-		socket.on('next_station', function() {
-			_nextStation();
-		});
-		
-		socket.on('connection', function() {
-			console.log('connected to server');
-		});
-		
-		socket.on('welcome', function(msg) {
-			console.log(msg);
-		});
-		
-		socket.on('disconnect', function() {
-			console.log('disconnected from server');
-		});
+		socket.on('station_message', function(msg) { $('h1').text(msg); });
+		socket.on('previous_station', function() { _previousStation(); });
+		socket.on('next_station', function() { _nextStation(); });
+		socket.on('connection', function() { console.log('connected to server'); });
+		socket.on('welcome', function(msg) { console.log(msg); });
+		socket.on('disconnect', function() { console.log('disconnected from server'); });
 		
 		$(document).ready(function() {
 			console.log('***ready');
 			socket.emit('ready', 'foobar');
 			
-			$('button[data-action="prev_station"]').click(function() {
-				_previousStation();
-			});
-			
-			$('button[data-action="next_station"]').click(function() {
-				_nextStation();
-			});
-			
+			$('button[data-action="prev_station"]').click(function() { _previousStation(); });
+			$('button[data-action="next_station"]').click(function() { _nextStation(); });
 			$('button[data-action="stop"]').click(function() {
 				console.log('tsop');
 				socket.emit('cmd', 'stop');
 			});
 			
+			$('.nav-tabs a:first').tab('show');
+			
 		});
 
 	</script>
 	
-	<script id="template" type="text/template">
+	<script class="template" id="stations" type="text/template">
 	 	<h2>Radio stations</h2>
-		<% console.log(data); %>
 		<ul>
 		<% _.each(data, function(value, key) { %>
 			<li data-id="<%= key %>"><a class="station" href="<%= key %>"><%= value.name %><i class="el-icon-volume-up"></a></i></li>
 		<% }); %>
 		</ul>
 	</script>
+	
+	<script class="template" id="files" type="text/template">
+		<% var mUid = makeUUID; %>
+	 	<h2>Files</h2>
+	 	<table id="files">
+			<thead>
+				<tr class="header">
+					<th>Type</th>
+					<th>Name</th>
+				</tr>
+			</thead>
+			<tbody>
+				<% function row(data, parentID) { %>
+					<% _.each(data, function(item, i) { %>
+						<% var uid = mUid(); %>
+	 					<tr class="<%= item.type %>" data-tt-id="<%= uid %>" data-tt-parent-id="<%= parentID %>">
+	 						<td>
+	 							<% if (item.type === 'folder') { %>
+									<%= item.name %>
+								<% } %>
+							</td>
+							<td>
+								<% if (item.type === 'file') { %>
+									<a href="<%= item.path %>"><%= item.name %></a>
+								<% } %>
+							</td>
+						</tr>
+						<% if (item.children !== undefined) { %>
+							<% row(item.children, uid); %>
+						<% } %>	
+					<% }); %>
+				<% } %>
+	 		<% row(data.children, mUid()); %>
+	 		</tbody>
+		</table>
+	</script>
+	
 </head>
 <body>
+		<div id="controls">
+		<h3></h3>
+		<p>
+			<button class="btn btn-primary" data-action="prev_station">previous station</button>
+			<button class="btn btn-primary" data-action="next_station">next station</button>
+		</p>
+		<p>
+			<button class="btn btn-warning" data-action="stop">stop</button>
+		</p>
+	</div>
+	
 	<table id="main">
 		<tr>
-			<td id="stations"></td>
+			<td id="stations">
+				<ul class="nav nav-tabs">
+    				<li class="active"><a href="#streams-tab" data-toggle="tab">Streams</a></li>
+   					<li><a href="#files-tab" data-toggle="tab">Files</a></li>
+				</ul>
+				<div class="tab-content">
+					<div class="tab-pane active" id="streams-tab">
+						streams
+					</div>
+					<div class="tab-pane" id="files-tab">
+						files
+					</div>
+				</div>
+			</td>
 			<td id="info">
-				<h1 ></h1>
+				<h1></h1>
 			</td>
 		</tr>
 	</table>
-	<h3 ></h3>
-	
-	
-	<p>
-		<button class="btn btn-primary" data-action="prev_station">previous station</button>
-		<button class="btn btn-primary" data-action="next_station">next station</button>
-	</p>
-	<p>
-		<button class="btn btn-warning" data-action="stop">stop</button>
-	</p>
+
 </body>
 
 

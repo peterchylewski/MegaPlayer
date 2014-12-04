@@ -1,3 +1,5 @@
+'use strict';
+
 // start web server
 
 var web = require('SimpleWebServer')(__dirname + '/public', 8080, { document: 'usb.html' });

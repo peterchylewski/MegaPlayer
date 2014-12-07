@@ -23,13 +23,7 @@ function startCatchingKeyboardEvents() {
 		console.log('got "keypress"', key);
 		switch (key.name) {
 			case 't':
-				var tree = require('txtm-FileTree')(MUSIC_HOME, { addDates: true });
-				//console.log(JSON.stringify(tree.getData(), null, 2));
-				var fs = require('fs');
-				fs.writeFile(__dirname + '/musictree.json', JSON.stringify(tree.getData(), null, 2), 'utf8', function(err) {
-					if (err !== null) { throw err; return; }
-					console.log('file "musictree.json" has been sucessfully written.');
-				});
+				reloadTree();
 			break;
 			case 'down':
 				player.next();
@@ -44,11 +38,34 @@ function startCatchingKeyboardEvents() {
 	});
 }
 
+function reloadTree() {
+	var tree = require('txtm-FileTree')(MUSIC_HOME, { addDates: true });
+	//console.log(JSON.stringify(tree.getData(), null, 2));
+	var fs = require('fs');
+	fs.writeFile(__dirname + '/musictree.json', JSON.stringify(tree.getData(), null, 2), 'utf8', function(err) {
+		if (err !== null) { throw err; return; }
+		console.log('file "musictree.json" has been sucessfully written.');
+		fs.readFile(__dirname + '/musictree.json', 'utf8', function(data) {
+			console.log('data', data);
+			var json = JSON.parse(data);
+			console.log('json', json);
+			_socket.emit('musictree', tree.getData());
+		});
+	});
+}
+
+
 function startCatchingUSBEvents() {
 	var usb = require('USBStreamReader');
 	usb.on('keyUp', function(event) {
 		console.log('keyUp', event);
 		switch (event.name) {
+			case 'KEY_VOLUMEUP':
+				player.volumeUp(10);
+			break;
+			case 'KEY_VOLUMEDOWN':
+				player.volumeDown(10);
+			break;
 			case 'KEY_UP':
 				player.prev();
 				_socket.emit('previous_station');
@@ -56,14 +73,32 @@ function startCatchingUSBEvents() {
 			case 'KEY_DOWN':
 				_socket.emit('next_station');
 			break;
+			case 'KEY_MUTE':
+				player.mute();
+			break;
 			case 'KEY_STOP':
 				player.stop();
+			break;
+			case 't':
+				player.getInfo();
+			break;
+		}
+	});
+	usb.on('wheelSpin', function(direction) {
+		//console.log('wheelSpin', direction);
+		switch (direction) {
+			case 'left':
+				player.volumeDown(1);
+			break;
+			case 'right':
+				player.volumeUp(1);
 			break;
 		}
 	});
 }
 
 function quit() {
+	console.log('quitting...');
 	player.stop(function() {
 		console.log('player stopped.');
 		io.close();
@@ -112,9 +147,13 @@ io.on('connection', function(socket) {
 	});
 	
 	socket.on('cmd', function(cmd) {
+		console.log('cmd', cmd);
 		switch (cmd) {
 			case 'stop':
 				player.stop();
+			break;
+			case 'reloadTree':
+				reloadTree();
 			break;
 		}
 	});

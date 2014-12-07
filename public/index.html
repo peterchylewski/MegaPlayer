@@ -5,8 +5,13 @@
 	
 	<title>MPLayerTunez</title>
 
-	<link rel="stylesheet" href="styles/bootstrap.min.css">
+	<link rel="stylesheet" href="styles/vendor/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="styles/elusive-webfont.css">
+	<link rel="stylesheet" href="styles/vendor/font-awesome/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="styles/vendor/treetable/jquery.treetable.css">
+	<link rel="stylesheet" href="styles/vendor/treetable/jquery.treetable.theme.default.css">
+	
 	<link rel="stylesheet" href="styles/fonts/Franklin/Franklin.font.css">
 	<style media="screen">
 			
@@ -21,7 +26,7 @@
 
 		body {
 			font-family: "FranklinGothicFSBook" !important;
-			text-transform: lowercase;
+			/* text-transform: lowercase; */
 			margin: 32px;
 			color: #333;
 			background: #fff;
@@ -31,22 +36,30 @@
 			font-family: "FranklinGothicFSHeavy" !important;
 			font-weight: 400 !important;
 			font-style: normal !important;
-			margin: 0;
+			margin: 0 !important;
 		}
 		
-		h1 { font-size: 3em; letter-spacing: -.01em; color: } h2 { font-size: 1.8em; }
+		h1 { font-size: 3em; letter-spacing: -.01em; color: } h2 { font-size: 1.8em; } h6 { font-size: 1em; }
 		
 		h1 {
 			font-size: 6em;
 			line-height: .85em;
 			letter-spacing: -.045em;
+			word-spacing: -.075em;
 			color: #D3D3D3;
 		}
 		
 		h2 { color: #D3D3D3; }
-
+	
 		* + h1, * + h2, * + h3, * + h4, * + h5, * + h6 { margin-top: 16px; }
 		
+		h6 {
+			font-size: 1.61em;
+			color: rgb(179, 20, 20);
+			text-transform: uppercase;
+			letter-spacing: -.025em;
+		}
+
 		ul, ol { list-style-position: inside; }
 		
 		* + p { margin-top: 8px; }
@@ -55,6 +68,29 @@
 			list-style-type: none;
 			margin: 0;
 		}
+		
+		a {
+			color: #D2840B;
+			text-decoration: none;
+			font-size: 1.61em;
+		}
+	
+		td.name a:hover {
+			color: #D2840B;
+			text-decoration: none;
+			border-bottom: 2px dotted #D2840B;
+		}
+		
+		
+		div#controls { margin-bottom: 32px; }
+		
+		.nav > li > a {
+			padding: 4px 12px 4px 12px;
+		}
+		
+		.tab-content { margin-top: 16px; }
+		
+		.tab-content i.fa { color: #aaa; }
 		
 		/* table#main { width: 100%; } */
 		
@@ -67,16 +103,20 @@
 		
 		td {
 			vertical-align: top;
-			border: 1px solid #eee;
+			border: 0px solid #eee;
 		}
+		
+		table.treetable th:first-child { width: auto; }
 		
 		td#info { padding-left: 32px; }
 		
 		table#files td {
-			font-size: 1em !important;
-			padding: 0 !important;
+			font-size: 1.2em !important;
+			padding: 4px 8px 2px 8px !important;
 			white-space: nowrap;
 		}
+		
+		td.tags span { padding: 4px; }
 		
 		h1 { min-height: 70px; }
 		
@@ -87,16 +127,16 @@
 			display: none;
 		}
 		
+		
+		
 		.el-icon-volume-up.active { display: inline; }
 	
 	</style>
 	
-	<link rel="stylesheet" href="styles/vendor/treetable/jquery.treetable.css">
-	<link rel="stylesheet" href="styles/vendor/treetable/jquery.treetable.theme.default.css">
-	
 	<script src="js/jquery-2.0.3.min.js"></script>
 	<script src="js/bootstrap-3.2.0.min.js"></script>
 	<script src="js/jquery.treetable.js"></script>
+	<script src="js/jquery.cookie.js"></script>
 	
 	<script src="js/underscore-min.js"></script>
 	<script src="js/socket.io-1.2.1.js"></script>
@@ -131,6 +171,9 @@
 			_setStation(_stationIDs[nextIndex]);
 		}
 		
+		
+		// ----------- LISTEN TO SOCKET CONNECIION EVENTS
+		
 		socket.on('radiostations', function(stations) {
 			console.log('radio stations received: ', stations);
 			
@@ -149,25 +192,34 @@
 		});
 		
 		socket.on('musictree', function(musictree) {
-			var _currentUUID = 0;
-			function _makeUUID() {
-				return _currentUUID++;
-			}
-			
+			console.log('musictree', musictree);		
 			var html = $('#files.template').html(),
 				template = _.template(html),
-				treetableOptions = { expandable: true, column: 0, indent: 32, initialState: 'expanded', clickableNodeNames: true },
-				$table = $(template({ makeUUID: _makeUUID, data: { children: [ musictree ] } })).treetable(treetableOptions);
+				currentUUID = 0,
+				makeUUID = function() { return currentUUID++; },
+				treetableOptions = { expandable: true, column: 0, indent: 16, initialState: 'collapsed', clickableNodeNames: true },
+				$table = $(template({ makeUUID: makeUUID, data: { children: [ musictree ] } })).treetable(treetableOptions);
 				
 			$('#files-tab').html($table);
 			$('table#files a').on('click', function(e) {
 				e.preventDefault();
-				socket.emit('file', $(this).attr('href'));
+				var href = $(this).attr('href'),
+					matches = href.match(/\.([0-9a-z]+)$/i),
+					extension = matches !== null ? matches[1] : '';
+				switch (extension) {
+					case 'mp3':
+					case 'flac':
+					case 'ape':
+						socket.emit('file', href);
+					break;
+					case 'jpg':
+						$('body').prepend('<img src="' + href + '"/>')
+					break;
+				}
 			});
 		});
 		
 		socket.on('station_id', function(id) {
-			console.log('station id', id);
 			_currentStationID = id;
 			$('li i').removeClass('active');
 			$('li[data-id="' + id + '"] i').addClass('active');
@@ -180,6 +232,8 @@
 		socket.on('welcome', function(msg) { console.log(msg); });
 		socket.on('disconnect', function() { console.log('disconnected from server'); });
 		
+		// ----------- LISTEN TO SOCKET CONNECIION EVENTS (END)
+		
 		$(document).ready(function() {
 			console.log('***ready');
 			socket.emit('ready', 'foobar');
@@ -190,15 +244,29 @@
 				console.log('tsop');
 				socket.emit('cmd', 'stop');
 			});
+			$('button[data-action="reload_tree"]').click(function() {
+				$('#files-tab').html('<i class="fa fa-cog fa-3x fa-spin"></i>');
+				socket.emit('cmd', 'reloadTree');
+			});
 			
-			$('.nav-tabs a:first').tab('show');
+			// -- tabs
+			
+			var tab = $.cookie('lastTab');
+			if (tab === undefined) { tab = '#streams-tab'; }
+		
+			$('.nav-tabs a[href="' + tab + '"]').tab('show');
+			
+			$('a[data-toggle="tab"]').on('shown.bs.tab', function(e) {
+				console.log('a tab has been clicked on');
+				tab = $(e.target).attr('href');				
+				$.cookie('lastTab', tab);
+			});
 			
 		});
 
 	</script>
 	
 	<script class="template" id="stations" type="text/template">
-	 	<h2>Radio stations</h2>
 		<ul>
 		<% _.each(data, function(value, key) { %>
 			<li data-id="<%= key %>"><a class="station" href="<%= key %>"><%= value.name %><i class="el-icon-volume-up"></a></i></li>
@@ -208,33 +276,51 @@
 	
 	<script class="template" id="files" type="text/template">
 		<% var mUid = makeUUID; %>
-	 	<h2>Files</h2>
 	 	<table id="files">
 			<thead>
+				<!--
 				<tr class="header">
 					<th>Type</th>
 					<th>Name</th>
+					<th>Tags</th>
 				</tr>
+				-->
 			</thead>
 			<tbody>
 				<% function row(data, parentID) { %>
 					<% _.each(data, function(item, i) { %>
-						<% var uid = mUid(); %>
-	 					<tr class="<%= item.type %>" data-tt-id="<%= uid %>" data-tt-parent-id="<%= parentID %>">
-	 						<td>
-	 							<% if (item.type === 'folder') { %>
-									<%= item.name %>
-								<% } %>
-							</td>
-							<td>
-								<% if (item.type === 'file') { %>
-									<a href="<%= item.path %>"><%= item.name %></a>
-								<% } %>
-							</td>
-						</tr>
-						<% if (item.children !== undefined) { %>
-							<% row(item.children, uid); %>
-						<% } %>	
+						<% if (item !== undefined && item !== null) { %>
+							<% var uid = mUid(); %>
+		 					<tr class="<%= item.type %>" data-tt-id="<%= uid %>" data-tt-parent-id="<%= parentID %>">
+		 						<td>
+		 							<!--
+		 							<% if (item.type === 'file') { %>
+	 									<i class="fa fa-file"></i>
+	 								<% } else { %>
+										<i class="fa fa-folder"></i>
+									<% } %>
+									-->
+								</td>
+								<td class="name">
+									<% if (item.type === 'file') { %>
+										<a href="<%= item.path %>"><%= item.name %></a>
+									<% } else { %>
+										<h6><%= item.name %></h6>
+									<% } %>
+								</td>
+								<td class="tags">
+									<% if (item.meta !== undefined && item.meta.tags !== undefined) { %>
+										<% _.each(item.meta.tags, function(tag, i) { %>
+											<span class="label label-success"><%= tag %></span>
+										<% }); %>
+										
+									<% } %>
+								<td>
+							</tr>
+							<% if (item.children !== undefined) { %>
+								<% row(item.children, uid); %>
+							<% } %>
+						<% } %>
 					<% }); %>
 				<% } %>
 	 		<% row(data.children, mUid()); %>
@@ -244,15 +330,11 @@
 	
 </head>
 <body>
-		<div id="controls">
-		<h3></h3>
-		<p>
-			<button class="btn btn-primary" data-action="prev_station">previous station</button>
-			<button class="btn btn-primary" data-action="next_station">next station</button>
-		</p>
-		<p>
-			<button class="btn btn-warning" data-action="stop">stop</button>
-		</p>
+	<div id="controls">
+		<button class="btn btn-primary btn-small" data-action="prev_station"><i class="fa fa-arrow-up"></i>&nbsp;previous station</button>
+		<button class="btn btn-primary" data-action="next_station">next station&nbsp;<i class="fa fa-arrow-down"></i></button>
+		<button class="btn btn-warning" data-action="stop">stop</button>
+		<button class="btn btn-danger" data-action="reload_tree">reload file tree</button>
 	</div>
 	
 	<table id="main">

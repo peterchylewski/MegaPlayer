@@ -18,8 +18,10 @@ table.treetable thead {
 }
 
 table.treetable thead tr th {
+	/*
   border: 1px solid #888;
   font-weight: normal;
+ */
   /* padding: .3em 1em .1em 1em; */
 	padding: 2px 8px 2px 8px !important;
   text-align: left;

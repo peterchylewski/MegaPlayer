@@ -1,1 +1,7 @@
+.AppleDB
+**/.AppleDB
+**/**.AppleDB
 .AppleDB/*
+.DS_Store
+**/.DS_Store
+**/**.DS_Store

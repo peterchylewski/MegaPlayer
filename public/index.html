@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="styles/vendor/treetable/jquery.treetable.theme.default.css">
 	
 	<link rel="stylesheet" href="styles/fonts/Franklin/Franklin.font.css">
+	
 	<style media="screen">
 			
 		* {
@@ -80,16 +81,11 @@
 			border-bottom: 2px dotted #D2840B;
 		}
 		
-		
 		div#controls { margin-bottom: 32px; }
 		
-		.nav > li > a {
-			padding: 4px 12px 4px 12px;
-		}
+		.nav > li > a { padding: 4px 12px 4px 12px; }
 		
-		.tab-content {
-			margin-top: 16px;
-		}
+		.tab-content { margin-top: 16px; }
 		
 		/* table#main { width: 100%; } */
 		
@@ -98,7 +94,7 @@
 			min-width: 200px;
 		}
 		
-		td#stations li { white-space: nobreak; }
+		td#stations li { white-space: nobreak !important; }
 		
 		td {
 			vertical-align: top;
@@ -113,13 +109,14 @@
 			white-space: nowrap;
 		}
 		
-		td.tags span {
-			padding: 4px;
+		table#files h6 {
+			color: green;
+			display: inline-block;
 		}
 		
-		table#files tr.active td * {
-			color: green !important;
-		}
+		td.tags span { padding: 4px; }
+		
+		table#files tr.active td * { color: green !important; }
 		
 		h1 { min-height: 70px; }
 		
@@ -335,12 +332,17 @@
 										<i class="fa fa-folder"></i>
 									<% } %>
 									-->
+									<% if (item.type === 'folder') { %>
+										<h6><%= item.name %></h6>
+									<% } else { %>
+										<a href="<%= item.path %>"><%= item.name %></a>
+									<% } %>
+									
 								</td>
 								<td class="name">
 									<% if (item.type === 'file') { %>
-										<a href="<%= item.path %>"><%= item.name %></a>
+										
 									<% } else { %>
-										<h6><%= item.name %></h6>
 									<% } %>
 								</td>
 								<td class="tags">

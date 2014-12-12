@@ -2,8 +2,8 @@
   "path": "/media/music",
   "name": "music",
   "atime": "2014-12-06T15:03:09.000Z",
-  "ctime": "2014-12-06T19:26:09.000Z",
-  "mtime": "2014-12-06T15:03:09.000Z",
+  "ctime": "2014-12-07T15:38:20.000Z",
+  "mtime": "2014-12-07T15:38:20.000Z",
   "type": "folder",
   "children": [
     null,
@@ -784,8 +784,8 @@
       "path": "/media/music/Eberhard Weber",
       "name": "Eberhard Weber",
       "atime": "2014-12-01T15:02:05.000Z",
-      "ctime": "2014-12-04T19:20:24.000Z",
-      "mtime": "2014-12-04T19:20:24.000Z",
+      "ctime": "2014-12-07T13:59:18.000Z",
+      "mtime": "2014-12-07T13:59:18.000Z",
       "type": "folder",
       "children": [
         null,
@@ -976,6 +976,52 @@
               "atime": "2014-12-04T12:46:17.000Z",
               "ctime": "2014-12-04T12:50:36.000Z",
               "mtime": "2014-12-04T12:46:17.000Z",
+              "type": "file",
+              "extension": "flac"
+            }
+          ]
+        },
+        {
+          "path": "/media/music/Eberhard Weber/Later That Evening - 1982",
+          "name": "Later That Evening - 1982",
+          "atime": "2014-12-07T13:56:23.000Z",
+          "ctime": "2014-12-07T13:59:18.000Z",
+          "mtime": "2014-12-07T13:56:48.000Z",
+          "type": "folder",
+          "children": [
+            {
+              "path": "/media/music/Eberhard Weber/Later That Evening - 1982/01 Maurizius.flac",
+              "name": "01 Maurizius.flac",
+              "atime": "2014-12-07T13:55:35.000Z",
+              "ctime": "2014-12-07T13:57:11.000Z",
+              "mtime": "2014-12-07T13:55:38.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Eberhard Weber/Later That Evening - 1982/02 Death in the Carwash.flac",
+              "name": "02 Death in the Carwash.flac",
+              "atime": "2014-12-07T13:55:47.000Z",
+              "ctime": "2014-12-07T13:58:58.000Z",
+              "mtime": "2014-12-07T13:55:53.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Eberhard Weber/Later That Evening - 1982/03 Often in the Open.flac",
+              "name": "03 Often in the Open.flac",
+              "atime": "2014-12-07T13:56:00.000Z",
+              "ctime": "2014-12-07T13:58:51.000Z",
+              "mtime": "2014-12-07T13:56:04.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Eberhard Weber/Later That Evening - 1982/04 Later that Evening.flac",
+              "name": "04 Later that Evening.flac",
+              "atime": "2014-12-07T13:56:07.000Z",
+              "ctime": "2014-12-07T13:57:46.000Z",
+              "mtime": "2014-12-07T13:56:10.000Z",
               "type": "file",
               "extension": "flac"
             }
@@ -1530,6 +1576,80 @@
           "mtime": "2014-11-27T17:18:26.000Z",
           "type": "file",
           "extension": ""
+        }
+      ]
+    },
+    {
+      "path": "/media/music/Iannis Xenakis",
+      "name": "Iannis Xenakis",
+      "atime": "2014-12-07T15:38:20.000Z",
+      "ctime": "2014-12-07T15:38:20.000Z",
+      "mtime": "2014-12-07T15:38:20.000Z",
+      "type": "folder",
+      "children": [
+        {
+          "path": "/media/music/Iannis Xenakis/Electronic Music",
+          "name": "Electronic Music",
+          "atime": "2014-12-07T15:38:20.000Z",
+          "ctime": "2014-12-07T15:39:16.000Z",
+          "mtime": "2014-12-07T15:39:16.000Z",
+          "type": "folder",
+          "children": [
+            {
+              "path": "/media/music/Iannis Xenakis/Electronic Music/01 Diamorphoses.mp3",
+              "name": "01 Diamorphoses.mp3",
+              "atime": "2014-12-07T15:38:11.000Z",
+              "ctime": "2014-12-07T15:38:26.000Z",
+              "mtime": "2014-04-07T23:54:15.000Z",
+              "type": "file",
+              "extension": "mp3"
+            },
+            {
+              "path": "/media/music/Iannis Xenakis/Electronic Music/02 Concret PH.mp3",
+              "name": "02 Concret PH.mp3",
+              "atime": "2014-12-07T15:38:00.000Z",
+              "ctime": "2014-12-07T15:38:28.000Z",
+              "mtime": "2014-04-07T23:54:15.000Z",
+              "type": "file",
+              "extension": "mp3"
+            },
+            {
+              "path": "/media/music/Iannis Xenakis/Electronic Music/03 Orient-Occident.mp3",
+              "name": "03 Orient-Occident.mp3",
+              "atime": "2014-12-07T15:38:00.000Z",
+              "ctime": "2014-12-07T15:38:37.000Z",
+              "mtime": "2014-04-07T23:54:16.000Z",
+              "type": "file",
+              "extension": "mp3"
+            },
+            {
+              "path": "/media/music/Iannis Xenakis/Electronic Music/04 Bohor.mp3",
+              "name": "04 Bohor.mp3",
+              "atime": "2014-12-07T15:38:00.000Z",
+              "ctime": "2014-12-07T15:38:56.000Z",
+              "mtime": "2014-04-07T23:53:49.000Z",
+              "type": "file",
+              "extension": "mp3"
+            },
+            {
+              "path": "/media/music/Iannis Xenakis/Electronic Music/05 Hibiki-Hana-Ma.mp3",
+              "name": "05 Hibiki-Hana-Ma.mp3",
+              "atime": "2014-12-07T15:38:00.000Z",
+              "ctime": "2014-12-07T15:39:16.000Z",
+              "mtime": "2014-04-07T23:54:16.000Z",
+              "type": "file",
+              "extension": "mp3"
+            },
+            {
+              "path": "/media/music/Iannis Xenakis/Electronic Music/06 S.709.mp3",
+              "name": "06 S.709.mp3",
+              "atime": "2014-12-07T15:38:00.000Z",
+              "ctime": "2014-12-07T15:39:25.000Z",
+              "mtime": "2014-04-07T23:54:16.000Z",
+              "type": "file",
+              "extension": "mp3"
+            }
+          ]
         }
       ]
     },
@@ -3953,6 +4073,116 @@
       ]
     },
     {
+      "path": "/media/music/Reggie Workman Ensemble — Synthesis",
+      "name": "Reggie Workman Ensemble — Synthesis",
+      "atime": "2014-11-12T16:14:04.000Z",
+      "ctime": "2014-12-07T04:24:34.000Z",
+      "mtime": "2014-12-07T04:23:01.000Z",
+      "type": "folder",
+      "children": [
+        null,
+        {
+          "path": "/media/music/Reggie Workman Ensemble — Synthesis/01 Jus’ Ole Mae.flac",
+          "name": "01 Jus’ Ole Mae.flac",
+          "atime": "2014-11-12T16:11:02.000Z",
+          "ctime": "2014-12-07T04:21:22.000Z",
+          "mtime": "2014-06-23T17:49:33.000Z",
+          "type": "file",
+          "extension": "flac"
+        },
+        {
+          "path": "/media/music/Reggie Workman Ensemble — Synthesis/02 Ogun’s Ardor.flac",
+          "name": "02 Ogun’s Ardor.flac",
+          "atime": "2014-11-12T16:11:03.000Z",
+          "ctime": "2014-12-07T04:21:37.000Z",
+          "mtime": "2014-06-23T17:49:34.000Z",
+          "type": "file",
+          "extension": "flac"
+        },
+        {
+          "path": "/media/music/Reggie Workman Ensemble — Synthesis/03 Martyrs Hymn.flac",
+          "name": "03 Martyrs Hymn.flac",
+          "atime": "2014-11-12T16:11:03.000Z",
+          "ctime": "2014-12-07T04:22:19.000Z",
+          "mtime": "2014-06-23T17:49:33.000Z",
+          "type": "file",
+          "extension": "flac"
+        },
+        {
+          "path": "/media/music/Reggie Workman Ensemble — Synthesis/04 Earthly Garden.flac",
+          "name": "04 Earthly Garden.flac",
+          "atime": "2014-11-12T16:11:03.000Z",
+          "ctime": "2014-12-07T04:22:32.000Z",
+          "mtime": "2014-06-23T17:49:35.000Z",
+          "type": "file",
+          "extension": "flac"
+        },
+        {
+          "path": "/media/music/Reggie Workman Ensemble — Synthesis/05 Chant.flac",
+          "name": "05 Chant.flac",
+          "atime": "2014-11-12T16:11:03.000Z",
+          "ctime": "2014-12-07T04:22:42.000Z",
+          "mtime": "2014-06-23T17:49:30.000Z",
+          "type": "file",
+          "extension": "flac"
+        },
+        {
+          "path": "/media/music/Reggie Workman Ensemble — Synthesis/06 Synaps II.flac",
+          "name": "06 Synaps II.flac",
+          "atime": "2014-11-12T16:11:03.000Z",
+          "ctime": "2014-12-07T04:22:52.000Z",
+          "mtime": "2014-06-23T17:49:33.000Z",
+          "type": "file",
+          "extension": "flac"
+        },
+        {
+          "path": "/media/music/Reggie Workman Ensemble — Synthesis/07 Fabula.flac",
+          "name": "07 Fabula.flac",
+          "atime": "2014-11-12T16:11:03.000Z",
+          "ctime": "2014-12-07T04:23:01.000Z",
+          "mtime": "2014-06-23T17:49:38.000Z",
+          "type": "file",
+          "extension": "flac"
+        },
+        {
+          "path": "/media/music/Reggie Workman Ensemble — Synthesis/checksums.md5",
+          "name": "checksums.md5",
+          "atime": "2014-06-24T16:06:16.000Z",
+          "ctime": "2014-11-12T16:14:04.000Z",
+          "mtime": "2014-06-23T17:41:08.000Z",
+          "type": "file",
+          "extension": "md5"
+        },
+        {
+          "path": "/media/music/Reggie Workman Ensemble — Synthesis/cover.png",
+          "name": "cover.png",
+          "atime": "2014-11-12T16:11:03.000Z",
+          "ctime": "2014-11-12T16:14:17.000Z",
+          "mtime": "2014-06-23T17:47:07.000Z",
+          "type": "file",
+          "extension": "png"
+        },
+        {
+          "path": "/media/music/Reggie Workman Ensemble — Synthesis/playlist",
+          "name": "playlist",
+          "atime": "2014-11-12T21:57:49.000Z",
+          "ctime": "2014-11-12T21:57:49.000Z",
+          "mtime": "2014-11-12T21:57:49.000Z",
+          "type": "file",
+          "extension": ""
+        },
+        {
+          "path": "/media/music/Reggie Workman Ensemble — Synthesis/reggie_workman_ensemble_-_synthesis.log",
+          "name": "reggie_workman_ensemble_-_synthesis.log",
+          "atime": "2014-06-24T16:06:31.000Z",
+          "ctime": "2014-11-12T16:19:51.000Z",
+          "mtime": "2014-06-23T17:35:33.000Z",
+          "type": "file",
+          "extension": "log"
+        }
+      ]
+    },
+    {
       "path": "/media/music/Steve Reich",
       "name": "Steve Reich",
       "atime": "2014-11-12T20:15:38.000Z",
@@ -4623,133 +4853,133 @@
       ]
     },
     {
-      "path": "/media/music/Toru Takemitsu- I Hear The Water Dreaming",
-      "name": "Toru Takemitsu- I Hear The Water Dreaming",
+      "path": "/media/music/Toru Takemitsu — I Hear The Water Dreaming",
+      "name": "Toru Takemitsu — I Hear The Water Dreaming",
       "atime": "2014-11-03T20:21:01.000Z",
-      "ctime": "2014-12-04T19:20:24.000Z",
-      "mtime": "2014-12-04T19:20:24.000Z",
+      "ctime": "2014-12-07T04:28:19.000Z",
+      "mtime": "2014-12-07T04:28:19.000Z",
       "type": "folder",
       "children": [
         null,
         {
-          "path": "/media/music/Toru Takemitsu- I Hear The Water Dreaming/01-I Hear The Water Dreaming.flac",
-          "name": "01-I Hear The Water Dreaming.flac",
+          "path": "/media/music/Toru Takemitsu — I Hear The Water Dreaming/01 I Hear The Water Dreaming.flac",
+          "name": "01 I Hear The Water Dreaming.flac",
           "atime": "2014-10-18T15:05:01.000Z",
-          "ctime": "2014-11-03T20:22:32.000Z",
+          "ctime": "2014-12-07T04:25:23.000Z",
           "mtime": "2014-09-27T14:57:42.000Z",
           "type": "file",
           "extension": "flac"
         },
         {
-          "path": "/media/music/Toru Takemitsu- I Hear The Water Dreaming/02-Toward the Sea I - 1_ The Night.flac",
-          "name": "02-Toward the Sea I - 1_ The Night.flac",
+          "path": "/media/music/Toru Takemitsu — I Hear The Water Dreaming/02 Toward the Sea I - 1 The Night.flac",
+          "name": "02 Toward the Sea I - 1 The Night.flac",
           "atime": "2014-10-18T15:05:01.000Z",
-          "ctime": "2014-11-03T20:21:51.000Z",
+          "ctime": "2014-12-07T04:27:10.000Z",
           "mtime": "2014-09-27T14:57:37.000Z",
           "type": "file",
           "extension": "flac"
         },
         {
-          "path": "/media/music/Toru Takemitsu- I Hear The Water Dreaming/03-Toward the Sea I - 2_ Moby Dick.flac",
-          "name": "03-Toward the Sea I - 2_ Moby Dick.flac",
+          "path": "/media/music/Toru Takemitsu — I Hear The Water Dreaming/03 Toward the Sea I - 2 Moby Dick.flac",
+          "name": "03 Toward the Sea I - 2 Moby Dick.flac",
           "atime": "2014-10-18T15:05:01.000Z",
-          "ctime": "2014-11-03T20:21:55.000Z",
+          "ctime": "2014-12-07T04:27:17.000Z",
           "mtime": "2014-09-27T14:57:39.000Z",
           "type": "file",
           "extension": "flac"
         },
         {
-          "path": "/media/music/Toru Takemitsu- I Hear The Water Dreaming/04-Toward the Sea I - 3_ Cape Cod.flac",
-          "name": "04-Toward the Sea I - 3_ Cape Cod.flac",
+          "path": "/media/music/Toru Takemitsu — I Hear The Water Dreaming/04 Toward the Sea I - 3 Cape Cod.flac",
+          "name": "04 Toward the Sea I - 3 Cape Cod.flac",
           "atime": "2014-10-18T15:05:01.000Z",
-          "ctime": "2014-11-03T20:21:51.000Z",
+          "ctime": "2014-12-07T04:27:22.000Z",
           "mtime": "2014-09-27T14:57:38.000Z",
           "type": "file",
           "extension": "flac"
         },
         {
-          "path": "/media/music/Toru Takemitsu- I Hear The Water Dreaming/05-Les Fils des Etoiles (Satie, Arr_ Takemitsu).flac",
-          "name": "05-Les Fils des Etoiles (Satie, Arr_ Takemitsu).flac",
+          "path": "/media/music/Toru Takemitsu — I Hear The Water Dreaming/05 Les Fils des Etoiles (Satie, Arr. Takemitsu).flac",
+          "name": "05 Les Fils des Etoiles (Satie, Arr. Takemitsu).flac",
           "atime": "2014-10-18T15:05:01.000Z",
-          "ctime": "2014-11-03T20:21:59.000Z",
+          "ctime": "2014-12-07T04:28:19.000Z",
           "mtime": "2014-09-27T14:57:38.000Z",
           "type": "file",
           "extension": "flac"
         },
         {
-          "path": "/media/music/Toru Takemitsu- I Hear The Water Dreaming/06-Toward the Sea II - 1_ The Night.flac",
-          "name": "06-Toward the Sea II - 1_ The Night.flac",
+          "path": "/media/music/Toru Takemitsu — I Hear The Water Dreaming/06 Toward the Sea II - 1 The Night.flac",
+          "name": "06 Toward the Sea II - 1 The Night.flac",
           "atime": "2014-10-18T15:05:01.000Z",
-          "ctime": "2014-11-03T20:21:53.000Z",
+          "ctime": "2014-12-07T04:27:31.000Z",
           "mtime": "2014-09-27T14:57:40.000Z",
           "type": "file",
           "extension": "flac"
         },
         {
-          "path": "/media/music/Toru Takemitsu- I Hear The Water Dreaming/07-Toward the Sea II - 2_ Moby Dick.flac",
-          "name": "07-Toward the Sea II - 2_ Moby Dick.flac",
+          "path": "/media/music/Toru Takemitsu — I Hear The Water Dreaming/07 Toward the Sea II - 2 Moby Dick.flac",
+          "name": "07 Toward the Sea II - 2 Moby Dick.flac",
           "atime": "2014-10-18T15:05:01.000Z",
-          "ctime": "2014-11-03T20:21:55.000Z",
+          "ctime": "2014-12-07T04:27:34.000Z",
           "mtime": "2014-09-27T14:57:39.000Z",
           "type": "file",
           "extension": "flac"
         },
         {
-          "path": "/media/music/Toru Takemitsu- I Hear The Water Dreaming/08-Toward the Sea II - 3_ Cape Cod.flac",
-          "name": "08-Toward the Sea II - 3_ Cape Cod.flac",
+          "path": "/media/music/Toru Takemitsu — I Hear The Water Dreaming/08 Toward the Sea II - 3 Cape Cod.flac",
+          "name": "08 Toward the Sea II - 3 Cape Cod.flac",
           "atime": "2014-10-18T15:05:01.000Z",
-          "ctime": "2014-11-03T20:21:54.000Z",
+          "ctime": "2014-12-07T04:27:46.000Z",
           "mtime": "2014-09-27T14:57:40.000Z",
           "type": "file",
           "extension": "flac"
         },
         {
-          "path": "/media/music/Toru Takemitsu- I Hear The Water Dreaming/09-And Then I Knew 'twas Wind.flac",
-          "name": "09-And Then I Knew 'twas Wind.flac",
+          "path": "/media/music/Toru Takemitsu — I Hear The Water Dreaming/09 And Then I Knew ’twas Wind.flac",
+          "name": "09 And Then I Knew ’twas Wind.flac",
           "atime": "2014-10-18T15:05:01.000Z",
-          "ctime": "2014-11-03T20:22:34.000Z",
+          "ctime": "2014-12-07T04:28:10.000Z",
           "mtime": "2014-09-27T14:57:41.000Z",
           "type": "file",
           "extension": "flac"
         },
         {
-          "path": "/media/music/Toru Takemitsu- I Hear The Water Dreaming/10-Toward the Sea III - 1_ The Night.flac",
-          "name": "10-Toward the Sea III - 1_ The Night.flac",
+          "path": "/media/music/Toru Takemitsu — I Hear The Water Dreaming/10 Toward the Sea III - 1 The Night.flac",
+          "name": "10 Toward the Sea III - 1 The Night.flac",
           "atime": "2014-10-18T15:05:01.000Z",
-          "ctime": "2014-11-03T20:21:53.000Z",
+          "ctime": "2014-12-07T04:27:50.000Z",
           "mtime": "2014-09-27T14:57:32.000Z",
           "type": "file",
           "extension": "flac"
         },
         {
-          "path": "/media/music/Toru Takemitsu- I Hear The Water Dreaming/11-Toward the Sea III - 2_ Moby Dick.flac",
-          "name": "11-Toward the Sea III - 2_ Moby Dick.flac",
+          "path": "/media/music/Toru Takemitsu — I Hear The Water Dreaming/11 Toward the Sea III - 2 Moby Dick.flac",
+          "name": "11 Toward the Sea III - 2 Moby Dick.flac",
           "atime": "2014-10-18T15:05:01.000Z",
-          "ctime": "2014-11-03T20:21:55.000Z",
+          "ctime": "2014-12-07T04:27:54.000Z",
           "mtime": "2014-09-27T14:57:40.000Z",
           "type": "file",
           "extension": "flac"
         },
         {
-          "path": "/media/music/Toru Takemitsu- I Hear The Water Dreaming/12-Toward the Sea III - 3_ Cape Cod.flac",
-          "name": "12-Toward the Sea III - 3_ Cape Cod.flac",
+          "path": "/media/music/Toru Takemitsu — I Hear The Water Dreaming/12 Toward the Sea III - 3 Cape Cod.flac",
+          "name": "12 Toward the Sea III - 3 Cape Cod.flac",
           "atime": "2014-10-18T15:05:01.000Z",
-          "ctime": "2014-11-03T20:21:52.000Z",
+          "ctime": "2014-12-07T04:28:00.000Z",
           "mtime": "2014-09-27T14:57:31.000Z",
           "type": "file",
           "extension": "flac"
         },
         {
-          "path": "/media/music/Toru Takemitsu- I Hear The Water Dreaming/13-Air.flac",
-          "name": "13-Air.flac",
+          "path": "/media/music/Toru Takemitsu — I Hear The Water Dreaming/13 Air.flac",
+          "name": "13 Air.flac",
           "atime": "2014-10-18T15:05:01.000Z",
-          "ctime": "2014-11-03T20:22:16.000Z",
+          "ctime": "2014-12-07T04:26:20.000Z",
           "mtime": "2014-09-27T14:57:40.000Z",
           "type": "file",
           "extension": "flac"
         },
         {
-          "path": "/media/music/Toru Takemitsu- I Hear The Water Dreaming/playlist",
+          "path": "/media/music/Toru Takemitsu — I Hear The Water Dreaming/playlist",
           "name": "playlist",
           "atime": "2014-11-06T18:43:58.000Z",
           "ctime": "2014-11-06T18:43:58.000Z",
@@ -4758,7 +4988,7 @@
           "extension": ""
         },
         {
-          "path": "/media/music/Toru Takemitsu- I Hear The Water Dreaming/takemitsu",
+          "path": "/media/music/Toru Takemitsu — I Hear The Water Dreaming/takemitsu",
           "name": "takemitsu",
           "atime": "2014-10-18T14:48:46.000Z",
           "ctime": "2014-11-03T20:21:51.000Z",
@@ -4767,7 +4997,7 @@
           "extension": ""
         },
         {
-          "path": "/media/music/Toru Takemitsu- I Hear The Water Dreaming/takemitsu.jpg",
+          "path": "/media/music/Toru Takemitsu — I Hear The Water Dreaming/takemitsu.jpg",
           "name": "takemitsu.jpg",
           "atime": "2014-10-18T15:05:01.000Z",
           "ctime": "2014-11-03T20:21:51.000Z",
@@ -4778,16 +5008,16 @@
       ]
     },
     {
-      "path": "/media/music/Weather Report - Sweetnighter (1973) [2012 Reissue] [FLAC]",
-      "name": "Weather Report - Sweetnighter (1973) [2012 Reissue] [FLAC]",
+      "path": "/media/music/Weather Report — Sweetnighter (1973) [2012 Reissue] [FLAC]",
+      "name": "Weather Report — Sweetnighter (1973) [2012 Reissue] [FLAC]",
       "atime": "2014-11-03T20:43:39.000Z",
-      "ctime": "2014-12-04T19:20:24.000Z",
+      "ctime": "2014-12-07T04:24:24.000Z",
       "mtime": "2014-12-04T19:20:24.000Z",
       "type": "folder",
       "children": [
         null,
         {
-          "path": "/media/music/Weather Report - Sweetnighter (1973) [2012 Reissue] [FLAC]/01 Boogie Woogie Waltz.flac",
+          "path": "/media/music/Weather Report — Sweetnighter (1973) [2012 Reissue] [FLAC]/01 Boogie Woogie Waltz.flac",
           "name": "01 Boogie Woogie Waltz.flac",
           "atime": "2014-10-19T18:37:47.000Z",
           "ctime": "2014-11-03T20:46:11.000Z",
@@ -4796,7 +5026,7 @@
           "extension": "flac"
         },
         {
-          "path": "/media/music/Weather Report - Sweetnighter (1973) [2012 Reissue] [FLAC]/02 Manolete.flac",
+          "path": "/media/music/Weather Report — Sweetnighter (1973) [2012 Reissue] [FLAC]/02 Manolete.flac",
           "name": "02 Manolete.flac",
           "atime": "2014-10-19T18:28:16.000Z",
           "ctime": "2014-11-03T20:45:47.000Z",
@@ -4805,7 +5035,7 @@
           "extension": "flac"
         },
         {
-          "path": "/media/music/Weather Report - Sweetnighter (1973) [2012 Reissue] [FLAC]/03 Adios.flac",
+          "path": "/media/music/Weather Report — Sweetnighter (1973) [2012 Reissue] [FLAC]/03 Adios.flac",
           "name": "03 Adios.flac",
           "atime": "2014-10-19T18:30:47.000Z",
           "ctime": "2014-11-03T20:45:05.000Z",
@@ -4814,7 +5044,7 @@
           "extension": "flac"
         },
         {
-          "path": "/media/music/Weather Report - Sweetnighter (1973) [2012 Reissue] [FLAC]/04 125th Street Congress.flac",
+          "path": "/media/music/Weather Report — Sweetnighter (1973) [2012 Reissue] [FLAC]/04 125th Street Congress.flac",
           "name": "04 125th Street Congress.flac",
           "atime": "2014-10-19T18:38:18.000Z",
           "ctime": "2014-11-03T20:46:20.000Z",
@@ -4823,7 +5053,7 @@
           "extension": "flac"
         },
         {
-          "path": "/media/music/Weather Report - Sweetnighter (1973) [2012 Reissue] [FLAC]/05 Will.flac",
+          "path": "/media/music/Weather Report — Sweetnighter (1973) [2012 Reissue] [FLAC]/05 Will.flac",
           "name": "05 Will.flac",
           "atime": "2014-10-19T18:38:48.000Z",
           "ctime": "2014-11-03T20:46:01.000Z",
@@ -4832,7 +5062,7 @@
           "extension": "flac"
         },
         {
-          "path": "/media/music/Weather Report - Sweetnighter (1973) [2012 Reissue] [FLAC]/06 Non-Stop Home.flac",
+          "path": "/media/music/Weather Report — Sweetnighter (1973) [2012 Reissue] [FLAC]/06 Non-Stop Home.flac",
           "name": "06 Non-Stop Home.flac",
           "atime": "2014-10-19T18:28:16.000Z",
           "ctime": "2014-11-03T20:45:52.000Z",
@@ -4841,7 +5071,7 @@
           "extension": "flac"
         },
         {
-          "path": "/media/music/Weather Report - Sweetnighter (1973) [2012 Reissue] [FLAC]/07 125th Street Congress (DJ Logic remix).flac",
+          "path": "/media/music/Weather Report — Sweetnighter (1973) [2012 Reissue] [FLAC]/07 125th Street Congress (DJ Logic remix).flac",
           "name": "07 125th Street Congress (DJ Logic remix).flac",
           "atime": "2014-10-19T18:38:18.000Z",
           "ctime": "2014-11-03T20:45:53.000Z",
@@ -4850,7 +5080,7 @@
           "extension": "flac"
         },
         {
-          "path": "/media/music/Weather Report - Sweetnighter (1973) [2012 Reissue] [FLAC]/Sweetnighter (The Columbia Albums 1971-1975)(no edit).cue",
+          "path": "/media/music/Weather Report — Sweetnighter (1973) [2012 Reissue] [FLAC]/Sweetnighter (The Columbia Albums 1971-1975)(no edit).cue",
           "name": "Sweetnighter (The Columbia Albums 1971-1975)(no edit).cue",
           "atime": "2014-10-19T18:34:00.000Z",
           "ctime": "2014-11-03T20:45:05.000Z",
@@ -4859,7 +5089,7 @@
           "extension": "cue"
         },
         {
-          "path": "/media/music/Weather Report - Sweetnighter (1973) [2012 Reissue] [FLAC]/Sweetnighter (The Columbia Albums 1971-1975).cue",
+          "path": "/media/music/Weather Report — Sweetnighter (1973) [2012 Reissue] [FLAC]/Sweetnighter (The Columbia Albums 1971-1975).cue",
           "name": "Sweetnighter (The Columbia Albums 1971-1975).cue",
           "atime": "2014-10-19T18:33:59.000Z",
           "ctime": "2014-11-03T20:45:05.000Z",
@@ -4868,7 +5098,7 @@
           "extension": "cue"
         },
         {
-          "path": "/media/music/Weather Report - Sweetnighter (1973) [2012 Reissue] [FLAC]/Sweetnighter (The Columbia Albums 1971-1975).log",
+          "path": "/media/music/Weather Report — Sweetnighter (1973) [2012 Reissue] [FLAC]/Sweetnighter (The Columbia Albums 1971-1975).log",
           "name": "Sweetnighter (The Columbia Albums 1971-1975).log",
           "atime": "2014-10-19T18:33:59.000Z",
           "ctime": "2014-11-03T20:45:05.000Z",
@@ -4877,7 +5107,7 @@
           "extension": "log"
         },
         {
-          "path": "/media/music/Weather Report - Sweetnighter (1973) [2012 Reissue] [FLAC]/foo_dr.txt",
+          "path": "/media/music/Weather Report — Sweetnighter (1973) [2012 Reissue] [FLAC]/foo_dr.txt",
           "name": "foo_dr.txt",
           "atime": "2014-10-19T18:33:58.000Z",
           "ctime": "2014-11-03T20:45:05.000Z",
@@ -4886,7 +5116,7 @@
           "extension": "txt"
         },
         {
-          "path": "/media/music/Weather Report - Sweetnighter (1973) [2012 Reissue] [FLAC]/playlist",
+          "path": "/media/music/Weather Report — Sweetnighter (1973) [2012 Reissue] [FLAC]/playlist",
           "name": "playlist",
           "atime": "2014-11-07T19:33:07.000Z",
           "ctime": "2014-11-07T19:33:07.000Z",
@@ -5395,8 +5625,8 @@
       "path": "/media/music/_misc",
       "name": "_misc",
       "atime": "2014-12-05T19:57:26.000Z",
-      "ctime": "2014-12-05T19:57:26.000Z",
-      "mtime": "2014-12-05T19:57:26.000Z",
+      "ctime": "2014-12-07T15:39:02.000Z",
+      "mtime": "2014-12-07T15:39:02.000Z",
       "type": "folder",
       "children": [
         null,
@@ -5446,6 +5676,15 @@
           "extension": "flac"
         },
         {
+          "path": "/media/music/_misc/Arsch-lo.ch.mp3",
+          "name": "Arsch-lo.ch.mp3",
+          "atime": "2014-12-07T15:38:43.000Z",
+          "ctime": "2014-12-07T15:39:07.000Z",
+          "mtime": "2014-10-29T21:37:35.000Z",
+          "type": "file",
+          "extension": "mp3"
+        },
+        {
           "path": "/media/music/_misc/Your Guide To The North Sea Jazz Festival - 01 - Melody Gardot - Who Will Comfort Me - 820.flac",
           "name": "Your Guide To The North Sea Jazz Festival - 01 - Melody Gardot - Who Will Comfort Me - 820.flac",
           "atime": "2014-06-20T13:56:23.000Z",
@@ -5462,116 +5701,6 @@
           "mtime": "2014-06-20T13:30:56.000Z",
           "type": "file",
           "extension": "flac"
-        }
-      ]
-    },
-    {
-      "path": "/media/music/reggie_workman_ensemble_-_synthesis",
-      "name": "reggie_workman_ensemble_-_synthesis",
-      "atime": "2014-11-12T16:14:04.000Z",
-      "ctime": "2014-12-04T19:20:24.000Z",
-      "mtime": "2014-12-04T19:20:24.000Z",
-      "type": "folder",
-      "children": [
-        null,
-        {
-          "path": "/media/music/reggie_workman_ensemble_-_synthesis/Reggie_Workman_-_S01_Jus'_Ole_Mae.flac",
-          "name": "Reggie_Workman_-_S01_Jus'_Ole_Mae.flac",
-          "atime": "2014-11-12T16:11:02.000Z",
-          "ctime": "2014-11-12T16:19:50.000Z",
-          "mtime": "2014-06-23T17:49:33.000Z",
-          "type": "file",
-          "extension": "flac"
-        },
-        {
-          "path": "/media/music/reggie_workman_ensemble_-_synthesis/Reggie_Workman_-_S02_Ogun's_Ardor.flac",
-          "name": "Reggie_Workman_-_S02_Ogun's_Ardor.flac",
-          "atime": "2014-11-12T16:11:03.000Z",
-          "ctime": "2014-11-12T16:21:45.000Z",
-          "mtime": "2014-06-23T17:49:34.000Z",
-          "type": "file",
-          "extension": "flac"
-        },
-        {
-          "path": "/media/music/reggie_workman_ensemble_-_synthesis/Reggie_Workman_-_S03_Martyrs_Hymn.flac",
-          "name": "Reggie_Workman_-_S03_Martyrs_Hymn.flac",
-          "atime": "2014-11-12T16:11:03.000Z",
-          "ctime": "2014-11-12T16:17:57.000Z",
-          "mtime": "2014-06-23T17:49:33.000Z",
-          "type": "file",
-          "extension": "flac"
-        },
-        {
-          "path": "/media/music/reggie_workman_ensemble_-_synthesis/Reggie_Workman_-_S04_Earthly_Garden.flac",
-          "name": "Reggie_Workman_-_S04_Earthly_Garden.flac",
-          "atime": "2014-11-12T16:11:03.000Z",
-          "ctime": "2014-11-12T16:22:57.000Z",
-          "mtime": "2014-06-23T17:49:35.000Z",
-          "type": "file",
-          "extension": "flac"
-        },
-        {
-          "path": "/media/music/reggie_workman_ensemble_-_synthesis/Reggie_Workman_-_S05_Chant.flac",
-          "name": "Reggie_Workman_-_S05_Chant.flac",
-          "atime": "2014-11-12T16:11:03.000Z",
-          "ctime": "2014-11-12T16:22:56.000Z",
-          "mtime": "2014-06-23T17:49:30.000Z",
-          "type": "file",
-          "extension": "flac"
-        },
-        {
-          "path": "/media/music/reggie_workman_ensemble_-_synthesis/Reggie_Workman_-_S06_Synaps_II.flac",
-          "name": "Reggie_Workman_-_S06_Synaps_II.flac",
-          "atime": "2014-11-12T16:11:03.000Z",
-          "ctime": "2014-11-12T16:24:52.000Z",
-          "mtime": "2014-06-23T17:49:33.000Z",
-          "type": "file",
-          "extension": "flac"
-        },
-        {
-          "path": "/media/music/reggie_workman_ensemble_-_synthesis/Reggie_Workman_-_S07_Fabula.flac",
-          "name": "Reggie_Workman_-_S07_Fabula.flac",
-          "atime": "2014-11-12T16:11:03.000Z",
-          "ctime": "2014-11-12T16:23:49.000Z",
-          "mtime": "2014-06-23T17:49:38.000Z",
-          "type": "file",
-          "extension": "flac"
-        },
-        {
-          "path": "/media/music/reggie_workman_ensemble_-_synthesis/checksums.md5",
-          "name": "checksums.md5",
-          "atime": "2014-06-24T16:06:16.000Z",
-          "ctime": "2014-11-12T16:14:04.000Z",
-          "mtime": "2014-06-23T17:41:08.000Z",
-          "type": "file",
-          "extension": "md5"
-        },
-        {
-          "path": "/media/music/reggie_workman_ensemble_-_synthesis/cover.png",
-          "name": "cover.png",
-          "atime": "2014-11-12T16:11:03.000Z",
-          "ctime": "2014-11-12T16:14:17.000Z",
-          "mtime": "2014-06-23T17:47:07.000Z",
-          "type": "file",
-          "extension": "png"
-        },
-        {
-          "path": "/media/music/reggie_workman_ensemble_-_synthesis/playlist",
-          "name": "playlist",
-          "atime": "2014-11-12T21:57:49.000Z",
-          "ctime": "2014-11-12T21:57:49.000Z",
-          "mtime": "2014-11-12T21:57:49.000Z",
-          "type": "file",
-          "extension": ""
-        },
-        {
-          "path": "/media/music/reggie_workman_ensemble_-_synthesis/reggie_workman_ensemble_-_synthesis.log",
-          "name": "reggie_workman_ensemble_-_synthesis.log",
-          "atime": "2014-06-24T16:06:31.000Z",
-          "ctime": "2014-11-12T16:19:51.000Z",
-          "mtime": "2014-06-23T17:35:33.000Z",
-          "type": "file",
-          "extension": "log"
         }
       ]
     },

@@ -3,3 +3,5 @@
 **/**.AppleDB
 .AppleDB/*
 .DS_Store
+**/.DS_Store
+**/**.DS_Store

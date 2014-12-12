@@ -1,20 +1,58 @@
+'use strict';
+
 var MUSIC_HOME = '/media/music',
-	stdin = process.stdin,
-	stdout = process.stdout,
 	keypress = require('keypress'), // http://stackoverflow.com/questions/17470554/how-to-capture-the-arrow-keys-in-node-js
+	fs = require('fs'),
+	exec = require('child_process').exec,
 	app = require('express')(),
 	http = require('http').Server(app),
 	io = require('socket.io')(http),
 	stations = require('./radiostations.json'),
 	musictree = require('./musictree.json'),
 	player = require('SimplePlayer'),
+	_config,
 	_socket;
 
+
+function loadConfig() {
+	var pathToConfig = __dirname + '/config.json';
+	console.log('trying to load config file', pathToConfig, '...');
+	_config = fs.existsSync(pathToConfig) === true ? require(pathToConfig) : {};
+	console.log('_config', _config);
+}
+
+function saveConfig() {
+
+
+}
+
+function reloadTree() {
+	var tree = require('txtm-FileTree')(MUSIC_HOME, { addDates: true });
+	//console.log(JSON.stringify(tree.getData(), null, 2));
+	var fs = require('fs');
+	fs.writeFile(__dirname + '/musictree.json', JSON.stringify(tree.getData(), null, 2), 'utf8', function(err) {
+		if (err !== null) { throw err; return; }
+		console.log('file "musictree.json" has been sucessfully written.');
+		fs.readFile(__dirname + '/musictree.json', 'utf8', function(data) {
+			console.log('data', data);
+			var json = JSON.parse(data);
+			console.log('json', json);
+			_socket.emit('musictree', tree.getData());
+		});
+	});
+}
+
 function startCatchingKeyboardEvents() {
+	
+	var stdin = process.stdin,
+		stdout = process.stdout;
+	
 	stdin.setRawMode(true);
 	stdin.resume();
 	stdin.setEncoding('utf8');
 
+	//player.setAutoInfoInterval(1000);
+	
 	// make `process.stdin` begin emitting "keypress" events
 	keypress(process.stdin);
 
@@ -38,33 +76,16 @@ function startCatchingKeyboardEvents() {
 	});
 }
 
-function reloadTree() {
-	var tree = require('txtm-FileTree')(MUSIC_HOME, { addDates: true });
-	//console.log(JSON.stringify(tree.getData(), null, 2));
-	var fs = require('fs');
-	fs.writeFile(__dirname + '/musictree.json', JSON.stringify(tree.getData(), null, 2), 'utf8', function(err) {
-		if (err !== null) { throw err; return; }
-		console.log('file "musictree.json" has been sucessfully written.');
-		fs.readFile(__dirname + '/musictree.json', 'utf8', function(data) {
-			console.log('data', data);
-			var json = JSON.parse(data);
-			console.log('json', json);
-			_socket.emit('musictree', tree.getData());
-		});
-	});
-}
-
-
 function startCatchingUSBEvents() {
 	var usb = require('USBStreamReader');
 	usb.on('keyUp', function(event) {
-		console.log('keyUp', event);
+		//console.log('keyUp', event);
 		switch (event.name) {
 			case 'KEY_VOLUMEUP':
-				player.volumeUp(10);
+				player.volumeUp(5);
 			break;
 			case 'KEY_VOLUMEDOWN':
-				player.volumeDown(10);
+				player.volumeDown(5);
 			break;
 			case 'KEY_UP':
 				player.prev();
@@ -78,6 +99,9 @@ function startCatchingUSBEvents() {
 			break;
 			case 'KEY_STOP':
 				player.stop();
+			break;
+			case 'KEY_TAB':
+				player.pause();
 			break;
 			case 't':
 				player.getInfo();
@@ -99,15 +123,21 @@ function startCatchingUSBEvents() {
 
 function quit() {
 	console.log('quitting...');
+	exec('killall node mplayer', function() {
+		process.exit(0);
+	});
+	return;
 	player.stop(function() {
 		console.log('player stopped.');
-		io.close();
+		//io.close();
 		process.exit(0);
 	});
 }
 
+loadConfig();
 startCatchingKeyboardEvents();	
 startCatchingUSBEvents();
+	
 	
 // ---------- start socket
 
@@ -117,9 +147,12 @@ io.on('connection', function(socket) {
 	_socket = socket;
 	
 	socket.emit('welcome', 'the server says: welcome!');
-	
+	player.on('valueChanged', function(key, value) {
+		socket.emit('player_value_changed', key, value);
+	 });
+
 	socket.on('ready', function(msg) {
-		console.log('client ready, message: ' + msg);
+		console.log('client ready, message: ' + msg);		
 		socket.emit('radiostations', stations);
 		socket.emit('musictree', musictree);
 	});
@@ -132,17 +165,21 @@ io.on('connection', function(socket) {
 		
 		player.play(stations[id].stream_url);
 		
-		player.on('foo', function(msg) {
+		player.on('station_message', function(msg) {
 			//console.log('foo message', msg);
 			socket.emit('station_message', msg);
 		});
+		
 	});
 	
 	socket.on('file', function(file) {
 		console.log('file', file);
-		player.play(file);
+		player.start(file);
 		player.on('foo', function(msg) {
 			socket.emit('station_message', msg);
+		});
+		player.on('end_of_file_reached', function() {
+			socket.emit('end_of_file_reached');
 		});
 	});
 	

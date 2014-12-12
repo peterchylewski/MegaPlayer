@@ -45,7 +45,6 @@
 			font-size: 6em;
 			line-height: .85em;
 			letter-spacing: -.045em;
-			word-spacing: -.075em;
 			color: #D3D3D3;
 		}
 		
@@ -88,9 +87,9 @@
 			padding: 4px 12px 4px 12px;
 		}
 		
-		.tab-content { margin-top: 16px; }
-		
-		.tab-content i.fa { color: #aaa; }
+		.tab-content {
+			margin-top: 16px;
+		}
 		
 		/* table#main { width: 100%; } */
 		
@@ -106,8 +105,6 @@
 			border: 0px solid #eee;
 		}
 		
-		table.treetable th:first-child { width: auto; }
-		
 		td#info { padding-left: 32px; }
 		
 		table#files td {
@@ -116,7 +113,13 @@
 			white-space: nowrap;
 		}
 		
-		td.tags span { padding: 4px; }
+		td.tags span {
+			padding: 4px;
+		}
+		
+		table#files tr.active td * {
+			color: green !important;
+		}
 		
 		h1 { min-height: 70px; }
 		
@@ -127,7 +130,7 @@
 			display: none;
 		}
 		
-		
+		.fa-cog { color: #aaa !important; }
 		
 		.el-icon-volume-up.active { display: inline; }
 	
@@ -148,7 +151,8 @@
 		var socket = io('http://192.168.1.200:3000/'),
 			_stations,
 			_stationIDs,
-			_currentStationID;
+			_currentStationID,
+			_$activeRow;
 		
 		function _setStation(id) {
 			if (id !== undefined) {
@@ -171,8 +175,12 @@
 			_setStation(_stationIDs[nextIndex]);
 		}
 		
-		
-		// ----------- LISTEN TO SOCKET CONNECIION EVENTS
+		function _nextFile() {
+			console.log('_nextFile');
+			console.log('_$activeRow', _$activeRow);
+			console.log('_$activeRow.next()', _$activeRow.next());
+			_$activeRow.next().find('a').click();
+		}
 		
 		socket.on('radiostations', function(stations) {
 			console.log('radio stations received: ', stations);
@@ -205,10 +213,20 @@
 				e.preventDefault();
 				var href = $(this).attr('href'),
 					matches = href.match(/\.([0-9a-z]+)$/i),
-					extension = matches !== null ? matches[1] : '';
+					extension = matches[1].toLowerCase();
+				
+				_$activeRow = $(this).closest('tr');
+				
+				console.log('href', href);
+				console.log('matches', matches);
+				console.log('extension', extension);
 				switch (extension) {
 					case 'mp3':
+					case 'aif':
+					case 'wav':
+					case 'm4a':
 					case 'flac':
+					case 'cue':
 					case 'ape':
 						socket.emit('file', href);
 					break;
@@ -220,9 +238,28 @@
 		});
 		
 		socket.on('station_id', function(id) {
+			console.log('station id', id);
 			_currentStationID = id;
 			$('li i').removeClass('active');
 			$('li[data-id="' + id + '"] i').addClass('active');
+		});
+		
+		socket.on('player_value_changed', function(key, value) {
+			console.log('player_value_changed', key, value);
+			switch (key) {
+				case 'path':
+					console.log('PATH CHANGED', value);
+					var $files = $('table#files');
+					$files.find('tr').removeClass('active');
+					_$activeRow = $files.find('tr[data-path="' + value + '"]');
+					_$activeRow.addClass('active');
+				break;
+			}
+		});
+		
+		socket.on('end_of_file_reached', function() {
+			console.log('player says: end of file has been reached.');
+			_nextFile();
 		});
 		
 		socket.on('station_message', function(msg) { $('h1').text(msg); });
@@ -231,8 +268,6 @@
 		socket.on('connection', function() { console.log('connected to server'); });
 		socket.on('welcome', function(msg) { console.log(msg); });
 		socket.on('disconnect', function() { console.log('disconnected from server'); });
-		
-		// ----------- LISTEN TO SOCKET CONNECIION EVENTS (END)
 		
 		$(document).ready(function() {
 			console.log('***ready');
@@ -245,9 +280,11 @@
 				socket.emit('cmd', 'stop');
 			});
 			$('button[data-action="reload_tree"]').click(function() {
-				$('#files-tab').html('<i class="fa fa-cog fa-3x fa-spin"></i>');
+				$('#files-tab').html('<i class="fa fa-cog fa-2x fa-spin"></i>');
 				socket.emit('cmd', 'reloadTree');
 			});
+			
+			$('#files-tab').html('<i class="fa fa-cog fa-2x fa-spin"></i>');
 			
 			// -- tabs
 			
@@ -278,20 +315,18 @@
 		<% var mUid = makeUUID; %>
 	 	<table id="files">
 			<thead>
-				<!--
 				<tr class="header">
 					<th>Type</th>
 					<th>Name</th>
 					<th>Tags</th>
 				</tr>
-				-->
 			</thead>
 			<tbody>
 				<% function row(data, parentID) { %>
 					<% _.each(data, function(item, i) { %>
 						<% if (item !== undefined && item !== null) { %>
 							<% var uid = mUid(); %>
-		 					<tr class="<%= item.type %>" data-tt-id="<%= uid %>" data-tt-parent-id="<%= parentID %>">
+		 					<tr class="<%= item.type %>" data-tt-id="<%= uid %>" data-tt-parent-id="<%= parentID %>" data-path="<%= item.path %>">
 		 						<td>
 		 							<!--
 		 							<% if (item.type === 'file') { %>

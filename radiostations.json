@@ -21,7 +21,8 @@
 	},
 	"abc": {
 		"name": "ABC Jazz",
-		"stream_url": "http://shoutmedia.abc.net.au:10430/"
+		"stream_url": "http://shoutmedia.abc.net.au:10430/",
+		"just_played_stream_url": "http://www.abc.net.au/jazz/xml/ABC%20JazzJustPlayedRSS.xml"
 	},
 	"nrk_p2": {
 		"name": "NRK P2",

@@ -54,7 +54,7 @@
 		* + h1, * + h2, * + h3, * + h4, * + h5, * + h6 { margin-top: 16px; }
 		
 		h6 {
-			font-size: 1.61em;
+			/* font-size: 1.61em; */
 			color: rgb(179, 20, 20);
 			text-transform: uppercase;
 			letter-spacing: -.025em;
@@ -72,7 +72,7 @@
 		a {
 			color: #D2840B;
 			text-decoration: none;
-			font-size: 1.61em;
+			/* font-size: 1.61em; */
 		}
 	
 		td.name a:hover {
@@ -110,7 +110,6 @@
 		}
 		
 		table#files h6 {
-			color: green;
 			display: inline-block;
 		}
 		
@@ -149,6 +148,7 @@
 			_stations,
 			_stationIDs,
 			_currentStationID,
+			_status = {},
 			_$activeRow;
 		
 		function _setStation(id) {
@@ -210,7 +210,7 @@
 				e.preventDefault();
 				var href = $(this).attr('href'),
 					matches = href.match(/\.([0-9a-z]+)$/i),
-					extension = matches[1].toLowerCase();
+					extension = matches[1] !== undefined ? matches[1].toLowerCase() : '';
 				
 				_$activeRow = $(this).closest('tr');
 				
@@ -243,6 +243,8 @@
 		
 		socket.on('player_value_changed', function(key, value) {
 			console.log('player_value_changed', key, value);
+			_status[key] = value;
+			console.log('_status', JSON.stringify(_status, null, 2));
 			switch (key) {
 				case 'path':
 					console.log('PATH CHANGED', value);

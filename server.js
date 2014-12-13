@@ -147,9 +147,14 @@ io.on('connection', function(socket) {
 	_socket = socket;
 	
 	socket.emit('welcome', 'the server says: welcome!');
+	
 	player.on('valueChanged', function(key, value) {
 		socket.emit('player_value_changed', key, value);
-	 });
+	});
+	player.on('end_of_file_reached', function() {
+		console.log('player says: end of file reached');
+		socket.emit('end_of_file_reached');
+	});
 
 	socket.on('ready', function(msg) {
 		console.log('client ready, message: ' + msg);		
@@ -166,10 +171,8 @@ io.on('connection', function(socket) {
 		player.play(stations[id].stream_url);
 		
 		player.on('station_message', function(msg) {
-			//console.log('foo message', msg);
 			socket.emit('station_message', msg);
 		});
-		
 	});
 	
 	socket.on('file', function(file) {
@@ -178,9 +181,7 @@ io.on('connection', function(socket) {
 		player.on('foo', function(msg) {
 			socket.emit('station_message', msg);
 		});
-		player.on('end_of_file_reached', function() {
-			socket.emit('end_of_file_reached');
-		});
+		
 	});
 	
 	socket.on('cmd', function(cmd) {

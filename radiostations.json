@@ -120,14 +120,6 @@
 		"name": "Bird’s Eye",
 		"stream_url": "http://rs33.stream24.org:8610/stream"
 	},
-	"radio_x": {
-		"name": "Radio X",
-		"stream_url": "http://mp3.radiox.ch:8000/standard.ogg"
-	},
-	"radio_jazz_moscow": {
-		"name": "Radio Jazz 89.1 FM (Moscow)",
-		"stream_url": "http://jssr01.jazzandclassic.ru:14534/rjstream.mp3"
-	},
 	"classic_and_jazz": {
 		"name": "Classic & Jazz",
 		"stream_url": "http://classicandjazzaac.ice.infomaniak.ch/classicandjazzaac.mp3"

@@ -22,8 +22,7 @@ function loadConfig() {
 }
 
 function saveConfig() {
-
-
+	console.log('saving configuration...');
 }
 
 function reloadTree() {
@@ -82,10 +81,10 @@ function startCatchingUSBEvents() {
 		//console.log('keyUp', event);
 		switch (event.name) {
 			case 'KEY_VOLUMEUP':
-				player.volumeUp(5);
+				player.volumeUp(1);
 			break;
 			case 'KEY_VOLUMEDOWN':
-				player.volumeDown(5);
+				player.volumeDown(1);
 			break;
 			case 'KEY_UP':
 				player.prev();
@@ -123,6 +122,8 @@ function startCatchingUSBEvents() {
 
 function quit() {
 	console.log('quitting...');
+	console.log(player.getInfo());
+	saveConfig();
 	exec('killall node mplayer', function() {
 		process.exit(0);
 	});
@@ -160,6 +161,10 @@ io.on('connection', function(socket) {
 		console.log('client ready, message: ' + msg);		
 		socket.emit('radiostations', stations);
 		socket.emit('musictree', musictree);
+	});
+	
+	socket.on('volume', function(value) {
+		player.setVolume(value, false);
 	});
 	
 	socket.on('station', function(id) {

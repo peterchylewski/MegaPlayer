@@ -129,11 +129,19 @@
 		.fa-cog { color: #aaa !important; }
 		
 		.el-icon-volume-up.active { display: inline; }
-	
+		
+		.knob {
+			position: fixed;
+			top: 8px;
+			right: 8px;
+		}
+		
 	</style>
 	
 	<script src="js/jquery-2.0.3.min.js"></script>
 	<script src="js/bootstrap-3.2.0.min.js"></script>
+	
+	<script src="js/jquery.knob.js"></script>
 	<script src="js/jquery.treetable.js"></script>
 	<script src="js/jquery.cookie.js"></script>
 	
@@ -210,7 +218,7 @@
 				e.preventDefault();
 				var href = $(this).attr('href'),
 					matches = href.match(/\.([0-9a-z]+)$/i),
-					extension = matches[1] !== undefined ? matches[1].toLowerCase() : '';
+					extension = matches !== undefined ? matches[1].toLowerCase() : '';
 				
 				_$activeRow = $(this).closest('tr');
 				
@@ -225,6 +233,7 @@
 					case 'flac':
 					case 'cue':
 					case 'ape':
+					case 'ogg':
 						socket.emit('file', href);
 					break;
 					case 'jpg':
@@ -252,6 +261,10 @@
 					$files.find('tr').removeClass('active');
 					_$activeRow = $files.find('tr[data-path="' + value + '"]');
 					_$activeRow.addClass('active');
+				break;
+				case 'volume':
+					console.log('VOLUME CHANGED', value);
+					 $('.dial').val(value).trigger('change');
 				break;
 			}
 		});
@@ -298,6 +311,34 @@
 				$.cookie('lastTab', tab);
 			});
 			
+			// ------------------ volume knob
+			
+			$('.dial').val(10).knob({							// http://anthonyterrien.com/knob/
+				'change': function(value) {
+    				console.log('change', value);
+    				
+    			},
+    			
+    			'draw': function(value) {
+    				console.log('draw', value);
+    			},
+    			
+    			'release': function(value) {
+    				console.log('release', value);
+    				socket.emit('volume', value);
+    			},
+    			
+				'min': 0,
+    			'max': 100,
+    			//'angleArc': 270,
+    			//'angleOffset': -135,
+    			'width': 80,
+    			'height': 80,
+    			'fgColor': '#f00'
+    			//'rotation': 'counterclockwise',
+    			
+    		});
+			
 		});
 
 	</script>
@@ -312,6 +353,8 @@
 	
 	<script class="template" id="files" type="text/template">
 		<% var mUid = makeUUID; %>
+		<% var name; %>
+		
 	 	<table id="files">
 			<thead>
 				<tr class="header">
@@ -334,10 +377,12 @@
 										<i class="fa fa-folder"></i>
 									<% } %>
 									-->
+									<% name = item.name.replace(/^[0-9\.]+[- ]+/, "").replace(/\.[mp3|flac|wav|m4a|aif|ogg]+$/i, ""); %>
+									
 									<% if (item.type === 'folder') { %>
-										<h6><%= item.name %></h6>
+										<h6><%= name %></h6>
 									<% } else { %>
-										<a href="<%= item.path %>"><%= item.name %></a>
+										<a href="<%= item.path %>"><%= name %></a>
 									<% } %>
 									
 								</td>
@@ -374,6 +419,7 @@
 		<button class="btn btn-primary" data-action="next_station">next station&nbsp;<i class="fa fa-arrow-down"></i></button>
 		<button class="btn btn-warning" data-action="stop">stop</button>
 		<button class="btn btn-danger" data-action="reload_tree">reload file tree</button>
+		<input type="text" class="dial">
 	</div>
 	
 	<table id="main">

@@ -46,6 +46,7 @@
 			font-size: 6em;
 			line-height: .85em;
 			letter-spacing: -.045em;
+			word-spacing: -.004em;
 			color: #D3D3D3;
 		}
 		
@@ -57,7 +58,7 @@
 			/* font-size: 1.61em; */
 			color: rgb(179, 20, 20);
 			text-transform: uppercase;
-			letter-spacing: -.025em;
+			letter-spacing: -.075em;
 		}
 
 		ul, ol { list-style-position: inside; }
@@ -72,7 +73,6 @@
 		a {
 			color: #D2840B;
 			text-decoration: none;
-			/* font-size: 1.61em; */
 		}
 	
 		td.name a:hover {
@@ -109,9 +109,7 @@
 			white-space: nowrap;
 		}
 		
-		table#files h6 {
-			display: inline-block;
-		}
+		table#files h6 { display: inline-block; }
 		
 		td.tags span { padding: 4px; }
 		
@@ -162,15 +160,16 @@
 		function _setStation(id) {
 			if (id !== undefined) {
 				_currentStationID = id;
+				//socket.emit('cmd', 'setStation', _currentStationID);
 				socket.emit('station', _currentStationID);
 			}
 		}
 		
 		function _previousStation() {
-				var currentIndex = _.indexOf(_stationIDs, _currentStationID),
-					nextIndex = currentIndex - 1;
-				if (nextIndex < 0 ) { nextIndex = _stationIDs.length - 1 ; }
-				_setStation(_stationIDs[nextIndex]);
+			var currentIndex = _.indexOf(_stationIDs, _currentStationID),
+				nextIndex = currentIndex - 1;
+			if (nextIndex < 0 ) { nextIndex = _stationIDs.length - 1 ; }
+			_setStation(_stationIDs[nextIndex]);
 		}
 		
 		function _nextStation() {
@@ -218,7 +217,7 @@
 				e.preventDefault();
 				var href = $(this).attr('href'),
 					matches = href.match(/\.([0-9a-z]+)$/i),
-					extension = matches !== undefined ? matches[1].toLowerCase() : '';
+					extension = matches !== undefined && matches[1] !== undefined ? matches[1].toLowerCase() : '';
 				
 				_$activeRow = $(this).closest('tr');
 				
@@ -251,9 +250,9 @@
 		});
 		
 		socket.on('player_value_changed', function(key, value) {
-			console.log('player_value_changed', key, value);
+			//console.log('player_value_changed', key, value);
 			_status[key] = value;
-			console.log('_status', JSON.stringify(_status, null, 2));
+			//console.log('_status', JSON.stringify(_status, null, 2));
 			switch (key) {
 				case 'path':
 					console.log('PATH CHANGED', value);
@@ -266,6 +265,9 @@
 					console.log('VOLUME CHANGED', value);
 					 $('.dial').val(value).trigger('change');
 				break;
+				case 'timePosition':
+					//console.log('timePosition', value);
+				break;
 			}
 		});
 		
@@ -274,12 +276,12 @@
 			_nextFile();
 		});
 		
-		socket.on('station_message', function(msg) { $('h1').text(msg); });
-		socket.on('previous_station', function() { _previousStation(); });
-		socket.on('next_station', function() { _nextStation(); });
-		socket.on('connection', function() { console.log('connected to server'); });
-		socket.on('welcome', function(msg) { console.log(msg); });
-		socket.on('disconnect', function() { console.log('disconnected from server'); });
+		socket.on('station_message', 	function(msg) { $('h1').text(msg); });
+		socket.on('previous_station', 	function() { _previousStation(); });
+		socket.on('next_station', 		function() { _nextStation(); });
+		socket.on('connection', 		function() { console.log('connected to server'); });
+		socket.on('welcome', 			function(msg) { console.log(msg); });
+		socket.on('disconnect', 		function() { console.log('disconnected from server'); });
 		
 		$(document).ready(function() {
 			console.log('***ready');
@@ -334,7 +336,7 @@
     			//'angleOffset': -135,
     			'width': 80,
     			'height': 80,
-    			'fgColor': '#f00'
+    			'fgColor': '#B31414'
     			//'rotation': 'counterclockwise',
     			
     		});
@@ -377,7 +379,7 @@
 										<i class="fa fa-folder"></i>
 									<% } %>
 									-->
-									<% name = item.name.replace(/^[0-9\.]+[- ]+/, "").replace(/\.[mp3|flac|wav|m4a|aif|ogg]+$/i, ""); %>
+									<% name = item.name.replace(/^([0-9\.]+)[- ]+/g, "$1. ").replace(/\.[mp3|flac|wav|m4a|aif|ogg]+$/i, ""); %>
 									
 									<% if (item.type === 'folder') { %>
 										<h6><%= name %></h6>

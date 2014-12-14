@@ -22,7 +22,9 @@ function loadConfig() {
 }
 
 function saveConfig() {
+	var pathToConfig = __dirname + '/config.json';
 	console.log('saving configuration...');
+	fs.writeFileSync(pathToConfig, JSON.stringify(player.getInfo(), null, 2));
 }
 
 function reloadTree() {
@@ -78,7 +80,7 @@ function startCatchingKeyboardEvents() {
 function startCatchingUSBEvents() {
 	var usb = require('USBStreamReader');
 	usb.on('keyUp', function(event) {
-		//console.log('keyUp', event);
+		console.log('keyUp', event.name);
 		switch (event.name) {
 			case 'KEY_VOLUMEUP':
 				player.volumeUp(1);
@@ -103,7 +105,10 @@ function startCatchingUSBEvents() {
 				player.pause();
 			break;
 			case 't':
-				player.getInfo();
+				player.updateStatus();
+			break;
+			case 'q':
+				quit();
 			break;
 		}
 	});
@@ -122,7 +127,6 @@ function startCatchingUSBEvents() {
 
 function quit() {
 	console.log('quitting...');
-	console.log(player.getInfo());
 	saveConfig();
 	exec('killall node mplayer', function() {
 		process.exit(0);
@@ -150,11 +154,17 @@ io.on('connection', function(socket) {
 	socket.emit('welcome', 'the server says: welcome!');
 	
 	player.on('valueChanged', function(key, value) {
+		//console.log('a player value changed', key, value);
 		socket.emit('player_value_changed', key, value);
 	});
+	
 	player.on('end_of_file_reached', function() {
 		console.log('player says: end of file reached');
 		socket.emit('end_of_file_reached');
+	});
+	
+	player.on('station_message', function(msg) {
+		socket.emit('station_message', msg);
 	});
 
 	socket.on('ready', function(msg) {
@@ -175,9 +185,7 @@ io.on('connection', function(socket) {
 		
 		player.play(stations[id].stream_url);
 		
-		player.on('station_message', function(msg) {
-			socket.emit('station_message', msg);
-		});
+		
 	});
 	
 	socket.on('file', function(file) {
@@ -189,9 +197,12 @@ io.on('connection', function(socket) {
 		
 	});
 	
-	socket.on('cmd', function(cmd) {
+	socket.on('cmd', function(cmd, value) {
 		console.log('cmd', cmd);
 		switch (cmd) {
+			case 'setStation':
+				console.log('>>>>>>>>>>>>>>>>>>>>>>>>>setStation', value);		
+			break;
 			case 'stop':
 				player.stop();
 			break;

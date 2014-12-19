@@ -1541,9 +1541,12 @@
           "path": "/media/music/Donald Fagen/2006 Morph The Cat 24-96-FLAC",
           "name": "2006 Morph The Cat 24-96-FLAC",
           "atime": "2014-11-06T14:43:03.000Z",
-          "ctime": "2014-12-15T08:44:05.000Z",
-          "mtime": "2014-12-04T19:53:38.000Z",
+          "ctime": "2014-12-19T04:44:08.000Z",
+          "mtime": "2014-12-19T04:44:08.000Z",
           "type": "folder",
+          "meta": {
+            "discogs_url": "https://api.discogs.com/releases/1868651"
+          },
           "children": [
             null,
             {
@@ -1628,6 +1631,15 @@
               "extension": "flac"
             },
             {
+              "path": "/media/music/Donald Fagen/2006 Morph The Cat 24-96-FLAC/_meta.json",
+              "name": "_meta.json",
+              "atime": "2014-12-19T04:44:44.000Z",
+              "ctime": "2014-12-19T04:44:47.000Z",
+              "mtime": "2014-12-19T04:44:44.000Z",
+              "type": "file",
+              "extension": "json"
+            },
+            {
               "path": "/media/music/Donald Fagen/2006 Morph The Cat 24-96-FLAC/front.jpg",
               "name": "front.jpg",
               "atime": "2014-11-06T12:00:34.000Z",
@@ -1660,9 +1672,12 @@
           "path": "/media/music/Donald Fagen/2012 Sunken Condos 24-88.2-FLAC",
           "name": "2012 Sunken Condos 24-88.2-FLAC",
           "atime": "2014-11-12T21:57:25.000Z",
-          "ctime": "2014-12-15T08:44:16.000Z",
-          "mtime": "2014-12-04T19:53:34.000Z",
+          "ctime": "2014-12-19T04:45:03.000Z",
+          "mtime": "2014-12-19T04:45:03.000Z",
           "type": "folder",
+          "meta": {
+            "discogs_url": "https://api.discogs.com/releases/3944315"
+          },
           "children": [
             null,
             {
@@ -1747,6 +1762,15 @@
               "extension": "flac"
             },
             {
+              "path": "/media/music/Donald Fagen/2012 Sunken Condos 24-88.2-FLAC/_meta.json",
+              "name": "_meta.json",
+              "atime": "2014-12-19T04:45:50.000Z",
+              "ctime": "2014-12-19T04:45:53.000Z",
+              "mtime": "2014-12-19T04:45:50.000Z",
+              "type": "file",
+              "extension": "json"
+            },
+            {
               "path": "/media/music/Donald Fagen/2012 Sunken Condos 24-88.2-FLAC/front.jpg",
               "name": "front.jpg",
               "atime": "2014-11-10T02:22:07.000Z",
@@ -1781,9 +1805,12 @@
           "path": "/media/music/Eberhard Weber/1973 - Colours of Chloë",
           "name": "1973 - Colours of Chloë",
           "atime": "2014-12-01T15:29:40.000Z",
-          "ctime": "2014-12-16T20:52:31.000Z",
-          "mtime": "2014-12-15T08:44:21.000Z",
+          "ctime": "2014-12-19T04:50:38.000Z",
+          "mtime": "2014-12-19T04:50:38.000Z",
           "type": "folder",
+          "meta": {
+            "discogs_url": "https://api.discogs.com/releases/3598964"
+          },
           "children": [
             null,
             {
@@ -1821,6 +1848,15 @@
               "mtime": "2014-12-04T13:13:16.000Z",
               "type": "file",
               "extension": "flac"
+            },
+            {
+              "path": "/media/music/Eberhard Weber/1973 - Colours of Chloë/_meta.json",
+              "name": "_meta.json",
+              "atime": "2014-12-19T04:50:45.000Z",
+              "ctime": "2014-12-19T04:50:48.000Z",
+              "mtime": "2014-12-19T04:50:45.000Z",
+              "type": "file",
+              "extension": "json"
             }
           ]
         },
@@ -1828,9 +1864,12 @@
           "path": "/media/music/Eberhard Weber/1975 - Yellow Fields",
           "name": "1975 - Yellow Fields",
           "atime": "2014-12-01T15:37:36.000Z",
-          "ctime": "2014-12-16T20:53:17.000Z",
-          "mtime": "2014-12-15T08:44:21.000Z",
+          "ctime": "2014-12-19T04:50:53.000Z",
+          "mtime": "2014-12-19T04:50:53.000Z",
           "type": "folder",
+          "meta": {
+            "discogs_url": "https://api.discogs.com/releases/1654208"
+          },
           "children": [
             null,
             {
@@ -1877,6 +1916,15 @@
               "mtime": "2014-12-04T12:51:27.000Z",
               "type": "file",
               "extension": "flac"
+            },
+            {
+              "path": "/media/music/Eberhard Weber/1975 - Yellow Fields/_meta.json",
+              "name": "_meta.json",
+              "atime": "2014-12-19T04:51:43.000Z",
+              "ctime": "2014-12-19T04:51:45.000Z",
+              "mtime": "2014-12-19T04:51:43.000Z",
+              "type": "file",
+              "extension": "json"
             }
           ]
         },
@@ -1884,9 +1932,12 @@
           "path": "/media/music/Eberhard Weber/1977 - Silent Feet",
           "name": "1977 - Silent Feet",
           "atime": "2014-12-01T15:37:36.000Z",
-          "ctime": "2014-12-16T20:53:08.000Z",
-          "mtime": "2014-12-15T08:44:21.000Z",
+          "ctime": "2014-12-19T04:51:56.000Z",
+          "mtime": "2014-12-19T04:51:56.000Z",
           "type": "folder",
+          "meta": {
+            "discogs_url": "https://api.discogs.com/releases/1642797"
+          },
           "children": [
             null,
             {
@@ -1915,6 +1966,15 @@
               "mtime": "2014-12-01T00:05:56.000Z",
               "type": "file",
               "extension": "mp3"
+            },
+            {
+              "path": "/media/music/Eberhard Weber/1977 - Silent Feet/_meta.json",
+              "name": "_meta.json",
+              "atime": "2014-12-19T04:53:08.000Z",
+              "ctime": "2014-12-19T04:53:11.000Z",
+              "mtime": "2014-12-19T04:53:08.000Z",
+              "type": "file",
+              "extension": "json"
             }
           ]
         },
@@ -1982,9 +2042,9 @@
             {
               "path": "/media/music/Eberhard Weber/1979 - Fluid Rustle/_meta.json",
               "name": "_meta.json",
-              "atime": "2014-12-18T22:02:14.000Z",
-              "ctime": "2014-12-18T22:02:17.000Z",
-              "mtime": "2014-12-18T22:02:14.000Z",
+              "atime": "2014-12-19T04:55:00.000Z",
+              "ctime": "2014-12-19T04:55:04.000Z",
+              "mtime": "2014-12-19T04:55:00.000Z",
               "type": "file",
               "extension": "json"
             }
@@ -1994,9 +2054,12 @@
           "path": "/media/music/Eberhard Weber/1982 - Later That Evening",
           "name": "1982 - Later That Evening",
           "atime": "2014-12-07T13:56:23.000Z",
-          "ctime": "2014-12-16T20:52:51.000Z",
-          "mtime": "2014-12-15T08:44:21.000Z",
+          "ctime": "2014-12-19T04:56:32.000Z",
+          "mtime": "2014-12-19T04:56:32.000Z",
           "type": "folder",
+          "meta": {
+            "discogs_url": "https://api.discogs.com/releases/3912264"
+          },
           "children": [
             null,
             {
@@ -2034,6 +2097,15 @@
               "mtime": "2014-12-07T13:56:10.000Z",
               "type": "file",
               "extension": "flac"
+            },
+            {
+              "path": "/media/music/Eberhard Weber/1982 - Later That Evening/_meta.json",
+              "name": "_meta.json",
+              "atime": "2014-12-19T05:45:15.000Z",
+              "ctime": "2014-12-19T05:45:19.000Z",
+              "mtime": "2014-12-19T05:45:15.000Z",
+              "type": "file",
+              "extension": "json"
             }
           ]
         },
@@ -2041,9 +2113,12 @@
           "path": "/media/music/Eberhard Weber/1993 - Pendulum",
           "name": "1993 - Pendulum",
           "atime": "2014-12-04T13:09:21.000Z",
-          "ctime": "2014-12-16T20:53:00.000Z",
-          "mtime": "2014-12-15T08:44:21.000Z",
+          "ctime": "2014-12-19T04:58:54.000Z",
+          "mtime": "2014-12-19T04:58:54.000Z",
           "type": "folder",
+          "meta": {
+            "discogs_url": "https://api.discogs.com/releases/3598942"
+          },
           "children": [
             null,
             {
@@ -2235,6 +2310,15 @@
               "mtime": "2014-12-04T05:23:51.000Z",
               "type": "file",
               "extension": "log"
+            },
+            {
+              "path": "/media/music/Eberhard Weber/1993 - Pendulum/_meta.json",
+              "name": "_meta.json",
+              "atime": "2014-12-19T04:59:24.000Z",
+              "ctime": "2014-12-19T04:59:27.000Z",
+              "mtime": "2014-12-19T04:59:24.000Z",
+              "type": "file",
+              "extension": "json"
             }
           ]
         },
@@ -2242,9 +2326,12 @@
           "path": "/media/music/Eberhard Weber/2001 - Endless Days - 2001",
           "name": "2001 - Endless Days - 2001",
           "atime": "2014-12-01T15:31:13.000Z",
-          "ctime": "2014-12-16T20:52:15.000Z",
-          "mtime": "2014-12-15T08:44:21.000Z",
+          "ctime": "2014-12-19T05:02:11.000Z",
+          "mtime": "2014-12-19T05:02:11.000Z",
           "type": "folder",
+          "meta": {
+            "discogs_url": "https://api.discogs.com/releases/1775004"
+          },
           "children": [
             null,
             {
@@ -2327,6 +2414,15 @@
               "mtime": "2014-12-04T05:20:04.000Z",
               "type": "file",
               "extension": "jpg"
+            },
+            {
+              "path": "/media/music/Eberhard Weber/2001 - Endless Days - 2001/_meta.json",
+              "name": "_meta.json",
+              "atime": "2014-12-19T05:02:24.000Z",
+              "ctime": "2014-12-19T05:02:27.000Z",
+              "mtime": "2014-12-19T05:02:24.000Z",
+              "type": "file",
+              "extension": "json"
             }
           ]
         }
@@ -2336,8 +2432,8 @@
       "path": "/media/music/Gary Burton Quartet",
       "name": "Gary Burton Quartet",
       "atime": "2014-12-01T15:41:57.000Z",
-      "ctime": "2014-12-16T20:53:40.000Z",
-      "mtime": "2014-12-16T20:53:40.000Z",
+      "ctime": "2014-12-19T05:04:12.000Z",
+      "mtime": "2014-12-19T05:04:12.000Z",
       "type": "folder",
       "children": [
         null,
@@ -2345,9 +2441,12 @@
           "path": "/media/music/Gary Burton Quartet/1976 - Passengers",
           "name": "1976 - Passengers",
           "atime": "2014-12-01T15:41:57.000Z",
-          "ctime": "2014-12-16T20:53:40.000Z",
-          "mtime": "2014-12-15T08:44:41.000Z",
+          "ctime": "2014-12-19T05:04:12.000Z",
+          "mtime": "2014-12-19T05:04:12.000Z",
           "type": "folder",
+          "meta": {
+            "discogs_url": "https://api.discogs.com/releases/979066"
+          },
           "children": [
             null,
             {
@@ -2405,6 +2504,15 @@
               "extension": "mp3"
             },
             {
+              "path": "/media/music/Gary Burton Quartet/1976 - Passengers/_meta.json",
+              "name": "_meta.json",
+              "atime": "2014-12-19T05:04:28.000Z",
+              "ctime": "2014-12-19T05:04:31.000Z",
+              "mtime": "2014-12-19T05:04:28.000Z",
+              "type": "file",
+              "extension": "json"
+            },
+            {
               "path": "/media/music/Gary Burton Quartet/1976 - Passengers/playlist",
               "name": "playlist",
               "atime": "2014-12-01T16:06:09.000Z",
@@ -2421,9 +2529,12 @@
       "path": "/media/music/George Shearing, Niels-Henning Ørsted Pedersen, Louis Stewart - The MPS Trio Sessions (2007) [FLAC]",
       "name": "George Shearing, Niels-Henning Ørsted Pedersen, Louis Stewart - The MPS Trio Sessions (2007) [FLAC]",
       "atime": "2014-12-13T13:40:55.000Z",
-      "ctime": "2014-12-13T13:44:48.000Z",
-      "mtime": "2014-12-13T13:44:48.000Z",
+      "ctime": "2014-12-19T05:11:18.000Z",
+      "mtime": "2014-12-19T05:11:18.000Z",
       "type": "folder",
+      "meta": {
+        "discogs_url": "https://api.discogs.com/releases/4207390"
+      },
       "children": [
         null,
         null,
@@ -2866,6 +2977,15 @@
               "extension": "flac"
             }
           ]
+        },
+        {
+          "path": "/media/music/George Shearing, Niels-Henning Ørsted Pedersen, Louis Stewart - The MPS Trio Sessions (2007) [FLAC]/_meta.json",
+          "name": "_meta.json",
+          "atime": "2014-12-19T05:11:30.000Z",
+          "ctime": "2014-12-19T05:11:34.000Z",
+          "mtime": "2014-12-19T05:11:30.000Z",
+          "type": "file",
+          "extension": "json"
         }
       ]
     },
@@ -2873,9 +2993,12 @@
       "path": "/media/music/Herbie Mann and Bill Evans - Nirvana (1962) [Jazz][flac][h33t][schon55]",
       "name": "Herbie Mann and Bill Evans - Nirvana (1962) [Jazz][flac][h33t][schon55]",
       "atime": "2014-11-03T20:43:39.000Z",
-      "ctime": "2014-12-04T19:20:24.000Z",
-      "mtime": "2014-12-04T19:20:24.000Z",
+      "ctime": "2014-12-19T05:19:53.000Z",
+      "mtime": "2014-12-19T05:19:53.000Z",
       "type": "folder",
+      "meta": {
+        "discogs_url": "https://api.discogs.com/releases/1189243"
+      },
       "children": [
         null,
         {
@@ -2945,10 +3068,11 @@
           "path": "/media/music/Herbie Mann and Bill Evans - Nirvana (1962) [Jazz][flac][h33t][schon55]/Scans",
           "name": "Scans",
           "atime": "2014-11-03T20:43:39.000Z",
-          "ctime": "2014-11-03T20:45:21.000Z",
-          "mtime": "2014-11-03T20:45:21.000Z",
+          "ctime": "2014-12-19T05:59:17.000Z",
+          "mtime": "2014-12-19T05:59:17.000Z",
           "type": "folder",
           "children": [
+            null,
             {
               "path": "/media/music/Herbie Mann and Bill Evans - Nirvana (1962) [Jazz][flac][h33t][schon55]/Scans/HM_BE_Nirvana_back.jpg",
               "name": "HM_BE_Nirvana_back.jpg",
@@ -3033,6 +3157,15 @@
           "extension": "cue"
         },
         {
+          "path": "/media/music/Herbie Mann and Bill Evans - Nirvana (1962) [Jazz][flac][h33t][schon55]/_meta.json",
+          "name": "_meta.json",
+          "atime": "2014-12-19T05:20:00.000Z",
+          "ctime": "2014-12-19T05:20:03.000Z",
+          "mtime": "2014-12-19T05:20:00.000Z",
+          "type": "file",
+          "extension": "json"
+        },
+        {
           "path": "/media/music/Herbie Mann and Bill Evans - Nirvana (1962) [Jazz][flac][h33t][schon55]/playlist",
           "name": "playlist",
           "atime": "2014-11-27T17:18:26.000Z",
@@ -3057,9 +3190,12 @@
           "path": "/media/music/Iannis Xenakis/1997 Electronic Music",
           "name": "1997 Electronic Music",
           "atime": "2014-12-16T22:55:31.000Z",
-          "ctime": "2014-12-16T22:56:01.000Z",
-          "mtime": "2014-12-16T22:55:31.000Z",
+          "ctime": "2014-12-19T05:21:19.000Z",
+          "mtime": "2014-12-19T05:21:19.000Z",
           "type": "folder",
+          "meta": {
+            "discogs_url": "https://api.discogs.com/releases/154491"
+          },
           "children": [
             null,
             null,
@@ -3116,6 +3252,15 @@
               "mtime": "2014-04-07T23:54:16.000Z",
               "type": "file",
               "extension": "mp3"
+            },
+            {
+              "path": "/media/music/Iannis Xenakis/1997 Electronic Music/_meta.json",
+              "name": "_meta.json",
+              "atime": "2014-12-19T05:21:26.000Z",
+              "ctime": "2014-12-19T05:21:29.000Z",
+              "mtime": "2014-12-19T05:21:26.000Z",
+              "type": "file",
+              "extension": "json"
             },
             {
               "path": "/media/music/Iannis Xenakis/1997 Electronic Music/_stuff",
@@ -3438,9 +3583,12 @@
       "path": "/media/music/Jarrett Peacock DeJohnette Standards vol 2 [EAC FLAC level 8]",
       "name": "Jarrett Peacock DeJohnette Standards vol 2 [EAC FLAC level 8]",
       "atime": "2014-11-12T16:07:04.000Z",
-      "ctime": "2014-12-05T19:21:53.000Z",
-      "mtime": "2014-12-04T19:20:24.000Z",
+      "ctime": "2014-12-19T05:23:24.000Z",
+      "mtime": "2014-12-19T05:23:24.000Z",
       "type": "folder",
+      "meta": {
+        "discogs_url": "https://api.discogs.com/releases/2401163"
+      },
       "children": [
         null,
         {
@@ -3505,6 +3653,15 @@
           "mtime": "2014-06-20T00:24:55.000Z",
           "type": "file",
           "extension": "log"
+        },
+        {
+          "path": "/media/music/Jarrett Peacock DeJohnette Standards vol 2 [EAC FLAC level 8]/_meta.json",
+          "name": "_meta.json",
+          "atime": "2014-12-19T05:23:33.000Z",
+          "ctime": "2014-12-19T05:23:36.000Z",
+          "mtime": "2014-12-19T05:23:33.000Z",
+          "type": "file",
+          "extension": "json"
         }
       ]
     },
@@ -3870,9 +4027,12 @@
       "path": "/media/music/Joe Jackson - Body and Soul 1984 TQMP",
       "name": "Joe Jackson - Body and Soul 1984 TQMP",
       "atime": "2014-11-11T20:55:58.000Z",
-      "ctime": "2014-12-14T15:19:00.000Z",
-      "mtime": "2014-11-11T20:55:58.000Z",
+      "ctime": "2014-12-19T06:06:40.000Z",
+      "mtime": "2014-12-19T06:06:40.000Z",
       "type": "folder",
+      "meta": {
+        "discogs_url": "https://api.discogs.com/releases/846087"
+      },
       "children": [
         null,
         {
@@ -3973,6 +4133,15 @@
           "mtime": "2014-11-11T20:55:58.000Z",
           "type": "file",
           "extension": "jpg"
+        },
+        {
+          "path": "/media/music/Joe Jackson - Body and Soul 1984 TQMP/_meta.json",
+          "name": "_meta.json",
+          "atime": "2014-12-19T06:06:45.000Z",
+          "ctime": "2014-12-19T06:06:48.000Z",
+          "mtime": "2014-12-19T06:06:45.000Z",
+          "type": "file",
+          "extension": "json"
         }
       ]
     },
@@ -3980,8 +4149,8 @@
       "path": "/media/music/John Abercrombie",
       "name": "John Abercrombie",
       "atime": "2014-12-15T08:14:11.000Z",
-      "ctime": "2014-12-16T23:21:58.000Z",
-      "mtime": "2014-12-16T23:21:58.000Z",
+      "ctime": "2014-12-19T05:17:05.000Z",
+      "mtime": "2014-12-19T05:17:05.000Z",
       "type": "folder",
       "children": [
         null,
@@ -3990,9 +4159,12 @@
           "path": "/media/music/John Abercrombie/1988 Getting There",
           "name": "1988 Getting There",
           "atime": "2014-11-08T23:47:39.000Z",
-          "ctime": "2014-12-16T22:24:13.000Z",
-          "mtime": "2014-12-15T08:08:16.000Z",
+          "ctime": "2014-12-19T05:12:57.000Z",
+          "mtime": "2014-12-19T05:12:57.000Z",
           "type": "folder",
+          "meta": {
+            "discogs_url": "https://api.discogs.com/releases/3259525"
+          },
           "children": [
             null,
             {
@@ -4023,6 +4195,15 @@
               "extension": "cue"
             },
             {
+              "path": "/media/music/John Abercrombie/1988 Getting There/_meta.json",
+              "name": "_meta.json",
+              "atime": "2014-12-19T05:13:05.000Z",
+              "ctime": "2014-12-19T05:13:07.000Z",
+              "mtime": "2014-12-19T05:13:05.000Z",
+              "type": "file",
+              "extension": "json"
+            },
+            {
               "path": "/media/music/John Abercrombie/1988 Getting There/abercrombie_front.jpg",
               "name": "abercrombie_front.jpg",
               "atime": "2014-11-08T19:49:02.000Z",
@@ -4041,7 +4222,7 @@
           "mtime": "2014-12-16T22:25:16.000Z",
           "type": "folder",
           "meta": {
-            "wikipedia_url": "http://en.wikipedia.org/wiki/November_(album)"
+            "discogs_url": "https://api.discogs.com/releases/2578529"
           },
           "children": [
             null,
@@ -4156,9 +4337,9 @@
             {
               "path": "/media/music/John Abercrombie/1993 November [FLAC, ECM 1502]/_meta.json",
               "name": "_meta.json",
-              "atime": "2014-11-08T18:37:52.000Z",
-              "ctime": "2014-12-16T22:25:53.000Z",
-              "mtime": "2014-12-16T22:25:42.000Z",
+              "atime": "2014-12-19T05:14:25.000Z",
+              "ctime": "2014-12-19T05:14:27.000Z",
+              "mtime": "2014-12-19T05:14:25.000Z",
               "type": "file",
               "extension": "json"
             },
@@ -4177,9 +4358,12 @@
           "path": "/media/music/John Abercrombie/2012 John Abercrombie Quartet - Within a Song [EAC-FLAC]",
           "name": "2012 John Abercrombie Quartet - Within a Song [EAC-FLAC]",
           "atime": "2014-12-16T22:23:30.000Z",
-          "ctime": "2014-12-16T22:24:04.000Z",
-          "mtime": "2014-12-16T22:23:30.000Z",
+          "ctime": "2014-12-19T05:14:33.000Z",
+          "mtime": "2014-12-19T05:14:33.000Z",
           "type": "folder",
+          "meta": {
+            "discogs_url": "https://api.discogs.com/releases/3568135"
+          },
           "children": [
             null,
             null,
@@ -4265,6 +4449,15 @@
               "extension": "flac"
             },
             {
+              "path": "/media/music/John Abercrombie/2012 John Abercrombie Quartet - Within a Song [EAC-FLAC]/_meta.json",
+              "name": "_meta.json",
+              "atime": "2014-12-19T05:15:05.000Z",
+              "ctime": "2014-12-19T05:15:07.000Z",
+              "mtime": "2014-12-19T05:15:05.000Z",
+              "type": "file",
+              "extension": "json"
+            },
+            {
               "path": "/media/music/John Abercrombie/2012 John Abercrombie Quartet - Within a Song [EAC-FLAC]/_stuff",
               "name": "_stuff",
               "atime": "2014-12-16T22:23:12.000Z",
@@ -4326,9 +4519,12 @@
           "path": "/media/music/John Abercrombie/2013 John Abercrombie Quartet - 39 Steps",
           "name": "2013 John Abercrombie Quartet - 39 Steps",
           "atime": "2014-11-03T20:16:54.000Z",
-          "ctime": "2014-12-16T22:23:55.000Z",
-          "mtime": "2014-12-15T08:08:16.000Z",
+          "ctime": "2014-12-19T05:15:11.000Z",
+          "mtime": "2014-12-19T05:15:11.000Z",
           "type": "folder",
+          "meta": {
+            "discogs_url": "https://api.discogs.com/releases/4924180"
+          },
           "children": [
             null,
             {
@@ -4585,6 +4781,15 @@
               "extension": "m3u"
             },
             {
+              "path": "/media/music/John Abercrombie/2013 John Abercrombie Quartet - 39 Steps/_meta.json",
+              "name": "_meta.json",
+              "atime": "2014-12-19T05:15:37.000Z",
+              "ctime": "2014-12-19T05:15:40.000Z",
+              "mtime": "2014-12-19T05:15:37.000Z",
+              "type": "file",
+              "extension": "json"
+            },
+            {
               "path": "/media/music/John Abercrombie/2013 John Abercrombie Quartet - 39 Steps/cover.jpg",
               "name": "cover.jpg",
               "atime": "2014-11-03T20:16:43.000Z",
@@ -4608,9 +4813,12 @@
           "path": "/media/music/John Abercrombie/John Abercrombie - Jarek Smietana - Speak Easy",
           "name": "John Abercrombie - Jarek Smietana - Speak Easy",
           "atime": "2014-08-16T11:31:02.000Z",
-          "ctime": "2014-12-16T22:20:25.000Z",
-          "mtime": "2014-12-16T22:20:25.000Z",
+          "ctime": "2014-12-19T05:17:05.000Z",
+          "mtime": "2014-12-19T05:16:04.000Z",
           "type": "folder",
+          "meta": {
+            "discogs_url": "https://api.discogs.com/releases/5195965"
+          },
           "children": [
             null,
             {
@@ -4702,6 +4910,15 @@
               "mtime": "2014-08-16T11:29:22.000Z",
               "type": "file",
               "extension": "flac"
+            },
+            {
+              "path": "/media/music/John Abercrombie/John Abercrombie - Jarek Smietana - Speak Easy/_meta.json",
+              "name": "_meta.json",
+              "atime": "2014-12-19T05:16:12.000Z",
+              "ctime": "2014-12-19T05:16:15.000Z",
+              "mtime": "2014-12-19T05:16:12.000Z",
+              "type": "file",
+              "extension": "json"
             }
           ]
         }
@@ -4711,9 +4928,12 @@
       "path": "/media/music/John Scofield - Uberjam Deux (2013) [FLAC]",
       "name": "John Scofield - Uberjam Deux (2013) [FLAC]",
       "atime": "2014-11-03T20:48:51.000Z",
-      "ctime": "2014-12-04T19:20:24.000Z",
-      "mtime": "2014-12-04T19:20:24.000Z",
+      "ctime": "2014-12-19T06:05:36.000Z",
+      "mtime": "2014-12-19T06:05:36.000Z",
       "type": "folder",
+      "meta": {
+        "discogs_url": "https://api.discogs.com/releases/4592068"
+      },
       "children": [
         null,
         {
@@ -4814,6 +5034,15 @@
           "mtime": "2014-08-05T15:18:25.000Z",
           "type": "file",
           "extension": "flac"
+        },
+        {
+          "path": "/media/music/John Scofield - Uberjam Deux (2013) [FLAC]/_meta.json",
+          "name": "_meta.json",
+          "atime": "2014-12-19T06:05:46.000Z",
+          "ctime": "2014-12-19T06:05:49.000Z",
+          "mtime": "2014-12-19T06:05:46.000Z",
+          "type": "file",
+          "extension": "json"
         }
       ]
     },
@@ -4830,9 +5059,12 @@
           "path": "/media/music/John Surman/Brewster's Rooster (2009) ",
           "name": "Brewster's Rooster (2009) ",
           "atime": "2014-11-16T18:53:49.000Z",
-          "ctime": "2014-11-16T19:00:08.000Z",
-          "mtime": "2014-11-16T19:00:08.000Z",
+          "ctime": "2014-12-19T05:53:45.000Z",
+          "mtime": "2014-12-19T05:53:45.000Z",
           "type": "folder",
+          "meta": {
+            "discogs_url": "https://api.discogs.com/releases/2010030"
+          },
           "children": [
             {
               "path": "/media/music/John Surman/Brewster's Rooster (2009) /01 - Slanted Sky.flac",
@@ -4914,6 +5146,15 @@
               "mtime": "2014-11-16T18:53:50.000Z",
               "type": "file",
               "extension": "flac"
+            },
+            {
+              "path": "/media/music/John Surman/Brewster's Rooster (2009) /_meta.json",
+              "name": "_meta.json",
+              "atime": "2014-12-19T05:54:02.000Z",
+              "ctime": "2014-12-19T05:54:06.000Z",
+              "mtime": "2014-12-19T05:54:02.000Z",
+              "type": "file",
+              "extension": "json"
             }
           ]
         },
@@ -4921,9 +5162,12 @@
           "path": "/media/music/John Surman/Rarum (2004)",
           "name": "Rarum (2004)",
           "atime": "2014-11-16T19:01:58.000Z",
-          "ctime": "2014-11-16T19:45:08.000Z",
-          "mtime": "2014-11-16T19:45:08.000Z",
+          "ctime": "2014-12-19T05:54:49.000Z",
+          "mtime": "2014-12-19T05:54:49.000Z",
           "type": "folder",
+          "meta": {
+            "discogs_url": "https://api.discogs.com/releases/1160411"
+          },
           "children": [
             {
               "path": "/media/music/John Surman/Rarum (2004)/01 - Druid's Circle.flac",
@@ -5043,6 +5287,15 @@
               "extension": "flac"
             },
             {
+              "path": "/media/music/John Surman/Rarum (2004)/_meta.json",
+              "name": "_meta.json",
+              "atime": "2014-12-19T05:54:59.000Z",
+              "ctime": "2014-12-19T05:55:02.000Z",
+              "mtime": "2014-12-19T05:54:59.000Z",
+              "type": "file",
+              "extension": "json"
+            },
+            {
               "path": "/media/music/John Surman/Rarum (2004)/playlist",
               "name": "playlist",
               "atime": "2014-11-16T19:45:08.000Z",
@@ -5059,9 +5312,12 @@
       "path": "/media/music/John_Coltrane_-_Interstellar_Space__ripped_by_chabosun",
       "name": "John_Coltrane_-_Interstellar_Space__ripped_by_chabosun",
       "atime": "2014-12-16T21:45:26.000Z",
-      "ctime": "2014-12-16T21:45:30.000Z",
-      "mtime": "2014-12-16T21:45:30.000Z",
+      "ctime": "2014-12-19T06:09:55.000Z",
+      "mtime": "2014-12-19T06:09:55.000Z",
       "type": "folder",
+      "meta": {
+        "discogs_url": "https://api.discogs.com/releases/6167078"
+      },
       "children": [
         null,
         null,
@@ -5118,6 +5374,15 @@
           "mtime": "2014-06-23T18:24:03.000Z",
           "type": "file",
           "extension": "flac"
+        },
+        {
+          "path": "/media/music/John_Coltrane_-_Interstellar_Space__ripped_by_chabosun/_meta.json",
+          "name": "_meta.json",
+          "atime": "2014-12-19T06:10:03.000Z",
+          "ctime": "2014-12-19T06:10:05.000Z",
+          "mtime": "2014-12-19T06:10:03.000Z",
+          "type": "file",
+          "extension": "json"
         },
         {
           "path": "/media/music/John_Coltrane_-_Interstellar_Space__ripped_by_chabosun/_stuff",
@@ -5190,8 +5455,8 @@
       "path": "/media/music/Joshua Redman",
       "name": "Joshua Redman",
       "atime": "2014-12-16T22:13:47.000Z",
-      "ctime": "2014-12-16T22:13:47.000Z",
-      "mtime": "2014-12-16T22:13:47.000Z",
+      "ctime": "2014-12-19T06:11:37.000Z",
+      "mtime": "2014-12-19T06:11:37.000Z",
       "type": "folder",
       "children": [
         null,
@@ -5200,9 +5465,12 @@
           "path": "/media/music/Joshua Redman/1996 - Freedom in the Groove FLAC",
           "name": "1996 - Freedom in the Groove FLAC",
           "atime": "2014-11-20T12:36:20.000Z",
-          "ctime": "2014-12-16T22:13:46.000Z",
-          "mtime": "2014-11-20T12:36:20.000Z",
+          "ctime": "2014-12-19T06:10:30.000Z",
+          "mtime": "2014-12-19T06:10:30.000Z",
           "type": "folder",
+          "meta": {
+            "discogs_url": "https://api.discogs.com/releases/2389399"
+          },
           "children": [
             null,
             null,
@@ -5371,6 +5639,15 @@
               "extension": "log"
             },
             {
+              "path": "/media/music/Joshua Redman/1996 - Freedom in the Groove FLAC/_meta.json",
+              "name": "_meta.json",
+              "atime": "2014-12-19T06:10:56.000Z",
+              "ctime": "2014-12-19T06:10:59.000Z",
+              "mtime": "2014-12-19T06:10:56.000Z",
+              "type": "file",
+              "extension": "json"
+            },
+            {
               "path": "/media/music/Joshua Redman/1996 - Freedom in the Groove FLAC/cover.jpg",
               "name": "cover.jpg",
               "atime": "2014-11-20T12:36:20.000Z",
@@ -5382,17 +5659,20 @@
           ]
         },
         {
-          "path": "/media/music/Joshua Redman/2002 - Elastic FLAC",
-          "name": "2002 - Elastic FLAC",
+          "path": "/media/music/Joshua Redman/2002 - Elastic [FLAC]",
+          "name": "2002 - Elastic [FLAC]",
           "atime": "2014-11-20T12:36:20.000Z",
-          "ctime": "2014-12-16T22:11:38.000Z",
-          "mtime": "2014-11-20T12:36:20.000Z",
+          "ctime": "2014-12-19T06:11:37.000Z",
+          "mtime": "2014-12-19T06:11:02.000Z",
           "type": "folder",
+          "meta": {
+            "discogs_url": "https://api.discogs.com/releases/2399000"
+          },
           "children": [
             null,
             null,
             {
-              "path": "/media/music/Joshua Redman/2002 - Elastic FLAC/01 - Molten Soul.flac",
+              "path": "/media/music/Joshua Redman/2002 - Elastic [FLAC]/01 - Molten Soul.flac",
               "name": "01 - Molten Soul.flac",
               "atime": "2014-11-20T12:33:05.000Z",
               "ctime": "2014-12-16T22:11:38.000Z",
@@ -5401,7 +5681,7 @@
               "extension": "flac"
             },
             {
-              "path": "/media/music/Joshua Redman/2002 - Elastic FLAC/02 - Jazz Crimes.flac",
+              "path": "/media/music/Joshua Redman/2002 - Elastic [FLAC]/02 - Jazz Crimes.flac",
               "name": "02 - Jazz Crimes.flac",
               "atime": "2014-11-19T15:26:03.000Z",
               "ctime": "2014-12-16T22:11:38.000Z",
@@ -5410,7 +5690,7 @@
               "extension": "flac"
             },
             {
-              "path": "/media/music/Joshua Redman/2002 - Elastic FLAC/03 - The Long Way Home.flac",
+              "path": "/media/music/Joshua Redman/2002 - Elastic [FLAC]/03 - The Long Way Home.flac",
               "name": "03 - The Long Way Home.flac",
               "atime": "2014-11-20T12:35:51.000Z",
               "ctime": "2014-12-16T22:11:38.000Z",
@@ -5419,7 +5699,7 @@
               "extension": "flac"
             },
             {
-              "path": "/media/music/Joshua Redman/2002 - Elastic FLAC/04 - Oumou.flac",
+              "path": "/media/music/Joshua Redman/2002 - Elastic [FLAC]/04 - Oumou.flac",
               "name": "04 - Oumou.flac",
               "atime": "2014-11-20T12:32:39.000Z",
               "ctime": "2014-12-16T22:11:38.000Z",
@@ -5428,7 +5708,7 @@
               "extension": "flac"
             },
             {
-              "path": "/media/music/Joshua Redman/2002 - Elastic FLAC/05 - Still Pushin' That Rock.flac",
+              "path": "/media/music/Joshua Redman/2002 - Elastic [FLAC]/05 - Still Pushin' That Rock.flac",
               "name": "05 - Still Pushin' That Rock.flac",
               "atime": "2014-11-20T12:36:30.000Z",
               "ctime": "2014-12-16T22:11:38.000Z",
@@ -5437,7 +5717,7 @@
               "extension": "flac"
             },
             {
-              "path": "/media/music/Joshua Redman/2002 - Elastic FLAC/06 - Can a Good Thing Last Forever.flac",
+              "path": "/media/music/Joshua Redman/2002 - Elastic [FLAC]/06 - Can a Good Thing Last Forever.flac",
               "name": "06 - Can a Good Thing Last Forever.flac",
               "atime": "2014-11-20T12:37:26.000Z",
               "ctime": "2014-12-16T22:11:38.000Z",
@@ -5446,7 +5726,7 @@
               "extension": "flac"
             },
             {
-              "path": "/media/music/Joshua Redman/2002 - Elastic FLAC/07 - Boogielastic.flac",
+              "path": "/media/music/Joshua Redman/2002 - Elastic [FLAC]/07 - Boogielastic.flac",
               "name": "07 - Boogielastic.flac",
               "atime": "2014-11-20T12:35:12.000Z",
               "ctime": "2014-12-16T22:11:38.000Z",
@@ -5455,7 +5735,7 @@
               "extension": "flac"
             },
             {
-              "path": "/media/music/Joshua Redman/2002 - Elastic FLAC/08 - Unknowing.flac",
+              "path": "/media/music/Joshua Redman/2002 - Elastic [FLAC]/08 - Unknowing.flac",
               "name": "08 - Unknowing.flac",
               "atime": "2014-11-20T12:36:28.000Z",
               "ctime": "2014-12-16T22:11:38.000Z",
@@ -5464,7 +5744,7 @@
               "extension": "flac"
             },
             {
-              "path": "/media/music/Joshua Redman/2002 - Elastic FLAC/09 - News from the Front.flac",
+              "path": "/media/music/Joshua Redman/2002 - Elastic [FLAC]/09 - News from the Front.flac",
               "name": "09 - News from the Front.flac",
               "atime": "2014-11-20T12:33:40.000Z",
               "ctime": "2014-12-16T22:11:38.000Z",
@@ -5473,7 +5753,7 @@
               "extension": "flac"
             },
             {
-              "path": "/media/music/Joshua Redman/2002 - Elastic FLAC/10 - Letting Go.flac",
+              "path": "/media/music/Joshua Redman/2002 - Elastic [FLAC]/10 - Letting Go.flac",
               "name": "10 - Letting Go.flac",
               "atime": "2014-11-20T12:29:29.000Z",
               "ctime": "2014-12-16T22:11:38.000Z",
@@ -5482,7 +5762,7 @@
               "extension": "flac"
             },
             {
-              "path": "/media/music/Joshua Redman/2002 - Elastic FLAC/11 - The Birthday Song, Part 1.flac",
+              "path": "/media/music/Joshua Redman/2002 - Elastic [FLAC]/11 - The Birthday Song, Part 1.flac",
               "name": "11 - The Birthday Song, Part 1.flac",
               "atime": "2014-11-20T12:34:57.000Z",
               "ctime": "2014-12-16T22:11:38.000Z",
@@ -5491,7 +5771,7 @@
               "extension": "flac"
             },
             {
-              "path": "/media/music/Joshua Redman/2002 - Elastic FLAC/12 - The Birthday Song, Part 2.flac",
+              "path": "/media/music/Joshua Redman/2002 - Elastic [FLAC]/12 - The Birthday Song, Part 2.flac",
               "name": "12 - The Birthday Song, Part 2.flac",
               "atime": "2014-11-20T12:37:48.000Z",
               "ctime": "2014-12-16T22:11:38.000Z",
@@ -5500,7 +5780,7 @@
               "extension": "flac"
             },
             {
-              "path": "/media/music/Joshua Redman/2002 - Elastic FLAC/Art",
+              "path": "/media/music/Joshua Redman/2002 - Elastic [FLAC]/Art",
               "name": "Art",
               "atime": "2014-11-20T12:24:14.000Z",
               "ctime": "2014-12-16T22:10:30.000Z",
@@ -5509,7 +5789,7 @@
               "children": [
                 null,
                 {
-                  "path": "/media/music/Joshua Redman/2002 - Elastic FLAC/Art/Back.jpg",
+                  "path": "/media/music/Joshua Redman/2002 - Elastic [FLAC]/Art/Back.jpg",
                   "name": "Back.jpg",
                   "atime": "2014-11-20T12:22:59.000Z",
                   "ctime": "2014-12-16T22:10:30.000Z",
@@ -5518,7 +5798,7 @@
                   "extension": "jpg"
                 },
                 {
-                  "path": "/media/music/Joshua Redman/2002 - Elastic FLAC/Art/Booklet s1.jpg",
+                  "path": "/media/music/Joshua Redman/2002 - Elastic [FLAC]/Art/Booklet s1.jpg",
                   "name": "Booklet s1.jpg",
                   "atime": "2014-11-20T12:34:48.000Z",
                   "ctime": "2014-12-16T22:10:30.000Z",
@@ -5527,7 +5807,7 @@
                   "extension": "jpg"
                 },
                 {
-                  "path": "/media/music/Joshua Redman/2002 - Elastic FLAC/Art/Booklet s2.jpg",
+                  "path": "/media/music/Joshua Redman/2002 - Elastic [FLAC]/Art/Booklet s2.jpg",
                   "name": "Booklet s2.jpg",
                   "atime": "2014-11-20T12:34:18.000Z",
                   "ctime": "2014-12-16T22:10:30.000Z",
@@ -5536,7 +5816,7 @@
                   "extension": "jpg"
                 },
                 {
-                  "path": "/media/music/Joshua Redman/2002 - Elastic FLAC/Art/CD.jpg",
+                  "path": "/media/music/Joshua Redman/2002 - Elastic [FLAC]/Art/CD.jpg",
                   "name": "CD.jpg",
                   "atime": "2014-11-20T12:16:54.000Z",
                   "ctime": "2014-12-16T22:10:30.000Z",
@@ -5545,7 +5825,7 @@
                   "extension": "jpg"
                 },
                 {
-                  "path": "/media/music/Joshua Redman/2002 - Elastic FLAC/Art/Tray.jpg",
+                  "path": "/media/music/Joshua Redman/2002 - Elastic [FLAC]/Art/Tray.jpg",
                   "name": "Tray.jpg",
                   "atime": "2014-11-20T12:31:06.000Z",
                   "ctime": "2014-12-16T22:10:30.000Z",
@@ -5556,7 +5836,7 @@
               ]
             },
             {
-              "path": "/media/music/Joshua Redman/2002 - Elastic FLAC/Elastic (not edit).cue",
+              "path": "/media/music/Joshua Redman/2002 - Elastic [FLAC]/Elastic (not edit).cue",
               "name": "Elastic (not edit).cue",
               "atime": "2014-11-20T12:36:20.000Z",
               "ctime": "2014-12-16T22:11:38.000Z",
@@ -5565,7 +5845,7 @@
               "extension": "cue"
             },
             {
-              "path": "/media/music/Joshua Redman/2002 - Elastic FLAC/Elastic.cue",
+              "path": "/media/music/Joshua Redman/2002 - Elastic [FLAC]/Elastic.cue",
               "name": "Elastic.cue",
               "atime": "2014-11-20T12:36:20.000Z",
               "ctime": "2014-12-16T22:11:38.000Z",
@@ -5574,7 +5854,7 @@
               "extension": "cue"
             },
             {
-              "path": "/media/music/Joshua Redman/2002 - Elastic FLAC/Joshua Redman - Elastic.log",
+              "path": "/media/music/Joshua Redman/2002 - Elastic [FLAC]/Joshua Redman - Elastic.log",
               "name": "Joshua Redman - Elastic.log",
               "atime": "2014-11-20T12:36:20.000Z",
               "ctime": "2014-12-16T22:11:38.000Z",
@@ -5583,7 +5863,16 @@
               "extension": "log"
             },
             {
-              "path": "/media/music/Joshua Redman/2002 - Elastic FLAC/cover.jpg",
+              "path": "/media/music/Joshua Redman/2002 - Elastic [FLAC]/_meta.json",
+              "name": "_meta.json",
+              "atime": "2014-12-19T06:11:21.000Z",
+              "ctime": "2014-12-19T06:11:25.000Z",
+              "mtime": "2014-12-19T06:11:21.000Z",
+              "type": "file",
+              "extension": "json"
+            },
+            {
+              "path": "/media/music/Joshua Redman/2002 - Elastic [FLAC]/cover.jpg",
               "name": "cover.jpg",
               "atime": "2014-11-20T12:36:20.000Z",
               "ctime": "2014-12-16T22:11:38.000Z",
@@ -5597,9 +5886,12 @@
           "path": "/media/music/Joshua Redman/2007 - Back East FLAC",
           "name": "2007 - Back East FLAC",
           "atime": "2014-11-20T12:36:20.000Z",
-          "ctime": "2014-12-16T22:13:47.000Z",
-          "mtime": "2014-11-20T12:36:20.000Z",
+          "ctime": "2014-12-19T06:11:57.000Z",
+          "mtime": "2014-12-19T06:11:57.000Z",
           "type": "folder",
+          "meta": {
+            "discogs_url": "https://api.discogs.com/releases/2399004"
+          },
           "children": [
             null,
             null,
@@ -5793,6 +6085,15 @@
               "mtime": "2014-11-20T12:36:20.000Z",
               "type": "file",
               "extension": "log"
+            },
+            {
+              "path": "/media/music/Joshua Redman/2007 - Back East FLAC/_meta.json",
+              "name": "_meta.json",
+              "atime": "2014-12-19T06:12:03.000Z",
+              "ctime": "2014-12-19T06:12:07.000Z",
+              "mtime": "2014-12-19T06:12:03.000Z",
+              "type": "file",
+              "extension": "json"
             },
             {
               "path": "/media/music/Joshua Redman/2007 - Back East FLAC/cover.jpg",
@@ -6557,9 +6858,12 @@
       "path": "/media/music/Kronos Quartet - A Thousand Thoughts (2014) FLAC",
       "name": "Kronos Quartet - A Thousand Thoughts (2014) FLAC",
       "atime": "2014-07-29T17:51:31.000Z",
-      "ctime": "2014-12-05T19:46:17.000Z",
-      "mtime": "2014-07-29T17:51:31.000Z",
+      "ctime": "2014-12-19T05:28:23.000Z",
+      "mtime": "2014-12-19T05:28:23.000Z",
       "type": "folder",
+      "meta": {
+        "discogs_url": "https://api.discogs.com/releases/5615486"
+      },
       "children": [
         null,
         null,
@@ -6753,6 +7057,15 @@
               "extension": "jpg"
             }
           ]
+        },
+        {
+          "path": "/media/music/Kronos Quartet - A Thousand Thoughts (2014) FLAC/_meta.json",
+          "name": "_meta.json",
+          "atime": "2014-12-19T05:28:30.000Z",
+          "ctime": "2014-12-19T05:28:33.000Z",
+          "mtime": "2014-12-19T05:28:30.000Z",
+          "type": "file",
+          "extension": "json"
         }
       ]
     },
@@ -9667,9 +9980,12 @@
       "path": "/media/music/Toru Takemitsu — I Hear The Water Dreaming",
       "name": "Toru Takemitsu — I Hear The Water Dreaming",
       "atime": "2014-11-03T20:21:01.000Z",
-      "ctime": "2014-12-07T04:28:19.000Z",
-      "mtime": "2014-12-07T04:28:19.000Z",
+      "ctime": "2014-12-19T06:07:37.000Z",
+      "mtime": "2014-12-19T06:07:37.000Z",
       "type": "folder",
+      "meta": {
+        "discogs_url": "https://api.discogs.com/releases/1895395"
+      },
       "children": [
         null,
         {
@@ -9788,6 +10104,15 @@
           "mtime": "2014-09-27T14:57:40.000Z",
           "type": "file",
           "extension": "flac"
+        },
+        {
+          "path": "/media/music/Toru Takemitsu — I Hear The Water Dreaming/_meta.json",
+          "name": "_meta.json",
+          "atime": "2014-12-19T06:08:00.000Z",
+          "ctime": "2014-12-19T06:08:03.000Z",
+          "mtime": "2014-12-19T06:08:00.000Z",
+          "type": "file",
+          "extension": "json"
         },
         {
           "path": "/media/music/Toru Takemitsu — I Hear The Water Dreaming/playlist",

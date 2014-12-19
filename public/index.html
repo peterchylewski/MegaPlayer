@@ -463,13 +463,14 @@
 				<li><strong><%= artist.name %>,</strong> <%= artist.role %></li>
 			<% }); %>
 			</ul>
-			<ul>
+			<ul class="tracks">
 			<% _.each(data.tracklist, function(track) { %>
-				<li><%= track.position %>. <strong><%= track.title %></strong> <%= track.duration %>
+				<li>
+					<%= track.position %>. <strong><%= track.title %></strong> <%= track.duration %>
 					<% if (track.artists !== undefined &&  track.artists.length > 0) {  %>
 						(
 						<% _.each(track.artists, function(artist, i) { %>
-							<% if (artist.role !== undefined) { %><%= artist.role %> — <% } %><%= artist.name %><% if (i < track.artists.length - 1 ) { %>,<% } %>
+							<% if (artist.role !== undefined && artist.role !== "") { %><%= artist.role %> — <% } %><%= artist.name %><% if (i < track.artists.length - 1 ) { %>, <% } %>
 						<% }); %>
 						)
 					<% } %>
@@ -480,8 +481,6 @@
 						<% }); %>
 						</ul>
 					<% } %>
-			</ul>
-			
 				</li>
 			<% }); %>
 			</ul>

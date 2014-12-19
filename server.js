@@ -70,6 +70,9 @@ function startCatchingKeyboardEvents() {
 			case 'c':
 				if (key.ctrl === true) { quit(); }
 			break;
+			case 'p':
+				player.pause();
+			break;
 			case 'q':
 				quit();
 			break;
@@ -168,7 +171,7 @@ io.on('connection', function(socket) {
 	});
 
 	socket.on('ready', function(msg) {
-		console.log('client ready, message: ' + msg);		
+		console.log('client ready, message: ' + msg);	
 		socket.emit('radiostations', stations);
 		socket.emit('musictree', musictree);
 	});
@@ -184,7 +187,6 @@ io.on('connection', function(socket) {
 		socket.emit('station_message', stations[id].name);
 		
 		player.play(stations[id].stream_url);
-		
 		
 	});
 	

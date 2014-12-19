@@ -11,6 +11,10 @@
 		"name": "SRF 2",
 		"stream_url": "http://stream.srg-ssr.ch/m/drs2/mp3_128"
 	},
+	"srf3": {
+		"name": "SRF 3",
+		"stream_url": "http://stream.srg-ssr.ch/m/drs3/mp3_128"
+	},
 	"fm": {
 		"name": "France musique",
 		"stream_url": "http://mp3.live.tv-radio.com/francemusique/all/francemusiquehautdebit.mp3"

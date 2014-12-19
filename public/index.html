@@ -27,6 +27,7 @@
 
 		body {
 			font-family: "FranklinGothicFSBook" !important;
+			font-size: 2em !important;
 			/* text-transform: lowercase; */
 			margin: 32px;
 			color: #333;
@@ -60,6 +61,10 @@
 			text-transform: uppercase;
 			letter-spacing: -.075em;
 		}
+		
+		 b, strong {
+		 	letter-spacing: -.05em;
+		 }
 
 		ul, ol { list-style-position: inside; }
 		
@@ -117,17 +122,26 @@
 		
 		h1 { min-height: 70px; }
 		
+		div.info { margin-left: 100px; max-width: 200px !important; }
+		div.info * { font-size: 16px !important; }
+		ul.track_extraartists li {
+		 	font-size: 12px !important;
+			margin-left: 30px;
+		}
+		
 		.el-icon-volume-up {
 			position: relative;
-			top: 1px;
+			top: 2px;
 			padding-left: 6px;
 			display: none;
 		}
 		
-		.fa-cog { color: #aaa !important; }
-		
 		.el-icon-volume-up.active { display: inline; }
 		
+		td#stations .el-icon-volume-up.active { color: #D2840B; }
+		
+		.fa-cog { color: #aaa !important; }
+				
 		.knob {
 			position: fixed;
 			top: 8px;
@@ -240,6 +254,20 @@
 					break;
 				}
 			});
+			$('button[data-action="showDiscogsInfo"]').click(function() {
+				var that = this,
+					url =  $(this).attr('data-url');
+				$.getJSON(url, function(json) {
+					console.log(json);
+					
+					var html = $('#info.template').html(),
+						template = _.template(html);
+						
+					console.log(template({ data: json }));
+					$(that).parent().prev().append(template({ data: json }));
+				});
+			});
+			
 		});
 		
 		socket.on('station_id', function(id) {
@@ -257,13 +285,16 @@
 				case 'path':
 					console.log('PATH CHANGED', value);
 					var $files = $('table#files');
-					$files.find('tr').removeClass('active');
+					$files.find('tr, i').removeClass('active');
 					_$activeRow = $files.find('tr[data-path="' + value + '"]');
 					_$activeRow.addClass('active');
+					_$activeRow.find('i').addClass('active');
 				break;
 				case 'volume':
 					console.log('VOLUME CHANGED', value);
-					 $('.dial').val(value).trigger('change');
+					console.log(Math.pow(value, 100));
+					
+					//$('.dial').val(10 * Math.pow(value, 100)).trigger('change');
 				break;
 				case 'timePosition':
 					//console.log('timePosition', value);
@@ -321,13 +352,20 @@
     				
     			},
     			
+    			/*
     			'draw': function(value) {
     				console.log('draw', value);
     			},
+    			*/
     			
-    			'release': function(value) {
-    				console.log('release', value);
-    				socket.emit('volume', value);
+    			'release': function(linearValue) {
+    				console.log('release', linearValue);
+    				var MAX_VOLUME = 100,
+    					logValue = 1 - (Math.log(MAX_VOLUME - linearValue) / Math.log(MAX_VOLUME)); // http://stackoverflow.com/questions/5215459/android-mediaplayer-setvolume-function
+    				console.log(linearValue, logValue * 100);
+    				//console.log('>>', 100 * Math.pow(logValue, 10)));
+    				if (logValue > 1) { logValue = 1; }
+    				socket.emit('volume', logValue * 100);
     			},
     			
 				'min': 0,
@@ -348,7 +386,7 @@
 	<script class="template" id="stations" type="text/template">
 		<ul>
 		<% _.each(data, function(value, key) { %>
-			<li data-id="<%= key %>"><a class="station" href="<%= key %>"><%= value.name %><i class="el-icon-volume-up"></a></i></li>
+			<li data-id="<%= key %>"><a class="station" href="<%= key %>"><%= value.name %></a><i class="el-icon-volume-up"></i></li>
 		<% }); %>
 		</ul>
 	</script>
@@ -379,19 +417,20 @@
 										<i class="fa fa-folder"></i>
 									<% } %>
 									-->
-									<% name = item.name.replace(/^([0-9\.]+)[- ]+/g, "$1. ").replace(/\.[mp3|flac|wav|m4a|aif|ogg]+$/i, ""); %>
+									<% name = item.name.replace(/^([0-9]+)[\.]?[- ]+/g, "$1. ").replace(/\.[mp3|flac|wav|m4a|aif|ogg]+$/i, ""); %>
 									
 									<% if (item.type === 'folder') { %>
 										<h6><%= name %></h6>
 									<% } else { %>
-										<a href="<%= item.path %>"><%= name %></a>
+										<a href="<%= item.path %>"><%= name %></a>&nbsp;<i class="el-icon-volume-up"></i>
 									<% } %>
 									
 								</td>
 								<td class="name">
-									<% if (item.type === 'file') { %>
-										
-									<% } else { %>
+									<% if (item.meta !== undefined) { console.log('meta', item.meta); } %>
+									
+									<% if (item.meta !== undefined && item.meta.discogs_url !== undefined) { %>
+										<button class="btn btn-xs>" data-action="showDiscogsInfo" data-url="<%= item.meta.discogs_url %>">discogs</button>
 									<% } %>
 								</td>
 								<td class="tags">
@@ -414,14 +453,54 @@
 		</table>
 	</script>
 	
+	<script class="template" id="info" type="text/template">
+		<div class="info">
+			<% _.each(data.artists, function(artist) { %>
+				<h6><%= artist.name %></h6>
+			<% }); %>
+			<ul>
+			<% _.each(data.extraartists, function(artist) { %>
+				<li><strong><%= artist.name %>,</strong> <%= artist.role %></li>
+			<% }); %>
+			</ul>
+			<ul>
+			<% _.each(data.tracklist, function(track) { %>
+				<li><%= track.position %>. <strong><%= track.title %></strong> <%= track.duration %>
+					<% if (track.artists !== undefined &&  track.artists.length > 0) {  %>
+						(
+						<% _.each(track.artists, function(artist, i) { %>
+							<% if (artist.role !== undefined) { %><%= artist.role %> — <% } %><%= artist.name %><% if (i < track.artists.length - 1 ) { %>,<% } %>
+						<% }); %>
+						)
+					<% } %>
+					<% if (track.extraartists !== undefined &&  track.extraartists.length > 0) {  %>
+						<ul class="track_extraartists">
+						<% _.each(track.extraartists, function(artist) { %>
+							<li><strong><%= artist.name %>,</strong> <%= artist.role %></li>
+						<% }); %>
+						</ul>
+					<% } %>
+			</ul>
+			
+				</li>
+			<% }); %>
+			</ul>
+			<% _.each(data.labels, function(label) { %>
+				<p><%= label.name %>, <%= label.catno %></p>
+			<% }); %>
+			<% if (data.notes !== undefined) {  %>
+				<p><%= data.notes.replace('\n', '<br>') %></p>
+			<% } %>
+		</div>
+	</script>
 </head>
 <body>
 	<div id="controls">
 		<button class="btn btn-primary btn-small" data-action="prev_station"><i class="fa fa-arrow-up"></i>&nbsp;previous station</button>
 		<button class="btn btn-primary" data-action="next_station">next station&nbsp;<i class="fa fa-arrow-down"></i></button>
 		<button class="btn btn-warning" data-action="stop">stop</button>
-		<button class="btn btn-danger" data-action="reload_tree">reload file tree</button>
-		<input type="text" class="dial">
+		<button class="btn btn-danger" data-action="reload_tree"><i class="fa fa-sitemap"></i>&nbsp;reload file tree</button>
+		<input type="text" class="dial" data-displayPrevious="true">
 	</div>
 	
 	<table id="main">

@@ -52,7 +52,7 @@ function startCatchingKeyboardEvents() {
 	stdin.resume();
 	stdin.setEncoding('utf8');
 
-	//player.setAutoInfoInterval(1000);
+	player.setAutoInfoInterval(1000);
 	
 	// make `process.stdin` begin emitting "keypress" events
 	keypress(process.stdin);

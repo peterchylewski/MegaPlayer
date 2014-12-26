@@ -155,15 +155,17 @@
 		$(document).ready(function() {
 			console.log('***ready');
 			$('.dial').knob({				// http://anthonyterrien.com/knob/
-				/*
+				
 				'change': function(value) {
     				console.log('change', value);
     				
     			},
+    			
     			'draw': function(value) {
-    				console.log('draw', arguments);
+    				console.log('draw', $('.dial').val());
+    				socket.emit('data', $('.dial').val());
     			},
-    			*/
+    			
 				'min': 0,
     			'max': 100,
     			//'angleArc': 270,
@@ -177,9 +179,6 @@
 			socket.emit('ready', 'foobar');
 		});
 		
-		
-		
-
 	</script>
 	
 </head>

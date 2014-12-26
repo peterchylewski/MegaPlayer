@@ -62,9 +62,9 @@
 			letter-spacing: -.075em;
 		}
 		
-		 b, strong {
-		 	letter-spacing: -.05em;
-		 }
+		b, strong {
+			letter-spacing: -.05em;
+		}
 
 		ul, ol { list-style-position: inside; }
 		
@@ -109,7 +109,7 @@
 		td#info { padding-left: 32px; }
 		
 		table#files td {
-			font-size: 1.2em !important;
+			font-size: 1em !important;
 			padding: 4px 8px 2px 8px !important;
 			white-space: nowrap;
 		}
@@ -145,6 +145,13 @@
 		.knob {
 			position: fixed;
 			top: 8px;
+		}
+		
+		.knob.time {
+			right: 96px;
+		}
+		
+		.knob.volume {
 			right: 8px;
 		}
 		
@@ -231,7 +238,7 @@
 				e.preventDefault();
 				var href = $(this).attr('href'),
 					matches = href.match(/\.([0-9a-z]+)$/i),
-					extension = matches !== undefined && matches[1] !== undefined ? matches[1].toLowerCase() : '';
+					extension = matches !== null && matches[1] !== undefined ? matches[1].toLowerCase() : '';
 				
 				_$activeRow = $(this).closest('tr');
 				
@@ -247,6 +254,8 @@
 					case 'cue':
 					case 'ape':
 					case 'ogg':
+					case 'pls':
+					case 'm3u':
 						socket.emit('file', href);
 					break;
 					case 'jpg':
@@ -254,6 +263,7 @@
 					break;
 				}
 			});
+			
 			$('button[data-action="showDiscogsInfo"]').click(function() {
 				var that = this,
 					url =  $(this).attr('data-url');
@@ -278,7 +288,10 @@
 		});
 		
 		socket.on('player_value_changed', function(key, value) {
-			//console.log('player_value_changed', key, value);
+			console.log('player_value_changed', key, value);
+			if (value === null || value === undefined) {
+				return 0;
+			}
 			_status[key] = value;
 			//console.log('_status', JSON.stringify(_status, null, 2));
 			switch (key) {
@@ -296,8 +309,18 @@
 					
 					//$('.dial').val(10 * Math.pow(value, 100)).trigger('change');
 				break;
+				case 'length':
+					console.log('>>>>>>>>>>>>>>>>length', value);
+					$('.dial.time').trigger('configure', {
+            			'min': 0,
+            			'max': value
+            		});
+				break;
 				case 'timePosition':
 					//console.log('timePosition', value);
+					$('.dial.time')
+        				.val(Math.ceil(value))
+        				.trigger('change');
 				break;
 			}
 		});
@@ -344,9 +367,27 @@
 				$.cookie('lastTab', tab);
 			});
 			
+			// ------------------ time knob
+			
+			$('.dial.time').val(0).knob({
+				'change': function(value) {
+    				console.log('change', value);
+    			},
+    			'draw': function(value) {
+    				console.log('draw', value);
+    			},
+    			'release': function(value) {
+    				console.log('release', value);
+    			},
+				'width': 80,
+    			'height': 80,
+    			'font': 'FranklinGothicFSHeavy',
+    			'fgColor': '#1493B3'
+			}).addClass('time');
+			
 			// ------------------ volume knob
 			
-			$('.dial').val(10).knob({							// http://anthonyterrien.com/knob/
+			$('.dial.volume').val(0).knob({							// http://anthonyterrien.com/knob/
 				'change': function(value) {
     				console.log('change', value);
     				
@@ -374,10 +415,11 @@
     			//'angleOffset': -135,
     			'width': 80,
     			'height': 80,
+    			'font': 'FranklinGothicFSHeavy',
     			'fgColor': '#B31414'
     			//'rotation': 'counterclockwise',
     			
-    		});
+    		}).addClass('volume');
 			
 		});
 
@@ -427,8 +469,6 @@
 									
 								</td>
 								<td class="name">
-									<% if (item.meta !== undefined) { console.log('meta', item.meta); } %>
-									
 									<% if (item.meta !== undefined && item.meta.discogs_url !== undefined) { %>
 										<button class="btn btn-xs>" data-action="showDiscogsInfo" data-url="<%= item.meta.discogs_url %>">discogs</button>
 									<% } %>
@@ -436,7 +476,7 @@
 								<td class="tags">
 									<% if (item.meta !== undefined && item.meta.tags !== undefined) { %>
 										<% _.each(item.meta.tags, function(tag, i) { %>
-											<span class="label label-success"><%= tag %></span>
+											<span class="badge"><%= tag %></span>
 										<% }); %>
 										
 									<% } %>
@@ -460,7 +500,7 @@
 			<% }); %>
 			<ul>
 			<% _.each(data.extraartists, function(artist) { %>
-				<li><strong><%= artist.name %>,</strong> <%= artist.role %></li>
+				<li><%= artist.role %> —  <strong><%= artist.name %></strong> </li>
 			<% }); %>
 			</ul>
 			<ul class="tracks">
@@ -499,7 +539,8 @@
 		<button class="btn btn-primary" data-action="next_station">next station&nbsp;<i class="fa fa-arrow-down"></i></button>
 		<button class="btn btn-warning" data-action="stop">stop</button>
 		<button class="btn btn-danger" data-action="reload_tree"><i class="fa fa-sitemap"></i>&nbsp;reload file tree</button>
-		<input type="text" class="dial" data-displayPrevious="true">
+		<input type="text" class="dial time" data-displayPrevious="true">
+		<input type="text" class="dial volume" data-displayPrevious="true">
 	</div>
 	
 	<table id="main">

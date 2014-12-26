@@ -1,15 +1,38 @@
 {
   "path": "/media/music",
   "name": "music",
-  "atime": "2014-12-18T17:19:45.000Z",
-  "ctime": "2014-12-18T17:19:45.000Z",
-  "mtime": "2014-12-18T17:19:45.000Z",
+  "atime": "2014-12-25T14:22:41.000Z",
+  "ctime": "2014-12-25T14:22:41.000Z",
+  "mtime": "2014-12-25T14:22:41.000Z",
   "type": "folder",
   "children": [
-    null,
-    null,
-    null,
-    null,
+    {
+      "path": "/media/music/04 - Taranaki.flac",
+      "name": "04 - Taranaki.flac",
+      "atime": "2014-12-21T08:54:19.000Z",
+      "ctime": "2014-12-21T18:10:47.000Z",
+      "mtime": "2014-12-21T08:54:19.000Z",
+      "type": "file",
+      "extension": "flac"
+    },
+    {
+      "path": "/media/music/440hz10sec.flac",
+      "name": "440hz10sec.flac",
+      "atime": "2014-12-22T23:44:11.000Z",
+      "ctime": "2014-12-22T23:44:14.000Z",
+      "mtime": "2014-12-22T23:44:04.000Z",
+      "type": "file",
+      "extension": "flac"
+    },
+    {
+      "path": "/media/music/440hz30sec.flac",
+      "name": "440hz30sec.flac",
+      "atime": "2014-12-22T23:42:38.000Z",
+      "ctime": "2014-12-22T23:42:40.000Z",
+      "mtime": "2014-12-22T23:42:09.000Z",
+      "type": "file",
+      "extension": "flac"
+    },
     {
       "path": "/media/music/1979 - Rypdal, Vitous, DeJohnette",
       "name": "1979 - Rypdal, Vitous, DeJohnette",
@@ -21,8 +44,6 @@
         "discogs_url": "https://api.discogs.com/releases/2075113"
       },
       "children": [
-        null,
-        null,
         {
           "path": "/media/music/1979 - Rypdal, Vitous, DeJohnette/01 - Sunrise.flac",
           "name": "01 - Sunrise.flac",
@@ -77,6 +98,8 @@
           "type": "file",
           "extension": "flac"
         },
+        null,
+        null,
         {
           "path": "/media/music/1979 - Rypdal, Vitous, DeJohnette/Rypdal, Vitous, DeJohnette.cue",
           "name": "Rypdal, Vitous, DeJohnette.cue",
@@ -168,7 +191,6 @@
         "discogs_url": "https://api.discogs.com/releases/2797721"
       },
       "children": [
-        null,
         {
           "path": "/media/music/1999 - Jaco Pastorius - Rare Collection/01 - Dreamland + Michel Colombier.mp3",
           "name": "01 - Dreamland + Michel Colombier.mp3",
@@ -313,6 +335,7 @@
           "type": "file",
           "extension": "mp3"
         },
+        null,
         {
           "path": "/media/music/1999 - Jaco Pastorius - Rare Collection/Elenco di riproduzione1.wpl",
           "name": "Elenco di riproduzione1.wpl",
@@ -342,6 +365,10 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
     {
       "path": "/media/music/André Ceccarelli — Twenty",
       "name": "André Ceccarelli — Twenty",
@@ -350,7 +377,6 @@
       "mtime": "2014-08-29T14:02:57.000Z",
       "type": "folder",
       "children": [
-        null,
         {
           "path": "/media/music/André Ceccarelli — Twenty/01 All Blues.flac",
           "name": "01 All Blues.flac",
@@ -459,6 +485,7 @@
           "type": "file",
           "extension": "flac"
         },
+        null,
         {
           "path": "/media/music/André Ceccarelli — Twenty/Back Cover.jpg",
           "name": "Back Cover.jpg",
@@ -496,8 +523,6 @@
       "mtime": "2014-12-15T08:43:27.000Z",
       "type": "folder",
       "children": [
-        null,
-        null,
         {
           "path": "/media/music/Bill Frisell/2013 Silent Comedy [EAC-FLAC]",
           "name": "2013 Silent Comedy [EAC-FLAC]",
@@ -509,8 +534,6 @@
             "discogs_url": "https://api.discogs.com/releases/4377875"
           },
           "children": [
-            null,
-            null,
             {
               "path": "/media/music/Bill Frisell/2013 Silent Comedy [EAC-FLAC]/01 - Bagatelle.flac",
               "name": "01 - Bagatelle.flac",
@@ -610,6 +633,8 @@
               "type": "file",
               "extension": "flac"
             },
+            null,
+            null,
             {
               "path": "/media/music/Bill Frisell/2013 Silent Comedy [EAC-FLAC]/Artwork",
               "name": "Artwork",
@@ -677,6 +702,8 @@
             }
           ]
         },
+        null,
+        null,
         {
           "path": "/media/music/Bill Frisell/East West (CD 1) - West - FLAC",
           "name": "East West (CD 1) - West - FLAC",
@@ -688,7 +715,6 @@
             "discogs_url": "https://api.discogs.com/releases/3273877"
           },
           "children": [
-            null,
             {
               "path": "/media/music/Bill Frisell/East West (CD 1) - West - FLAC/01 - I Heard It Through the Grapevine.flac",
               "name": "01 - I Heard It Through the Grapevine.flac",
@@ -743,6 +769,7 @@
               "type": "file",
               "extension": "flac"
             },
+            null,
             {
               "path": "/media/music/Bill Frisell/East West (CD 1) - West - FLAC/_meta.json",
               "name": "_meta.json",
@@ -765,7 +792,6 @@
             "discogs_url": "https://api.discogs.com/releases/3273877"
           },
           "children": [
-            null,
             {
               "path": "/media/music/Bill Frisell/East West (CD 2) - East - FLAC/01 - My Main Man's Gone Now.flac",
               "name": "01 - My Main Man's Gone Now.flac",
@@ -856,6 +882,7 @@
               "type": "file",
               "extension": "flac"
             },
+            null,
             {
               "path": "/media/music/Bill Frisell/East West (CD 2) - East - FLAC/_meta.json",
               "name": "_meta.json",
@@ -877,8 +904,6 @@
       "mtime": "2014-12-15T08:54:11.000Z",
       "type": "folder",
       "children": [
-        null,
-        null,
         {
           "path": "/media/music/Billy Cobham/02 AC-DC.flac",
           "name": "02 AC-DC.flac",
@@ -953,7 +978,6 @@
             "discogs_url": "https://api.discogs.com/releases/1057386"
           },
           "children": [
-            null,
             {
               "path": "/media/music/Billy Cobham/1974 Crosswinds/01 Spanish Moss 'A Sound Portrait' - a. Spanish Moss.flac",
               "name": "01 Spanish Moss 'A Sound Portrait' - a. Spanish Moss.flac",
@@ -1017,6 +1041,7 @@
               "type": "file",
               "extension": "flac"
             },
+            null,
             {
               "path": "/media/music/Billy Cobham/1974 Crosswinds/Back.jpg",
               "name": "Back.jpg",
@@ -1075,7 +1100,6 @@
             "discogs_url": "https://api.discogs.com/releases/1897678"
           },
           "children": [
-            null,
             {
               "path": "/media/music/Billy Cobham/1976 Life & Times/01 Life & Times.flac",
               "name": "01 Life & Times.flac",
@@ -1148,6 +1172,7 @@
               "type": "file",
               "extension": "flac"
             },
+            null,
             {
               "path": "/media/music/Billy Cobham/1976 Life & Times/Back.jpg",
               "name": "Back.jpg",
@@ -1194,7 +1219,9 @@
               "extension": "jpg"
             }
           ]
-        }
+        },
+        null,
+        null
       ]
     },
     {
@@ -1205,10 +1232,9 @@
       "mtime": "2014-12-19T03:59:05.000Z",
       "type": "folder",
       "meta": {
-        "discogs_url": "https://api.discogs.com/releases/1420113"
+        "discogs_url": "https://api.discogs.com/releases/1918123"
       },
       "children": [
-        null,
         {
           "path": "/media/music/Chaka Khan - Funk This/01 Back In The Day.flac",
           "name": "01 Back In The Day.flac",
@@ -1326,12 +1352,13 @@
           "type": "file",
           "extension": "flac"
         },
+        null,
         {
           "path": "/media/music/Chaka Khan - Funk This/_meta.json",
           "name": "_meta.json",
-          "atime": "2014-12-19T04:06:07.000Z",
-          "ctime": "2014-12-19T04:06:10.000Z",
-          "mtime": "2014-12-19T04:06:07.000Z",
+          "atime": "2014-12-19T06:15:17.000Z",
+          "ctime": "2014-12-19T06:15:21.000Z",
+          "mtime": "2014-12-19T06:15:17.000Z",
           "type": "file",
           "extension": "json"
         }
@@ -1345,7 +1372,6 @@
       "mtime": "2014-12-05T20:07:21.000Z",
       "type": "folder",
       "children": [
-        null,
         {
           "path": "/media/music/Django Reinhardt - Django Reinhardt/01. Nuages - Django Reinhardt.flac",
           "name": "01. Nuages - Django Reinhardt.flac",
@@ -1508,6 +1534,7 @@
           "type": "file",
           "extension": "flac"
         },
+        null,
         {
           "path": "/media/music/Django Reinhardt - Django Reinhardt/Django Reinhardt - Django Reinhardt.jpg",
           "name": "Django Reinhardt - Django Reinhardt.jpg",
@@ -1531,24 +1558,22 @@
     {
       "path": "/media/music/Donald Fagen",
       "name": "Donald Fagen",
-      "atime": "2014-11-16T18:36:06.000Z",
-      "ctime": "2014-12-15T08:44:16.000Z",
-      "mtime": "2014-12-15T08:44:16.000Z",
+      "atime": "2014-12-19T17:30:38.000Z",
+      "ctime": "2014-12-19T17:30:38.000Z",
+      "mtime": "2014-12-19T17:30:38.000Z",
       "type": "folder",
       "children": [
-        null,
         {
           "path": "/media/music/Donald Fagen/2006 Morph The Cat 24-96-FLAC",
           "name": "2006 Morph The Cat 24-96-FLAC",
           "atime": "2014-11-06T14:43:03.000Z",
-          "ctime": "2014-12-19T04:44:08.000Z",
-          "mtime": "2014-12-19T04:44:08.000Z",
+          "ctime": "2014-12-22T23:47:11.000Z",
+          "mtime": "2014-12-22T23:47:11.000Z",
           "type": "folder",
           "meta": {
             "discogs_url": "https://api.discogs.com/releases/1868651"
           },
           "children": [
-            null,
             {
               "path": "/media/music/Donald Fagen/2006 Morph The Cat 24-96-FLAC/01 - Morph the Cat.flac",
               "name": "01 - Morph the Cat.flac",
@@ -1630,6 +1655,7 @@
               "type": "file",
               "extension": "flac"
             },
+            null,
             {
               "path": "/media/music/Donald Fagen/2006 Morph The Cat 24-96-FLAC/_meta.json",
               "name": "_meta.json",
@@ -1658,13 +1684,13 @@
               "extension": "txt"
             },
             {
-              "path": "/media/music/Donald Fagen/2006 Morph The Cat 24-96-FLAC/playlist",
-              "name": "playlist",
+              "path": "/media/music/Donald Fagen/2006 Morph The Cat 24-96-FLAC/playlist.pls",
+              "name": "playlist.pls",
               "atime": "2014-11-06T15:09:42.000Z",
-              "ctime": "2014-11-06T15:09:42.000Z",
+              "ctime": "2014-12-22T23:47:11.000Z",
               "mtime": "2014-11-06T15:09:42.000Z",
               "type": "file",
-              "extension": ""
+              "extension": "pls"
             }
           ]
         },
@@ -1679,7 +1705,6 @@
             "discogs_url": "https://api.discogs.com/releases/3944315"
           },
           "children": [
-            null,
             {
               "path": "/media/music/Donald Fagen/2012 Sunken Condos 24-88.2-FLAC/1 - Slinky Thing.flac",
               "name": "1 - Slinky Thing.flac",
@@ -1761,6 +1786,7 @@
               "type": "file",
               "extension": "flac"
             },
+            null,
             {
               "path": "/media/music/Donald Fagen/2012 Sunken Condos 24-88.2-FLAC/_meta.json",
               "name": "_meta.json",
@@ -1789,18 +1815,19 @@
               "extension": ""
             }
           ]
-        }
+        },
+        null,
+        null
       ]
     },
     {
       "path": "/media/music/Eberhard Weber",
       "name": "Eberhard Weber",
-      "atime": "2014-12-01T15:02:05.000Z",
-      "ctime": "2014-12-16T20:53:17.000Z",
-      "mtime": "2014-12-16T20:53:17.000Z",
+      "atime": "2014-12-21T14:36:06.000Z",
+      "ctime": "2014-12-21T18:10:47.000Z",
+      "mtime": "2014-12-21T18:10:47.000Z",
       "type": "folder",
       "children": [
-        null,
         {
           "path": "/media/music/Eberhard Weber/1973 - Colours of Chloë",
           "name": "1973 - Colours of Chloë",
@@ -1812,7 +1839,6 @@
             "discogs_url": "https://api.discogs.com/releases/3598964"
           },
           "children": [
-            null,
             {
               "path": "/media/music/Eberhard Weber/1973 - Colours of Chloë/01 More Colours.flac",
               "name": "01 More Colours.flac",
@@ -1849,6 +1875,7 @@
               "type": "file",
               "extension": "flac"
             },
+            null,
             {
               "path": "/media/music/Eberhard Weber/1973 - Colours of Chloë/_meta.json",
               "name": "_meta.json",
@@ -1871,7 +1898,6 @@
             "discogs_url": "https://api.discogs.com/releases/1654208"
           },
           "children": [
-            null,
             {
               "path": "/media/music/Eberhard Weber/1975 - Yellow Fields/01 Touch.flac",
               "name": "01 Touch.flac",
@@ -1908,6 +1934,7 @@
               "type": "file",
               "extension": "flac"
             },
+            null,
             {
               "path": "/media/music/Eberhard Weber/1975 - Yellow Fields/Yellow Fields.flac",
               "name": "Yellow Fields.flac",
@@ -1939,7 +1966,6 @@
             "discogs_url": "https://api.discogs.com/releases/1642797"
           },
           "children": [
-            null,
             {
               "path": "/media/music/Eberhard Weber/1977 - Silent Feet/01 Seriously Deep.mp3",
               "name": "01 Seriously Deep.mp3",
@@ -1967,6 +1993,7 @@
               "type": "file",
               "extension": "mp3"
             },
+            null,
             {
               "path": "/media/music/Eberhard Weber/1977 - Silent Feet/_meta.json",
               "name": "_meta.json",
@@ -1993,7 +2020,6 @@
             "discogs_url": "https://api.discogs.com/releases/1642780"
           },
           "children": [
-            null,
             {
               "path": "/media/music/Eberhard Weber/1979 - Fluid Rustle/01 Quiet Departures.flac",
               "name": "01 Quiet Departures.flac",
@@ -2030,6 +2056,7 @@
               "type": "file",
               "extension": "flac"
             },
+            null,
             {
               "path": "/media/music/Eberhard Weber/1979 - Fluid Rustle/Eberhard Weber - Fluid Rustle.flac",
               "name": "Eberhard Weber - Fluid Rustle.flac",
@@ -2061,7 +2088,6 @@
             "discogs_url": "https://api.discogs.com/releases/3912264"
           },
           "children": [
-            null,
             {
               "path": "/media/music/Eberhard Weber/1982 - Later That Evening/01 Maurizius.flac",
               "name": "01 Maurizius.flac",
@@ -2098,6 +2124,7 @@
               "type": "file",
               "extension": "flac"
             },
+            null,
             {
               "path": "/media/music/Eberhard Weber/1982 - Later That Evening/_meta.json",
               "name": "_meta.json",
@@ -2112,15 +2139,14 @@
         {
           "path": "/media/music/Eberhard Weber/1993 - Pendulum",
           "name": "1993 - Pendulum",
-          "atime": "2014-12-04T13:09:21.000Z",
-          "ctime": "2014-12-19T04:58:54.000Z",
-          "mtime": "2014-12-19T04:58:54.000Z",
+          "atime": "2014-12-21T16:37:11.000Z",
+          "ctime": "2014-12-21T16:37:11.000Z",
+          "mtime": "2014-12-21T16:37:11.000Z",
           "type": "folder",
           "meta": {
             "discogs_url": "https://api.discogs.com/releases/3598942"
           },
           "children": [
-            null,
             {
               "path": "/media/music/Eberhard Weber/1993 - Pendulum/01 - Bird Out Of Cage.flac",
               "name": "01 - Bird Out Of Cage.flac",
@@ -2202,14 +2228,17 @@
               "type": "file",
               "extension": "flac"
             },
+            null,
+            null,
             {
               "path": "/media/music/Eberhard Weber/1993 - Pendulum/ArtWork",
               "name": "ArtWork",
               "atime": "2014-12-04T13:09:21.000Z",
-              "ctime": "2014-12-04T13:10:46.000Z",
-              "mtime": "2014-12-04T13:10:46.000Z",
+              "ctime": "2014-12-19T17:30:39.000Z",
+              "mtime": "2014-12-19T17:30:39.000Z",
               "type": "folder",
               "children": [
+                null,
                 {
                   "path": "/media/music/Eberhard Weber/1993 - Pendulum/ArtWork/Pendulum - Back.jpg",
                   "name": "Pendulum - Back.jpg",
@@ -2333,7 +2362,6 @@
             "discogs_url": "https://api.discogs.com/releases/1775004"
           },
           "children": [
-            null,
             {
               "path": "/media/music/Eberhard Weber/2001 - Endless Days - 2001/01 - Concerto For Bass.flac",
               "name": "01 - Concerto For Bass.flac",
@@ -2406,6 +2434,7 @@
               "type": "file",
               "extension": "flac"
             },
+            null,
             {
               "path": "/media/music/Eberhard Weber/2001 - Endless Days - 2001/Folder.jpg",
               "name": "Folder.jpg",
@@ -2425,18 +2454,19 @@
               "extension": "json"
             }
           ]
-        }
+        },
+        null,
+        null
       ]
     },
     {
       "path": "/media/music/Gary Burton Quartet",
       "name": "Gary Burton Quartet",
-      "atime": "2014-12-01T15:41:57.000Z",
-      "ctime": "2014-12-19T05:04:12.000Z",
-      "mtime": "2014-12-19T05:04:12.000Z",
+      "atime": "2014-12-19T17:32:20.000Z",
+      "ctime": "2014-12-19T17:32:20.000Z",
+      "mtime": "2014-12-19T17:32:20.000Z",
       "type": "folder",
       "children": [
-        null,
         {
           "path": "/media/music/Gary Burton Quartet/1976 - Passengers",
           "name": "1976 - Passengers",
@@ -2448,7 +2478,6 @@
             "discogs_url": "https://api.discogs.com/releases/979066"
           },
           "children": [
-            null,
             {
               "path": "/media/music/Gary Burton Quartet/1976 - Passengers/01 Sea Journey.mp3",
               "name": "01 Sea Journey.mp3",
@@ -2503,6 +2532,7 @@
               "type": "file",
               "extension": "mp3"
             },
+            null,
             {
               "path": "/media/music/Gary Burton Quartet/1976 - Passengers/_meta.json",
               "name": "_meta.json",
@@ -2522,7 +2552,9 @@
               "extension": ""
             }
           ]
-        }
+        },
+        null,
+        null
       ]
     },
     {
@@ -2546,7 +2578,6 @@
           "mtime": "2014-12-13T13:43:52.000Z",
           "type": "folder",
           "children": [
-            null,
             {
               "path": "/media/music/George Shearing, Niels-Henning Ørsted Pedersen, Louis Stewart - The MPS Trio Sessions (2007) [FLAC]/George Shearing, Niels-Henning Ørsted Pedersen, Louis Stewart - The MPS Trio Sessinos (CD3)/01  - The Fourth Deuce.flac",
               "name": "01  - The Fourth Deuce.flac",
@@ -2645,7 +2676,8 @@
               "mtime": "2014-06-25T14:39:07.000Z",
               "type": "file",
               "extension": "flac"
-            }
+            },
+            null
           ]
         },
         {
@@ -2656,7 +2688,6 @@
           "mtime": "2014-12-13T13:43:36.000Z",
           "type": "folder",
           "children": [
-            null,
             {
               "path": "/media/music/George Shearing, Niels-Henning Ørsted Pedersen, Louis Stewart - The MPS Trio Sessions (2007) [FLAC]/George Shearing, Niels-Henning Ørsted Pedersen, Louis Stewart - The MPS Trio Sessions (CD1)/01  - Tricotism.flac",
               "name": "01  - Tricotism.flac",
@@ -2782,7 +2813,8 @@
               "mtime": "2014-06-25T14:39:43.000Z",
               "type": "file",
               "extension": "flac"
-            }
+            },
+            null
           ]
         },
         {
@@ -2793,7 +2825,6 @@
           "mtime": "2014-12-13T13:43:28.000Z",
           "type": "folder",
           "children": [
-            null,
             {
               "path": "/media/music/George Shearing, Niels-Henning Ørsted Pedersen, Louis Stewart - The MPS Trio Sessions (2007) [FLAC]/George Shearing, Niels-Henning Ørsted Pedersen, Louis Stewart - The MPS Trio Sessions (CD2)/01  - Jordu.flac",
               "name": "01  - Jordu.flac",
@@ -2883,7 +2914,8 @@
               "mtime": "2014-06-25T14:35:28.000Z",
               "type": "file",
               "extension": "flac"
-            }
+            },
+            null
           ]
         },
         {
@@ -2894,7 +2926,6 @@
           "mtime": "2014-12-13T13:43:17.000Z",
           "type": "folder",
           "children": [
-            null,
             {
               "path": "/media/music/George Shearing, Niels-Henning Ørsted Pedersen, Louis Stewart - The MPS Trio Sessions (2007) [FLAC]/George Shearing, Niels-Henning Ørsted Pedersen, Louis Stewart - The MPS Trio Sessions (CD4)/01  - Fjarlins Vingor.flac",
               "name": "01  - Fjarlins Vingor.flac",
@@ -2975,7 +3006,8 @@
               "mtime": "2014-06-25T14:39:17.000Z",
               "type": "file",
               "extension": "flac"
-            }
+            },
+            null
           ]
         },
         {
@@ -2992,15 +3024,14 @@
     {
       "path": "/media/music/Herbie Mann and Bill Evans - Nirvana (1962) [Jazz][flac][h33t][schon55]",
       "name": "Herbie Mann and Bill Evans - Nirvana (1962) [Jazz][flac][h33t][schon55]",
-      "atime": "2014-11-03T20:43:39.000Z",
-      "ctime": "2014-12-19T05:19:53.000Z",
-      "mtime": "2014-12-19T05:19:53.000Z",
+      "atime": "2014-12-19T17:32:25.000Z",
+      "ctime": "2014-12-19T17:32:25.000Z",
+      "mtime": "2014-12-19T17:32:25.000Z",
       "type": "folder",
       "meta": {
         "discogs_url": "https://api.discogs.com/releases/1189243"
       },
       "children": [
-        null,
         {
           "path": "/media/music/Herbie Mann and Bill Evans - Nirvana (1962) [Jazz][flac][h33t][schon55]/01 Nirvana.flac",
           "name": "01 Nirvana.flac",
@@ -3064,6 +3095,8 @@
           "type": "file",
           "extension": "txt"
         },
+        null,
+        null,
         {
           "path": "/media/music/Herbie Mann and Bill Evans - Nirvana (1962) [Jazz][flac][h33t][schon55]/Scans",
           "name": "Scans",
@@ -3184,8 +3217,6 @@
       "mtime": "2014-12-16T22:56:01.000Z",
       "type": "folder",
       "children": [
-        null,
-        null,
         {
           "path": "/media/music/Iannis Xenakis/1997 Electronic Music",
           "name": "1997 Electronic Music",
@@ -3197,8 +3228,6 @@
             "discogs_url": "https://api.discogs.com/releases/154491"
           },
           "children": [
-            null,
-            null,
             {
               "path": "/media/music/Iannis Xenakis/1997 Electronic Music/01 Diamorphoses.mp3",
               "name": "01 Diamorphoses.mp3",
@@ -3253,6 +3282,8 @@
               "type": "file",
               "extension": "mp3"
             },
+            null,
+            null,
             {
               "path": "/media/music/Iannis Xenakis/1997 Electronic Music/_meta.json",
               "name": "_meta.json",
@@ -3283,7 +3314,9 @@
               ]
             }
           ]
-        }
+        },
+        null,
+        null
       ]
     },
     {
@@ -3294,8 +3327,6 @@
       "mtime": "2014-09-02T15:37:35.000Z",
       "type": "folder",
       "children": [
-        null,
-        null,
         {
           "path": "/media/music/James Moody - Return From Overbrook (1956-8) [Jazz][flac][h33t][schon55]/01 - Last Train From Overbrook.flac",
           "name": "01 - Last Train From Overbrook.flac",
@@ -3468,15 +3499,6 @@
           "extension": "flac"
         },
         {
-          "path": "/media/music/James Moody - Return From Overbrook (1956-8) [Jazz][flac][h33t][schon55]/1956 Overbrook f Info.txt",
-          "name": "1956 Overbrook f Info.txt",
-          "atime": "2014-06-20T12:31:43.000Z",
-          "ctime": "2014-12-05T18:42:12.000Z",
-          "mtime": "2014-06-20T12:31:43.000Z",
-          "type": "file",
-          "extension": "txt"
-        },
-        {
           "path": "/media/music/James Moody - Return From Overbrook (1956-8) [Jazz][flac][h33t][schon55]/20 - Richard's Blues.flac",
           "name": "20 - Richard's Blues.flac",
           "atime": "2014-06-20T12:41:56.000Z",
@@ -3486,6 +3508,17 @@
           "extension": "flac"
         },
         {
+          "path": "/media/music/James Moody - Return From Overbrook (1956-8) [Jazz][flac][h33t][schon55]/1956 Overbrook f Info.txt",
+          "name": "1956 Overbrook f Info.txt",
+          "atime": "2014-06-20T12:31:43.000Z",
+          "ctime": "2014-12-05T18:42:12.000Z",
+          "mtime": "2014-06-20T12:31:43.000Z",
+          "type": "file",
+          "extension": "txt"
+        },
+        null,
+        null,
+        {
           "path": "/media/music/James Moody - Return From Overbrook (1956-8) [Jazz][flac][h33t][schon55]/Scans",
           "name": "Scans",
           "atime": "2014-06-19T23:47:01.000Z",
@@ -3493,7 +3526,6 @@
           "mtime": "2014-06-19T23:47:01.000Z",
           "type": "folder",
           "children": [
-            null,
             {
               "path": "/media/music/James Moody - Return From Overbrook (1956-8) [Jazz][flac][h33t][schon55]/Scans/1.jpg",
               "name": "1.jpg",
@@ -3530,6 +3562,7 @@
               "type": "file",
               "extension": "jpg"
             },
+            null,
             {
               "path": "/media/music/James Moody - Return From Overbrook (1956-8) [Jazz][flac][h33t][schon55]/Scans/Torrent_downloaded_from_Demonoid.me.txt",
               "name": "Torrent_downloaded_from_Demonoid.me.txt",
@@ -3666,364 +3699,6 @@
       ]
     },
     {
-      "path": "/media/music/Jean-Luc Ponty",
-      "name": "Jean-Luc Ponty",
-      "atime": "2014-12-15T09:05:43.000Z",
-      "ctime": "2014-12-15T09:06:11.000Z",
-      "mtime": "2014-12-15T09:06:11.000Z",
-      "type": "folder",
-      "children": [
-        null,
-        null,
-        {
-          "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 1 of 2",
-          "name": "The Jean-Luc Ponty Anthology - Le Voyage - Disk 1 of 2",
-          "atime": "2014-12-05T19:14:06.000Z",
-          "ctime": "2014-12-15T09:05:39.000Z",
-          "mtime": "2014-12-05T19:14:06.000Z",
-          "type": "folder",
-          "children": [
-            null,
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 1 of 2/01 Question With No Answer.flac",
-              "name": "01 Question With No Answer.flac",
-              "atime": "2014-12-05T19:03:40.000Z",
-              "ctime": "2014-12-05T19:08:02.000Z",
-              "mtime": "2014-12-05T19:03:40.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 1 of 2/02 Bowing-Bowing.flac",
-              "name": "02 Bowing-Bowing.flac",
-              "atime": "2014-12-05T19:03:44.000Z",
-              "ctime": "2014-12-05T19:08:31.000Z",
-              "mtime": "2014-12-05T19:03:44.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 1 of 2/03 Echoes of The Future.flac",
-              "name": "03 Echoes of The Future.flac",
-              "atime": "2014-12-05T19:03:47.000Z",
-              "ctime": "2014-12-05T19:08:44.000Z",
-              "mtime": "2014-12-05T19:03:47.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 1 of 2/04 Aurora, Part II.flac",
-              "name": "04 Aurora, Part II.flac",
-              "atime": "2014-12-05T19:03:52.000Z",
-              "ctime": "2014-12-05T19:09:13.000Z",
-              "mtime": "2014-12-05T19:03:52.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 1 of 2/05 Waking Dream.flac",
-              "name": "05 Waking Dream.flac",
-              "atime": "2014-12-05T19:03:54.000Z",
-              "ctime": "2014-12-05T19:09:25.000Z",
-              "mtime": "2014-12-05T19:03:54.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 1 of 2/06 Renaissance.flac",
-              "name": "06 Renaissance.flac",
-              "atime": "2014-12-05T19:03:58.000Z",
-              "ctime": "2014-12-05T19:09:54.000Z",
-              "mtime": "2014-12-05T19:03:58.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 1 of 2/07 New Country.flac",
-              "name": "07 New Country.flac",
-              "atime": "2014-12-05T19:04:01.000Z",
-              "ctime": "2014-12-05T19:10:09.000Z",
-              "mtime": "2014-12-05T19:04:01.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 1 of 2/08 Enigmatic Ocean, Part II.flac",
-              "name": "08 Enigmatic Ocean, Part II.flac",
-              "atime": "2014-12-05T19:04:04.000Z",
-              "ctime": "2014-12-05T19:10:35.000Z",
-              "mtime": "2014-12-05T19:04:04.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 1 of 2/09 Enigmatic Ocean, Part III.flac",
-              "name": "09 Enigmatic Ocean, Part III.flac",
-              "atime": "2014-12-05T19:04:07.000Z",
-              "ctime": "2014-12-05T19:10:58.000Z",
-              "mtime": "2014-12-05T19:04:07.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 1 of 2/10 Mirage.flac",
-              "name": "10 Mirage.flac",
-              "atime": "2014-12-05T19:04:12.000Z",
-              "ctime": "2014-12-05T19:11:25.000Z",
-              "mtime": "2014-12-05T19:04:12.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 1 of 2/11 Egocentric Molecules.flac",
-              "name": "11 Egocentric Molecules.flac",
-              "atime": "2014-12-05T19:04:17.000Z",
-              "ctime": "2014-12-05T19:12:04.000Z",
-              "mtime": "2014-12-05T19:04:17.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 1 of 2/12 Cosmic Messenger.flac",
-              "name": "12 Cosmic Messenger.flac",
-              "atime": "2014-12-05T19:04:21.000Z",
-              "ctime": "2014-12-05T19:12:26.000Z",
-              "mtime": "2014-12-05T19:04:21.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 1 of 2/13 Ethereal Mood.flac",
-              "name": "13 Ethereal Mood.flac",
-              "atime": "2014-12-05T19:04:24.000Z",
-              "ctime": "2014-12-05T19:12:45.000Z",
-              "mtime": "2014-12-05T19:04:24.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 1 of 2/14 I Only Feel Good With You.flac",
-              "name": "14 I Only Feel Good With You.flac",
-              "atime": "2014-12-05T19:04:27.000Z",
-              "ctime": "2014-12-05T19:13:00.000Z",
-              "mtime": "2014-12-05T19:04:27.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 1 of 2/15 No Strings Attached.flac",
-              "name": "15 No Strings Attached.flac",
-              "atime": "2014-12-05T19:04:32.000Z",
-              "ctime": "2014-12-05T19:13:32.000Z",
-              "mtime": "2014-12-05T19:04:32.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 1 of 2/Bowing-Bowing.flac",
-              "name": "Bowing-Bowing.flac",
-              "atime": "2014-12-05T19:03:37.000Z",
-              "ctime": "2014-12-05T19:13:33.000Z",
-              "mtime": "2014-12-05T19:03:37.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 1 of 2/Cover.jpg",
-              "name": "Cover.jpg",
-              "atime": "2014-07-16T12:41:21.000Z",
-              "ctime": "2014-12-05T19:14:14.000Z",
-              "mtime": "2014-07-16T12:41:21.000Z",
-              "type": "file",
-              "extension": "jpg"
-            }
-          ]
-        },
-        {
-          "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 2 of 2",
-          "name": "The Jean-Luc Ponty Anthology - Le Voyage - Disk 2 of 2",
-          "atime": "2014-12-05T19:20:08.000Z",
-          "ctime": "2014-12-15T09:06:11.000Z",
-          "mtime": "2014-12-05T19:20:08.000Z",
-          "type": "folder",
-          "children": [
-            null,
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 2 of 2/01 Stay With Me.flac",
-              "name": "01 Stay With Me.flac",
-              "atime": "2014-12-05T19:06:11.000Z",
-              "ctime": "2014-12-05T19:13:58.000Z",
-              "mtime": "2014-12-05T19:06:11.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 2 of 2/02 A Taste For Passion.flac",
-              "name": "02 A Taste For Passion.flac",
-              "atime": "2014-12-05T19:06:31.000Z",
-              "ctime": "2014-12-05T19:14:28.000Z",
-              "mtime": "2014-12-05T19:06:31.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 2 of 2/03 Once A Blue Planet.flac",
-              "name": "03 Once A Blue Planet.flac",
-              "atime": "2014-12-05T19:06:34.000Z",
-              "ctime": "2014-12-05T19:14:51.000Z",
-              "mtime": "2014-12-05T19:06:34.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 2 of 2/04 Forms Of Life.flac",
-              "name": "04 Forms Of Life.flac",
-              "atime": "2014-12-05T19:06:37.000Z",
-              "ctime": "2014-12-05T19:15:11.000Z",
-              "mtime": "2014-12-05T19:06:37.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 2 of 2/05 Rhythms Of Hope.flac",
-              "name": "05 Rhythms Of Hope.flac",
-              "atime": "2014-12-05T19:06:41.000Z",
-              "ctime": "2014-12-05T19:15:34.000Z",
-              "mtime": "2014-12-05T19:06:41.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 2 of 2/06 Mystical Adventures (Suite), Part IV.flac",
-              "name": "06 Mystical Adventures (Suite), Part IV.flac",
-              "atime": "2014-12-05T19:06:42.000Z",
-              "ctime": "2014-12-05T19:15:38.000Z",
-              "mtime": "2014-12-05T19:06:42.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 2 of 2/07 Mystical Adventures (Suite), Part V.flac",
-              "name": "07 Mystical Adventures (Suite), Part V.flac",
-              "atime": "2014-12-05T19:06:46.000Z",
-              "ctime": "2014-12-05T19:15:59.000Z",
-              "mtime": "2014-12-05T19:06:46.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 2 of 2/08 Jig.flac",
-              "name": "08 Jig.flac",
-              "atime": "2014-12-05T19:06:49.000Z",
-              "ctime": "2014-12-05T19:16:26.000Z",
-              "mtime": "2014-12-05T19:06:49.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 2 of 2/09 Final Truth, Part I.flac",
-              "name": "09 Final Truth, Part I.flac",
-              "atime": "2014-12-05T19:06:53.000Z",
-              "ctime": "2014-12-05T19:16:56.000Z",
-              "mtime": "2014-12-05T19:06:53.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 2 of 2/10 Computer Incantations For World Peace.flac",
-              "name": "10 Computer Incantations For World Peace.flac",
-              "atime": "2014-12-05T19:06:58.000Z",
-              "ctime": "2014-12-05T19:17:21.000Z",
-              "mtime": "2014-12-05T19:06:58.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 2 of 2/11 Individual Choice.flac",
-              "name": "11 Individual Choice.flac",
-              "atime": "2014-12-05T19:07:02.000Z",
-              "ctime": "2014-12-05T19:17:46.000Z",
-              "mtime": "2014-12-05T19:07:02.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 2 of 2/12 Nostalgia.flac",
-              "name": "12 Nostalgia.flac",
-              "atime": "2014-12-05T19:07:06.000Z",
-              "ctime": "2014-12-05T19:18:10.000Z",
-              "mtime": "2014-12-05T19:07:06.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 2 of 2/13 Eulogy To Oscar Romero.flac",
-              "name": "13 Eulogy To Oscar Romero.flac",
-              "atime": "2014-12-05T19:07:08.000Z",
-              "ctime": "2014-12-05T19:18:26.000Z",
-              "mtime": "2014-12-05T19:07:08.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 2 of 2/14 Infinite Pursuit.flac",
-              "name": "14 Infinite Pursuit.flac",
-              "atime": "2014-12-05T19:07:13.000Z",
-              "ctime": "2014-12-05T19:18:57.000Z",
-              "mtime": "2014-12-05T19:07:13.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 2 of 2/15 In The Kingdom Of Peace.flac",
-              "name": "15 In The Kingdom Of Peace.flac",
-              "atime": "2014-12-05T19:07:16.000Z",
-              "ctime": "2014-12-05T19:19:13.000Z",
-              "mtime": "2014-12-05T19:07:16.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 2 of 2/16 Caracas.flac",
-              "name": "16 Caracas.flac",
-              "atime": "2014-12-05T19:07:20.000Z",
-              "ctime": "2014-12-05T19:19:36.000Z",
-              "mtime": "2014-12-05T19:07:20.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 2 of 2/17 Forever Together.flac",
-              "name": "17 Forever Together.flac",
-              "atime": "2014-12-05T19:07:24.000Z",
-              "ctime": "2014-12-05T19:20:00.000Z",
-              "mtime": "2014-12-05T19:07:24.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 2 of 2/A Taste For Passion.flac",
-              "name": "A Taste For Passion.flac",
-              "atime": "2014-12-05T19:05:52.000Z",
-              "ctime": "2014-12-05T19:20:04.000Z",
-              "mtime": "2014-12-05T19:05:52.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Jean-Luc Ponty/The Jean-Luc Ponty Anthology - Le Voyage - Disk 2 of 2/Cover.jpg",
-              "name": "Cover.jpg",
-              "atime": "2014-07-16T12:16:13.000Z",
-              "ctime": "2014-12-05T19:20:08.000Z",
-              "mtime": "2014-07-16T12:16:13.000Z",
-              "type": "file",
-              "extension": "jpg"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "path": "/media/music/Joe Jackson - Body and Soul 1984 TQMP",
       "name": "Joe Jackson - Body and Soul 1984 TQMP",
       "atime": "2014-11-11T20:55:58.000Z",
@@ -4034,7 +3709,6 @@
         "discogs_url": "https://api.discogs.com/releases/846087"
       },
       "children": [
-        null,
         {
           "path": "/media/music/Joe Jackson - Body and Soul 1984 TQMP/01 The Verdict.flac",
           "name": "01 The Verdict.flac",
@@ -4116,6 +3790,7 @@
           "type": "file",
           "extension": "flac"
         },
+        null,
         {
           "path": "/media/music/Joe Jackson - Body and Soul 1984 TQMP/Back.jpg",
           "name": "Back.jpg",
@@ -4153,8 +3828,6 @@
       "mtime": "2014-12-19T05:17:05.000Z",
       "type": "folder",
       "children": [
-        null,
-        null,
         {
           "path": "/media/music/John Abercrombie/1988 Getting There",
           "name": "1988 Getting There",
@@ -4225,7 +3898,6 @@
             "discogs_url": "https://api.discogs.com/releases/2578529"
           },
           "children": [
-            null,
             {
               "path": "/media/music/John Abercrombie/1993 November [FLAC, ECM 1502]/01 - The Cat's Back.flac",
               "name": "01 - The Cat's Back.flac",
@@ -4334,6 +4006,7 @@
               "type": "file",
               "extension": "flac"
             },
+            null,
             {
               "path": "/media/music/John Abercrombie/1993 November [FLAC, ECM 1502]/_meta.json",
               "name": "_meta.json",
@@ -4365,8 +4038,6 @@
             "discogs_url": "https://api.discogs.com/releases/3568135"
           },
           "children": [
-            null,
-            null,
             {
               "path": "/media/music/John Abercrombie/2012 John Abercrombie Quartet - Within a Song [EAC-FLAC]/01 - Where Are You.flac",
               "name": "01 - Where Are You.flac",
@@ -4448,6 +4119,8 @@
               "type": "file",
               "extension": "flac"
             },
+            null,
+            null,
             {
               "path": "/media/music/John Abercrombie/2012 John Abercrombie Quartet - Within a Song [EAC-FLAC]/_meta.json",
               "name": "_meta.json",
@@ -4526,7 +4199,6 @@
             "discogs_url": "https://api.discogs.com/releases/4924180"
           },
           "children": [
-            null,
             {
               "path": "/media/music/John Abercrombie/2013 John Abercrombie Quartet - 39 Steps/01 - Vertigo.flac",
               "name": "01 - Vertigo.flac",
@@ -4626,14 +4298,16 @@
               "type": "file",
               "extension": "cue"
             },
+            null,
             {
               "path": "/media/music/John Abercrombie/2013 John Abercrombie Quartet - 39 Steps/Artwork",
               "name": "Artwork",
               "atime": "2014-11-03T20:16:54.000Z",
-              "ctime": "2014-11-03T20:17:08.000Z",
-              "mtime": "2014-11-03T20:17:08.000Z",
+              "ctime": "2014-12-19T17:32:41.000Z",
+              "mtime": "2014-12-19T17:32:41.000Z",
               "type": "folder",
               "children": [
+                null,
                 {
                   "path": "/media/music/John Abercrombie/2013 John Abercrombie Quartet - 39 Steps/Artwork/Back.jpg",
                   "name": "Back.jpg",
@@ -4809,6 +4483,8 @@
             }
           ]
         },
+        null,
+        null,
         {
           "path": "/media/music/John Abercrombie/John Abercrombie - Jarek Smietana - Speak Easy",
           "name": "John Abercrombie - Jarek Smietana - Speak Easy",
@@ -4820,7 +4496,6 @@
             "discogs_url": "https://api.discogs.com/releases/5195965"
           },
           "children": [
-            null,
             {
               "path": "/media/music/John Abercrombie/John Abercrombie - Jarek Smietana - Speak Easy/01_Water Games (part one).flac",
               "name": "01_Water Games (part one).flac",
@@ -4911,6 +4586,7 @@
               "type": "file",
               "extension": "flac"
             },
+            null,
             {
               "path": "/media/music/John Abercrombie/John Abercrombie - Jarek Smietana - Speak Easy/_meta.json",
               "name": "_meta.json",
@@ -4935,7 +4611,6 @@
         "discogs_url": "https://api.discogs.com/releases/4592068"
       },
       "children": [
-        null,
         {
           "path": "/media/music/John Scofield - Uberjam Deux (2013) [FLAC]/01. Camelus.flac",
           "name": "01. Camelus.flac",
@@ -5035,6 +4710,7 @@
           "type": "file",
           "extension": "flac"
         },
+        null,
         {
           "path": "/media/music/John Scofield - Uberjam Deux (2013) [FLAC]/_meta.json",
           "name": "_meta.json",
@@ -5049,18 +4725,19 @@
     {
       "path": "/media/music/John Surman",
       "name": "John Surman",
-      "atime": "2014-11-16T18:52:25.000Z",
-      "ctime": "2014-12-04T19:20:24.000Z",
-      "mtime": "2014-12-04T19:20:24.000Z",
+      "atime": "2014-12-19T17:33:09.000Z",
+      "ctime": "2014-12-19T17:33:09.000Z",
+      "mtime": "2014-12-19T17:33:09.000Z",
       "type": "folder",
       "children": [
+        null,
         null,
         {
           "path": "/media/music/John Surman/Brewster's Rooster (2009) ",
           "name": "Brewster's Rooster (2009) ",
           "atime": "2014-11-16T18:53:49.000Z",
-          "ctime": "2014-12-19T05:53:45.000Z",
-          "mtime": "2014-12-19T05:53:45.000Z",
+          "ctime": "2014-12-19T17:32:56.000Z",
+          "mtime": "2014-12-19T17:32:56.000Z",
           "type": "folder",
           "meta": {
             "discogs_url": "https://api.discogs.com/releases/2010030"
@@ -5147,6 +4824,7 @@
               "type": "file",
               "extension": "flac"
             },
+            null,
             {
               "path": "/media/music/John Surman/Brewster's Rooster (2009) /_meta.json",
               "name": "_meta.json",
@@ -5162,8 +4840,8 @@
           "path": "/media/music/John Surman/Rarum (2004)",
           "name": "Rarum (2004)",
           "atime": "2014-11-16T19:01:58.000Z",
-          "ctime": "2014-12-19T05:54:49.000Z",
-          "mtime": "2014-12-19T05:54:49.000Z",
+          "ctime": "2014-12-19T17:32:56.000Z",
+          "mtime": "2014-12-19T17:32:56.000Z",
           "type": "folder",
           "meta": {
             "discogs_url": "https://api.discogs.com/releases/1160411"
@@ -5286,6 +4964,7 @@
               "type": "file",
               "extension": "flac"
             },
+            null,
             {
               "path": "/media/music/John Surman/Rarum (2004)/_meta.json",
               "name": "_meta.json",
@@ -5319,8 +4998,6 @@
         "discogs_url": "https://api.discogs.com/releases/6167078"
       },
       "children": [
-        null,
-        null,
         {
           "path": "/media/music/John_Coltrane_-_Interstellar_Space__ripped_by_chabosun/01 Mars.flac",
           "name": "01 Mars.flac",
@@ -5375,6 +5052,8 @@
           "type": "file",
           "extension": "flac"
         },
+        null,
+        null,
         {
           "path": "/media/music/John_Coltrane_-_Interstellar_Space__ripped_by_chabosun/_meta.json",
           "name": "_meta.json",
@@ -5459,8 +5138,6 @@
       "mtime": "2014-12-19T06:11:37.000Z",
       "type": "folder",
       "children": [
-        null,
-        null,
         {
           "path": "/media/music/Joshua Redman/1996 - Freedom in the Groove FLAC",
           "name": "1996 - Freedom in the Groove FLAC",
@@ -5472,8 +5149,6 @@
             "discogs_url": "https://api.discogs.com/releases/2389399"
           },
           "children": [
-            null,
-            null,
             {
               "path": "/media/music/Joshua Redman/1996 - Freedom in the Groove FLAC/01 - Hide and Seek.flac",
               "name": "01 - Hide and Seek.flac",
@@ -5564,6 +5239,8 @@
               "type": "file",
               "extension": "flac"
             },
+            null,
+            null,
             {
               "path": "/media/music/Joshua Redman/1996 - Freedom in the Groove FLAC/Art",
               "name": "Art",
@@ -5669,8 +5346,6 @@
             "discogs_url": "https://api.discogs.com/releases/2399000"
           },
           "children": [
-            null,
-            null,
             {
               "path": "/media/music/Joshua Redman/2002 - Elastic [FLAC]/01 - Molten Soul.flac",
               "name": "01 - Molten Soul.flac",
@@ -5779,6 +5454,8 @@
               "type": "file",
               "extension": "flac"
             },
+            null,
+            null,
             {
               "path": "/media/music/Joshua Redman/2002 - Elastic [FLAC]/Art",
               "name": "Art",
@@ -5893,8 +5570,6 @@
             "discogs_url": "https://api.discogs.com/releases/2399004"
           },
           "children": [
-            null,
-            null,
             {
               "path": "/media/music/Joshua Redman/2007 - Back East FLAC/01 - The Surrey with the Fringe on Top.flac",
               "name": "01 - The Surrey with the Fringe on Top.flac",
@@ -5994,6 +5669,8 @@
               "type": "file",
               "extension": "flac"
             },
+            null,
+            null,
             {
               "path": "/media/music/Joshua Redman/2007 - Back East FLAC/Art",
               "name": "Art",
@@ -6114,8 +5791,6 @@
           "mtime": "2014-12-16T21:45:59.000Z",
           "type": "folder",
           "children": [
-            null,
-            null,
             {
               "path": "/media/music/Joshua Redman/2013 - Walking Shadows FLAC/01 - The Folks Who Live on the Hill.flac",
               "name": "01 - The Folks Who Live on the Hill.flac",
@@ -6224,6 +5899,8 @@
               "type": "file",
               "extension": "flac"
             },
+            null,
+            null,
             {
               "path": "/media/music/Joshua Redman/2013 - Walking Shadows FLAC/_stuff",
               "name": "_stuff",
@@ -6312,6 +5989,8 @@
             }
           ]
         },
+        null,
+        null,
         {
           "path": "/media/music/Joshua Redman/WWW.YTS.RE.jpg",
           "name": "WWW.YTS.RE.jpg",
@@ -6331,7 +6010,6 @@
       "mtime": "2014-06-19T17:26:35.000Z",
       "type": "folder",
       "children": [
-        null,
         {
           "path": "/media/music/Kenny Burrell - Jazz Masters 45 (1995) [EAC-FLAC]/01. Wholly Cats.flac",
           "name": "01. Wholly Cats.flac",
@@ -6476,6 +6154,7 @@
           "type": "file",
           "extension": "flac"
         },
+        null,
         {
           "path": "/media/music/Kenny Burrell - Jazz Masters 45 (1995) [EAC-FLAC]/Kenny Burrell - Jazz Masters 45.cue",
           "name": "Kenny Burrell - Jazz Masters 45.cue",
@@ -6515,340 +6194,140 @@
       ]
     },
     {
-      "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]",
-      "name": "Kronos Quartet - 1998 - 25 Years [FLAC]",
-      "atime": "2014-12-05T19:37:49.000Z",
-      "ctime": "2014-12-05T19:37:49.000Z",
-      "mtime": "2014-12-05T19:37:49.000Z",
+      "path": "/media/music/Kenny Wheeler Quintet - The Widow In The Window",
+      "name": "Kenny Wheeler Quintet - The Widow In The Window",
+      "atime": "2014-12-21T14:44:55.000Z",
+      "ctime": "2014-12-21T14:44:55.000Z",
+      "mtime": "2014-12-21T14:44:55.000Z",
       "type": "folder",
       "children": [
-        null,
-        null,
         {
-          "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 1",
-          "name": "Disc 1",
-          "atime": "2014-07-29T18:00:14.000Z",
-          "ctime": "2014-12-05T19:30:38.000Z",
-          "mtime": "2014-07-29T18:00:14.000Z",
-          "type": "folder",
-          "children": [
-            null,
-            {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 1/01 - John Adams , John's Book of Alleged Dances - Judah to Ocean.flac",
-              "name": "01 - John Adams , John's Book of Alleged Dances - Judah to Ocean.flac",
-              "atime": "2014-07-29T17:18:11.000Z",
-              "ctime": "2014-12-05T19:30:38.000Z",
-              "mtime": "2014-07-29T17:18:11.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 1/02 - John Adams , John's Book of Alleged Dances - Toot Nipple.flac",
-              "name": "02 - John Adams , John's Book of Alleged Dances - Toot Nipple.flac",
-              "atime": "2014-07-29T18:12:42.000Z",
-              "ctime": "2014-12-05T19:30:38.000Z",
-              "mtime": "2014-07-29T18:12:42.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 1/03 - John Adams , John's Book of Alleged Dances - Dogjam.flac",
-              "name": "03 - John Adams , John's Book of Alleged Dances - Dogjam.flac",
-              "atime": "2014-07-29T17:54:48.000Z",
-              "ctime": "2014-12-05T19:30:38.000Z",
-              "mtime": "2014-07-29T17:54:48.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 1/04 - John Adams , John's Book of Alleged Dances - Pavane- She's So Fine.flac",
-              "name": "04 - John Adams , John's Book of Alleged Dances - Pavane- She's So Fine.flac",
-              "atime": "2014-07-29T18:46:43.000Z",
-              "ctime": "2014-12-05T19:30:38.000Z",
-              "mtime": "2014-07-29T18:46:43.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 1/05 - John Adams , John's Book of Alleged Dances - Rag the Bone.flac",
-              "name": "05 - John Adams , John's Book of Alleged Dances - Rag the Bone.flac",
-              "atime": "2014-07-29T18:09:12.000Z",
-              "ctime": "2014-12-05T19:30:38.000Z",
-              "mtime": "2014-07-29T18:09:12.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 1/06 - John Adams , John's Book of Alleged Dances - Habanera.flac",
-              "name": "06 - John Adams , John's Book of Alleged Dances - Habanera.flac",
-              "atime": "2014-07-29T18:04:37.000Z",
-              "ctime": "2014-12-05T19:30:38.000Z",
-              "mtime": "2014-07-29T18:04:37.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 1/07 - John Adams , John's Book of Alleged Dances - Stubble Crotchet.flac",
-              "name": "07 - John Adams , John's Book of Alleged Dances - Stubble Crotchet.flac",
-              "atime": "2014-07-29T17:28:39.000Z",
-              "ctime": "2014-12-05T19:30:38.000Z",
-              "mtime": "2014-07-29T17:28:39.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 1/08 - John Adams , John's Book of Alleged Dances - Hammer & Chisel.flac",
-              "name": "08 - John Adams , John's Book of Alleged Dances - Hammer & Chisel.flac",
-              "atime": "2014-07-29T18:00:15.000Z",
-              "ctime": "2014-12-05T19:30:38.000Z",
-              "mtime": "2014-07-29T18:00:15.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 1/09 - John Adams , John's Book of Alleged Dances - Alligator Escalator.flac",
-              "name": "09 - John Adams , John's Book of Alleged Dances - Alligator Escalator.flac",
-              "atime": "2014-07-29T18:44:31.000Z",
-              "ctime": "2014-12-05T19:30:38.000Z",
-              "mtime": "2014-07-29T18:44:31.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 1/10 - John Adams , John's Book of Alleged Dances - Ständchen- The Little Serenade.flac",
-              "name": "10 - John Adams , John's Book of Alleged Dances - Ständchen- The Little Serenade.flac",
-              "atime": "2014-07-29T18:43:32.000Z",
-              "ctime": "2014-12-05T19:30:38.000Z",
-              "mtime": "2014-07-29T18:43:32.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 1/11 - John Adams , John's Book of Alleged Dances - Judah to Ocean (Reprise).flac",
-              "name": "11 - John Adams , John's Book of Alleged Dances - Judah to Ocean (Reprise).flac",
-              "atime": "2014-07-29T18:00:28.000Z",
-              "ctime": "2014-12-05T19:30:38.000Z",
-              "mtime": "2014-07-29T18:00:28.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 1/12 - Arvo Pärt , Fratres.flac",
-              "name": "12 - Arvo Pärt , Fratres.flac",
-              "atime": "2014-07-29T17:52:58.000Z",
-              "ctime": "2014-12-05T19:30:38.000Z",
-              "mtime": "2014-07-29T17:52:58.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 1/13 - Arvo Pärt , Psalom.flac",
-              "name": "13 - Arvo Pärt , Psalom.flac",
-              "atime": "2014-07-29T18:04:20.000Z",
-              "ctime": "2014-12-05T19:30:38.000Z",
-              "mtime": "2014-07-29T18:04:20.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 1/14 - Arvo Pärt , Missa Syllabica - Summa.flac",
-              "name": "14 - Arvo Pärt , Missa Syllabica - Summa.flac",
-              "atime": "2014-07-29T18:44:01.000Z",
-              "ctime": "2014-12-05T19:30:38.000Z",
-              "mtime": "2014-07-29T18:44:01.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 1/15 - Arvo Pärt , Missa Syllabica - Kyrie.flac",
-              "name": "15 - Arvo Pärt , Missa Syllabica - Kyrie.flac",
-              "atime": "2014-07-29T18:04:20.000Z",
-              "ctime": "2014-12-05T19:30:38.000Z",
-              "mtime": "2014-07-29T18:04:20.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 1/16 - Arvo Pärt , Missa Syllabica - Gloria.flac",
-              "name": "16 - Arvo Pärt , Missa Syllabica - Gloria.flac",
-              "atime": "2014-07-29T17:57:17.000Z",
-              "ctime": "2014-12-05T19:30:38.000Z",
-              "mtime": "2014-07-29T17:57:17.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 1/17 - Arvo Pärt , Missa Syllabica - Credo.flac",
-              "name": "17 - Arvo Pärt , Missa Syllabica - Credo.flac",
-              "atime": "2014-07-29T18:44:01.000Z",
-              "ctime": "2014-12-05T19:30:38.000Z",
-              "mtime": "2014-07-29T18:44:01.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 1/18 - Arvo Pärt , Missa Syllabica - Sanctus.flac",
-              "name": "18 - Arvo Pärt , Missa Syllabica - Sanctus.flac",
-              "atime": "2014-07-29T17:36:32.000Z",
-              "ctime": "2014-12-05T19:30:38.000Z",
-              "mtime": "2014-07-29T17:36:32.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 1/19 - Arvo Pärt , Missa Syllabica - Agnus Dei.flac",
-              "name": "19 - Arvo Pärt , Missa Syllabica - Agnus Dei.flac",
-              "atime": "2014-07-29T18:44:42.000Z",
-              "ctime": "2014-12-05T19:30:38.000Z",
-              "mtime": "2014-07-29T18:44:42.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 1/20 - Arvo Pärt , Missa Syllabica - Ite, Missa Est.flac",
-              "name": "20 - Arvo Pärt , Missa Syllabica - Ite, Missa Est.flac",
-              "atime": "2014-07-29T17:55:48.000Z",
-              "ctime": "2014-12-05T19:30:38.000Z",
-              "mtime": "2014-07-29T17:55:48.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 1/25 Years (Disc 1) (John Adams, Arvo Pärt).cue",
-              "name": "25 Years (Disc 1) (John Adams, Arvo Pärt).cue",
-              "atime": "2014-07-29T17:55:48.000Z",
-              "ctime": "2014-12-05T19:30:38.000Z",
-              "mtime": "2014-07-29T17:55:48.000Z",
-              "type": "file",
-              "extension": "cue"
-            },
-            {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 1/Kronos Quartet - 25 Years (Disc 1) (John Adams, Arvo Pärt).log",
-              "name": "Kronos Quartet - 25 Years (Disc 1) (John Adams, Arvo Pärt).log",
-              "atime": "2014-07-29T17:55:48.000Z",
-              "ctime": "2014-12-05T19:30:38.000Z",
-              "mtime": "2014-07-29T17:55:48.000Z",
-              "type": "file",
-              "extension": "log"
-            }
-          ]
+          "path": "/media/music/Kenny Wheeler Quintet - The Widow In The Window/01 - Aspire.flac",
+          "name": "01 - Aspire.flac",
+          "atime": "2014-12-21T07:28:15.000Z",
+          "ctime": "2014-12-21T14:43:21.000Z",
+          "mtime": "2014-12-21T07:28:15.000Z",
+          "type": "file",
+          "extension": "flac"
         },
         {
-          "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 2",
-          "name": "Disc 2",
-          "atime": "2014-07-29T17:57:00.000Z",
-          "ctime": "2014-12-05T19:37:49.000Z",
-          "mtime": "2014-07-29T17:57:00.000Z",
+          "path": "/media/music/Kenny Wheeler Quintet - The Widow In The Window/02 - Ma Belle Hélène.flac",
+          "name": "02 - Ma Belle Hélène.flac",
+          "atime": "2014-12-21T07:28:15.000Z",
+          "ctime": "2014-12-21T14:43:21.000Z",
+          "mtime": "2014-12-21T07:28:15.000Z",
+          "type": "file",
+          "extension": "flac"
+        },
+        {
+          "path": "/media/music/Kenny Wheeler Quintet - The Widow In The Window/03 - The Widow In The Window.flac",
+          "name": "03 - The Widow In The Window.flac",
+          "atime": "2014-12-21T07:27:53.000Z",
+          "ctime": "2014-12-21T14:43:21.000Z",
+          "mtime": "2014-12-21T07:27:53.000Z",
+          "type": "file",
+          "extension": "flac"
+        },
+        {
+          "path": "/media/music/Kenny Wheeler Quintet - The Widow In The Window/04 - Ana.flac",
+          "name": "04 - Ana.flac",
+          "atime": "2014-12-21T07:28:12.000Z",
+          "ctime": "2014-12-21T14:43:21.000Z",
+          "mtime": "2014-12-21T07:28:12.000Z",
+          "type": "file",
+          "extension": "flac"
+        },
+        {
+          "path": "/media/music/Kenny Wheeler Quintet - The Widow In The Window/05 - Hotel Le Hot.flac",
+          "name": "05 - Hotel Le Hot.flac",
+          "atime": "2014-12-21T07:28:19.000Z",
+          "ctime": "2014-12-21T14:43:21.000Z",
+          "mtime": "2014-12-21T07:28:19.000Z",
+          "type": "file",
+          "extension": "flac"
+        },
+        {
+          "path": "/media/music/Kenny Wheeler Quintet - The Widow In The Window/06 - Now, And Now Again.flac",
+          "name": "06 - Now, And Now Again.flac",
+          "atime": "2014-12-21T07:28:04.000Z",
+          "ctime": "2014-12-21T14:43:21.000Z",
+          "mtime": "2014-12-21T07:28:04.000Z",
+          "type": "file",
+          "extension": "flac"
+        },
+        null,
+        null,
+        {
+          "path": "/media/music/Kenny Wheeler Quintet - The Widow In The Window/Scans",
+          "name": "Scans",
+          "atime": "2014-12-21T14:44:37.000Z",
+          "ctime": "2014-12-21T14:44:50.000Z",
+          "mtime": "2014-12-21T14:44:50.000Z",
           "type": "folder",
           "children": [
             null,
             {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 2/01 - Ken Benshoof , Traveling Music- I. Gentle, easy.flac",
-              "name": "01 - Ken Benshoof , Traveling Music- I. Gentle, easy.flac",
-              "atime": "2014-07-29T17:57:00.000Z",
-              "ctime": "2014-12-05T19:37:49.000Z",
-              "mtime": "2014-07-29T17:57:00.000Z",
+              "path": "/media/music/Kenny Wheeler Quintet - The Widow In The Window/Scans/Kenny Wheeler Quintet_front.jpg",
+              "name": "Kenny Wheeler Quintet_front.jpg",
+              "atime": "2014-12-21T07:22:25.000Z",
+              "ctime": "2014-12-21T14:44:50.000Z",
+              "mtime": "2014-12-21T07:22:25.000Z",
               "type": "file",
-              "extension": "flac"
+              "extension": "jpg"
             },
             {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 2/02 - Ken Benshoof , Traveling Music- II. Moderate.flac",
-              "name": "02 - Ken Benshoof , Traveling Music- II. Moderate.flac",
-              "atime": "2014-07-29T18:10:26.000Z",
-              "ctime": "2014-12-05T19:37:49.000Z",
-              "mtime": "2014-07-29T18:10:26.000Z",
+              "path": "/media/music/Kenny Wheeler Quintet - The Widow In The Window/Scans/Kenny Wheeler Quintet_inside 1.jpg",
+              "name": "Kenny Wheeler Quintet_inside 1.jpg",
+              "atime": "2014-12-21T07:22:25.000Z",
+              "ctime": "2014-12-21T14:44:50.000Z",
+              "mtime": "2014-12-21T07:22:25.000Z",
               "type": "file",
-              "extension": "flac"
+              "extension": "jpg"
             },
             {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 2/03 - Ken Benshoof , Traveling Music- III. Driving.flac",
-              "name": "03 - Ken Benshoof , Traveling Music- III. Driving.flac",
-              "atime": "2014-07-29T18:11:06.000Z",
-              "ctime": "2014-12-05T19:37:49.000Z",
-              "mtime": "2014-07-29T18:11:06.000Z",
+              "path": "/media/music/Kenny Wheeler Quintet - The Widow In The Window/Scans/Kenny Wheeler Quintet_inside 2.jpg",
+              "name": "Kenny Wheeler Quintet_inside 2.jpg",
+              "atime": "2014-12-21T07:09:31.000Z",
+              "ctime": "2014-12-21T14:44:50.000Z",
+              "mtime": "2014-12-21T07:09:31.000Z",
               "type": "file",
-              "extension": "flac"
+              "extension": "jpg"
             },
             {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 2/04 - Ken Benshoof , Song of Twenty Shadows.flac",
-              "name": "04 - Ken Benshoof , Song of Twenty Shadows.flac",
-              "atime": "2014-07-29T18:43:33.000Z",
-              "ctime": "2014-12-05T19:37:49.000Z",
-              "mtime": "2014-07-29T18:43:33.000Z",
+              "path": "/media/music/Kenny Wheeler Quintet - The Widow In The Window/Scans/Kenny Wheeler Quintet_inside 3.jpg",
+              "name": "Kenny Wheeler Quintet_inside 3.jpg",
+              "atime": "2014-12-21T07:08:38.000Z",
+              "ctime": "2014-12-21T14:44:50.000Z",
+              "mtime": "2014-12-21T07:08:38.000Z",
               "type": "file",
-              "extension": "flac"
+              "extension": "jpg"
             },
             {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 2/05 - Astor Piazzolla , Five Tango Sensations- Asleep.flac",
-              "name": "05 - Astor Piazzolla , Five Tango Sensations- Asleep.flac",
-              "atime": "2014-07-29T18:45:29.000Z",
-              "ctime": "2014-12-05T19:37:49.000Z",
-              "mtime": "2014-07-29T18:45:29.000Z",
+              "path": "/media/music/Kenny Wheeler Quintet - The Widow In The Window/Scans/Kenny Wheeler Quintet_inside 4.jpg",
+              "name": "Kenny Wheeler Quintet_inside 4.jpg",
+              "atime": "2014-12-21T07:08:44.000Z",
+              "ctime": "2014-12-21T14:44:50.000Z",
+              "mtime": "2014-12-21T07:08:44.000Z",
               "type": "file",
-              "extension": "flac"
+              "extension": "jpg"
             },
             {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 2/06 - Astor Piazzolla , Five Tango Sensations- Loving.flac",
-              "name": "06 - Astor Piazzolla , Five Tango Sensations- Loving.flac",
-              "atime": "2014-07-29T18:45:22.000Z",
-              "ctime": "2014-12-05T19:37:49.000Z",
-              "mtime": "2014-07-29T18:45:22.000Z",
+              "path": "/media/music/Kenny Wheeler Quintet - The Widow In The Window/Scans/Kenny Wheeler Quintet_inside 5.jpg",
+              "name": "Kenny Wheeler Quintet_inside 5.jpg",
+              "atime": "2014-12-21T07:09:13.000Z",
+              "ctime": "2014-12-21T14:44:50.000Z",
+              "mtime": "2014-12-21T07:09:13.000Z",
               "type": "file",
-              "extension": "flac"
+              "extension": "jpg"
             },
             {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 2/07 - Astor Piazzolla , Five Tango Sensations- Anxiety.flac",
-              "name": "07 - Astor Piazzolla , Five Tango Sensations- Anxiety.flac",
-              "atime": "2014-07-29T18:46:00.000Z",
-              "ctime": "2014-12-05T19:37:49.000Z",
-              "mtime": "2014-07-29T18:46:00.000Z",
+              "path": "/media/music/Kenny Wheeler Quintet - The Widow In The Window/Scans/Kenny Wheeler Quintet_tray.jpg",
+              "name": "Kenny Wheeler Quintet_tray.jpg",
+              "atime": "2014-12-21T07:20:37.000Z",
+              "ctime": "2014-12-21T14:44:50.000Z",
+              "mtime": "2014-12-21T07:20:37.000Z",
               "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 2/08 - Astor Piazzolla , Five Tango Sensations- Despertar.flac",
-              "name": "08 - Astor Piazzolla , Five Tango Sensations- Despertar.flac",
-              "atime": "2014-07-29T17:51:25.000Z",
-              "ctime": "2014-12-05T19:37:49.000Z",
-              "mtime": "2014-07-29T17:51:25.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 2/09 - Astor Piazzolla , Five Tango Sensations- Fear.flac",
-              "name": "09 - Astor Piazzolla , Five Tango Sensations- Fear.flac",
-              "atime": "2014-07-29T18:09:08.000Z",
-              "ctime": "2014-12-05T19:37:49.000Z",
-              "mtime": "2014-07-29T18:09:08.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 2/10 - Astor Piazzolla , Five Tango Sensations- Four, for Tango.flac",
-              "name": "10 - Astor Piazzolla , Five Tango Sensations- Four, for Tango.flac",
-              "atime": "2014-07-29T18:11:24.000Z",
-              "ctime": "2014-12-05T19:37:49.000Z",
-              "mtime": "2014-07-29T18:11:24.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 2/25 Years (Disc 2) (Ken Benshoof, Astor Piazzolla).cue",
-              "name": "25 Years (Disc 2) (Ken Benshoof, Astor Piazzolla).cue",
-              "atime": "2014-07-29T17:57:00.000Z",
-              "ctime": "2014-12-05T19:37:49.000Z",
-              "mtime": "2014-07-29T17:57:00.000Z",
-              "type": "file",
-              "extension": "cue"
-            },
-            {
-              "path": "/media/music/Kronos Quartet - 1998 - 25 Years [FLAC]/Disc 2/Kronos Quartet - 25 Years (Disc 2) (Ken Benshoof, Astor Piazzolla).log",
-              "name": "Kronos Quartet - 25 Years (Disc 2) (Ken Benshoof, Astor Piazzolla).log",
-              "atime": "2014-07-29T17:57:00.000Z",
-              "ctime": "2014-12-05T19:37:49.000Z",
-              "mtime": "2014-07-29T17:57:00.000Z",
-              "type": "file",
-              "extension": "log"
+              "extension": "jpg"
             }
           ]
         }
@@ -6865,8 +6344,6 @@
         "discogs_url": "https://api.discogs.com/releases/5615486"
       },
       "children": [
-        null,
-        null,
         {
           "path": "/media/music/Kronos Quartet - A Thousand Thoughts (2014) FLAC/01 - Tusen Tankar.flac",
           "name": "01 - Tusen Tankar.flac",
@@ -7002,6 +6479,8 @@
           "type": "file",
           "extension": "flac"
         },
+        null,
+        null,
         {
           "path": "/media/music/Kronos Quartet - A Thousand Thoughts (2014) FLAC/Front.jpg",
           "name": "Front.jpg",
@@ -7077,17 +6556,17 @@
       "mtime": "2014-12-15T09:04:51.000Z",
       "type": "folder",
       "children": [
-        null,
-        null,
         {
           "path": "/media/music/Larry Coryell/1975 The Restful Mind FLAC",
           "name": "1975 The Restful Mind FLAC",
           "atime": "2014-06-21T01:20:22.000Z",
-          "ctime": "2014-12-15T09:04:43.000Z",
-          "mtime": "2014-06-21T01:20:22.000Z",
+          "ctime": "2014-12-19T06:18:00.000Z",
+          "mtime": "2014-12-19T06:18:00.000Z",
           "type": "folder",
+          "meta": {
+            "discogs_url": "https://api.discogs.com/releases/1868854"
+          },
           "children": [
-            null,
             {
               "path": "/media/music/Larry Coryell/1975 The Restful Mind FLAC/01 - Improvisation On Robert De Visee's Menuet II.flac",
               "name": "01 - Improvisation On Robert De Visee's Menuet II.flac",
@@ -7151,6 +6630,7 @@
               "type": "file",
               "extension": "flac"
             },
+            null,
             {
               "path": "/media/music/Larry Coryell/1975 The Restful Mind FLAC/Larry Coryell - The Restful Mind (b).jpg",
               "name": "Larry Coryell - The Restful Mind (b).jpg",
@@ -7197,6 +6677,15 @@
               "extension": "m3u"
             },
             {
+              "path": "/media/music/Larry Coryell/1975 The Restful Mind FLAC/_meta.json",
+              "name": "_meta.json",
+              "atime": "2014-12-19T06:18:06.000Z",
+              "ctime": "2014-12-19T06:18:10.000Z",
+              "mtime": "2014-12-19T06:18:06.000Z",
+              "type": "file",
+              "extension": "json"
+            },
+            {
               "path": "/media/music/Larry Coryell/1975 The Restful Mind FLAC/i.txt",
               "name": "i.txt",
               "atime": "2014-06-21T01:20:22.000Z",
@@ -7211,12 +6700,13 @@
           "path": "/media/music/Larry Coryell/2013 The Lift (Wide Hive) FLAC",
           "name": "2013 The Lift (Wide Hive) FLAC",
           "atime": "2014-06-20T19:34:56.000Z",
-          "ctime": "2014-12-15T09:04:51.000Z",
-          "mtime": "2014-06-20T19:34:56.000Z",
+          "ctime": "2014-12-19T06:18:37.000Z",
+          "mtime": "2014-12-19T06:18:37.000Z",
           "type": "folder",
+          "meta": {
+            "discogs_url": "https://api.discogs.com/releases/4544835"
+          },
           "children": [
-            null,
-            null,
             {
               "path": "/media/music/Larry Coryell/2013 The Lift (Wide Hive) FLAC/01 - Going Up.flac",
               "name": "01 - Going Up.flac",
@@ -7325,6 +6815,8 @@
               "type": "file",
               "extension": "flac"
             },
+            null,
+            null,
             {
               "path": "/media/music/Larry Coryell/2013 The Lift (Wide Hive) FLAC/Artwork",
               "name": "Artwork",
@@ -7409,6 +6901,15 @@
               "extension": "cue"
             },
             {
+              "path": "/media/music/Larry Coryell/2013 The Lift (Wide Hive) FLAC/_meta.json",
+              "name": "_meta.json",
+              "atime": "2014-12-19T06:18:45.000Z",
+              "ctime": "2014-12-19T06:18:48.000Z",
+              "mtime": "2014-12-19T06:18:45.000Z",
+              "type": "file",
+              "extension": "json"
+            },
+            {
               "path": "/media/music/Larry Coryell/2013 The Lift (Wide Hive) FLAC/folder.jpg",
               "name": "folder.jpg",
               "atime": "2014-06-20T19:34:56.000Z",
@@ -7418,19 +6919,22 @@
               "extension": "jpg"
             }
           ]
-        }
+        },
+        null,
+        null
       ]
     },
     {
       "path": "/media/music/Marc Johnson - The Sound of Summer Running (FLAC)",
       "name": "Marc Johnson - The Sound of Summer Running (FLAC)",
       "atime": "2014-12-17T00:35:01.000Z",
-      "ctime": "2014-12-17T00:53:44.000Z",
-      "mtime": "2014-12-17T00:35:01.000Z",
+      "ctime": "2014-12-19T06:19:32.000Z",
+      "mtime": "2014-12-19T06:19:32.000Z",
       "type": "folder",
+      "meta": {
+        "discogs_url": "https://api.discogs.com/releases/2448575"
+      },
       "children": [
-        null,
-        null,
         {
           "path": "/media/music/Marc Johnson - The Sound of Summer Running (FLAC)/01. Faith in you.flac",
           "name": "01. Faith in you.flac",
@@ -7521,6 +7025,8 @@
           "type": "file",
           "extension": "flac"
         },
+        null,
+        null,
         {
           "path": "/media/music/Marc Johnson - The Sound of Summer Running (FLAC)/Marc Johnson - The Sound Of Summer Running.txt",
           "name": "Marc Johnson - The Sound Of Summer Running.txt",
@@ -7538,6 +7044,15 @@
           "mtime": "2014-12-17T00:35:01.000Z",
           "type": "file",
           "extension": "txt"
+        },
+        {
+          "path": "/media/music/Marc Johnson - The Sound of Summer Running (FLAC)/_meta.json",
+          "name": "_meta.json",
+          "atime": "2014-12-19T06:19:38.000Z",
+          "ctime": "2014-12-19T06:19:41.000Z",
+          "mtime": "2014-12-19T06:19:38.000Z",
+          "type": "file",
+          "extension": "json"
         },
         {
           "path": "/media/music/Marc Johnson - The Sound of Summer Running (FLAC)/cover",
@@ -7632,7 +7147,6 @@
       "mtime": "2014-12-04T19:20:24.000Z",
       "type": "folder",
       "children": [
-        null,
         {
           "path": "/media/music/Maria Sadowska - Jazz Na Ulicach [2014] [FLAC]/01 - Maria Sadowska - Baba.flac",
           "name": "01 - Maria Sadowska - Baba.flac",
@@ -7723,6 +7237,7 @@
           "type": "file",
           "extension": "flac"
         },
+        null,
         {
           "path": "/media/music/Maria Sadowska - Jazz Na Ulicach [2014] [FLAC]/playlist",
           "name": "playlist",
@@ -7738,11 +7253,13 @@
       "path": "/media/music/McCoy Tyner - New York Reunion (1991) HDtracks 24-96-FLAC",
       "name": "McCoy Tyner - New York Reunion (1991) HDtracks 24-96-FLAC",
       "atime": "2014-11-05T20:08:23.000Z",
-      "ctime": "2014-12-04T19:20:24.000Z",
-      "mtime": "2014-12-04T19:20:24.000Z",
+      "ctime": "2014-12-21T18:36:26.000Z",
+      "mtime": "2014-12-21T18:36:26.000Z",
       "type": "folder",
+      "meta": {
+        "discogs_url": "https://api.discogs.com/releases/2594953"
+      },
       "children": [
-        null,
         {
           "path": "/media/music/McCoy Tyner - New York Reunion (1991) HDtracks 24-96-FLAC/01 - Recorda Me.flac",
           "name": "01 - Recorda Me.flac",
@@ -7815,6 +7332,7 @@
           "type": "file",
           "extension": "flac"
         },
+        null,
         {
           "path": "/media/music/McCoy Tyner - New York Reunion (1991) HDtracks 24-96-FLAC/Info.txt",
           "name": "Info.txt",
@@ -7832,6 +7350,15 @@
           "mtime": "2014-11-05T20:07:42.000Z",
           "type": "file",
           "extension": "pdfX"
+        },
+        {
+          "path": "/media/music/McCoy Tyner - New York Reunion (1991) HDtracks 24-96-FLAC/_meta.json",
+          "name": "_meta.json",
+          "atime": "2014-12-21T18:36:39.000Z",
+          "ctime": "2014-12-21T18:36:42.000Z",
+          "mtime": "2014-12-21T18:36:39.000Z",
+          "type": "file",
+          "extension": "json"
         },
         {
           "path": "/media/music/McCoy Tyner - New York Reunion (1991) HDtracks 24-96-FLAC/front.jpg",
@@ -7854,720 +7381,279 @@
       ]
     },
     {
-      "path": "/media/music/Mike Stern",
-      "name": "Mike Stern",
-      "atime": "2014-12-13T14:09:39.000Z",
-      "ctime": "2014-12-13T14:09:39.000Z",
-      "mtime": "2014-12-13T14:09:39.000Z",
+      "path": "/media/music/Miles Davis",
+      "name": "Miles Davis",
+      "atime": "2014-12-20T15:23:32.000Z",
+      "ctime": "2014-12-20T15:23:32.000Z",
+      "mtime": "2014-12-20T15:23:32.000Z",
       "type": "folder",
       "children": [
         null,
         null,
         {
-          "path": "/media/music/Mike Stern/Mike Stern - All Over The Place (2012) [EAC-FLAC]",
-          "name": "Mike Stern - All Over The Place (2012) [EAC-FLAC]",
-          "atime": "2014-07-03T13:10:12.000Z",
-          "ctime": "2014-12-14T15:21:00.000Z",
-          "mtime": "2014-12-14T15:21:00.000Z",
+          "path": "/media/music/Miles Davis/Decoy",
+          "name": "Decoy",
+          "atime": "2014-12-17T12:45:18.000Z",
+          "ctime": "2014-12-20T15:33:18.000Z",
+          "mtime": "2014-12-17T12:45:18.000Z",
           "type": "folder",
           "children": [
+            {
+              "path": "/media/music/Miles Davis/Decoy/01 Decoy.flac",
+              "name": "01 Decoy.flac",
+              "atime": "2014-12-17T12:45:00.000Z",
+              "ctime": "2014-12-20T15:25:43.000Z",
+              "mtime": "2014-12-17T12:45:00.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Miles Davis/Decoy/02 Robot 415.flac",
+              "name": "02 Robot 415.flac",
+              "atime": "2014-12-17T12:45:01.000Z",
+              "ctime": "2014-12-20T15:25:56.000Z",
+              "mtime": "2014-12-17T12:45:01.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Miles Davis/Decoy/03 Code M.D..flac",
+              "name": "03 Code M.D..flac",
+              "atime": "2014-12-17T12:45:05.000Z",
+              "ctime": "2014-12-20T15:27:18.000Z",
+              "mtime": "2014-12-17T12:45:05.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Miles Davis/Decoy/04 Freaky Deaky.flac",
+              "name": "04 Freaky Deaky.flac",
+              "atime": "2014-12-17T12:45:07.000Z",
+              "ctime": "2014-12-20T15:28:04.000Z",
+              "mtime": "2014-12-17T12:45:07.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Miles Davis/Decoy/05 What It Is.flac",
+              "name": "05 What It Is.flac",
+              "atime": "2014-12-17T12:45:10.000Z",
+              "ctime": "2014-12-20T15:30:01.000Z",
+              "mtime": "2014-12-17T12:45:10.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Miles Davis/Decoy/06 That's Right.flac",
+              "name": "06 That's Right.flac",
+              "atime": "2014-12-17T12:45:17.000Z",
+              "ctime": "2014-12-20T15:32:23.000Z",
+              "mtime": "2014-12-17T12:45:17.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Miles Davis/Decoy/07 That's What Happened.flac",
+              "name": "07 That's What Happened.flac",
+              "atime": "2014-12-17T12:45:19.000Z",
+              "ctime": "2014-12-20T15:33:17.000Z",
+              "mtime": "2014-12-17T12:45:19.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            null
+          ]
+        },
+        {
+          "path": "/media/music/Miles Davis/Miles Davis-Doo-Bop(1991)[FLAC]",
+          "name": "Miles Davis-Doo-Bop(1991)[FLAC]",
+          "atime": "2014-12-16T21:13:43.000Z",
+          "ctime": "2014-12-20T15:23:21.000Z",
+          "mtime": "2014-12-16T21:19:03.000Z",
+          "type": "folder",
+          "children": [
+            {
+              "path": "/media/music/Miles Davis/Miles Davis-Doo-Bop(1991)[FLAC]/01 Mystery.flac",
+              "name": "01 Mystery.flac",
+              "atime": "2014-12-16T21:14:11.000Z",
+              "ctime": "2014-12-16T21:18:34.000Z",
+              "mtime": "2014-12-16T21:14:11.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Miles Davis/Miles Davis-Doo-Bop(1991)[FLAC]/02 The Doo Bop Song.flac",
+              "name": "02 The Doo Bop Song.flac",
+              "atime": "2014-12-16T21:14:05.000Z",
+              "ctime": "2014-12-16T21:18:39.000Z",
+              "mtime": "2014-12-16T21:14:05.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Miles Davis/Miles Davis-Doo-Bop(1991)[FLAC]/03 Chocolate Chip.flac",
+              "name": "03 Chocolate Chip.flac",
+              "atime": "2014-12-16T21:14:29.000Z",
+              "ctime": "2014-12-16T21:18:45.000Z",
+              "mtime": "2014-12-16T21:14:29.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Miles Davis/Miles Davis-Doo-Bop(1991)[FLAC]/04 High Speed Chase.flac",
+              "name": "04 High Speed Chase.flac",
+              "atime": "2014-12-16T21:14:12.000Z",
+              "ctime": "2014-12-16T21:18:46.000Z",
+              "mtime": "2014-12-16T21:14:12.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Miles Davis/Miles Davis-Doo-Bop(1991)[FLAC]/05 Blow.flac",
+              "name": "05 Blow.flac",
+              "atime": "2014-12-16T21:14:23.000Z",
+              "ctime": "2014-12-16T21:18:49.000Z",
+              "mtime": "2014-12-16T21:14:23.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Miles Davis/Miles Davis-Doo-Bop(1991)[FLAC]/06 Sonya.flac",
+              "name": "06 Sonya.flac",
+              "atime": "2014-12-16T21:14:17.000Z",
+              "ctime": "2014-12-16T21:18:52.000Z",
+              "mtime": "2014-12-16T21:14:17.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Miles Davis/Miles Davis-Doo-Bop(1991)[FLAC]/07 Fantasy.flac",
+              "name": "07 Fantasy.flac",
+              "atime": "2014-12-16T21:14:25.000Z",
+              "ctime": "2014-12-16T21:18:55.000Z",
+              "mtime": "2014-12-16T21:14:25.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Miles Davis/Miles Davis-Doo-Bop(1991)[FLAC]/08 Duke Booty.flac",
+              "name": "08 Duke Booty.flac",
+              "atime": "2014-12-16T21:14:00.000Z",
+              "ctime": "2014-12-16T21:19:01.000Z",
+              "mtime": "2014-12-16T21:14:00.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Miles Davis/Miles Davis-Doo-Bop(1991)[FLAC]/09 Mystery (Reprise).flac",
+              "name": "09 Mystery (Reprise).flac",
+              "atime": "2014-12-16T21:07:45.000Z",
+              "ctime": "2014-12-16T21:19:03.000Z",
+              "mtime": "2014-12-16T21:07:45.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
             null,
             {
-              "path": "/media/music/Mike Stern/Mike Stern - All Over The Place (2012) [EAC-FLAC]/01 - AJ.flac",
-              "name": "01 - AJ.flac",
-              "atime": "2014-07-03T13:14:38.000Z",
-              "ctime": "2014-12-13T13:42:27.000Z",
-              "mtime": "2014-07-03T13:14:38.000Z",
+              "path": "/media/music/Miles Davis/Miles Davis-Doo-Bop(1991)[FLAC]/Doo-Bop.CUE",
+              "name": "Doo-Bop.CUE",
+              "atime": "2014-12-16T20:56:11.000Z",
+              "ctime": "2014-12-16T21:18:16.000Z",
+              "mtime": "2014-12-16T20:56:11.000Z",
               "type": "file",
-              "extension": "flac"
+              "extension": "CUE"
             },
             {
-              "path": "/media/music/Mike Stern/Mike Stern - All Over The Place (2012) [EAC-FLAC]/02 - Cameroon.flac",
-              "name": "02 - Cameroon.flac",
-              "atime": "2014-07-03T13:14:32.000Z",
-              "ctime": "2014-12-13T13:42:27.000Z",
-              "mtime": "2014-07-03T13:14:32.000Z",
+              "path": "/media/music/Miles Davis/Miles Davis-Doo-Bop(1991)[FLAC]/Doo-Bop.log",
+              "name": "Doo-Bop.log",
+              "atime": "2014-12-16T20:56:11.000Z",
+              "ctime": "2014-12-16T21:18:16.000Z",
+              "mtime": "2014-12-16T20:56:11.000Z",
               "type": "file",
-              "extension": "flac"
+              "extension": "log"
             },
             {
-              "path": "/media/music/Mike Stern/Mike Stern - All Over The Place (2012) [EAC-FLAC]/03 - Out Of The Blue.flac",
-              "name": "03 - Out Of The Blue.flac",
-              "atime": "2014-07-03T13:14:24.000Z",
-              "ctime": "2014-12-13T13:42:27.000Z",
-              "mtime": "2014-07-03T13:14:24.000Z",
+              "path": "/media/music/Miles Davis/Miles Davis-Doo-Bop(1991)[FLAC]/Miles Davis - Doo-Bop.m3u",
+              "name": "Miles Davis - Doo-Bop.m3u",
+              "atime": "2014-12-16T21:13:43.000Z",
+              "ctime": "2014-12-16T21:18:16.000Z",
+              "mtime": "2014-12-16T21:13:43.000Z",
               "type": "file",
-              "extension": "flac"
+              "extension": "m3u"
             },
             {
-              "path": "/media/music/Mike Stern/Mike Stern - All Over The Place (2012) [EAC-FLAC]/04 - As Far As We Know.flac",
-              "name": "04 - As Far As We Know.flac",
-              "atime": "2014-07-03T13:14:42.000Z",
-              "ctime": "2014-12-13T13:42:27.000Z",
-              "mtime": "2014-07-03T13:14:42.000Z",
+              "path": "/media/music/Miles Davis/Miles Davis-Doo-Bop(1991)[FLAC]/img182.jpg",
+              "name": "img182.jpg",
+              "atime": "2014-12-16T20:56:11.000Z",
+              "ctime": "2014-12-16T21:18:16.000Z",
+              "mtime": "2014-12-16T20:56:11.000Z",
               "type": "file",
-              "extension": "flac"
+              "extension": "jpg"
             },
             {
-              "path": "/media/music/Mike Stern/Mike Stern - All Over The Place (2012) [EAC-FLAC]/05 - Blues For Al.flac",
-              "name": "05 - Blues For Al.flac",
-              "atime": "2014-07-03T13:14:25.000Z",
-              "ctime": "2014-12-13T13:42:27.000Z",
-              "mtime": "2014-07-03T13:14:25.000Z",
+              "path": "/media/music/Miles Davis/Miles Davis-Doo-Bop(1991)[FLAC]/img183.jpg",
+              "name": "img183.jpg",
+              "atime": "2014-12-16T21:10:56.000Z",
+              "ctime": "2014-12-16T21:18:16.000Z",
+              "mtime": "2014-12-16T21:10:56.000Z",
               "type": "file",
-              "extension": "flac"
+              "extension": "jpg"
             },
             {
-              "path": "/media/music/Mike Stern/Mike Stern - All Over The Place (2012) [EAC-FLAC]/06 - OCD.flac",
-              "name": "06 - OCD.flac",
-              "atime": "2014-07-03T13:14:34.000Z",
-              "ctime": "2014-12-13T13:42:27.000Z",
-              "mtime": "2014-07-03T13:14:34.000Z",
+              "path": "/media/music/Miles Davis/Miles Davis-Doo-Bop(1991)[FLAC]/img184.jpg",
+              "name": "img184.jpg",
+              "atime": "2014-12-16T21:10:56.000Z",
+              "ctime": "2014-12-16T21:18:16.000Z",
+              "mtime": "2014-12-16T21:10:56.000Z",
               "type": "file",
-              "extension": "flac"
+              "extension": "jpg"
             },
             {
-              "path": "/media/music/Mike Stern/Mike Stern - All Over The Place (2012) [EAC-FLAC]/07 - You Never Told Me.flac",
-              "name": "07 - You Never Told Me.flac",
-              "atime": "2014-07-03T13:14:41.000Z",
-              "ctime": "2014-12-13T13:42:27.000Z",
-              "mtime": "2014-07-03T13:14:41.000Z",
+              "path": "/media/music/Miles Davis/Miles Davis-Doo-Bop(1991)[FLAC]/img185.jpg",
+              "name": "img185.jpg",
+              "atime": "2014-12-16T21:13:46.000Z",
+              "ctime": "2014-12-16T21:18:16.000Z",
+              "mtime": "2014-12-16T21:13:46.000Z",
               "type": "file",
-              "extension": "flac"
+              "extension": "jpg"
             },
             {
-              "path": "/media/music/Mike Stern/Mike Stern - All Over The Place (2012) [EAC-FLAC]/08 - Half Way Home.flac",
-              "name": "08 - Half Way Home.flac",
-              "atime": "2014-07-03T13:14:41.000Z",
-              "ctime": "2014-12-13T13:42:27.000Z",
-              "mtime": "2014-07-03T13:14:41.000Z",
+              "path": "/media/music/Miles Davis/Miles Davis-Doo-Bop(1991)[FLAC]/img186.jpg",
+              "name": "img186.jpg",
+              "atime": "2014-12-16T21:13:46.000Z",
+              "ctime": "2014-12-16T21:18:16.000Z",
+              "mtime": "2014-12-16T21:13:46.000Z",
               "type": "file",
-              "extension": "flac"
+              "extension": "jpg"
             },
             {
-              "path": "/media/music/Mike Stern/Mike Stern - All Over The Place (2012) [EAC-FLAC]/09 - Light.flac",
-              "name": "09 - Light.flac",
-              "atime": "2014-07-03T13:14:37.000Z",
-              "ctime": "2014-12-13T13:42:27.000Z",
-              "mtime": "2014-07-03T13:14:37.000Z",
+              "path": "/media/music/Miles Davis/Miles Davis-Doo-Bop(1991)[FLAC]/img187.jpg",
+              "name": "img187.jpg",
+              "atime": "2014-12-16T21:11:35.000Z",
+              "ctime": "2014-12-16T21:18:16.000Z",
+              "mtime": "2014-12-16T21:11:35.000Z",
               "type": "file",
-              "extension": "flac"
+              "extension": "jpg"
             },
             {
-              "path": "/media/music/Mike Stern/Mike Stern - All Over The Place (2012) [EAC-FLAC]/10 - Flipside.flac",
-              "name": "10 - Flipside.flac",
-              "atime": "2014-07-03T13:14:28.000Z",
-              "ctime": "2014-12-13T13:42:27.000Z",
-              "mtime": "2014-07-03T13:14:28.000Z",
+              "path": "/media/music/Miles Davis/Miles Davis-Doo-Bop(1991)[FLAC]/img188.jpg",
+              "name": "img188.jpg",
+              "atime": "2014-12-16T21:11:35.000Z",
+              "ctime": "2014-12-16T21:18:16.000Z",
+              "mtime": "2014-12-16T21:11:35.000Z",
               "type": "file",
-              "extension": "flac"
+              "extension": "jpg"
             },
             {
-              "path": "/media/music/Mike Stern/Mike Stern - All Over The Place (2012) [EAC-FLAC]/11 - All Over The Place.flac",
-              "name": "11 - All Over The Place.flac",
-              "atime": "2014-07-03T13:14:36.000Z",
-              "ctime": "2014-12-13T13:42:27.000Z",
-              "mtime": "2014-07-03T13:14:36.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Mike Stern/Mike Stern - All Over The Place (2012) [EAC-FLAC]/folder.jpg",
-              "name": "folder.jpg",
-              "atime": "2014-07-03T13:10:12.000Z",
-              "ctime": "2014-12-13T13:42:27.000Z",
-              "mtime": "2014-07-03T13:10:12.000Z",
+              "path": "/media/music/Miles Davis/Miles Davis-Doo-Bop(1991)[FLAC]/img189.jpg",
+              "name": "img189.jpg",
+              "atime": "2014-12-16T21:13:43.000Z",
+              "ctime": "2014-12-16T21:18:16.000Z",
+              "mtime": "2014-12-16T21:13:43.000Z",
               "type": "file",
               "extension": "jpg"
             }
           ]
-        },
-        {
-          "path": "/media/music/Mike Stern/Mike Stern - These Times (2004) [EAC-FLAC]",
-          "name": "Mike Stern - These Times (2004) [EAC-FLAC]",
-          "atime": "2014-07-03T15:32:36.000Z",
-          "ctime": "2014-12-14T15:22:11.000Z",
-          "mtime": "2014-12-14T15:22:11.000Z",
-          "type": "folder",
-          "children": [
-            null,
-            null,
-            {
-              "path": "/media/music/Mike Stern/Mike Stern - These Times (2004) [EAC-FLAC]/01 Chatter.flac",
-              "name": "01 Chatter.flac",
-              "atime": "2014-07-03T15:32:42.000Z",
-              "ctime": "2014-12-14T15:21:13.000Z",
-              "mtime": "2014-07-03T15:32:42.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Mike Stern/Mike Stern - These Times (2004) [EAC-FLAC]/02 Silver Lining.flac",
-              "name": "02 Silver Lining.flac",
-              "atime": "2014-07-03T15:32:48.000Z",
-              "ctime": "2014-12-14T15:21:13.000Z",
-              "mtime": "2014-07-03T15:32:48.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Mike Stern/Mike Stern - These Times (2004) [EAC-FLAC]/03 I Know You.flac",
-              "name": "03 I Know You.flac",
-              "atime": "2014-07-03T15:32:53.000Z",
-              "ctime": "2014-12-14T15:21:13.000Z",
-              "mtime": "2014-07-03T15:32:53.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Mike Stern/Mike Stern - These Times (2004) [EAC-FLAC]/04 Mirage.flac",
-              "name": "04 Mirage.flac",
-              "atime": "2014-07-03T15:32:59.000Z",
-              "ctime": "2014-12-14T15:21:13.000Z",
-              "mtime": "2014-07-03T15:32:59.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Mike Stern/Mike Stern - These Times (2004) [EAC-FLAC]/05 If Only.flac",
-              "name": "05 If Only.flac",
-              "atime": "2014-07-03T15:33:04.000Z",
-              "ctime": "2014-12-14T15:21:13.000Z",
-              "mtime": "2014-07-03T15:33:04.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Mike Stern/Mike Stern - These Times (2004) [EAC-FLAC]/06 Street Rhyme.flac",
-              "name": "06 Street Rhyme.flac",
-              "atime": "2014-07-03T15:33:11.000Z",
-              "ctime": "2014-12-14T15:21:13.000Z",
-              "mtime": "2014-07-03T15:33:11.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Mike Stern/Mike Stern - These Times (2004) [EAC-FLAC]/07 Avenue B.flac",
-              "name": "07 Avenue B.flac",
-              "atime": "2014-07-03T15:33:17.000Z",
-              "ctime": "2014-12-14T15:21:13.000Z",
-              "mtime": "2014-07-03T15:33:17.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Mike Stern/Mike Stern - These Times (2004) [EAC-FLAC]/08 Remember (For Bob Berg).flac",
-              "name": "08 Remember (For Bob Berg).flac",
-              "atime": "2014-07-03T15:33:22.000Z",
-              "ctime": "2014-12-14T15:21:13.000Z",
-              "mtime": "2014-07-03T15:33:22.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Mike Stern/Mike Stern - These Times (2004) [EAC-FLAC]/09 These Times.flac",
-              "name": "09 These Times.flac",
-              "atime": "2014-07-03T15:33:30.000Z",
-              "ctime": "2014-12-14T15:21:13.000Z",
-              "mtime": "2014-07-03T15:33:30.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Mike Stern/Mike Stern - These Times (2004) [EAC-FLAC]/10 What You Believe.flac",
-              "name": "10 What You Believe.flac",
-              "atime": "2014-07-03T15:33:37.000Z",
-              "ctime": "2014-12-14T15:21:13.000Z",
-              "mtime": "2014-07-03T15:33:37.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Mike Stern/Mike Stern - These Times (2004) [EAC-FLAC]/11 Last One Down.flac",
-              "name": "11 Last One Down.flac",
-              "atime": "2014-07-03T15:33:42.000Z",
-              "ctime": "2014-12-14T15:21:13.000Z",
-              "mtime": "2014-07-03T15:33:42.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Mike Stern/Mike Stern - These Times (2004) [EAC-FLAC]/scans",
-              "name": "scans",
-              "atime": "2014-07-03T15:36:11.000Z",
-              "ctime": "2014-12-14T15:22:11.000Z",
-              "mtime": "2014-12-14T15:22:11.000Z",
-              "type": "folder",
-              "children": [
-                null,
-                {
-                  "path": "/media/music/Mike Stern/Mike Stern - These Times (2004) [EAC-FLAC]/scans/Back.jpg",
-                  "name": "Back.jpg",
-                  "atime": "2014-07-03T13:31:36.000Z",
-                  "ctime": "2014-12-14T15:22:07.000Z",
-                  "mtime": "2014-07-03T13:31:36.000Z",
-                  "type": "file",
-                  "extension": "jpg"
-                },
-                {
-                  "path": "/media/music/Mike Stern/Mike Stern - These Times (2004) [EAC-FLAC]/scans/Booklet 1-8.jpg",
-                  "name": "Booklet 1-8.jpg",
-                  "atime": "2014-07-03T13:31:36.000Z",
-                  "ctime": "2014-12-14T15:22:11.000Z",
-                  "mtime": "2014-07-03T13:31:36.000Z",
-                  "type": "file",
-                  "extension": "jpg"
-                },
-                {
-                  "path": "/media/music/Mike Stern/Mike Stern - These Times (2004) [EAC-FLAC]/scans/Booklet 2-3.jpg",
-                  "name": "Booklet 2-3.jpg",
-                  "atime": "2014-07-03T13:42:04.000Z",
-                  "ctime": "2014-12-14T15:22:11.000Z",
-                  "mtime": "2014-07-03T13:42:04.000Z",
-                  "type": "file",
-                  "extension": "jpg"
-                },
-                {
-                  "path": "/media/music/Mike Stern/Mike Stern - These Times (2004) [EAC-FLAC]/scans/Booklet 4-5.jpg",
-                  "name": "Booklet 4-5.jpg",
-                  "atime": "2014-07-03T13:34:04.000Z",
-                  "ctime": "2014-12-14T15:22:11.000Z",
-                  "mtime": "2014-07-03T13:34:04.000Z",
-                  "type": "file",
-                  "extension": "jpg"
-                },
-                {
-                  "path": "/media/music/Mike Stern/Mike Stern - These Times (2004) [EAC-FLAC]/scans/Booklet 6-7.jpg",
-                  "name": "Booklet 6-7.jpg",
-                  "atime": "2014-07-03T13:41:15.000Z",
-                  "ctime": "2014-12-14T15:22:08.000Z",
-                  "mtime": "2014-07-03T13:41:15.000Z",
-                  "type": "file",
-                  "extension": "jpg"
-                },
-                {
-                  "path": "/media/music/Mike Stern/Mike Stern - These Times (2004) [EAC-FLAC]/scans/CD.jpg",
-                  "name": "CD.jpg",
-                  "atime": "2014-07-03T13:39:56.000Z",
-                  "ctime": "2014-12-14T15:22:10.000Z",
-                  "mtime": "2014-07-03T13:39:56.000Z",
-                  "type": "file",
-                  "extension": "jpg"
-                },
-                {
-                  "path": "/media/music/Mike Stern/Mike Stern - These Times (2004) [EAC-FLAC]/scans/Front-Back.jpg",
-                  "name": "Front-Back.jpg",
-                  "atime": "2014-07-03T13:42:58.000Z",
-                  "ctime": "2014-12-14T15:22:11.000Z",
-                  "mtime": "2014-07-03T13:42:58.000Z",
-                  "type": "file",
-                  "extension": "jpg"
-                },
-                {
-                  "path": "/media/music/Mike Stern/Mike Stern - These Times (2004) [EAC-FLAC]/scans/Front.jpg",
-                  "name": "Front.jpg",
-                  "atime": "2014-07-03T13:42:58.000Z",
-                  "ctime": "2014-12-14T15:22:08.000Z",
-                  "mtime": "2014-07-03T13:42:58.000Z",
-                  "type": "file",
-                  "extension": "jpg"
-                },
-                {
-                  "path": "/media/music/Mike Stern/Mike Stern - These Times (2004) [EAC-FLAC]/scans/Inside 1.jpg",
-                  "name": "Inside 1.jpg",
-                  "atime": "2014-07-03T13:25:57.000Z",
-                  "ctime": "2014-12-14T15:22:10.000Z",
-                  "mtime": "2014-07-03T13:25:57.000Z",
-                  "type": "file",
-                  "extension": "jpg"
-                },
-                {
-                  "path": "/media/music/Mike Stern/Mike Stern - These Times (2004) [EAC-FLAC]/scans/Inside.jpg",
-                  "name": "Inside.jpg",
-                  "atime": "2014-07-03T13:31:24.000Z",
-                  "ctime": "2014-12-14T15:22:08.000Z",
-                  "mtime": "2014-07-03T13:31:24.000Z",
-                  "type": "file",
-                  "extension": "jpg"
-                },
-                {
-                  "path": "/media/music/Mike Stern/Mike Stern - These Times (2004) [EAC-FLAC]/scans/These Times.jpg",
-                  "name": "These Times.jpg",
-                  "atime": "2014-07-03T13:35:01.000Z",
-                  "ctime": "2014-12-14T15:21:57.000Z",
-                  "mtime": "2014-07-03T13:35:01.000Z",
-                  "type": "file",
-                  "extension": "jpg"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "path": "/media/music/Mike Stern/Mike Stern - Who Let The Cats Out (2006) [EAC-FLAC]",
-          "name": "Mike Stern - Who Let The Cats Out (2006) [EAC-FLAC]",
-          "atime": "2014-12-14T15:36:33.000Z",
-          "ctime": "2014-12-14T15:39:05.000Z",
-          "mtime": "2014-12-14T15:39:05.000Z",
-          "type": "folder",
-          "children": [
-            null,
-            {
-              "path": "/media/music/Mike Stern/Mike Stern - Who Let The Cats Out (2006) [EAC-FLAC]/01 Tumble Home.flac",
-              "name": "01 Tumble Home.flac",
-              "atime": "2014-12-14T15:34:25.000Z",
-              "ctime": "2014-12-14T15:38:20.000Z",
-              "mtime": "2014-12-14T15:34:25.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Mike Stern/Mike Stern - Who Let The Cats Out (2006) [EAC-FLAC]/02 KT.flac",
-              "name": "02 KT.flac",
-              "atime": "2014-12-14T15:34:35.000Z",
-              "ctime": "2014-12-14T15:39:52.000Z",
-              "mtime": "2014-12-14T15:34:35.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Mike Stern/Mike Stern - Who Let The Cats Out (2006) [EAC-FLAC]/03 Good Question.flac",
-              "name": "03 Good Question.flac",
-              "atime": "2014-12-14T15:34:41.000Z",
-              "ctime": "2014-12-14T15:40:43.000Z",
-              "mtime": "2014-12-14T15:34:41.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Mike Stern/Mike Stern - Who Let The Cats Out (2006) [EAC-FLAC]/04 Language.flac",
-              "name": "04 Language.flac",
-              "atime": "2014-12-14T15:34:50.000Z",
-              "ctime": "2014-12-14T15:42:00.000Z",
-              "mtime": "2014-12-14T15:34:50.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Mike Stern/Mike Stern - Who Let The Cats Out (2006) [EAC-FLAC]/05 We're with You.flac",
-              "name": "05 We're with You.flac",
-              "atime": "2014-12-14T15:34:58.000Z",
-              "ctime": "2014-12-14T15:42:54.000Z",
-              "mtime": "2014-12-14T15:34:58.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Mike Stern/Mike Stern - Who Let The Cats Out (2006) [EAC-FLAC]/06 Leni Goes Shopping.flac",
-              "name": "06 Leni Goes Shopping.flac",
-              "atime": "2014-12-14T15:35:06.000Z",
-              "ctime": "2014-12-14T15:43:44.000Z",
-              "mtime": "2014-12-14T15:35:06.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Mike Stern/Mike Stern - Who Let The Cats Out (2006) [EAC-FLAC]/07 Roll with It.flac",
-              "name": "07 Roll with It.flac",
-              "atime": "2014-12-14T15:35:11.000Z",
-              "ctime": "2014-12-14T15:44:41.000Z",
-              "mtime": "2014-12-14T15:35:11.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Mike Stern/Mike Stern - Who Let The Cats Out (2006) [EAC-FLAC]/08 Texas.flac",
-              "name": "08 Texas.flac",
-              "atime": "2014-12-14T15:35:18.000Z",
-              "ctime": "2014-12-14T15:45:57.000Z",
-              "mtime": "2014-12-14T15:35:18.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Mike Stern/Mike Stern - Who Let The Cats Out (2006) [EAC-FLAC]/09 Who Let the Cats Out?.flac",
-              "name": "09 Who Let the Cats Out?.flac",
-              "atime": "2014-12-14T15:35:27.000Z",
-              "ctime": "2014-12-14T15:47:28.000Z",
-              "mtime": "2014-12-14T15:35:27.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Mike Stern/Mike Stern - Who Let The Cats Out (2006) [EAC-FLAC]/10 All You Need.flac",
-              "name": "10 All You Need.flac",
-              "atime": "2014-12-14T15:35:34.000Z",
-              "ctime": "2014-12-14T15:48:46.000Z",
-              "mtime": "2014-12-14T15:35:34.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Mike Stern/Mike Stern - Who Let The Cats Out (2006) [EAC-FLAC]/11 Blue Runway.flac",
-              "name": "11 Blue Runway.flac",
-              "atime": "2014-12-14T15:35:43.000Z",
-              "ctime": "2014-12-14T15:50:31.000Z",
-              "mtime": "2014-12-14T15:35:43.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Mike Stern/Mike Stern - Who Let The Cats Out (2006) [EAC-FLAC]/scans",
-              "name": "scans",
-              "atime": "2014-12-14T15:22:32.000Z",
-              "ctime": "2014-12-14T15:36:19.000Z",
-              "mtime": "2014-12-14T15:36:19.000Z",
-              "type": "folder",
-              "children": [
-                null,
-                {
-                  "path": "/media/music/Mike Stern/Mike Stern - Who Let The Cats Out (2006) [EAC-FLAC]/scans/Back.jpg",
-                  "name": "Back.jpg",
-                  "atime": "2014-07-04T18:57:01.000Z",
-                  "ctime": "2014-12-14T15:23:48.000Z",
-                  "mtime": "2014-07-04T18:57:01.000Z",
-                  "type": "file",
-                  "extension": "jpg"
-                },
-                {
-                  "path": "/media/music/Mike Stern/Mike Stern - Who Let The Cats Out (2006) [EAC-FLAC]/scans/CD.jpg",
-                  "name": "CD.jpg",
-                  "atime": "2014-07-04T18:57:01.000Z",
-                  "ctime": "2014-12-14T15:23:48.000Z",
-                  "mtime": "2014-07-04T18:57:01.000Z",
-                  "type": "file",
-                  "extension": "jpg"
-                },
-                {
-                  "path": "/media/music/Mike Stern/Mike Stern - Who Let The Cats Out (2006) [EAC-FLAC]/scans/Front.jpg",
-                  "name": "Front.jpg",
-                  "atime": "2014-07-05T05:00:51.000Z",
-                  "ctime": "2014-12-14T15:23:48.000Z",
-                  "mtime": "2014-07-05T05:00:51.000Z",
-                  "type": "file",
-                  "extension": "jpg"
-                },
-                {
-                  "path": "/media/music/Mike Stern/Mike Stern - Who Let The Cats Out (2006) [EAC-FLAC]/scans/Scan01.jpg",
-                  "name": "Scan01.jpg",
-                  "atime": "2014-07-05T05:26:55.000Z",
-                  "ctime": "2014-12-14T15:23:48.000Z",
-                  "mtime": "2014-07-05T05:26:55.000Z",
-                  "type": "file",
-                  "extension": "jpg"
-                },
-                {
-                  "path": "/media/music/Mike Stern/Mike Stern - Who Let The Cats Out (2006) [EAC-FLAC]/scans/Scan02.jpg",
-                  "name": "Scan02.jpg",
-                  "atime": "2014-07-03T15:31:42.000Z",
-                  "ctime": "2014-12-14T15:23:48.000Z",
-                  "mtime": "2014-07-03T15:31:42.000Z",
-                  "type": "file",
-                  "extension": "jpg"
-                },
-                {
-                  "path": "/media/music/Mike Stern/Mike Stern - Who Let The Cats Out (2006) [EAC-FLAC]/scans/Who Let the Cats Out_.jpg",
-                  "name": "Who Let the Cats Out_.jpg",
-                  "atime": "2014-07-03T13:20:34.000Z",
-                  "ctime": "2014-12-14T15:23:31.000Z",
-                  "mtime": "2014-07-03T13:20:34.000Z",
-                  "type": "file",
-                  "extension": "jpg"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "path": "/media/music/Miles Davis-Doo-Bop(1991)[FLAC]",
-      "name": "Miles Davis-Doo-Bop(1991)[FLAC]",
-      "atime": "2014-12-16T21:13:43.000Z",
-      "ctime": "2014-12-16T21:19:03.000Z",
-      "mtime": "2014-12-16T21:19:03.000Z",
-      "type": "folder",
-      "children": [
-        null,
-        {
-          "path": "/media/music/Miles Davis-Doo-Bop(1991)[FLAC]/01 Mystery.flac",
-          "name": "01 Mystery.flac",
-          "atime": "2014-12-16T21:14:11.000Z",
-          "ctime": "2014-12-16T21:18:34.000Z",
-          "mtime": "2014-12-16T21:14:11.000Z",
-          "type": "file",
-          "extension": "flac"
-        },
-        {
-          "path": "/media/music/Miles Davis-Doo-Bop(1991)[FLAC]/02 The Doo Bop Song.flac",
-          "name": "02 The Doo Bop Song.flac",
-          "atime": "2014-12-16T21:14:05.000Z",
-          "ctime": "2014-12-16T21:18:39.000Z",
-          "mtime": "2014-12-16T21:14:05.000Z",
-          "type": "file",
-          "extension": "flac"
-        },
-        {
-          "path": "/media/music/Miles Davis-Doo-Bop(1991)[FLAC]/03 Chocolate Chip.flac",
-          "name": "03 Chocolate Chip.flac",
-          "atime": "2014-12-16T21:14:29.000Z",
-          "ctime": "2014-12-16T21:18:45.000Z",
-          "mtime": "2014-12-16T21:14:29.000Z",
-          "type": "file",
-          "extension": "flac"
-        },
-        {
-          "path": "/media/music/Miles Davis-Doo-Bop(1991)[FLAC]/04 High Speed Chase.flac",
-          "name": "04 High Speed Chase.flac",
-          "atime": "2014-12-16T21:14:12.000Z",
-          "ctime": "2014-12-16T21:18:46.000Z",
-          "mtime": "2014-12-16T21:14:12.000Z",
-          "type": "file",
-          "extension": "flac"
-        },
-        {
-          "path": "/media/music/Miles Davis-Doo-Bop(1991)[FLAC]/05 Blow.flac",
-          "name": "05 Blow.flac",
-          "atime": "2014-12-16T21:14:23.000Z",
-          "ctime": "2014-12-16T21:18:49.000Z",
-          "mtime": "2014-12-16T21:14:23.000Z",
-          "type": "file",
-          "extension": "flac"
-        },
-        {
-          "path": "/media/music/Miles Davis-Doo-Bop(1991)[FLAC]/06 Sonya.flac",
-          "name": "06 Sonya.flac",
-          "atime": "2014-12-16T21:14:17.000Z",
-          "ctime": "2014-12-16T21:18:52.000Z",
-          "mtime": "2014-12-16T21:14:17.000Z",
-          "type": "file",
-          "extension": "flac"
-        },
-        {
-          "path": "/media/music/Miles Davis-Doo-Bop(1991)[FLAC]/07 Fantasy.flac",
-          "name": "07 Fantasy.flac",
-          "atime": "2014-12-16T21:14:25.000Z",
-          "ctime": "2014-12-16T21:18:55.000Z",
-          "mtime": "2014-12-16T21:14:25.000Z",
-          "type": "file",
-          "extension": "flac"
-        },
-        {
-          "path": "/media/music/Miles Davis-Doo-Bop(1991)[FLAC]/08 Duke Booty.flac",
-          "name": "08 Duke Booty.flac",
-          "atime": "2014-12-16T21:14:00.000Z",
-          "ctime": "2014-12-16T21:19:01.000Z",
-          "mtime": "2014-12-16T21:14:00.000Z",
-          "type": "file",
-          "extension": "flac"
-        },
-        {
-          "path": "/media/music/Miles Davis-Doo-Bop(1991)[FLAC]/09 Mystery (Reprise).flac",
-          "name": "09 Mystery (Reprise).flac",
-          "atime": "2014-12-16T21:07:45.000Z",
-          "ctime": "2014-12-16T21:19:03.000Z",
-          "mtime": "2014-12-16T21:07:45.000Z",
-          "type": "file",
-          "extension": "flac"
-        },
-        {
-          "path": "/media/music/Miles Davis-Doo-Bop(1991)[FLAC]/Doo-Bop.CUE",
-          "name": "Doo-Bop.CUE",
-          "atime": "2014-12-16T20:56:11.000Z",
-          "ctime": "2014-12-16T21:18:16.000Z",
-          "mtime": "2014-12-16T20:56:11.000Z",
-          "type": "file",
-          "extension": "CUE"
-        },
-        {
-          "path": "/media/music/Miles Davis-Doo-Bop(1991)[FLAC]/Doo-Bop.log",
-          "name": "Doo-Bop.log",
-          "atime": "2014-12-16T20:56:11.000Z",
-          "ctime": "2014-12-16T21:18:16.000Z",
-          "mtime": "2014-12-16T20:56:11.000Z",
-          "type": "file",
-          "extension": "log"
-        },
-        {
-          "path": "/media/music/Miles Davis-Doo-Bop(1991)[FLAC]/Miles Davis - Doo-Bop.m3u",
-          "name": "Miles Davis - Doo-Bop.m3u",
-          "atime": "2014-12-16T21:13:43.000Z",
-          "ctime": "2014-12-16T21:18:16.000Z",
-          "mtime": "2014-12-16T21:13:43.000Z",
-          "type": "file",
-          "extension": "m3u"
-        },
-        {
-          "path": "/media/music/Miles Davis-Doo-Bop(1991)[FLAC]/img182.jpg",
-          "name": "img182.jpg",
-          "atime": "2014-12-16T20:56:11.000Z",
-          "ctime": "2014-12-16T21:18:16.000Z",
-          "mtime": "2014-12-16T20:56:11.000Z",
-          "type": "file",
-          "extension": "jpg"
-        },
-        {
-          "path": "/media/music/Miles Davis-Doo-Bop(1991)[FLAC]/img183.jpg",
-          "name": "img183.jpg",
-          "atime": "2014-12-16T21:10:56.000Z",
-          "ctime": "2014-12-16T21:18:16.000Z",
-          "mtime": "2014-12-16T21:10:56.000Z",
-          "type": "file",
-          "extension": "jpg"
-        },
-        {
-          "path": "/media/music/Miles Davis-Doo-Bop(1991)[FLAC]/img184.jpg",
-          "name": "img184.jpg",
-          "atime": "2014-12-16T21:10:56.000Z",
-          "ctime": "2014-12-16T21:18:16.000Z",
-          "mtime": "2014-12-16T21:10:56.000Z",
-          "type": "file",
-          "extension": "jpg"
-        },
-        {
-          "path": "/media/music/Miles Davis-Doo-Bop(1991)[FLAC]/img185.jpg",
-          "name": "img185.jpg",
-          "atime": "2014-12-16T21:13:46.000Z",
-          "ctime": "2014-12-16T21:18:16.000Z",
-          "mtime": "2014-12-16T21:13:46.000Z",
-          "type": "file",
-          "extension": "jpg"
-        },
-        {
-          "path": "/media/music/Miles Davis-Doo-Bop(1991)[FLAC]/img186.jpg",
-          "name": "img186.jpg",
-          "atime": "2014-12-16T21:13:46.000Z",
-          "ctime": "2014-12-16T21:18:16.000Z",
-          "mtime": "2014-12-16T21:13:46.000Z",
-          "type": "file",
-          "extension": "jpg"
-        },
-        {
-          "path": "/media/music/Miles Davis-Doo-Bop(1991)[FLAC]/img187.jpg",
-          "name": "img187.jpg",
-          "atime": "2014-12-16T21:11:35.000Z",
-          "ctime": "2014-12-16T21:18:16.000Z",
-          "mtime": "2014-12-16T21:11:35.000Z",
-          "type": "file",
-          "extension": "jpg"
-        },
-        {
-          "path": "/media/music/Miles Davis-Doo-Bop(1991)[FLAC]/img188.jpg",
-          "name": "img188.jpg",
-          "atime": "2014-12-16T21:11:35.000Z",
-          "ctime": "2014-12-16T21:18:16.000Z",
-          "mtime": "2014-12-16T21:11:35.000Z",
-          "type": "file",
-          "extension": "jpg"
-        },
-        {
-          "path": "/media/music/Miles Davis-Doo-Bop(1991)[FLAC]/img189.jpg",
-          "name": "img189.jpg",
-          "atime": "2014-12-16T21:13:43.000Z",
-          "ctime": "2014-12-16T21:18:16.000Z",
-          "mtime": "2014-12-16T21:13:43.000Z",
-          "type": "file",
-          "extension": "jpg"
         }
       ]
     },
@@ -8580,6 +7666,360 @@
       "type": "folder",
       "children": [
         null
+      ]
+    },
+    {
+      "path": "/media/music/Nucleus",
+      "name": "Nucleus",
+      "atime": "2014-12-25T14:22:38.000Z",
+      "ctime": "2014-12-25T14:22:41.000Z",
+      "mtime": "2014-12-25T14:22:41.000Z",
+      "type": "folder",
+      "children": [
+        {
+          "path": "/media/music/Nucleus/04 - Taranaki.flac",
+          "name": "04 - Taranaki.flac",
+          "atime": "2014-12-21T07:23:21.000Z",
+          "ctime": "2014-12-25T14:11:33.000Z",
+          "mtime": "2014-12-21T07:23:21.000Z",
+          "type": "file",
+          "extension": "flac"
+        },
+        {
+          "path": "/media/music/Nucleus/1970 - We'll Talk About It Later",
+          "name": "1970 - We'll Talk About It Later",
+          "atime": "2014-12-25T14:02:25.000Z",
+          "ctime": "2014-12-25T14:22:41.000Z",
+          "mtime": "2014-12-25T14:22:41.000Z",
+          "type": "folder",
+          "meta": {
+            "discogs_url": "https://api.discogs.com/releases/5351673"
+          },
+          "children": [
+            {
+              "path": "/media/music/Nucleus/1970 - We'll Talk About It Later/01 - Song For The Bearded Lady.flac",
+              "name": "01 - Song For The Bearded Lady.flac",
+              "atime": "2014-12-21T07:28:51.000Z",
+              "ctime": "2014-12-25T14:11:15.000Z",
+              "mtime": "2014-12-21T07:28:51.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Nucleus/1970 - We'll Talk About It Later/02 - Sun Child.flac",
+              "name": "02 - Sun Child.flac",
+              "atime": "2014-12-21T07:29:07.000Z",
+              "ctime": "2014-12-25T14:11:15.000Z",
+              "mtime": "2014-12-21T07:29:07.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Nucleus/1970 - We'll Talk About It Later/03 - Lullaby For A Lonely Child.flac",
+              "name": "03 - Lullaby For A Lonely Child.flac",
+              "atime": "2014-12-21T07:29:13.000Z",
+              "ctime": "2014-12-25T14:11:15.000Z",
+              "mtime": "2014-12-21T07:29:13.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Nucleus/1970 - We'll Talk About It Later/04 - We'll Talk About It Later.flac",
+              "name": "04 - We'll Talk About It Later.flac",
+              "atime": "2014-12-21T07:29:19.000Z",
+              "ctime": "2014-12-25T14:11:15.000Z",
+              "mtime": "2014-12-21T07:29:19.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Nucleus/1970 - We'll Talk About It Later/05 - Oasis.flac",
+              "name": "05 - Oasis.flac",
+              "atime": "2014-12-21T07:28:57.000Z",
+              "ctime": "2014-12-25T14:11:15.000Z",
+              "mtime": "2014-12-21T07:28:57.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Nucleus/1970 - We'll Talk About It Later/06 - Ballad Of Joe Pimp.flac",
+              "name": "06 - Ballad Of Joe Pimp.flac",
+              "atime": "2014-12-21T07:28:53.000Z",
+              "ctime": "2014-12-25T14:11:15.000Z",
+              "mtime": "2014-12-21T07:28:53.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Nucleus/1970 - We'll Talk About It Later/07 - Easter 1916.flac",
+              "name": "07 - Easter 1916.flac",
+              "atime": "2014-12-21T07:29:12.000Z",
+              "ctime": "2014-12-25T14:11:15.000Z",
+              "mtime": "2014-12-21T07:29:12.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            null,
+            null,
+            {
+              "path": "/media/music/Nucleus/1970 - We'll Talk About It Later/Cover Art",
+              "name": "Cover Art",
+              "atime": "2014-12-21T07:17:29.000Z",
+              "ctime": "2014-12-25T14:11:14.000Z",
+              "mtime": "2014-12-21T07:17:29.000Z",
+              "type": "folder",
+              "children": [
+                null,
+                {
+                  "path": "/media/music/Nucleus/1970 - We'll Talk About It Later/Cover Art/back.jpg",
+                  "name": "back.jpg",
+                  "atime": "2014-12-21T07:17:29.000Z",
+                  "ctime": "2014-12-25T14:11:14.000Z",
+                  "mtime": "2014-12-21T07:17:29.000Z",
+                  "type": "file",
+                  "extension": "jpg"
+                },
+                {
+                  "path": "/media/music/Nucleus/1970 - We'll Talk About It Later/Cover Art/cd (dual pack).jpg",
+                  "name": "cd (dual pack).jpg",
+                  "atime": "2014-12-21T07:17:29.000Z",
+                  "ctime": "2014-12-25T14:11:14.000Z",
+                  "mtime": "2014-12-21T07:17:29.000Z",
+                  "type": "file",
+                  "extension": "jpg"
+                },
+                {
+                  "path": "/media/music/Nucleus/1970 - We'll Talk About It Later/Cover Art/folder.jpg",
+                  "name": "folder.jpg",
+                  "atime": "2014-12-21T07:17:29.000Z",
+                  "ctime": "2014-12-25T14:11:14.000Z",
+                  "mtime": "2014-12-21T07:17:29.000Z",
+                  "type": "file",
+                  "extension": "jpg"
+                },
+                {
+                  "path": "/media/music/Nucleus/1970 - We'll Talk About It Later/Cover Art/inside (dual pack).jpg",
+                  "name": "inside (dual pack).jpg",
+                  "atime": "2014-12-21T07:13:53.000Z",
+                  "ctime": "2014-12-25T14:11:14.000Z",
+                  "mtime": "2014-12-21T07:13:53.000Z",
+                  "type": "file",
+                  "extension": "jpg"
+                }
+              ]
+            },
+            {
+              "path": "/media/music/Nucleus/1970 - We'll Talk About It Later/We'll Talk About It Later.cue",
+              "name": "We'll Talk About It Later.cue",
+              "atime": "2014-12-21T07:09:35.000Z",
+              "ctime": "2014-12-25T14:11:15.000Z",
+              "mtime": "2014-12-21T07:09:35.000Z",
+              "type": "file",
+              "extension": "cue"
+            },
+            {
+              "path": "/media/music/Nucleus/1970 - We'll Talk About It Later/_meta.json",
+              "name": "_meta.json",
+              "atime": "2014-12-25T14:21:48.000Z",
+              "ctime": "2014-12-25T14:22:49.000Z",
+              "mtime": "2014-12-25T14:22:49.000Z",
+              "type": "file",
+              "extension": "json"
+            }
+          ]
+        },
+        null,
+        null,
+        {
+          "path": "/media/music/Nucleus/Ian Carr - Out Of The Long Dark",
+          "name": "Ian Carr - Out Of The Long Dark",
+          "atime": "2014-12-25T14:21:03.000Z",
+          "ctime": "2014-12-25T14:21:03.000Z",
+          "mtime": "2014-12-25T14:21:03.000Z",
+          "type": "folder",
+          "meta": {
+            "discogs_url": "https://api.discogs.com/releases/465346"
+          },
+          "children": [
+            {
+              "path": "/media/music/Nucleus/Ian Carr - Out Of The Long Dark/01 Gone With The Weed.flac",
+              "name": "01 Gone With The Weed.flac",
+              "atime": "2014-12-24T22:52:13.000Z",
+              "ctime": "2014-12-25T14:00:22.000Z",
+              "mtime": "2014-12-24T22:52:13.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Nucleus/Ian Carr - Out Of The Long Dark/02 Lady Bountiful.flac",
+              "name": "02 Lady Bountiful.flac",
+              "atime": "2014-12-24T22:52:20.000Z",
+              "ctime": "2014-12-25T14:01:06.000Z",
+              "mtime": "2014-12-24T22:52:20.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Nucleus/Ian Carr - Out Of The Long Dark/03 Solar Wind.flac",
+              "name": "03 Solar Wind.flac",
+              "atime": "2014-12-24T22:52:25.000Z",
+              "ctime": "2014-12-25T14:02:47.000Z",
+              "mtime": "2014-12-24T22:52:25.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Nucleus/Ian Carr - Out Of The Long Dark/04 Selina.flac",
+              "name": "04 Selina.flac",
+              "atime": "2014-12-24T22:52:29.000Z",
+              "ctime": "2014-12-25T14:03:20.000Z",
+              "mtime": "2014-12-24T22:52:29.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Nucleus/Ian Carr - Out Of The Long Dark/05 Out Of The Long Dark (conseption).flac",
+              "name": "05 Out Of The Long Dark (conseption).flac",
+              "atime": "2014-12-24T22:52:34.000Z",
+              "ctime": "2014-12-25T14:04:06.000Z",
+              "mtime": "2014-12-24T22:52:34.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Nucleus/Ian Carr - Out Of The Long Dark/06 Sassy (American Girl).flac",
+              "name": "06 Sassy (American Girl).flac",
+              "atime": "2014-12-24T22:52:38.000Z",
+              "ctime": "2014-12-25T14:05:19.000Z",
+              "mtime": "2014-12-24T22:52:38.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Nucleus/Ian Carr - Out Of The Long Dark/07 Simply This (The Human Condition).flac",
+              "name": "07 Simply This (The Human Condition).flac",
+              "atime": "2014-12-24T22:52:42.000Z",
+              "ctime": "2014-12-25T14:06:26.000Z",
+              "mtime": "2014-12-24T22:52:42.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Nucleus/Ian Carr - Out Of The Long Dark/08 Black Ballad (Ecce Domina).flac",
+              "name": "08 Black Ballad (Ecce Domina).flac",
+              "atime": "2014-12-24T22:52:47.000Z",
+              "ctime": "2014-12-25T14:07:58.000Z",
+              "mtime": "2014-12-24T22:52:47.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Nucleus/Ian Carr - Out Of The Long Dark/09 For Liam.flac",
+              "name": "09 For Liam.flac",
+              "atime": "2014-12-24T22:52:48.000Z",
+              "ctime": "2014-12-25T14:08:08.000Z",
+              "mtime": "2014-12-24T22:52:48.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            null,
+            {
+              "path": "/media/music/Nucleus/Ian Carr - Out Of The Long Dark/_meta.json",
+              "name": "_meta.json",
+              "atime": "2014-12-19T04:18:17.000Z",
+              "ctime": "2014-12-25T14:21:49.000Z",
+              "mtime": "2014-12-25T14:21:48.000Z",
+              "type": "file",
+              "extension": "json"
+            }
+          ]
+        },
+        {
+          "path": "/media/music/Nucleus/Ian Carr's Nucleus - Roots",
+          "name": "Ian Carr's Nucleus - Roots",
+          "atime": "2014-12-25T14:20:18.000Z",
+          "ctime": "2014-12-25T14:20:18.000Z",
+          "mtime": "2014-12-25T14:20:18.000Z",
+          "type": "folder",
+          "meta": {
+            "discogs_url": "https://api.discogs.com/releases/2511936"
+          },
+          "children": [
+            {
+              "path": "/media/music/Nucleus/Ian Carr's Nucleus - Roots/01 Roots.flac",
+              "name": "01 Roots.flac",
+              "atime": "2014-12-23T11:20:41.000Z",
+              "ctime": "2014-12-25T14:15:15.000Z",
+              "mtime": "2014-12-23T11:20:41.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Nucleus/Ian Carr's Nucleus - Roots/02 Images.flac",
+              "name": "02 Images.flac",
+              "atime": "2014-12-23T11:20:44.000Z",
+              "ctime": "2014-12-25T14:15:43.000Z",
+              "mtime": "2014-12-23T11:20:44.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Nucleus/Ian Carr's Nucleus - Roots/03 Caliban.flac",
+              "name": "03 Caliban.flac",
+              "atime": "2014-12-23T11:20:48.000Z",
+              "ctime": "2014-12-25T14:16:07.000Z",
+              "mtime": "2014-12-23T11:20:48.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Nucleus/Ian Carr's Nucleus - Roots/04 Whapatiti.flac",
+              "name": "04 Whapatiti.flac",
+              "atime": "2014-12-23T11:20:50.000Z",
+              "ctime": "2014-12-25T14:16:32.000Z",
+              "mtime": "2014-12-23T11:20:50.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Nucleus/Ian Carr's Nucleus - Roots/05 Capricorn.flac",
+              "name": "05 Capricorn.flac",
+              "atime": "2014-12-23T11:20:53.000Z",
+              "ctime": "2014-12-25T14:16:49.000Z",
+              "mtime": "2014-12-23T11:20:53.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Nucleus/Ian Carr's Nucleus - Roots/06 Odokamona.flac",
+              "name": "06 Odokamona.flac",
+              "atime": "2014-12-23T11:20:56.000Z",
+              "ctime": "2014-12-25T14:17:17.000Z",
+              "mtime": "2014-12-23T11:20:56.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Nucleus/Ian Carr's Nucleus - Roots/07 Southern Roots And Celebration.flac",
+              "name": "07 Southern Roots And Celebration.flac",
+              "atime": "2014-12-23T11:21:01.000Z",
+              "ctime": "2014-12-25T14:18:04.000Z",
+              "mtime": "2014-12-23T11:21:01.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            null,
+            {
+              "path": "/media/music/Nucleus/Ian Carr's Nucleus - Roots/_meta.json",
+              "name": "_meta.json",
+              "atime": "2014-12-19T04:18:17.000Z",
+              "ctime": "2014-12-25T14:20:43.000Z",
+              "mtime": "2014-12-25T14:20:43.000Z",
+              "type": "file",
+              "extension": "json"
+            }
+          ]
+        }
       ]
     },
     {
@@ -8599,7 +8039,6 @@
       "mtime": "2014-06-20T20:17:51.000Z",
       "type": "folder",
       "children": [
-        null,
         {
           "path": "/media/music/Pat Metheny Watercolors/1- Watercolors.flac",
           "name": "1- Watercolors.flac",
@@ -8672,6 +8111,7 @@
           "type": "file",
           "extension": "flac"
         },
+        null,
         {
           "path": "/media/music/Pat Metheny Watercolors/Pat-Metheny-Watercolors.jpg",
           "name": "Pat-Metheny-Watercolors.jpg",
@@ -8693,6 +8133,256 @@
       ]
     },
     {
+      "path": "/media/music/Ravi Shankar",
+      "name": "Ravi Shankar",
+      "atime": "2014-12-20T15:22:20.000Z",
+      "ctime": "2014-12-20T15:22:20.000Z",
+      "mtime": "2014-12-20T15:22:20.000Z",
+      "type": "folder",
+      "children": [
+        null,
+        null,
+        {
+          "path": "/media/music/Ravi Shankar/Ravi Shankar - Presents The Master Drummers Of India (2008) [EAC-FLAC]",
+          "name": "Ravi Shankar - Presents The Master Drummers Of India (2008) [EAC-FLAC]",
+          "atime": "2014-12-19T17:09:05.000Z",
+          "ctime": "2014-12-19T18:15:14.000Z",
+          "mtime": "2014-12-19T17:09:05.000Z",
+          "type": "folder",
+          "children": [
+            {
+              "path": "/media/music/Ravi Shankar/Ravi Shankar - Presents The Master Drummers Of India (2008) [EAC-FLAC]/01 - Drum Duet in Tala Dadra (6 beats) - Alla Rakha, Tabla; Pulghat Raghu, Mridangam.flac",
+              "name": "01 - Drum Duet in Tala Dadra (6 beats) - Alla Rakha, Tabla; Pulghat Raghu, Mridangam.flac",
+              "atime": "2014-12-19T17:17:27.000Z",
+              "ctime": "2014-12-19T18:10:05.000Z",
+              "mtime": "2014-12-19T17:17:27.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Ravi Shankar/Ravi Shankar - Presents The Master Drummers Of India (2008) [EAC-FLAC]/02 - Tabla Solo in Rupaktal (7 beats) - Chatur Lal, Tabla.flac",
+              "name": "02 - Tabla Solo in Rupaktal (7 beats) - Chatur Lal, Tabla.flac",
+              "atime": "2014-12-19T17:17:28.000Z",
+              "ctime": "2014-12-19T18:10:05.000Z",
+              "mtime": "2014-12-19T17:17:28.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Ravi Shankar/Ravi Shankar - Presents The Master Drummers Of India (2008) [EAC-FLAC]/03 - Tabla Solo in Jhaptal (10 beats) - Zakir Hussain, Tabla.flac",
+              "name": "03 - Tabla Solo in Jhaptal (10 beats) - Zakir Hussain, Tabla.flac",
+              "atime": "2014-12-19T17:17:30.000Z",
+              "ctime": "2014-12-19T18:10:05.000Z",
+              "mtime": "2014-12-19T17:17:30.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Ravi Shankar/Ravi Shankar - Presents The Master Drummers Of India (2008) [EAC-FLAC]/04 - Drum Duet In Adi Tala (8 beats) - A K Palinivel And P K Kalimurthi, Thavil.flac",
+              "name": "04 - Drum Duet In Adi Tala (8 beats) - A K Palinivel And P K Kalimurthi, Thavil.flac",
+              "atime": "2014-12-19T17:17:31.000Z",
+              "ctime": "2014-12-19T18:10:05.000Z",
+              "mtime": "2014-12-19T17:17:31.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            null,
+            {
+              "path": "/media/music/Ravi Shankar/Ravi Shankar - Presents The Master Drummers Of India (2008) [EAC-FLAC]/Ravi Shankar Presents The Master Drummers Of India.cue",
+              "name": "Ravi Shankar Presents The Master Drummers Of India.cue",
+              "atime": "2014-12-19T17:09:05.000Z",
+              "ctime": "2014-12-19T18:10:05.000Z",
+              "mtime": "2014-12-19T17:09:05.000Z",
+              "type": "file",
+              "extension": "cue"
+            },
+            {
+              "path": "/media/music/Ravi Shankar/Ravi Shankar - Presents The Master Drummers Of India (2008) [EAC-FLAC]/Various - Ravi Shankar Presents The Master Drummers Of India.log",
+              "name": "Various - Ravi Shankar Presents The Master Drummers Of India.log",
+              "atime": "2014-12-19T17:09:05.000Z",
+              "ctime": "2014-12-19T18:10:05.000Z",
+              "mtime": "2014-12-19T17:09:05.000Z",
+              "type": "file",
+              "extension": "log"
+            },
+            {
+              "path": "/media/music/Ravi Shankar/Ravi Shankar - Presents The Master Drummers Of India (2008) [EAC-FLAC]/Various - Ravi Shankar Presents The Master Drummers Of India.m3u",
+              "name": "Various - Ravi Shankar Presents The Master Drummers Of India.m3u",
+              "atime": "2014-12-19T17:09:05.000Z",
+              "ctime": "2014-12-19T18:10:05.000Z",
+              "mtime": "2014-12-19T17:09:05.000Z",
+              "type": "file",
+              "extension": "m3u"
+            }
+          ]
+        },
+        {
+          "path": "/media/music/Ravi Shankar/Ravi Shankar - Shankar Family & Friends (2010) [FLAC]",
+          "name": "Ravi Shankar - Shankar Family & Friends (2010) [FLAC]",
+          "atime": "2014-12-19T17:31:16.000Z",
+          "ctime": "2014-12-19T18:15:14.000Z",
+          "mtime": "2014-12-19T17:31:16.000Z",
+          "type": "folder",
+          "children": [
+            {
+              "path": "/media/music/Ravi Shankar/Ravi Shankar - Shankar Family & Friends (2010) [FLAC]/01 - I Am Missing You.flac",
+              "name": "01 - I Am Missing You.flac",
+              "atime": "2014-12-19T17:31:58.000Z",
+              "ctime": "2014-12-19T18:13:30.000Z",
+              "mtime": "2014-12-19T17:31:58.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Ravi Shankar/Ravi Shankar - Shankar Family & Friends (2010) [FLAC]/02 - Kahan gayelava Shyam salone.flac",
+              "name": "02 - Kahan gayelava Shyam salone.flac",
+              "atime": "2014-12-19T17:30:37.000Z",
+              "ctime": "2014-12-19T18:13:30.000Z",
+              "mtime": "2014-12-19T17:30:37.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Ravi Shankar/Ravi Shankar - Shankar Family & Friends (2010) [FLAC]/03 - Supane me aye preetam sainya.flac",
+              "name": "03 - Supane me aye preetam sainya.flac",
+              "atime": "2014-12-19T17:31:32.000Z",
+              "ctime": "2014-12-19T18:13:30.000Z",
+              "mtime": "2014-12-19T17:31:32.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Ravi Shankar/Ravi Shankar - Shankar Family & Friends (2010) [FLAC]/04 - I Am Missing You (Reprise).flac",
+              "name": "04 - I Am Missing You (Reprise).flac",
+              "atime": "2014-12-19T17:31:58.000Z",
+              "ctime": "2014-12-19T18:13:30.000Z",
+              "mtime": "2014-12-19T17:31:58.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Ravi Shankar/Ravi Shankar - Shankar Family & Friends (2010) [FLAC]/05 - Jaya Jagadish Hare.flac",
+              "name": "05 - Jaya Jagadish Hare.flac",
+              "atime": "2014-12-19T17:31:36.000Z",
+              "ctime": "2014-12-19T18:13:30.000Z",
+              "mtime": "2014-12-19T17:31:36.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Ravi Shankar/Ravi Shankar - Shankar Family & Friends (2010) [FLAC]/06 - Overture.flac",
+              "name": "06 - Overture.flac",
+              "atime": "2014-12-19T17:31:49.000Z",
+              "ctime": "2014-12-19T18:13:30.000Z",
+              "mtime": "2014-12-19T17:31:49.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Ravi Shankar/Ravi Shankar - Shankar Family & Friends (2010) [FLAC]/07 - Festivity & Joy.flac",
+              "name": "07 - Festivity & Joy.flac",
+              "atime": "2014-12-19T17:31:59.000Z",
+              "ctime": "2014-12-19T18:13:30.000Z",
+              "mtime": "2014-12-19T17:31:59.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Ravi Shankar/Ravi Shankar - Shankar Family & Friends (2010) [FLAC]/08 - Love - Dance Ecstasy.flac",
+              "name": "08 - Love - Dance Ecstasy.flac",
+              "atime": "2014-12-19T17:31:52.000Z",
+              "ctime": "2014-12-19T18:13:30.000Z",
+              "mtime": "2014-12-19T17:31:52.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Ravi Shankar/Ravi Shankar - Shankar Family & Friends (2010) [FLAC]/09 - Lust (Raga Chandrakauns).flac",
+              "name": "09 - Lust (Raga Chandrakauns).flac",
+              "atime": "2014-12-19T17:31:46.000Z",
+              "ctime": "2014-12-19T18:13:30.000Z",
+              "mtime": "2014-12-19T17:31:46.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Ravi Shankar/Ravi Shankar - Shankar Family & Friends (2010) [FLAC]/10 - Dispute & Violence.flac",
+              "name": "10 - Dispute & Violence.flac",
+              "atime": "2014-12-19T17:31:44.000Z",
+              "ctime": "2014-12-19T18:13:30.000Z",
+              "mtime": "2014-12-19T17:31:44.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Ravi Shankar/Ravi Shankar - Shankar Family & Friends (2010) [FLAC]/11 - Disillusionment & Frustration.flac",
+              "name": "11 - Disillusionment & Frustration.flac",
+              "atime": "2014-12-19T17:31:47.000Z",
+              "ctime": "2014-12-19T18:13:30.000Z",
+              "mtime": "2014-12-19T17:31:47.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Ravi Shankar/Ravi Shankar - Shankar Family & Friends (2010) [FLAC]/12 - Despair & Sorrow (Raga Marwa).flac",
+              "name": "12 - Despair & Sorrow (Raga Marwa).flac",
+              "atime": "2014-12-19T17:31:47.000Z",
+              "ctime": "2014-12-19T18:13:30.000Z",
+              "mtime": "2014-12-19T17:31:47.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Ravi Shankar/Ravi Shankar - Shankar Family & Friends (2010) [FLAC]/13 - Awakening.flac",
+              "name": "13 - Awakening.flac",
+              "atime": "2014-12-19T17:29:03.000Z",
+              "ctime": "2014-12-19T18:13:30.000Z",
+              "mtime": "2014-12-19T17:29:03.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Ravi Shankar/Ravi Shankar - Shankar Family & Friends (2010) [FLAC]/14 - Peace & Hope (Raga Bhatiyar).flac",
+              "name": "14 - Peace & Hope (Raga Bhatiyar).flac",
+              "atime": "2014-12-19T17:31:42.000Z",
+              "ctime": "2014-12-19T18:13:30.000Z",
+              "mtime": "2014-12-19T17:31:42.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            null,
+            {
+              "path": "/media/music/Ravi Shankar/Ravi Shankar - Shankar Family & Friends (2010) [FLAC]/Cover.jpg",
+              "name": "Cover.jpg",
+              "atime": "2014-12-19T17:31:16.000Z",
+              "ctime": "2014-12-19T18:13:30.000Z",
+              "mtime": "2014-12-19T17:31:16.000Z",
+              "type": "file",
+              "extension": "jpg"
+            },
+            {
+              "path": "/media/music/Ravi Shankar/Ravi Shankar - Shankar Family & Friends (2010) [FLAC]/Shankar Family & Friends.cue",
+              "name": "Shankar Family & Friends.cue",
+              "atime": "2014-12-19T17:31:16.000Z",
+              "ctime": "2014-12-19T18:13:30.000Z",
+              "mtime": "2014-12-19T17:31:16.000Z",
+              "type": "file",
+              "extension": "cue"
+            },
+            {
+              "path": "/media/music/Ravi Shankar/Ravi Shankar - Shankar Family & Friends (2010) [FLAC]/Shankar Family & Friends.log",
+              "name": "Shankar Family & Friends.log",
+              "atime": "2014-12-19T17:31:16.000Z",
+              "ctime": "2014-12-19T18:13:30.000Z",
+              "mtime": "2014-12-19T17:31:16.000Z",
+              "type": "file",
+              "extension": "log"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "path": "/media/music/Reggie Workman Ensemble — Synthesis",
       "name": "Reggie Workman Ensemble — Synthesis",
       "atime": "2014-11-12T16:14:04.000Z",
@@ -8700,7 +8390,6 @@
       "mtime": "2014-12-07T04:23:01.000Z",
       "type": "folder",
       "children": [
-        null,
         {
           "path": "/media/music/Reggie Workman Ensemble — Synthesis/01 Jus’ Ole Mae.flac",
           "name": "01 Jus’ Ole Mae.flac",
@@ -8764,6 +8453,7 @@
           "type": "file",
           "extension": "flac"
         },
+        null,
         {
           "path": "/media/music/Reggie Workman Ensemble — Synthesis/checksums.md5",
           "name": "checksums.md5",
@@ -8966,12 +8656,11 @@
     {
       "path": "/media/music/Steve Reich",
       "name": "Steve Reich",
-      "atime": "2014-11-12T20:15:38.000Z",
-      "ctime": "2014-12-04T19:20:24.000Z",
-      "mtime": "2014-12-04T19:20:24.000Z",
+      "atime": "2014-12-19T17:34:13.000Z",
+      "ctime": "2014-12-19T17:34:13.000Z",
+      "mtime": "2014-12-19T17:34:13.000Z",
       "type": "folder",
       "children": [
-        null,
         {
           "path": "/media/music/Steve Reich/02 Nagoya Marimbas.flac",
           "name": "02 Nagoya Marimbas.flac",
@@ -8981,12 +8670,14 @@
           "type": "file",
           "extension": "flac"
         },
+        null,
+        null,
         {
           "path": "/media/music/Steve Reich/Steve Reich - Works (7) New York Counterpoint - Sextet - The Four Sections",
           "name": "Steve Reich - Works (7) New York Counterpoint - Sextet - The Four Sections",
           "atime": "2014-11-16T18:37:16.000Z",
-          "ctime": "2014-11-16T18:53:43.000Z",
-          "mtime": "2014-11-16T18:53:43.000Z",
+          "ctime": "2014-12-19T17:33:59.000Z",
+          "mtime": "2014-12-19T17:33:59.000Z",
           "type": "folder",
           "children": [
             {
@@ -9096,15 +8787,16 @@
               "mtime": "2014-11-12T20:24:08.000Z",
               "type": "file",
               "extension": "flac"
-            }
+            },
+            null
           ]
         },
         {
           "path": "/media/music/Steve Reich/Steve Reich and Musicians - Drumming",
           "name": "Steve Reich and Musicians - Drumming",
           "atime": "2014-11-12T20:16:15.000Z",
-          "ctime": "2014-11-12T20:24:42.000Z",
-          "mtime": "2014-11-12T20:24:42.000Z",
+          "ctime": "2014-12-19T17:33:59.000Z",
+          "mtime": "2014-12-19T17:33:59.000Z",
           "type": "folder",
           "children": [
             {
@@ -9142,15 +8834,54 @@
               "mtime": "2014-11-12T17:14:11.000Z",
               "type": "file",
               "extension": "flac"
-            }
+            },
+            null
+          ]
+        },
+        {
+          "path": "/media/music/Steve Reich/Works 1965-1995",
+          "name": "Works 1965-1995",
+          "atime": "2014-11-12T20:25:28.000Z",
+          "ctime": "2014-12-19T17:33:59.000Z",
+          "mtime": "2014-12-19T17:33:59.000Z",
+          "type": "folder",
+          "children": [
+            {
+              "path": "/media/music/Steve Reich/Works 1965-1995/01 Music for Mallet Instruments, Voices and Organ.flac",
+              "name": "01 Music for Mallet Instruments, Voices and Organ.flac",
+              "atime": "2014-11-12T20:25:06.000Z",
+              "ctime": "2014-11-12T20:31:29.000Z",
+              "mtime": "2014-11-12T17:14:47.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Steve Reich/Works 1965-1995/02 Clapping Music.flac",
+              "name": "02 Clapping Music.flac",
+              "atime": "2014-11-12T20:25:12.000Z",
+              "ctime": "2014-11-12T20:27:46.000Z",
+              "mtime": "2014-11-12T17:14:51.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/Steve Reich/Works 1965-1995/03 Six Marimbas.flac",
+              "name": "03 Six Marimbas.flac",
+              "atime": "2014-11-12T20:25:20.000Z",
+              "ctime": "2014-11-12T20:31:23.000Z",
+              "mtime": "2014-11-12T17:15:02.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            null
           ]
         },
         {
           "path": "/media/music/Steve Reich/Works - Excerpts from The Cave",
           "name": "Works - Excerpts from The Cave",
           "atime": "2014-11-12T20:31:39.000Z",
-          "ctime": "2014-11-16T18:34:30.000Z",
-          "mtime": "2014-11-12T20:41:28.000Z",
+          "ctime": "2014-12-19T17:33:59.000Z",
+          "mtime": "2014-12-19T17:33:59.000Z",
           "type": "folder",
           "children": [
             {
@@ -9305,44 +9036,8 @@
               "mtime": "2014-11-12T17:19:46.000Z",
               "type": "file",
               "extension": "flac"
-            }
-          ]
-        },
-        {
-          "path": "/media/music/Steve Reich/Works 1965-1995",
-          "name": "Works 1965-1995",
-          "atime": "2014-11-12T20:25:28.000Z",
-          "ctime": "2014-11-16T18:34:45.000Z",
-          "mtime": "2014-11-12T20:25:58.000Z",
-          "type": "folder",
-          "children": [
-            {
-              "path": "/media/music/Steve Reich/Works 1965-1995/01 Music for Mallet Instruments, Voices and Organ.flac",
-              "name": "01 Music for Mallet Instruments, Voices and Organ.flac",
-              "atime": "2014-11-12T20:25:06.000Z",
-              "ctime": "2014-11-12T20:31:29.000Z",
-              "mtime": "2014-11-12T17:14:47.000Z",
-              "type": "file",
-              "extension": "flac"
             },
-            {
-              "path": "/media/music/Steve Reich/Works 1965-1995/02 Clapping Music.flac",
-              "name": "02 Clapping Music.flac",
-              "atime": "2014-11-12T20:25:12.000Z",
-              "ctime": "2014-11-12T20:27:46.000Z",
-              "mtime": "2014-11-12T17:14:51.000Z",
-              "type": "file",
-              "extension": "flac"
-            },
-            {
-              "path": "/media/music/Steve Reich/Works 1965-1995/03 Six Marimbas.flac",
-              "name": "03 Six Marimbas.flac",
-              "atime": "2014-11-12T20:25:20.000Z",
-              "ctime": "2014-11-12T20:31:23.000Z",
-              "mtime": "2014-11-12T17:15:02.000Z",
-              "type": "file",
-              "extension": "flac"
-            }
+            null
           ]
         }
       ]
@@ -9365,8 +9060,6 @@
           "mtime": "2014-12-15T08:00:18.000Z",
           "type": "folder",
           "children": [
-            null,
-            null,
             {
               "path": "/media/music/Stéfane Grappelli/Feeling + Finesse = Jazz (1962) [FLAC] {RHINO 90140}/01 - Django.flac",
               "name": "01 - Django.flac",
@@ -9457,6 +9150,8 @@
               "type": "file",
               "extension": "flac"
             },
+            null,
+            null,
             {
               "path": "/media/music/Stéfane Grappelli/Feeling + Finesse = Jazz (1962) [FLAC] {RHINO 90140}/scans",
               "name": "scans",
@@ -9554,7 +9249,6 @@
       "mtime": "2014-12-17T01:21:19.000Z",
       "type": "folder",
       "children": [
-        null,
         {
           "path": "/media/music/Terje Rypdal - Lux Aeterna (2002)/01 - 1st Movement - Luminous Galaxy.flac",
           "name": "01 - 1st Movement - Luminous Galaxy.flac",
@@ -9600,6 +9294,7 @@
           "type": "file",
           "extension": "flac"
         },
+        null,
         {
           "path": "/media/music/Terje Rypdal - Lux Aeterna (2002)/CD.jpg",
           "name": "CD.jpg",
@@ -9704,20 +9399,22 @@
     {
       "path": "/media/music/Tomasz Stanko Quartet",
       "name": "Tomasz Stanko Quartet",
-      "atime": "2014-11-09T01:35:21.000Z",
-      "ctime": "2014-12-04T19:20:24.000Z",
-      "mtime": "2014-12-04T19:20:24.000Z",
+      "atime": "2014-12-19T17:34:07.000Z",
+      "ctime": "2014-12-19T17:34:07.000Z",
+      "mtime": "2014-12-19T17:34:07.000Z",
       "type": "folder",
       "children": [
+        null,
         null,
         {
           "path": "/media/music/Tomasz Stanko Quartet/Soul of Things (ECM 1788)",
           "name": "Soul of Things (ECM 1788)",
           "atime": "2014-11-11T17:01:37.000Z",
-          "ctime": "2014-11-13T22:20:36.000Z",
-          "mtime": "2014-11-13T22:20:36.000Z",
+          "ctime": "2014-12-19T17:34:02.000Z",
+          "mtime": "2014-12-19T17:34:02.000Z",
           "type": "folder",
           "children": [
+            null,
             {
               "path": "/media/music/Tomasz Stanko Quartet/Soul of Things (ECM 1788)/Soul of Things, Variations I - XIII.log",
               "name": "Soul of Things, Variations I - XIII.log",
@@ -9749,10 +9446,11 @@
               "path": "/media/music/Tomasz Stanko Quartet/Soul of Things (ECM 1788)/covers",
               "name": "covers",
               "atime": "2014-11-11T17:01:37.000Z",
-              "ctime": "2014-11-11T17:01:40.000Z",
-              "mtime": "2014-11-11T17:01:40.000Z",
+              "ctime": "2014-12-19T17:34:03.000Z",
+              "mtime": "2014-12-19T17:34:03.000Z",
               "type": "folder",
               "children": [
+                null,
                 {
                   "path": "/media/music/Tomasz Stanko Quartet/Soul of Things (ECM 1788)/covers/back.jpg",
                   "name": "back.jpg",
@@ -9777,15 +9475,6 @@
                   "atime": "2014-11-09T01:38:26.000Z",
                   "ctime": "2014-11-11T17:01:38.000Z",
                   "mtime": "2014-11-09T01:40:09.000Z",
-                  "type": "file",
-                  "extension": "jpg"
-                },
-                {
-                  "path": "/media/music/Tomasz Stanko Quartet/Soul of Things (ECM 1788)/covers/in.jpg",
-                  "name": "in.jpg",
-                  "atime": "2014-11-09T01:38:26.000Z",
-                  "ctime": "2014-11-11T17:01:38.000Z",
-                  "mtime": "2014-11-09T01:39:03.000Z",
                   "type": "file",
                   "extension": "jpg"
                 },
@@ -9835,6 +9524,15 @@
                   "extension": "jpg"
                 },
                 {
+                  "path": "/media/music/Tomasz Stanko Quartet/Soul of Things (ECM 1788)/covers/in.jpg",
+                  "name": "in.jpg",
+                  "atime": "2014-11-09T01:38:26.000Z",
+                  "ctime": "2014-11-11T17:01:38.000Z",
+                  "mtime": "2014-11-09T01:39:03.000Z",
+                  "type": "file",
+                  "extension": "jpg"
+                },
+                {
                   "path": "/media/music/Tomasz Stanko Quartet/Soul of Things (ECM 1788)/covers/suspended stanko front.jpg",
                   "name": "suspended stanko front.jpg",
                   "atime": "2014-11-09T01:40:34.000Z",
@@ -9860,8 +9558,8 @@
           "path": "/media/music/Tomasz Stanko Quartet/Suspended Night",
           "name": "Suspended Night",
           "atime": "2014-11-09T01:35:21.000Z",
-          "ctime": "2014-12-13T02:53:02.000Z",
-          "mtime": "2014-12-13T02:53:02.000Z",
+          "ctime": "2014-12-19T17:34:02.000Z",
+          "mtime": "2014-12-19T17:34:02.000Z",
           "type": "folder",
           "children": [
             {
@@ -9963,6 +9661,7 @@
               "type": "file",
               "extension": "mp3"
             },
+            null,
             {
               "path": "/media/music/Tomasz Stanko Quartet/Suspended Night/playlist",
               "name": "playlist",
@@ -9987,7 +9686,6 @@
         "discogs_url": "https://api.discogs.com/releases/1895395"
       },
       "children": [
-        null,
         {
           "path": "/media/music/Toru Takemitsu — I Hear The Water Dreaming/01 I Hear The Water Dreaming.flac",
           "name": "01 I Hear The Water Dreaming.flac",
@@ -10105,6 +9803,7 @@
           "type": "file",
           "extension": "flac"
         },
+        null,
         {
           "path": "/media/music/Toru Takemitsu — I Hear The Water Dreaming/_meta.json",
           "name": "_meta.json",
@@ -10161,8 +9860,6 @@
           "mtime": "2014-12-15T08:29:18.000Z",
           "type": "folder",
           "children": [
-            null,
-            null,
             {
               "path": "/media/music/Weather Report/Night Passage (1980) [EAC-FLAC]/01 - Night Passage.flac",
               "name": "01 - Night Passage.flac",
@@ -10235,6 +9932,8 @@
               "type": "file",
               "extension": "flac"
             },
+            null,
+            null,
             {
               "path": "/media/music/Weather Report/Night Passage (1980) [EAC-FLAC]/Scans",
               "name": "Scans",
@@ -10301,7 +10000,6 @@
           "mtime": "2014-12-15T08:21:40.000Z",
           "type": "folder",
           "children": [
-            null,
             {
               "path": "/media/music/Weather Report/Sweetnighter (1973) [2012 Reissue] [FLAC]/01 Boogie Woogie Waltz.flac",
               "name": "01 Boogie Woogie Waltz.flac",
@@ -10365,6 +10063,7 @@
               "type": "file",
               "extension": "flac"
             },
+            null,
             {
               "path": "/media/music/Weather Report/Sweetnighter (1973) [2012 Reissue] [FLAC]/playlist",
               "name": "playlist",
@@ -10446,11 +10145,12 @@
     {
       "path": "/media/music/_demos",
       "name": "_demos",
-      "atime": "2014-11-12T17:07:54.000Z",
-      "ctime": "2014-12-04T19:20:24.000Z",
-      "mtime": "2014-12-04T19:20:24.000Z",
+      "atime": "2014-12-19T17:30:43.000Z",
+      "ctime": "2014-12-19T17:30:43.000Z",
+      "mtime": "2014-12-19T17:30:43.000Z",
       "type": "folder",
       "children": [
+        null,
         null,
         {
           "path": "/media/music/_demos/DEMO Files Stereo ORTF",
@@ -10606,7 +10306,6 @@
           "mtime": "2014-12-18T17:17:57.000Z",
           "type": "folder",
           "children": [
-            null,
             {
               "path": "/media/music/_demos/PfleidRecordings/03_Arlesienne1_1.mp3",
               "name": "03_Arlesienne1_1.mp3",
@@ -10688,6 +10387,7 @@
               "type": "file",
               "extension": "mp3"
             },
+            null,
             {
               "path": "/media/music/_demos/PfleidRecordings/RichardWagner-Vorspielzum3AktderOperLohengrin.mp3",
               "name": "RichardWagner-Vorspielzum3AktderOperLohengrin.mp3",
@@ -10799,6 +10499,15 @@
               "extension": "m4a"
             },
             {
+              "path": "/media/music/_demos/peter/papperlapapp3.mp3",
+              "name": "papperlapapp3.mp3",
+              "atime": "2014-11-09T00:32:19.000Z",
+              "ctime": "2014-11-09T00:36:59.000Z",
+              "mtime": "2014-02-08T00:04:35.000Z",
+              "type": "file",
+              "extension": "mp3"
+            },
+            {
               "path": "/media/music/_demos/peter/papperlapapp.aif",
               "name": "papperlapapp.aif",
               "atime": "2014-11-09T00:32:19.000Z",
@@ -10815,15 +10524,6 @@
               "mtime": "2014-06-27T14:03:23.000Z",
               "type": "file",
               "extension": "m4a"
-            },
-            {
-              "path": "/media/music/_demos/peter/papperlapapp3.mp3",
-              "name": "papperlapapp3.mp3",
-              "atime": "2014-11-09T00:32:19.000Z",
-              "ctime": "2014-11-09T00:36:59.000Z",
-              "mtime": "2014-02-08T00:04:35.000Z",
-              "type": "file",
-              "extension": "mp3"
             }
           ]
         },
@@ -10840,10 +10540,11 @@
               "path": "/media/music/_demos/reverie/Pitx_-_R_R_R",
               "name": "Pitx_-_R_R_R",
               "atime": "2014-11-04T18:53:53.000Z",
-              "ctime": "2014-11-05T20:57:59.000Z",
-              "mtime": "2014-11-04T18:53:53.000Z",
+              "ctime": "2014-12-19T17:30:13.000Z",
+              "mtime": "2014-12-19T17:30:13.000Z",
               "type": "folder",
               "children": [
+                null,
                 {
                   "path": "/media/music/_demos/reverie/Pitx_-_R_R_R/R&R&R-riff-120bpm.wav",
                   "name": "R&R&R-riff-120bpm.wav",
@@ -10880,12 +10581,11 @@
     {
       "path": "/media/music/_misc",
       "name": "_misc",
-      "atime": "2014-12-05T19:57:26.000Z",
-      "ctime": "2014-12-07T17:25:18.000Z",
-      "mtime": "2014-12-07T17:25:18.000Z",
+      "atime": "2014-12-22T10:43:52.000Z",
+      "ctime": "2014-12-22T10:43:52.000Z",
+      "mtime": "2014-12-22T10:43:52.000Z",
       "type": "folder",
       "children": [
-        null,
         {
           "path": "/media/music/_misc/03. Donald Byrd - Dance Band.flac",
           "name": "03. Donald Byrd - Dance Band.flac",
@@ -10905,6 +10605,15 @@
           "extension": "flac"
         },
         {
+          "path": "/media/music/_misc/04 - Taranaki.flac",
+          "name": "04 - Taranaki.flac",
+          "atime": "2014-12-21T08:54:19.000Z",
+          "ctime": "2014-12-21T18:50:02.000Z",
+          "mtime": "2014-12-21T08:54:19.000Z",
+          "type": "file",
+          "extension": "flac"
+        },
+        {
           "path": "/media/music/_misc/05 - Clear Skies.flac",
           "name": "05 - Clear Skies.flac",
           "atime": "2014-06-20T19:40:27.000Z",
@@ -10917,7 +10626,7 @@
           "path": "/media/music/_misc/09 Foujita.flac",
           "name": "09 Foujita.flac",
           "atime": "2014-07-08T00:02:07.000Z",
-          "ctime": "2014-12-05T19:44:48.000Z",
+          "ctime": "2014-12-22T10:56:49.000Z",
           "mtime": "2014-07-08T00:02:07.000Z",
           "type": "file",
           "extension": "flac"
@@ -10932,19 +10641,30 @@
           "extension": "flac"
         },
         {
+          "path": "/media/music/_misc/12 - Speaking for Myself Personally.flac",
+          "name": "12 - Speaking for Myself Personally.flac",
+          "atime": "2014-12-21T08:49:13.000Z",
+          "ctime": "2014-12-21T18:48:01.000Z",
+          "mtime": "2014-12-21T08:49:13.000Z",
+          "type": "file",
+          "extension": "flac"
+        },
+        {
           "path": "/media/music/_misc/21 Henry Kissinger.mp3",
           "name": "21 Henry Kissinger.mp3",
           "atime": "2014-12-07T17:25:17.000Z",
-          "ctime": "2014-12-07T17:25:19.000Z",
+          "ctime": "2014-12-22T10:56:56.000Z",
           "mtime": "2014-02-11T20:35:46.000Z",
           "type": "file",
           "extension": "mp3"
         },
+        null,
+        null,
         {
           "path": "/media/music/_misc/Polo Hofer - Arsch-lo.ch.mp3",
           "name": "Polo Hofer - Arsch-lo.ch.mp3",
           "atime": "2014-12-07T15:38:43.000Z",
-          "ctime": "2014-12-07T17:24:51.000Z",
+          "ctime": "2014-12-22T10:56:57.000Z",
           "mtime": "2014-10-29T21:37:35.000Z",
           "type": "file",
           "extension": "mp3"
@@ -10953,7 +10673,7 @@
           "path": "/media/music/_misc/Salif Keita - Sumun.mp3",
           "name": "Salif Keita - Sumun.mp3",
           "atime": "2014-12-07T17:24:17.000Z",
-          "ctime": "2014-12-07T17:24:37.000Z",
+          "ctime": "2014-12-22T10:56:57.000Z",
           "mtime": "2013-09-12T16:31:58.000Z",
           "type": "file",
           "extension": "mp3"
@@ -10975,6 +10695,116 @@
           "mtime": "2014-06-20T13:30:56.000Z",
           "type": "file",
           "extension": "flac"
+        },
+        {
+          "path": "/media/music/_misc/chesky",
+          "name": "chesky",
+          "atime": "2014-12-22T11:11:15.000Z",
+          "ctime": "2014-12-22T11:12:45.000Z",
+          "mtime": "2014-12-22T11:12:45.000Z",
+          "type": "folder",
+          "children": [
+            {
+              "path": "/media/music/_misc/chesky/3-Phrases.flac",
+              "name": "3-Phrases.flac",
+              "atime": "2014-12-21T19:30:34.000Z",
+              "ctime": "2014-12-22T11:00:51.000Z",
+              "mtime": "2014-12-21T19:30:34.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/_misc/chesky/4-Pamafunk.flac",
+              "name": "4-Pamafunk.flac",
+              "atime": "2014-12-21T19:29:52.000Z",
+              "ctime": "2014-12-22T11:12:45.000Z",
+              "mtime": "2014-12-21T19:29:52.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/_misc/chesky/16-Dancing Flute Drum.flac",
+              "name": "16-Dancing Flute Drum.flac",
+              "atime": "2014-12-21T19:30:07.000Z",
+              "ctime": "2014-12-22T10:51:10.000Z",
+              "mtime": "2014-12-21T19:30:07.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/_misc/chesky/19-One Meter Microphone Test.flac",
+              "name": "19-One Meter Microphone Test.flac",
+              "atime": "2014-12-21T19:12:59.000Z",
+              "ctime": "2014-12-22T10:45:13.000Z",
+              "mtime": "2014-12-21T19:12:59.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/_misc/chesky/20-Right Channel ID Test.flac",
+              "name": "20-Right Channel ID Test.flac",
+              "atime": "2014-12-21T19:21:38.000Z",
+              "ctime": "2014-12-22T10:45:39.000Z",
+              "mtime": "2014-12-21T19:21:38.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/_misc/chesky/21-Left Channel ID Test.flac",
+              "name": "21-Left Channel ID Test.flac",
+              "atime": "2014-12-21T19:21:38.000Z",
+              "ctime": "2014-12-22T10:45:56.000Z",
+              "mtime": "2014-12-21T19:21:38.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/_misc/chesky/22-Electric Bass Guitar Scale.flac",
+              "name": "22-Electric Bass Guitar Scale.flac",
+              "atime": "2014-12-21T19:21:12.000Z",
+              "ctime": "2014-12-22T10:47:06.000Z",
+              "mtime": "2014-12-21T19:21:12.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/_misc/chesky/23-Acoustic Bass Scale.flac",
+              "name": "23-Acoustic Bass Scale.flac",
+              "atime": "2014-12-21T19:16:28.000Z",
+              "ctime": "2014-12-22T10:48:17.000Z",
+              "mtime": "2014-12-21T19:16:28.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/_misc/chesky/24-Organ Pedal Scale.flac",
+              "name": "24-Organ Pedal Scale.flac",
+              "atime": "2014-12-21T19:29:23.000Z",
+              "ctime": "2014-12-22T11:06:07.000Z",
+              "mtime": "2014-12-21T19:29:23.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/_misc/chesky/25-Edgar The Barber.flac",
+              "name": "25-Edgar The Barber.flac",
+              "atime": "2014-12-21T19:13:58.000Z",
+              "ctime": "2014-12-22T10:59:04.000Z",
+              "mtime": "2014-12-21T19:13:58.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
+              "path": "/media/music/_misc/chesky/26-Dr Cheskys Shave.flac",
+              "name": "26-Dr Cheskys Shave.flac",
+              "atime": "2014-12-21T19:19:30.000Z",
+              "ctime": "2014-12-22T10:59:25.000Z",
+              "mtime": "2014-12-21T19:19:30.000Z",
+              "type": "file",
+              "extension": "flac"
+            },
+            null
+          ]
         }
       ]
     },

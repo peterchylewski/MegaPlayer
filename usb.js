@@ -10,7 +10,12 @@ var web = require('SimpleWebServer')(__dirname + '/public', 8080, { document: 'u
 var app = require('express')(),
 	http = require('http').Server(app),
 	io = require('socket.io')(http);
-	
+
+var value = 50,
+	min = 0,
+	max = 100,
+	incr = 1;
+			
 io.on('connection', function(socket) {
 	console.log('a user connected');
 	
@@ -20,6 +25,11 @@ io.on('connection', function(socket) {
 	
 	socket.on('ready', function(msg) {
 		console.log('client ready, message: ' + msg);
+	});
+	
+	socket.on('data', function(data) {
+		//console.log(data);
+		//value = data;
 	});
 
 	socket.on('disconnect', function(){
@@ -34,11 +44,6 @@ http.listen(3000, function() {
 
 function startUSB(socket) {
 	// start usb stuff
-
-	var value = 50,
-		min = 0,
-		max = 100
-		incr = 1;
 
 	var usb = require('USBStreamReader');
 	usb.on('keyPress', function(event) {

@@ -1,6 +1,7 @@
 'use strict';
 
-var MUSIC_HOME = '/media/music',
+var MUSIC_HOME = '/home/pi/usbdrv',
+	//MUSIC_HOME = '/media/music',
 	keypress = require('keypress'), // http://stackoverflow.com/questions/17470554/how-to-capture-the-arrow-keys-in-node-js
 	fs = require('fs'),
 	exec = require('child_process').exec,
@@ -108,7 +109,10 @@ function startCatchingUSBEvents() {
 				player.pause();
 			break;
 			case 't':
-				player.updateStatus();
+				player.updateStatus(function(data) {
+					console.log('callback');
+					console.log(data);
+				});
 			break;
 			case 'q':
 				quit();

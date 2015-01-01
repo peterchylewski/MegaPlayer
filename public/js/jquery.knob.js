@@ -718,7 +718,8 @@
                         'text-align' : 'center',
                         'color' : this.o.inputColor || this.o.fgColor,
                         'padding' : '0px',
-                        '-webkit-appearance': 'none'
+                        '-webkit-appearance': 'none',
+                        '-webkit-font-smoothing': 'antialiased'
                         }) || this.i.css({
                             'width': '0px',
                             'visibility': 'hidden'

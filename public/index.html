@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	
-	<title>MPLayerTunez</title>
+	<title>MegaPlayer</title>
 
 	<link rel="stylesheet" href="styles/vendor/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="styles/elusive-webfont.css">
@@ -28,6 +28,7 @@
 		body {
 			font-family: "FranklinGothicFSBook" !important;
 			font-size: 2em !important;
+			line-height: 1.2em !important;
 			/* text-transform: lowercase; */
 			margin: 32px;
 			color: #333;
@@ -63,9 +64,20 @@
 		}
 		
 		b, strong {
-			letter-spacing: -.05em;
+			font-family: "FranklinGothicFSDemi" !important;
+			font-weight: normal;
 		}
-
+		
+		small {
+			font-size: .8em !important;
+		}
+		
+		button i {
+			position: relative;
+			top: 2px;
+			font-size: 1.5em;
+		}
+		
 		ul, ol { list-style-position: inside; }
 		
 		* + p { margin-top: 8px; }
@@ -86,13 +98,35 @@
 			border-bottom: 2px dotted #D2840B;
 		}
 		
-		div#controls { margin-bottom: 32px; }
+		div#nucontrols {
+			position: fixed;
+			top: 100px;
+			right: 26px;
+			z-index: 10000;
+		}
+		
+		div#nucontrols button {
+			display: block;
+		}
+		
+		div#nucontrols button + button {
+			margin-top: 6px;
+		}
+		
+		div#controls {
+			position: relative;
+			margin-bottom: 32px;
+		}
 		
 		.nav > li > a { padding: 4px 12px 4px 12px; }
 		
 		.tab-content { margin-top: 16px; }
 		
 		/* table#main { width: 100%; } */
+		
+		table#main {
+			min-width: 100%;
+		}
 		
 		td#stations {
 			padding-top: 6px;
@@ -106,11 +140,24 @@
 			border: 0px solid #eee;
 		}
 		
+		ul#streams a {
+			white-space: nowrap;	
+		}
+		
 		td#info { padding-left: 32px; }
 		
 		table#files td {
 			font-size: 1em !important;
 			padding: 4px 8px 2px 8px !important;
+			/*white-space: nowrap;*/
+		
+		}
+		
+		table#files td:first-child {
+			min-width: 800px;
+		}
+		
+		table#files tr.folder td {
 			white-space: nowrap;
 		}
 		
@@ -120,12 +167,16 @@
 		
 		table#files tr.active td * { color: green !important; }
 		
+		button[data-action="showDiscogsInfo"] {
+			padding: 0px 12px;
+		}
+		
 		h1 { min-height: 70px; }
 		
-		div.info { margin-left: 100px; max-width: 200px !important; }
-		div.info * { font-size: 16px !important; }
+		div.info { margin-left: 100px; }
+		div.info { font-size: 16px !important; }
+		
 		ul.track_extraartists li {
-		 	font-size: 12px !important;
 			margin-left: 30px;
 		}
 		
@@ -288,7 +339,7 @@
 		});
 		
 		socket.on('player_value_changed', function(key, value) {
-			console.log('player_value_changed', key, value);
+			//console.log('player_value_changed', key, value);
 			if (value === null || value === undefined) {
 				return 0;
 			}
@@ -318,9 +369,12 @@
 				break;
 				case 'timePosition':
 					//console.log('timePosition', value);
-					$('.dial.time')
-        				.val(Math.ceil(value))
-        				.trigger('change');
+					var $timeKnob = $('.dial.time');
+					//if ($timeKnob.data('mouseIsOver') === true) {
+					//	console.log('mouse is over time dial; ignoring update');
+        			//} else {
+        				$timeKnob.val(Math.ceil(value)).trigger('change');
+        			//}
 				break;
 			}
 		});
@@ -348,13 +402,13 @@
 				socket.emit('cmd', 'stop');
 			});
 			$('button[data-action="reload_tree"]').click(function() {
-				$('#files-tab').html('<i class="fa fa-cog fa-2x fa-spin"></i>');
+				$('#files-tab').html('<i class="fa fa-cog fa-spin"></i>');
 				socket.emit('cmd', 'reloadTree');
 			});
 			
-			$('#files-tab').html('<i class="fa fa-cog fa-2x fa-spin"></i>');
+			$('#files-tab').html('<i class="fa fa-cog fa-spin"></i>');
 			
-			// -- tabs
+			// -- TABS
 			
 			var tab = $.cookie('lastTab');
 			if (tab === undefined) { tab = '#streams-tab'; }
@@ -367,23 +421,36 @@
 				$.cookie('lastTab', tab);
 			});
 			
+			// --- KNOBS
+			
+			var knobOptions = {
+				'width': 80,
+    			'height': 80,
+    			'font': 'FranklinGothicFSBook',
+    			'fgColor': '#1493B3'
+			};
+			
 			// ------------------ time knob
 			
 			$('.dial.time').val(0).knob({
 				'change': function(value) {
     				console.log('change', value);
     			},
+    			/*
     			'draw': function(value) {
     				console.log('draw', value);
     			},
     			'release': function(value) {
     				console.log('release', value);
     			},
+    			*/
 				'width': 80,
     			'height': 80,
-    			'font': 'FranklinGothicFSHeavy',
+    			'font': 'FranklinGothicFSBook',
     			'fgColor': '#1493B3'
-			}).addClass('time');
+			}).addClass('time')
+				.on('mouseover', function() { console.log('mouseover'); $(this).data('mouseIsOver', true); })
+				.on('mouseleave', function() { console.log('mouseleave'); $(this).data('mouseIsOver', false); });
 			
 			// ------------------ volume knob
 			
@@ -415,7 +482,7 @@
     			//'angleOffset': -135,
     			'width': 80,
     			'height': 80,
-    			'font': 'FranklinGothicFSHeavy',
+    			'font': 'FranklinGothicFSBook',
     			'fgColor': '#B31414'
     			//'rotation': 'counterclockwise',
     			
@@ -426,7 +493,7 @@
 	</script>
 	
 	<script class="template" id="stations" type="text/template">
-		<ul>
+		<ul ="streams">
 		<% _.each(data, function(value, key) { %>
 			<li data-id="<%= key %>"><a class="station" href="<%= key %>"><%= value.name %></a><i class="el-icon-volume-up"></i></li>
 		<% }); %>
@@ -459,11 +526,13 @@
 										<i class="fa fa-folder"></i>
 									<% } %>
 									-->
-									<% name = item.name.replace(/^([0-9]+)[\.]?[- ]+/g, "$1. ").replace(/\.[mp3|flac|wav|m4a|aif|ogg]+$/i, ""); %>
+									
 									
 									<% if (item.type === 'folder') { %>
+										<% name = item.name.replace(/^([0-9]{4,4})[\.-\W]+(.*)$/g, '$2 ($1)'); %>
 										<h6><%= name %></h6>
 									<% } else { %>
+										<% name = item.name.replace(/^([0-9]{1,2})[\.]?[- ]+/g, function(s) { return parseInt(s) + '. '; } ).replace(/\.[mp3|flac|wav|m4a|aif|ogg]+$/i, ""); %>
 										<a href="<%= item.path %>"><%= name %></a>&nbsp;<i class="el-icon-volume-up"></i>
 									<% } %>
 									
@@ -495,14 +564,7 @@
 	
 	<script class="template" id="info" type="text/template">
 		<div class="info">
-			<% _.each(data.artists, function(artist) { %>
-				<h6><%= artist.name %></h6>
-			<% }); %>
-			<ul>
-			<% _.each(data.extraartists, function(artist) { %>
-				<li><%= artist.role %> —  <strong><%= artist.name %></strong> </li>
-			<% }); %>
-			</ul>
+			<h6>Tracks</h6>
 			<ul class="tracks">
 			<% _.each(data.tracklist, function(track) { %>
 				<li>
@@ -517,23 +579,38 @@
 					<% if (track.extraartists !== undefined &&  track.extraartists.length > 0) {  %>
 						<ul class="track_extraartists">
 						<% _.each(track.extraartists, function(artist) { %>
-							<li><strong><%= artist.name %>,</strong> <%= artist.role %></li>
+							<li><%= artist.name %>, <small><%= artist.role %></small></li>
 						<% }); %>
 						</ul>
 					<% } %>
 				</li>
 			<% }); %>
 			</ul>
+			<% _.each(data.artists, function(artist) { %>
+				<h6><%= artist.name %></h6>
+			<% }); %>
+			<ul>
+			<% _.each(data.extraartists, function(artist) { %>
+				<li><%= artist.role %> —  <strong><%= artist.name %></strong> </li>
+			<% }); %>
+			</ul>
 			<% _.each(data.labels, function(label) { %>
 				<p><%= label.name %>, <%= label.catno %></p>
 			<% }); %>
 			<% if (data.notes !== undefined) {  %>
-				<p><%= data.notes.replace('\n', '<br>') %></p>
+				<p><%= data.notes.replace(/\n/g, '<br>') %></p>
 			<% } %>
 		</div>
 	</script>
 </head>
 <body>
+	<div id="nucontrols">
+		<button class="btn btn-danger btn-small" data-action="stop"><i class="fa fa-pause"></i></button>
+		<button class="btn btn-primary btn-small" data-action="prev_station"><i class="fa fa-arrow-up"></i></button>
+		<button class="btn btn-primary btn-small" data-action="next_station"><i class="fa fa-arrow-down"></i></button>
+		<button class="btn btn-small" data-action="reload_tree"><i class="fa fa-sitemap"></i></button>
+	</div>
+	
 	<div id="controls">
 		<button class="btn btn-primary btn-small" data-action="prev_station"><i class="fa fa-arrow-up"></i>&nbsp;previous station</button>
 		<button class="btn btn-primary" data-action="next_station">next station&nbsp;<i class="fa fa-arrow-down"></i></button>

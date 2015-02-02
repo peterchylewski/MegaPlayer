@@ -1,4 +1,12 @@
 {
+	"pdr_c": {
+		"name": "Public Domain Radio Classical",
+		"stream_url": "http://stream3137.init7.net:80"
+	},
+	"pdr_j": {
+		"name": "Public Domain Radio Jazz",
+		"stream_url": "http://stream3138.init7.net:80"
+	},
 	"srf_regi_bs_bl": {
 		"name": "SRF Regio BS/BL",
 		"stream_url": "http://streaming.swisstxt.ch/m/regi_bs_bl/mp3_128"

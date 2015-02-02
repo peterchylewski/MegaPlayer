@@ -14,7 +14,7 @@
 	
 	<link rel="stylesheet" href="styles/fonts/Franklin/Franklin.font.css">
 	
-	<style media="screen">
+	<style>
 			
 		* {
 			-webkit-font-smoothing: antialiased;
@@ -58,7 +58,7 @@
 		
 		h6 {
 			/* font-size: 1.61em; */
-			color: rgb(179, 20, 20);
+			color: rgb(179, 20, 20); /* #6C8091 */
 			text-transform: uppercase;
 			letter-spacing: -.075em;
 		}
@@ -217,17 +217,28 @@
 	
 	<script src="js/underscore-min.js"></script>
 	<script src="js/socket.io-1.2.1.js"></script>
-
+	
+	<script src="js/EventEmitter2.js"></script>
+	
+	<script src="js/MegaClient.js"></script>
+	
 	<script>
 
 		'use strict';
 		
-		var socket = io('http://192.168.1.200:3000/'),
+		var app = new MegaClient(),
+			socket = io('http://192.168.1.200:3000/'),
 			_stations,
 			_stationIDs,
 			_currentStationID,
 			_status = {},
 			_$activeRow;
+		
+		/*
+		app.events.on('alert', function(msg) {
+			console.log(msg);
+		});
+		*/
 		
 		function _setStation(id) {
 			if (id !== undefined) {
@@ -320,11 +331,8 @@
 					url =  $(this).attr('data-url');
 				$.getJSON(url, function(json) {
 					console.log(json);
-					
 					var html = $('#info.template').html(),
 						template = _.template(html);
-						
-					console.log(template({ data: json }));
 					$(that).parent().prev().append(template({ data: json }));
 				});
 			});
@@ -369,12 +377,12 @@
 				break;
 				case 'timePosition':
 					//console.log('timePosition', value);
-					var $timeKnob = $('.dial.time');
-					//if ($timeKnob.data('mouseIsOver') === true) {
-					//	console.log('mouse is over time dial; ignoring update');
-        			//} else {
-        				$timeKnob.val(Math.ceil(value)).trigger('change');
-        			//}
+					var $timeKnob = $('.knob.time');
+					if ($timeKnob.data('mouseIsOver') === true) {
+						console.log('mouse is over time dial; ignoring update');
+        			} else {
+        				$timeKnob.find('.dial').val(Math.ceil(value)).trigger('change');
+        			}
 				break;
 			}
 		});
@@ -388,11 +396,13 @@
 		socket.on('previous_station', 	function() { _previousStation(); });
 		socket.on('next_station', 		function() { _nextStation(); });
 		socket.on('connection', 		function() { console.log('connected to server'); });
-		socket.on('welcome', 			function(msg) { console.log(msg); });
+		//socket.on('welcome', 			function(msg) { console.log(msg); });
 		socket.on('disconnect', 		function() { console.log('disconnected from server'); });
 		
 		$(document).ready(function() {
+		
 			console.log('***ready');
+			
 			socket.emit('ready', 'foobar');
 			
 			$('button[data-action="prev_station"]').click(function() { _previousStation(); });
@@ -436,14 +446,18 @@
 				'change': function(value) {
     				console.log('change', value);
     			},
-    			/*
+    			
     			'draw': function(value) {
-    				console.log('draw', value);
+    				//console.log('draw', value);
     			},
     			'release': function(value) {
-    				console.log('release', value);
+    				//console.log('release', value);
+    				var $timeKnob = $('.knob.time');
+    				if ($timeKnob.data('mouseIsOver') === true) {
+    					socket.emit('cmd', 'setTimePos', value);
+    				}
     			},
-    			*/
+    			
 				'width': 80,
     			'height': 80,
     			'font': 'FranklinGothicFSBook',
@@ -564,11 +578,22 @@
 	
 	<script class="template" id="info" type="text/template">
 		<div class="info">
-			<h6>Tracks</h6>
+			<h6><%= data.artists[0].name %>—<%= data.title %></h6>
 			<ul class="tracks">
 			<% _.each(data.tracklist, function(track) { %>
 				<li>
-					<%= track.position %>. <strong><%= track.title %></strong> <%= track.duration %>
+					<% if (track.sub_tracks !== undefined &&  track.sub_tracks.length > 0) {  %>
+						<strong><%= track.title %></strong>
+						<ul>
+						<% _.each(track.sub_tracks, function(sub_track, i) { %>
+							<li><%= sub_track.title %></li>
+						<% }); %>
+						</ul>
+					<% } else { %>
+						<%= track.position %>. <strong><%= track.title %></strong> <%= track.duration %>
+					<% } %>
+					
+					
 					<% if (track.artists !== undefined &&  track.artists.length > 0) {  %>
 						(
 						<% _.each(track.artists, function(artist, i) { %>
@@ -579,13 +604,14 @@
 					<% if (track.extraartists !== undefined &&  track.extraartists.length > 0) {  %>
 						<ul class="track_extraartists">
 						<% _.each(track.extraartists, function(artist) { %>
-							<li><%= artist.name %>, <small><%= artist.role %></small></li>
+							<li> <small><%= artist.role %> <strong><%= artist.name %></strong></small></li>
 						<% }); %>
 						</ul>
 					<% } %>
 				</li>
 			<% }); %>
 			</ul>
+			<h6>Artists: </h6>
 			<% _.each(data.artists, function(artist) { %>
 				<h6><%= artist.name %></h6>
 			<% }); %>
@@ -612,10 +638,7 @@
 	</div>
 	
 	<div id="controls">
-		<button class="btn btn-primary btn-small" data-action="prev_station"><i class="fa fa-arrow-up"></i>&nbsp;previous station</button>
-		<button class="btn btn-primary" data-action="next_station">next station&nbsp;<i class="fa fa-arrow-down"></i></button>
-		<button class="btn btn-warning" data-action="stop">stop</button>
-		<button class="btn btn-danger" data-action="reload_tree"><i class="fa fa-sitemap"></i>&nbsp;reload file tree</button>
+		<button class="btn btn-danger" data-action="reload_tree">Restart Server</button>
 		<input type="text" class="dial time" data-displayPrevious="true">
 		<input type="text" class="dial volume" data-displayPrevious="true">
 	</div>

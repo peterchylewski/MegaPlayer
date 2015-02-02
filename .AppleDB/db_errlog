@@ -23,3 +23,7 @@ Finding last valid log LSN: file: 1 offset 1932418
 Recovery starting from [1][1932270]
 Recovery complete at Fri Dec 26 10:57:23 2014
 Maximum transaction ID 8000000a Recovery checkpoint [1][1932418]
+Finding last valid log LSN: file: 1 offset 1933946
+Recovery starting from [1][1933458]
+Recovery complete at Tue Jan 13 16:48:49 2015
+Maximum transaction ID 80000004 Recovery checkpoint [1][1933946]

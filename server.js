@@ -1,8 +1,12 @@
 'use strict';
 
+// tail -f /var/log/megaserver.log
+
 var MUSIC_HOME = '/home/pi/usbdrv',
 	//MUSIC_HOME = '/media/music',
+	MUSIC_DIRECTORIES = ['/media/music', '/home/pi/usbdrv'],
 	keypress = require('keypress'), // http://stackoverflow.com/questions/17470554/how-to-capture-the-arrow-keys-in-node-js
+	_ = require('underscore'),
 	fs = require('fs'),
 	exec = require('child_process').exec,
 	app = require('express')(),
@@ -29,14 +33,30 @@ function saveConfig() {
 }
 
 function reloadTree() {
-	var tree = require('txtm-FileTree')(MUSIC_HOME, { addDates: true });
+
+	//var tree = require('txtm-FileTree')(MUSIC_HOME, { addDates: true });
+	
+	var tree = { name: 'musics', type: 'folder', children: [] },
+		subTree;
+	
+	_.each(MUSIC_DIRECTORIES, function(dir) {
+		console.log('scanning ' + dir + '...');
+		//if (fs.existsSync(dir) === true) {
+			subTree = require('txtm-FileTree')(dir, { addDates: false });
+			tree.children.push(subTree.getData());
+		//}
+	});
+	_socket.emit('musictree', tree);
+	
 	//console.log(JSON.stringify(tree.getData(), null, 2));
 	var fs = require('fs');
-	fs.writeFile(__dirname + '/musictree.json', JSON.stringify(tree.getData(), null, 2), 'utf8', function(err) {
+	fs.writeFile(__dirname + '/musictree.json', JSON.stringify(tree, null, 2), 'utf8', function(err) {
 		if (err !== null) { throw err; return; }
 		console.log('file "musictree.json" has been sucessfully written.');
+		
 		fs.readFile(__dirname + '/musictree.json', 'utf8', function(data) {
 			console.log('data', data);
+			
 			var json = JSON.parse(data);
 			console.log('json', json);
 			_socket.emit('musictree', tree.getData());
@@ -49,7 +69,7 @@ function startCatchingKeyboardEvents() {
 	var stdin = process.stdin,
 		stdout = process.stdout;
 	
-	stdin.setRawMode(true);
+	//stdin.setRawMode(true);
 	stdin.resume();
 	stdin.setEncoding('utf8');
 
@@ -194,13 +214,12 @@ io.on('connection', function(socket) {
 		
 	});
 	
-	socket.on('file', function(file) {
-		console.log('file', file);
-		player.start(file);
+	socket.on('file', function(file, newPlayer) {
+		console.log('file', file, newPlayer);
+		player.play(file, newPlayer);
 		player.on('foo', function(msg) {
 			socket.emit('station_message', msg);
 		});
-		
 	});
 	
 	socket.on('cmd', function(cmd, value) {
@@ -214,6 +233,10 @@ io.on('connection', function(socket) {
 			break;
 			case 'reloadTree':
 				reloadTree();
+			break;
+			case 'setTimePos':
+				console.log('>>>>>>>>>>>>>>>>>>>>>>>>>setTimePos', value);		
+				player.setTimePos(value, function() { console.log('time pos set?'); });	
 			break;
 		}
 	});

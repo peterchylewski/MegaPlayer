@@ -124,6 +124,10 @@
 		
 		/* table#main { width: 100%; } */
 		
+		table.treetable td {
+			border: 0px !important;
+		}
+
 		table#main {
 			min-width: 100%;
 		}
@@ -206,6 +210,11 @@
 			right: 8px;
 		}
 		
+		
+		img.thumbnail {
+			width: 256px;
+		}
+		
 	</style>
 	
 	<script src="js/jquery-2.0.3.min.js"></script>
@@ -213,6 +222,7 @@
 	
 	<script src="js/jquery.knob.js"></script>
 	<script src="js/jquery.treetable.js"></script>
+	<script src="js/jquery.backstretch.min.js"></script>
 	<script src="js/jquery.cookie.js"></script>
 	
 	<script src="js/underscore-min.js"></script>
@@ -320,8 +330,11 @@
 					case 'm3u':
 						socket.emit('file', href);
 					break;
+					case 'png':
 					case 'jpg':
-						$('body').prepend('<img src="' + href + '"/>')
+						// http://srobbin.com/jquery-plugins/backstretch/ 
+						$.backstretch(href);
+						//$(this).parent().append('<img src="' + href + '" class="thumbnail"/>')
 					break;
 				}
 			});
@@ -519,13 +532,6 @@
 		<% var name; %>
 		
 	 	<table id="files">
-			<thead>
-				<tr class="header">
-					<th>Type</th>
-					<th>Name</th>
-					<th>Tags</th>
-				</tr>
-			</thead>
 			<tbody>
 				<% function row(data, parentID) { %>
 					<% _.each(data, function(item, i) { %>

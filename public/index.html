@@ -244,12 +244,6 @@
 			_status = {},
 			_$activeRow;
 		
-		/*
-		app.events.on('alert', function(msg) {
-			console.log(msg);
-		});
-		*/
-		
 		function _setStation(id) {
 			if (id !== undefined) {
 				_currentStationID = id;
@@ -272,7 +266,16 @@
 			_setStation(_stationIDs[nextIndex]);
 		}
 		
-		function _nextFile() {
+		function _prev() {
+			console.log('_prev');
+			console.log('_$activeRow', _$activeRow);
+			console.log('_$activeRow.prev()', _$activeRow.prev());
+			var $prev = _$activeRow.prev('.file');
+			console.log($prev.index('.file'));
+			$prev.find('a').click();
+		}
+		
+		function _next() {
 			console.log('_nextFile');
 			console.log('_$activeRow', _$activeRow);
 			console.log('_$activeRow.next()', _$activeRow.next());
@@ -306,6 +309,7 @@
 				$table = $(template({ makeUUID: makeUUID, data: { children: [ musictree ] } })).treetable(treetableOptions);
 				
 			$('#files-tab').html($table);
+			
 			$('table#files a').on('click', function(e) {
 				e.preventDefault();
 				var href = $(this).attr('href'),
@@ -400,17 +404,19 @@
 			}
 		});
 		
+		// receiving messages from the server
+		
 		socket.on('end_of_file_reached', function() {
 			console.log('player says: end of file has been reached.');
-			_nextFile();
+			_next();
 		});
 		
 		socket.on('station_message', 	function(msg) { $('h1').text(msg); });
-		socket.on('previous_station', 	function() { _previousStation(); });
-		socket.on('next_station', 		function() { _nextStation(); });
-		socket.on('connection', 		function() { console.log('connected to server'); });
-		//socket.on('welcome', 			function(msg) { console.log(msg); });
-		socket.on('disconnect', 		function() { console.log('disconnected from server'); });
+		socket.on('prev', function() { _prev(); });
+		socket.on('next', function() { _next(); });
+		
+		socket.on('connection', function() { console.log('connected to server'); });
+		socket.on('disconnect', function() { console.log('disconnected from server'); });
 		
 		$(document).ready(function() {
 		
@@ -418,8 +424,8 @@
 			
 			socket.emit('ready', 'foobar');
 			
-			$('button[data-action="prev_station"]').click(function() { _previousStation(); });
-			$('button[data-action="next_station"]').click(function() { _nextStation(); });
+			$('button[data-action="prev"]').click(function() { _prev(); });
+			$('button[data-action="next"]').click(function() { _next(); });
 			$('button[data-action="stop"]').click(function() {
 				console.log('tsop');
 				socket.emit('cmd', 'stop');
@@ -486,13 +492,6 @@
     				console.log('change', value);
     				
     			},
-    			
-    			/*
-    			'draw': function(value) {
-    				console.log('draw', value);
-    			},
-    			*/
-    			
     			'release': function(linearValue) {
     				console.log('release', linearValue);
     				var MAX_VOLUME = 100,
@@ -546,8 +545,6 @@
 										<i class="fa fa-folder"></i>
 									<% } %>
 									-->
-									
-									
 									<% if (item.type === 'folder') { %>
 										<% name = item.name.replace(/^([0-9]{4,4})[\.-\W]+(.*)$/g, '$2 ($1)'); %>
 										<h6><%= name %></h6>
@@ -555,7 +552,6 @@
 										<% name = item.name.replace(/^([0-9]{1,2})[\.]?[- ]+/g, function(s) { return parseInt(s) + '. '; } ).replace(/\.[mp3|flac|wav|m4a|aif|ogg]+$/i, ""); %>
 										<a href="<%= item.path %>"><%= name %></a>&nbsp;<i class="el-icon-volume-up"></i>
 									<% } %>
-									
 								</td>
 								<td class="name">
 									<% if (item.meta !== undefined && item.meta.discogs_url !== undefined) { %>
@@ -567,7 +563,6 @@
 										<% _.each(item.meta.tags, function(tag, i) { %>
 											<span class="badge"><%= tag %></span>
 										<% }); %>
-										
 									<% } %>
 								<td>
 							</tr>
@@ -638,8 +633,8 @@
 <body>
 	<div id="nucontrols">
 		<button class="btn btn-danger btn-small" data-action="stop"><i class="fa fa-pause"></i></button>
-		<button class="btn btn-primary btn-small" data-action="prev_station"><i class="fa fa-arrow-up"></i></button>
-		<button class="btn btn-primary btn-small" data-action="next_station"><i class="fa fa-arrow-down"></i></button>
+		<button class="btn btn-primary btn-small" data-action="prev"><i class="fa fa-arrow-up"></i></button>
+		<button class="btn btn-primary btn-small" data-action="next"><i class="fa fa-arrow-down"></i></button>
 		<button class="btn btn-small" data-action="reload_tree"><i class="fa fa-sitemap"></i></button>
 	</div>
 	

@@ -114,10 +114,10 @@ function startCatchingUSBEvents() {
 			break;
 			case 'KEY_UP':
 				player.prev();
-				_socket.emit('previous_station');
+				_socket.emit('prev');
 			break;
 			case 'KEY_DOWN':
-				_socket.emit('next_station');
+				_socket.emit('next');
 			break;
 			case 'KEY_MUTE':
 				player.mute();

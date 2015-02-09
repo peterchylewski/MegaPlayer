@@ -12,16 +12,26 @@ var MUSIC_HOME = '/home/pi/usbdrv',
 	app = require('express')(),
 	http = require('http').Server(app),
 	io = require('socket.io')(http),
+	$ = require('jquery'),
 	stations = require('./radiostations.json'),
 	musictree = require('./musictree.json'),
 	player = require('SimplePlayer'),
 	_config,
-	_socket;
+	_socket,
+	colors = require('colors'),
+	logger = require('tracer').colorConsole({filters : {
+            //log : colors.black, 
+            trace : colors.magenta,
+            debug : colors.blue,
+            info : colors.green,
+            warn : colors.yellow,
+            error : [ colors.red, colors.bold ]
+        } });
 
 
 function loadConfig() {
 	var pathToConfig = __dirname + '/config.json';
-	console.log('trying to load config file', pathToConfig, '...');
+	logger.warn('trying to load config file', pathToConfig, '...');
 	_config = fs.existsSync(pathToConfig) === true ? require(pathToConfig) : {};
 	console.log('_config', _config);
 }
@@ -222,11 +232,11 @@ io.on('connection', function(socket) {
 		});
 	});
 	
-	socket.on('cmd', function(cmd, value) {
+	socket.on('cmd', function(cmd, arg0, arg1, arg2) {
 		console.log('cmd', cmd);
 		switch (cmd) {
 			case 'setStation':
-				console.log('>>>>>>>>>>>>>>>>>>>>>>>>>setStation', value);		
+				console.log('>>>>>>>>>>>>>>>>>>>>>>>>>setStation', arg0);		
 			break;
 			case 'stop':
 				player.stop();
@@ -235,8 +245,14 @@ io.on('connection', function(socket) {
 				reloadTree();
 			break;
 			case 'setTimePos':
-				console.log('>>>>>>>>>>>>>>>>>>>>>>>>>setTimePos', value);		
-				player.setTimePos(value, function() { console.log('time pos set?'); });	
+				console.log('>>>>>>>>>>>>>>>>>>>>>>>>>setTimePos', arg0);		
+				player.setTimePos(arg0, function() { console.log('time pos set?'); });	
+			break;
+			case 'saveDiscogsInfo':
+				var path = arg0, data = arg1;
+				fs.writeFile(path + '/_discogs.json', JSON.stringify(data, null, 2), function(err) {
+					console.log('err', err);
+				});
 			break;
 		}
 	});

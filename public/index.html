@@ -56,11 +56,12 @@
 	
 		* + h1, * + h2, * + h3, * + h4, * + h5, * + h6 { margin-top: 16px; }
 		
-		h6 {
+		#files h6 {
 			/* font-size: 1.61em; */
 			color: rgb(179, 20, 20); /* #6C8091 */
 			text-transform: uppercase;
 			letter-spacing: -.075em;
+			cursor: pointer;
 		}
 		
 		b, strong {
@@ -137,7 +138,7 @@
 			min-width: 200px;
 		}
 		
-		td#stations li { white-space: nobreak !important; }
+		td#stations li { white-space: nowrap !important; }
 		
 		td {
 			vertical-align: top;
@@ -165,7 +166,7 @@
 			white-space: nowrap;
 		}
 		
-		table#files h6 { display: inline-block; }
+		table#files h6 { display: inline-block; cursor: pointer; }
 		
 		td.tags span { padding: 4px; }
 		
@@ -345,13 +346,16 @@
 			
 			$('button[data-action="showDiscogsInfo"]').click(function() {
 				var that = this,
-					url =  $(this).attr('data-url');
+					url =  $(this).attr('data-url'),
+					path = $(this).closest('tr.folder').attr('data-path');
 				$.getJSON(url, function(json) {
 					console.log(json);
 					var html = $('#info.template').html(),
 						template = _.template(html);
+					socket.emit('cmd', 'saveDiscogsInfo', path, json);
 					$(that).parent().prev().append(template({ data: json }));
 				});
+				
 			});
 			
 		});

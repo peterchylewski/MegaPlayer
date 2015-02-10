@@ -19,19 +19,14 @@ var MUSIC_HOME = '/home/pi/usbdrv',
 	_config,
 	_socket,
 	colors = require('colors'),
-	logger = require('tracer').colorConsole({filters : {
-            //log : colors.black, 
-            trace : colors.magenta,
-            debug : colors.blue,
-            info : colors.green,
-            warn : colors.yellow,
-            error : [ colors.red, colors.bold ]
-        } });
+	logger = require('tracer').colorConsole({
+		// https://www.npmjs.com/package/tracer
+	});
 
 
 function loadConfig() {
 	var pathToConfig = __dirname + '/config.json';
-	logger.warn('trying to load config file', pathToConfig, '...');
+	logger.error('trying to load config file', pathToConfig, '...');
 	_config = fs.existsSync(pathToConfig) === true ? require(pathToConfig) : {};
 	console.log('_config', _config);
 }
@@ -63,7 +58,6 @@ function reloadTree() {
 	fs.writeFile(__dirname + '/musictree.json', JSON.stringify(tree, null, 2), 'utf8', function(err) {
 		if (err !== null) { throw err; return; }
 		console.log('file "musictree.json" has been sucessfully written.');
-		
 		fs.readFile(__dirname + '/musictree.json', 'utf8', function(data) {
 			console.log('data', data);
 			
@@ -188,7 +182,7 @@ io.on('connection', function(socket) {
 	
 	_socket = socket;
 	
-	socket.emit('welcome', 'the server says: welcome!');
+	socket.emit('connection', 'the server says: welcome!');
 	
 	player.on('valueChanged', function(key, value) {
 		//console.log('a player value changed', key, value);

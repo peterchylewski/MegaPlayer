@@ -99,6 +99,23 @@
 			border-bottom: 2px dotted #D2840B;
 		}
 		
+		div#status {
+			position: fixed;
+			top: 8px;
+			left: 32px;
+			z-index: 1000;
+			background: #fff;
+			font-size: .61em;
+		}
+		
+		.glyphicon-thumbs-up {
+			color: #17A323;
+		}
+		
+		.glyphicon-thumbs-down {
+			color: #CA2614;
+		}
+		
 		div#nucontrols {
 			position: fixed;
 			top: 100px;
@@ -138,7 +155,7 @@
 			min-width: 200px;
 		}
 		
-		td#stations li { white-space: nowrap !important; }
+		td#stations li, td#stations li a { white-space: nowrap !important; }
 		
 		td {
 			vertical-align: top;
@@ -178,8 +195,12 @@
 		
 		h1 { min-height: 70px; }
 		
-		div.info { margin-left: 100px; }
-		div.info { font-size: 16px !important; }
+		div.info {
+			margin-top: 100px;
+			margin-left: 100px;
+			font-size: 16px !important;
+			width: 100%;
+		}
 		
 		ul.track_extraartists li {
 			margin-left: 30px;
@@ -408,7 +429,7 @@
 			}
 		});
 		
-		// receiving messages from the server
+		// ------------------------------------------------------------------ receiving messages from the server
 		
 		socket.on('end_of_file_reached', function() {
 			console.log('player says: end of file has been reached.');
@@ -416,11 +437,12 @@
 		});
 		
 		socket.on('station_message', 	function(msg) { $('h1').text(msg); });
-		socket.on('prev', function() { _prev(); });
-		socket.on('next', function() { _next(); });
+		socket.on('prev', 				function() { _prev(); });
+		socket.on('next', 				function() { _next(); });
 		
-		socket.on('connection', function() { console.log('connected to server'); });
-		socket.on('disconnect', function() { console.log('disconnected from server'); });
+		
+		socket.on('connection', function(msg) { console.log(msg);  $('#status').html('<i class="glyphicon glyphicon-thumbs-up"></i> connected to server'); });
+		socket.on('disconnect', function() { console.log('disconnected from server'); $('#status').html('<i class="glyphicon glyphicon-thumbs-down"></i> disconnected from server'); });
 		
 		$(document).ready(function() {
 		
@@ -485,6 +507,7 @@
     			'height': 80,
     			'font': 'FranklinGothicFSBook',
     			'fgColor': '#1493B3'
+    			
 			}).addClass('time')
 				.on('mouseover', function() { console.log('mouseover'); $(this).data('mouseIsOver', true); })
 				.on('mouseleave', function() { console.log('mouseleave'); $(this).data('mouseIsOver', false); });
@@ -533,7 +556,6 @@
 	<script class="template" id="files" type="text/template">
 		<% var mUid = makeUUID; %>
 		<% var name; %>
-		
 	 	<table id="files">
 			<tbody>
 				<% function row(data, parentID) { %>
@@ -635,6 +657,9 @@
 	</script>
 </head>
 <body>
+	<div id="status">
+		status
+	</div>
 	<div id="nucontrols">
 		<button class="btn btn-danger btn-small" data-action="stop"><i class="fa fa-pause"></i></button>
 		<button class="btn btn-primary btn-small" data-action="prev"><i class="fa fa-arrow-up"></i></button>

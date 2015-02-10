@@ -8,31 +8,9 @@ var MegaClient = function() {
 		_events = new EventEmitter2();
 			
 	console.log('MegaClient!');
+	
+	_socket.on('connection', 	function(msg) { console.log(msg); });
 		
-	
-	
-	_socket.on('welcome', 			function(msg) { console.log(msg); });
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	$(document).ready(function() {
 		console.log('*** MegaClient: document ready');
 		_events.emit('alert', 'document ready');

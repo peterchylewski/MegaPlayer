@@ -1,12 +1,4 @@
 {
-	"pdr_c": {
-		"name": "Public Domain Radio Classical",
-		"stream_url": "http://stream3137.init7.net:80"
-	},
-	"pdr_j": {
-		"name": "Public Domain Radio Jazz",
-		"stream_url": "http://stream3138.init7.net:80"
-	},
 	"srf_regi_bs_bl": {
 		"name": "SRF Regio BS/BL",
 		"stream_url": "http://streaming.swisstxt.ch/m/regi_bs_bl/mp3_128"
@@ -108,6 +100,26 @@
 		"name": "Concertzender Klassiek",
 		"stream_url": "http://www.concertzender.nl/streams/klassiek"
 	},
+	"nederlandse_1": {
+		"name": "Nederlandse 1 Nieuws",
+		"stream_url": "http://icecast.omroep.nl:80/nieuws24-bb-mp3"
+	},
+	"nederlandse_4": {
+		"name": "Nederlandse 4",
+		"stream_url": "http://icecast.omroep.nl:80/radio4-bb-mp3"
+	},
+	"nederlandse_4_eigentijds": {
+		"name": "Nederlandse 4 Eigentijds",
+		"stream_url": "http://icecast.omroep.nl:80/radio4-eigentijds-mp3"
+	},
+	"nederlandse_4_klassiek": {
+		"name": "Nederlandse 4 Klassiek",
+		"stream_url": "http://icecast.omroep.nl:80/radio4-jongklassiek-mp3"
+	},
+	"nederlandse_6_jazz": {
+		"name": "Nederlandse 6 Jazz",
+		"stream_url": "http://icecast.omroep.nl:80/radio6-jazzjong-mp3"
+	},
 	"sr_p2": {
 		"name": "SR P2",
 		"stream_url": "http://http-live.sr.se/p2-mp3-192"
@@ -139,5 +151,17 @@
 	"classic_and_jazz": {
 		"name": "Soul & Funk",
 		"stream_url": "http://soulandfunkaac.ice.infomaniak.ch/soulandfunkaac-0.mp3"
+	},
+	"KEXP": {
+		"name": "KEXP AAC 64",
+		"stream_url": "http://live-aacplus-64.kexp.org/kexp64.aac"
+	},
+	"pdr_c": {
+		"name": "Public Domain Radio Classical",
+		"stream_url": "http://stream3137.init7.net:80"
+	},
+	"pdr_j": {
+		"name": "Public Domain Radio Jazz",
+		"stream_url": "http://stream3138.init7.net:80"
 	}
 }

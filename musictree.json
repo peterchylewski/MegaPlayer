@@ -1353,6 +1353,12 @@
                 },
                 null,
                 {
+                  "path": "/media/music/Eberhard Weber/1973 - Colours of Chloë/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
                   "path": "/media/music/Eberhard Weber/1973 - Colours of Chloë/_meta.json",
                   "name": "_meta.json",
                   "type": "file",
@@ -1400,6 +1406,12 @@
                   "extension": "flac"
                 },
                 {
+                  "path": "/media/music/Eberhard Weber/1975 - Yellow Fields/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
                   "path": "/media/music/Eberhard Weber/1975 - Yellow Fields/_meta.json",
                   "name": "_meta.json",
                   "type": "file",
@@ -1434,6 +1446,12 @@
                   "extension": "mp3"
                 },
                 null,
+                {
+                  "path": "/media/music/Eberhard Weber/1977 - Silent Feet/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
                 {
                   "path": "/media/music/Eberhard Weber/1977 - Silent Feet/_meta.json",
                   "name": "_meta.json",
@@ -1486,6 +1504,12 @@
                   "extension": "flac"
                 },
                 {
+                  "path": "/media/music/Eberhard Weber/1979 - Fluid Rustle/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
                   "path": "/media/music/Eberhard Weber/1979 - Fluid Rustle/_meta.json",
                   "name": "_meta.json",
                   "type": "file",
@@ -1526,6 +1550,12 @@
                   "extension": "flac"
                 },
                 null,
+                {
+                  "path": "/media/music/Eberhard Weber/1982 - Later That Evening/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
                 {
                   "path": "/media/music/Eberhard Weber/1982 - Later That Evening/_meta.json",
                   "name": "_meta.json",
@@ -1598,6 +1628,12 @@
                 },
                 null,
                 null,
+                {
+                  "path": "/media/music/Eberhard Weber/1993 - Pendulum/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
                 {
                   "path": "/media/music/Eberhard Weber/1993 - Pendulum/_meta.json",
                   "name": "_meta.json",
@@ -1745,6 +1781,12 @@
                 },
                 null,
                 {
+                  "path": "/media/music/Eberhard Weber/2001 - Endless Days - 2001/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
                   "path": "/media/music/Eberhard Weber/2001 - Endless Days - 2001/_meta.json",
                   "name": "_meta.json",
                   "type": "file",
@@ -1819,6 +1861,12 @@
                   "extension": "mp3"
                 },
                 null,
+                {
+                  "path": "/media/music/Gary Burton Quartet/1976 - Passengers/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
                 {
                   "path": "/media/music/Gary Burton Quartet/1976 - Passengers/_meta.json",
                   "name": "_meta.json",
@@ -2512,6 +2560,12 @@
             null,
             null,
             {
+              "path": "/media/music/James Moody - Return From Overbrook (1956-8) [Jazz][flac][h33t][schon55]/_discogs.json",
+              "name": "_discogs.json",
+              "type": "file",
+              "extension": "json"
+            },
+            {
               "path": "/media/music/James Moody - Return From Overbrook (1956-8) [Jazz][flac][h33t][schon55]/_meta.json",
               "name": "_meta.json",
               "type": "file",
@@ -2640,6 +2694,12 @@
               "extension": "flac"
             },
             {
+              "path": "/media/music/Jarrett Peacock DeJohnette Standards vol 2 [EAC FLAC level 8]/_discogs.json",
+              "name": "_discogs.json",
+              "type": "file",
+              "extension": "json"
+            },
+            {
               "path": "/media/music/Jarrett Peacock DeJohnette Standards vol 2 [EAC FLAC level 8]/_meta.json",
               "name": "_meta.json",
               "type": "file",
@@ -2711,6 +2771,12 @@
             },
             null,
             {
+              "path": "/media/music/Joe Jackson - Body and Soul 1984 TQMP/_discogs.json",
+              "name": "_discogs.json",
+              "type": "file",
+              "extension": "json"
+            },
+            {
               "path": "/media/music/Joe Jackson - Body and Soul 1984 TQMP/_meta.json",
               "name": "_meta.json",
               "type": "file",
@@ -2768,6 +2834,12 @@
                   "name": "John Abercrombie - Getting There.cue",
                   "type": "file",
                   "extension": "cue"
+                },
+                {
+                  "path": "/media/music/John Abercrombie/1988 Getting There/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
                 },
                 {
                   "path": "/media/music/John Abercrombie/1988 Getting There/_meta.json",
@@ -2865,6 +2937,12 @@
                 },
                 null,
                 {
+                  "path": "/media/music/John Abercrombie/1993 November [FLAC, ECM 1502]/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
                   "path": "/media/music/John Abercrombie/1993 November [FLAC, ECM 1502]/_meta.json",
                   "name": "_meta.json",
                   "type": "file",
@@ -2942,6 +3020,12 @@
                 },
                 null,
                 null,
+                {
+                  "path": "/media/music/John Abercrombie/2012 John Abercrombie Quartet - Within a Song [EAC-FLAC]/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
                 {
                   "path": "/media/music/John Abercrombie/2012 John Abercrombie Quartet - Within a Song [EAC-FLAC]/_meta.json",
                   "name": "_meta.json",
@@ -3168,6 +3252,12 @@
                   "extension": "m3u"
                 },
                 {
+                  "path": "/media/music/John Abercrombie/2013 John Abercrombie Quartet - 39 Steps/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
                   "path": "/media/music/John Abercrombie/2013 John Abercrombie Quartet - 39 Steps/_meta.json",
                   "name": "_meta.json",
                   "type": "file",
@@ -3259,6 +3349,12 @@
                 },
                 null,
                 {
+                  "path": "/media/music/John Abercrombie/John Abercrombie - Jarek Smietana - Speak Easy/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
                   "path": "/media/music/John Abercrombie/John Abercrombie - Jarek Smietana - Speak Easy/_meta.json",
                   "name": "_meta.json",
                   "type": "file",
@@ -3344,6 +3440,12 @@
             },
             null,
             {
+              "path": "/media/music/John Scofield - Uberjam Deux (2013) [FLAC]/_discogs.json",
+              "name": "_discogs.json",
+              "type": "file",
+              "extension": "json"
+            },
+            {
               "path": "/media/music/John Scofield - Uberjam Deux (2013) [FLAC]/_meta.json",
               "name": "_meta.json",
               "type": "file",
@@ -3421,6 +3523,12 @@
                   "extension": "flac"
                 },
                 null,
+                {
+                  "path": "/media/music/John Surman/Brewster's Rooster (2009) /_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
                 {
                   "path": "/media/music/John Surman/Brewster's Rooster (2009) /_meta.json",
                   "name": "_meta.json",
@@ -3517,6 +3625,12 @@
                 },
                 null,
                 {
+                  "path": "/media/music/John Surman/Rarum (2004)/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
                   "path": "/media/music/John Surman/Rarum (2004)/_meta.json",
                   "name": "_meta.json",
                   "type": "file",
@@ -3578,6 +3692,12 @@
             },
             null,
             null,
+            {
+              "path": "/media/music/John_Coltrane_-_Interstellar_Space__ripped_by_chabosun/_discogs.json",
+              "name": "_discogs.json",
+              "type": "file",
+              "extension": "json"
+            },
             {
               "path": "/media/music/John_Coltrane_-_Interstellar_Space__ripped_by_chabosun/_meta.json",
               "name": "_meta.json",
@@ -3756,6 +3876,12 @@
                   "extension": "log"
                 },
                 {
+                  "path": "/media/music/Joshua Redman/1996 - Freedom in the Groove FLAC/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
                   "path": "/media/music/Joshua Redman/1996 - Freedom in the Groove FLAC/_meta.json",
                   "name": "_meta.json",
                   "type": "file",
@@ -3908,6 +4034,12 @@
                   "extension": "log"
                 },
                 {
+                  "path": "/media/music/Joshua Redman/2002 - Elastic [FLAC]/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
                   "path": "/media/music/Joshua Redman/2002 - Elastic [FLAC]/_meta.json",
                   "name": "_meta.json",
                   "type": "file",
@@ -3997,6 +4129,12 @@
                 },
                 null,
                 null,
+                {
+                  "path": "/media/music/Joshua Redman/2007 - Back East FLAC/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
                 {
                   "path": "/media/music/Joshua Redman/2007 - Back East FLAC/_meta.json",
                   "name": "_meta.json",
@@ -4592,6 +4730,12 @@
               ]
             },
             {
+              "path": "/media/music/Kronos Quartet - A Thousand Thoughts (2014) FLAC/_discogs.json",
+              "name": "_discogs.json",
+              "type": "file",
+              "extension": "json"
+            },
+            {
               "path": "/media/music/Kronos Quartet - A Thousand Thoughts (2014) FLAC/_meta.json",
               "name": "_meta.json",
               "type": "file",
@@ -4684,6 +4828,12 @@
                   "name": "[Larry Coryell] The Restful Mind.m3u",
                   "type": "file",
                   "extension": "m3u"
+                },
+                {
+                  "path": "/media/music/Larry Coryell/1975 The Restful Mind FLAC/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
                 },
                 {
                   "path": "/media/music/Larry Coryell/1975 The Restful Mind FLAC/_meta.json",
@@ -4838,6 +4988,12 @@
                   "extension": "cue"
                 },
                 {
+                  "path": "/media/music/Larry Coryell/2013 The Lift (Wide Hive) FLAC/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
                   "path": "/media/music/Larry Coryell/2013 The Lift (Wide Hive) FLAC/_meta.json",
                   "name": "_meta.json",
                   "type": "file",
@@ -4936,6 +5092,12 @@
               "name": "Torrent downloaded from Demonoid.com.txt",
               "type": "file",
               "extension": "txt"
+            },
+            {
+              "path": "/media/music/Marc Johnson - The Sound of Summer Running (FLAC)/_discogs.json",
+              "name": "_discogs.json",
+              "type": "file",
+              "extension": "json"
             },
             {
               "path": "/media/music/Marc Johnson - The Sound of Summer Running (FLAC)/_meta.json",
@@ -5143,6 +5305,12 @@
               "name": "Liner NotesHD090368005120.pdfX",
               "type": "file",
               "extension": "pdfX"
+            },
+            {
+              "path": "/media/music/McCoy Tyner - New York Reunion (1991) HDtracks 24-96-FLAC/_discogs.json",
+              "name": "_discogs.json",
+              "type": "file",
+              "extension": "json"
             },
             {
               "path": "/media/music/McCoy Tyner - New York Reunion (1991) HDtracks 24-96-FLAC/_meta.json",
@@ -5461,6 +5629,12 @@
                   "extension": "cue"
                 },
                 {
+                  "path": "/media/music/Nucleus/1970 - We'll Talk About It Later/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
                   "path": "/media/music/Nucleus/1970 - We'll Talk About It Later/_meta.json",
                   "name": "_meta.json",
                   "type": "file",
@@ -5534,6 +5708,12 @@
                 },
                 null,
                 {
+                  "path": "/media/music/Nucleus/Ian Carr - Out Of The Long Dark/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
                   "path": "/media/music/Nucleus/Ian Carr - Out Of The Long Dark/_meta.json",
                   "name": "_meta.json",
                   "type": "file",
@@ -5592,6 +5772,12 @@
                   "extension": "flac"
                 },
                 null,
+                {
+                  "path": "/media/music/Nucleus/Ian Carr's Nucleus - Roots/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
                 {
                   "path": "/media/music/Nucleus/Ian Carr's Nucleus - Roots/_meta.json",
                   "name": "_meta.json",
@@ -5676,6 +5862,12 @@
               "name": "Watercolors.txt",
               "type": "file",
               "extension": "txt"
+            },
+            {
+              "path": "/media/music/Pat Metheny Watercolors/_discogs.json",
+              "name": "_discogs.json",
+              "type": "file",
+              "extension": "json"
             },
             {
               "path": "/media/music/Pat Metheny Watercolors/_meta.json",
@@ -6036,6 +6228,12 @@
                   "name": "Sweet Lorraine.flac",
                   "type": "file",
                   "extension": "flac"
+                },
+                {
+                  "path": "/media/music/Ron Carter/Jazz, My Romance/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
                 },
                 {
                   "path": "/media/music/Ron Carter/Jazz, My Romance/_meta.json",
@@ -11672,6 +11870,12 @@
                 null,
                 null,
                 {
+                  "path": "/home/pi/usbdrv/Ian Carr & Nucleus/1970 - Elastic Rock/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
                   "path": "/home/pi/usbdrv/Ian Carr & Nucleus/1970 - Elastic Rock/_meta.json",
                   "name": "_meta.json",
                   "type": "file",
@@ -11753,6 +11957,12 @@
                 null,
                 null,
                 null,
+                {
+                  "path": "/home/pi/usbdrv/Ian Carr & Nucleus/1971 - Solar Plexus/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
                 {
                   "path": "/home/pi/usbdrv/Ian Carr & Nucleus/1971 - Solar Plexus/_meta.json",
                   "name": "_meta.json",
@@ -11874,6 +12084,12 @@
                 null,
                 null,
                 {
+                  "path": "/home/pi/usbdrv/Ian Carr & Nucleus/1971 - We'll Talk About It Later/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
                   "path": "/home/pi/usbdrv/Ian Carr & Nucleus/1971 - We'll Talk About It Later/_meta.json",
                   "name": "_meta.json",
                   "type": "file",
@@ -11926,6 +12142,12 @@
                   "extension": "flac"
                 },
                 null,
+                {
+                  "path": "/home/pi/usbdrv/Ian Carr & Nucleus/1973 - Labyrinth/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
                 {
                   "path": "/home/pi/usbdrv/Ian Carr & Nucleus/1973 - Labyrinth/_meta.json",
                   "name": "_meta.json",
@@ -12039,6 +12261,12 @@
                 null,
                 null,
                 {
+                  "path": "/home/pi/usbdrv/Ian Carr & Nucleus/1973 - Roots/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
                   "path": "/home/pi/usbdrv/Ian Carr & Nucleus/1973 - Roots/_meta.json",
                   "name": "_meta.json",
                   "type": "file",
@@ -12104,6 +12332,12 @@
                 },
                 null,
                 {
+                  "path": "/home/pi/usbdrv/Ian Carr & Nucleus/1974 - Under The Sun/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
                   "path": "/home/pi/usbdrv/Ian Carr & Nucleus/1974 - Under The Sun/_meta.json",
                   "name": "_meta.json",
                   "type": "file",
@@ -12162,6 +12396,12 @@
                 null,
                 null,
                 null,
+                {
+                  "path": "/home/pi/usbdrv/Ian Carr & Nucleus/1975 - Snakehips Etcetera/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
                 {
                   "path": "/home/pi/usbdrv/Ian Carr & Nucleus/1975 - Snakehips Etcetera/_meta.json",
                   "name": "_meta.json",
@@ -12243,6 +12483,12 @@
                 null,
                 null,
                 {
+                  "path": "/home/pi/usbdrv/Ian Carr & Nucleus/1979 - Out Of The Long Dark/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
                   "path": "/home/pi/usbdrv/Ian Carr & Nucleus/1979 - Out Of The Long Dark/_meta.json",
                   "name": "_meta.json",
                   "type": "file",
@@ -12308,6 +12554,12 @@
                 null,
                 null,
                 null,
+                {
+                  "path": "/home/pi/usbdrv/Ian Carr & Nucleus/1988 - Old Heartland/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
                 {
                   "path": "/home/pi/usbdrv/Ian Carr & Nucleus/1988 - Old Heartland/_meta.json",
                   "name": "_meta.json",
@@ -17831,6 +18083,12 @@
                 null,
                 null,
                 {
+                  "path": "/home/pi/usbdrv/Marcus Miller/2011 - A Night In Monte-Carlo/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
                   "path": "/home/pi/usbdrv/Marcus Miller/2011 - A Night In Monte-Carlo/_meta.json",
                   "name": "_meta.json",
                   "type": "file",
@@ -21776,6 +22034,12 @@
                 },
                 null,
                 {
+                  "path": "/home/pi/usbdrv/Steve Reich/2014 - Radio Rewrite/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
                   "path": "/home/pi/usbdrv/Steve Reich/2014 - Radio Rewrite/_meta.json",
                   "name": "_meta.json",
                   "type": "file",
@@ -22889,6 +23153,12 @@
                 null,
                 null,
                 null,
+                {
+                  "path": "/home/pi/usbdrv/Vijay Iyer/2012 - Vijay Iyer Trio - Accelerando/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
                 {
                   "path": "/home/pi/usbdrv/Vijay Iyer/2012 - Vijay Iyer Trio - Accelerando/_meta.json",
                   "name": "_meta.json",

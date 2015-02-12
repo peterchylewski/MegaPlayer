@@ -440,7 +440,6 @@
 		socket.on('prev', 				function() { _prev(); });
 		socket.on('next', 				function() { _next(); });
 		
-		
 		socket.on('connection', function(msg) { console.log(msg);  $('#status').html('<i class="glyphicon glyphicon-thumbs-up"></i> connected to server'); });
 		socket.on('disconnect', function() { console.log('disconnected from server'); $('#status').html('<i class="glyphicon glyphicon-thumbs-down"></i> disconnected from server'); });
 		
@@ -450,15 +449,17 @@
 			
 			socket.emit('ready', 'foobar');
 			
-			$('button[data-action="prev"]').click(function() { _prev(); });
-			$('button[data-action="next"]').click(function() { _next(); });
-			$('button[data-action="stop"]').click(function() {
-				console.log('tsop');
-				socket.emit('cmd', 'stop');
-			});
-			$('button[data-action="reload_tree"]').click(function() {
-				$('#files-tab').html('<i class="fa fa-cog fa-spin"></i>');
-				socket.emit('cmd', 'reloadTree');
+			$('button').click(function() {
+				switch ($(this).attr('data-action')) {
+					case 'prev': _prev();											break;
+					case 'next': _next();											break;
+					case 'stop': console.log('tsop'); socket.emit('cmd', 'stop');	break;
+					case 'reload_tree': _next();
+						$('#files-tab').html('<i class="fa fa-cog fa-spin"></i>');
+						socket.emit('cmd', 'reloadTree');
+					break;
+					case 'restartServer': socket.emit('cmd', 'restart');			break;
+				}
 			});
 			
 			$('#files-tab').html('<i class="fa fa-cog fa-spin"></i>');
@@ -491,7 +492,6 @@
 				'change': function(value) {
     				console.log('change', value);
     			},
-    			
     			'draw': function(value) {
     				//console.log('draw', value);
     			},
@@ -668,7 +668,7 @@
 	</div>
 	
 	<div id="controls">
-		<button class="btn btn-danger" data-action="reload_tree">Restart Server</button>
+		<button class="btn btn-danger" data-action="restartServer">Restart Server</button>
 		<input type="text" class="dial time" data-displayPrevious="true">
 		<input type="text" class="dial volume" data-displayPrevious="true">
 	</div>

@@ -12,6 +12,7 @@ var MUSIC_HOME = '/home/pi/usbdrv',
 	app = require('express')(),
 	http = require('http').Server(app),
 	io = require('socket.io')(http),
+	spawn = require('child_process').spawn,
 	$ = require('jquery'),
 	stations = require('./radiostations.json'),
 	musictree = require('./musictree.json'),
@@ -26,7 +27,9 @@ var MUSIC_HOME = '/home/pi/usbdrv',
 
 function loadConfig() {
 	var pathToConfig = __dirname + '/config.json';
-	logger.error('trying to load config file', pathToConfig, '...');
+	
+	logger.trace('trying to load config file', pathToConfig, '...');
+	
 	_config = fs.existsSync(pathToConfig) === true ? require(pathToConfig) : {};
 	console.log('_config', _config);
 }
@@ -221,7 +224,7 @@ io.on('connection', function(socket) {
 	socket.on('file', function(file, newPlayer) {
 		console.log('file', file, newPlayer);
 		player.play(file, newPlayer);
-		player.on('foo', function(msg) {
+		player.on('station_message', function(msg) {
 			socket.emit('station_message', msg);
 		});
 	});
@@ -248,6 +251,9 @@ io.on('connection', function(socket) {
 					console.log('err', err);
 				});
 			break;
+			case 'restart':
+				spawn('restart', ['megaserver']);
+			break;
 		}
 	});
 
@@ -257,7 +263,7 @@ io.on('connection', function(socket) {
 });
 
 http.listen(3000, function() {
-	console.log('listening on *:3000');
+	console.log('listening on *:3000'.yellow);
 });
 
 var web = require('SimpleWebServer')(__dirname + '/public', 8080);

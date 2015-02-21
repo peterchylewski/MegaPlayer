@@ -443,6 +443,8 @@
 		socket.on('connection', function(msg) { console.log(msg);  $('#status').html('<i class="glyphicon glyphicon-thumbs-up"></i> connected to server'); });
 		socket.on('disconnect', function() { console.log('disconnected from server'); $('#status').html('<i class="glyphicon glyphicon-thumbs-down"></i> disconnected from server'); });
 		
+		socket.on('event', 				function(type, val) { console('event received:', type, val ); } );
+		
 		$(document).ready(function() {
 		
 			console.log('***ready');
@@ -475,6 +477,7 @@
 				console.log('a tab has been clicked on');
 				tab = $(e.target).attr('href');				
 				$.cookie('lastTab', tab);
+				socket.emit('event', 'tabChanged', tab);
 			});
 			
 			// --- KNOBS

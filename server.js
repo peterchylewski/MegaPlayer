@@ -114,10 +114,10 @@ function startCatchingUSBEvents() {
 		console.log('keyUp', event.name);
 		switch (event.name) {
 			case 'KEY_VOLUMEUP':
-				player.volumeUp(1);
+				player.volumeUp(1, true);
 			break;
 			case 'KEY_VOLUMEDOWN':
-				player.volumeDown(1);
+				player.volumeDown(1, true);
 			break;
 			case 'KEY_UP':
 				player.prev();
@@ -150,10 +150,10 @@ function startCatchingUSBEvents() {
 		//console.log('wheelSpin', direction);
 		switch (direction) {
 			case 'left':
-				player.volumeDown(1);
+				player.volumeDown(1, true);
 			break;
 			case 'right':
-				player.volumeUp(1);
+				player.volumeUp(1, true);
 			break;
 		}
 	});
@@ -255,6 +255,11 @@ io.on('connection', function(socket) {
 				spawn('restart', ['megaserver']);
 			break;
 		}
+	});
+	
+	socket.on('event', function(arg0, arg1, arg2) {
+		console.log('>>>>>>>>>>>>>>>>>>>>>>>>>event', arg0, arg1);
+		socket.emit('event', arg0, arg1);
 	});
 
 	socket.on('disconnect', function(){

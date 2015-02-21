@@ -740,6 +740,12 @@
                 },
                 null,
                 {
+                  "path": "/media/music/Billy Cobham/1974 Crosswinds/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
                   "path": "/media/music/Billy Cobham/1974 Crosswinds/_meta.json",
                   "name": "_meta.json",
                   "type": "file",
@@ -7283,8 +7289,38 @@
               "extension": "WAV"
             },
             {
+              "path": "/media/music/__REKORDINGS/LS100366_komp.flac",
+              "name": "LS100366_komp.flac",
+              "type": "file",
+              "extension": "flac"
+            },
+            {
               "path": "/media/music/__REKORDINGS/LS100366_sublows.WAV",
               "name": "LS100366_sublows.WAV",
+              "type": "file",
+              "extension": "WAV"
+            },
+            {
+              "path": "/media/music/__REKORDINGS/LS100370.WAV",
+              "name": "LS100370.WAV",
+              "type": "file",
+              "extension": "WAV"
+            },
+            {
+              "path": "/media/music/__REKORDINGS/LS100371.WAV",
+              "name": "LS100371.WAV",
+              "type": "file",
+              "extension": "WAV"
+            },
+            {
+              "path": "/media/music/__REKORDINGS/LS100372.WAV",
+              "name": "LS100372.WAV",
+              "type": "file",
+              "extension": "WAV"
+            },
+            {
+              "path": "/media/music/__REKORDINGS/LS100373.WAV",
+              "name": "LS100373.WAV",
               "type": "file",
               "extension": "WAV"
             },
@@ -10769,6 +10805,12 @@
                 null,
                 null,
                 {
+                  "path": "/home/pi/usbdrv/Eberhard Weber/Eberhard Weber - Selected Recordings/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
                   "path": "/home/pi/usbdrv/Eberhard Weber/Eberhard Weber - Selected Recordings/_meta.json",
                   "name": "_meta.json",
                   "type": "file",
@@ -11672,6 +11714,12 @@
                 },
                 null,
                 null,
+                {
+                  "path": "/home/pi/usbdrv/Helen Merrill/1994 - Brownie (Homage to Clifford Brown)/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
                 {
                   "path": "/home/pi/usbdrv/Helen Merrill/1994 - Brownie (Homage to Clifford Brown)/_meta.json",
                   "name": "_meta.json",
@@ -13275,6 +13323,12 @@
                 },
                 null,
                 {
+                  "path": "/home/pi/usbdrv/John Adams/Century Rolls/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
                   "path": "/home/pi/usbdrv/John Adams/Century Rolls/_meta.json",
                   "name": "_meta.json",
                   "type": "file",
@@ -13398,9 +13452,361 @@
           "type": "folder",
           "children": [
             {
+              "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung",
+              "name": "1970 - Stimmung",
+              "type": "folder",
+              "meta": {
+                "discogs_url": "https://api.discogs.com/releases/1445371"
+              },
+              "children": [
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/01. Model 1.flac",
+                  "name": "01. Model 1.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/02. Model 2.flac",
+                  "name": "02. Model 2.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/03. Model 3.flac",
+                  "name": "03. Model 3.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/04. Model 4.flac",
+                  "name": "04. Model 4.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/05. Model 5.flac",
+                  "name": "05. Model 5.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/06. Model 6.flac",
+                  "name": "06. Model 6.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/07. Model 7.flac",
+                  "name": "07. Model 7.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/08. Model 8.flac",
+                  "name": "08. Model 8.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/09. Model 9.flac",
+                  "name": "09. Model 9.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/10. Model 10.flac",
+                  "name": "10. Model 10.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/11. Model 11.flac",
+                  "name": "11. Model 11.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/12. Model 12.flac",
+                  "name": "12. Model 12.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/13. Model 13.flac",
+                  "name": "13. Model 13.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/14. Model 14.flac",
+                  "name": "14. Model 14.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/15. Model 15.flac",
+                  "name": "15. Model 15.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/16. Model 16.flac",
+                  "name": "16. Model 16.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/17. Model 17.flac",
+                  "name": "17. Model 17.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/18. Model 18.flac",
+                  "name": "18. Model 18.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/19. Model 19.flac",
+                  "name": "19. Model 19.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/20. Model 20.flac",
+                  "name": "20. Model 20.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/21. Model 21.flac",
+                  "name": "21. Model 21.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/22. Model 22.flac",
+                  "name": "22. Model 22.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/23. Model 23.flac",
+                  "name": "23. Model 23.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/24. Model 24.flac",
+                  "name": "24. Model 24.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/25. Model 25.flac",
+                  "name": "25. Model 25.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/26. Model 26.flac",
+                  "name": "26. Model 26.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/27. Model 27.flac",
+                  "name": "27. Model 27.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/28. Model 28.flac",
+                  "name": "28. Model 28.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/29. Model 29.flac",
+                  "name": "29. Model 29.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/30. Model 30.flac",
+                  "name": "30. Model 30.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/31. Model 31.flac",
+                  "name": "31. Model 31.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/32. Model 32.flac",
+                  "name": "32. Model 32.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/33. Model 33.flac",
+                  "name": "33. Model 33.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/34. Model 34.flac",
+                  "name": "34. Model 34.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/35. Model 35.flac",
+                  "name": "35. Model 35.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/36. Model 36.flac",
+                  "name": "36. Model 36.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/37. Model 37.flac",
+                  "name": "37. Model 37.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/38. Model 38.flac",
+                  "name": "38. Model 38.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/39. Model 39.flac",
+                  "name": "39. Model 39.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/40. Model 40.flac",
+                  "name": "40. Model 40.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/41. Model 41.flac",
+                  "name": "41. Model 41.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/42. Model 42.flac",
+                  "name": "42. Model 42.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/43. Model 43.flac",
+                  "name": "43. Model 43.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/44. Model 44.flac",
+                  "name": "44. Model 44.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/45. Model 45.flac",
+                  "name": "45. Model 45.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/46. Model 46.flac",
+                  "name": "46. Model 46.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/47. Model 47.flac",
+                  "name": "47. Model 47.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/48. Model 48.flac",
+                  "name": "48. Model 48.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/49. Model 49.flac",
+                  "name": "49. Model 49.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/50. Model 50.flac",
+                  "name": "50. Model 50.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/51. Model 51.flac",
+                  "name": "51. Model 51.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                null,
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/_meta.json",
+                  "name": "_meta.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/_stuff",
+                  "name": "_stuff",
+                  "type": "folder",
+                  "children": [
+                    null,
+                    {
+                      "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/_stuff/Cover.jpg",
+                      "name": "Cover.jpg",
+                      "type": "file",
+                      "extension": "jpg"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/_stuff/Simmung.cue",
+                      "name": "Simmung.cue",
+                      "type": "file",
+                      "extension": "cue"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1970 - Stimmung/_stuff/Stmmung.log",
+                      "name": "Stmmung.log",
+                      "type": "file",
+                      "extension": "log"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1991 - Elektronische Musik",
               "name": "1991 - Elektronische Musik",
               "type": "folder",
+              "meta": {
+                "discogs_url": "https://api.discogs.com/releases/384693"
+              },
               "children": [
                 {
                   "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1991 - Elektronische Musik/01. Etude (1952).mp3",
@@ -13578,6 +13984,12 @@
                 },
                 null,
                 {
+                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1991 - Elektronische Musik/_meta.json",
+                  "name": "_meta.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
                   "path": "/home/pi/usbdrv/Karlheinz Stockhausen/1991 - Elektronische Musik/_stuff",
                   "name": "_stuff",
                   "type": "folder",
@@ -13593,346 +14005,6 @@
                 }
               ]
             },
-            {
-              "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung",
-              "name": "2007 - Stimmung",
-              "type": "folder",
-              "children": [
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/01. Model 1.flac",
-                  "name": "01. Model 1.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/02. Model 2.flac",
-                  "name": "02. Model 2.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/03. Model 3.flac",
-                  "name": "03. Model 3.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/04. Model 4.flac",
-                  "name": "04. Model 4.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/05. Model 5.flac",
-                  "name": "05. Model 5.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/06. Model 6.flac",
-                  "name": "06. Model 6.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/07. Model 7.flac",
-                  "name": "07. Model 7.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/08. Model 8.flac",
-                  "name": "08. Model 8.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/09. Model 9.flac",
-                  "name": "09. Model 9.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/10. Model 10.flac",
-                  "name": "10. Model 10.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/11. Model 11.flac",
-                  "name": "11. Model 11.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/12. Model 12.flac",
-                  "name": "12. Model 12.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/13. Model 13.flac",
-                  "name": "13. Model 13.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/14. Model 14.flac",
-                  "name": "14. Model 14.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/15. Model 15.flac",
-                  "name": "15. Model 15.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/16. Model 16.flac",
-                  "name": "16. Model 16.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/17. Model 17.flac",
-                  "name": "17. Model 17.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/18. Model 18.flac",
-                  "name": "18. Model 18.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/19. Model 19.flac",
-                  "name": "19. Model 19.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/20. Model 20.flac",
-                  "name": "20. Model 20.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/21. Model 21.flac",
-                  "name": "21. Model 21.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/22. Model 22.flac",
-                  "name": "22. Model 22.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/23. Model 23.flac",
-                  "name": "23. Model 23.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/24. Model 24.flac",
-                  "name": "24. Model 24.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/25. Model 25.flac",
-                  "name": "25. Model 25.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/26. Model 26.flac",
-                  "name": "26. Model 26.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/27. Model 27.flac",
-                  "name": "27. Model 27.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/28. Model 28.flac",
-                  "name": "28. Model 28.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/29. Model 29.flac",
-                  "name": "29. Model 29.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/30. Model 30.flac",
-                  "name": "30. Model 30.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/31. Model 31.flac",
-                  "name": "31. Model 31.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/32. Model 32.flac",
-                  "name": "32. Model 32.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/33. Model 33.flac",
-                  "name": "33. Model 33.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/34. Model 34.flac",
-                  "name": "34. Model 34.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/35. Model 35.flac",
-                  "name": "35. Model 35.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/36. Model 36.flac",
-                  "name": "36. Model 36.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/37. Model 37.flac",
-                  "name": "37. Model 37.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/38. Model 38.flac",
-                  "name": "38. Model 38.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/39. Model 39.flac",
-                  "name": "39. Model 39.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/40. Model 40.flac",
-                  "name": "40. Model 40.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/41. Model 41.flac",
-                  "name": "41. Model 41.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/42. Model 42.flac",
-                  "name": "42. Model 42.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/43. Model 43.flac",
-                  "name": "43. Model 43.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/44. Model 44.flac",
-                  "name": "44. Model 44.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/45. Model 45.flac",
-                  "name": "45. Model 45.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/46. Model 46.flac",
-                  "name": "46. Model 46.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/47. Model 47.flac",
-                  "name": "47. Model 47.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/48. Model 48.flac",
-                  "name": "48. Model 48.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/49. Model 49.flac",
-                  "name": "49. Model 49.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/50. Model 50.flac",
-                  "name": "50. Model 50.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/51. Model 51.flac",
-                  "name": "51. Model 51.flac",
-                  "type": "file",
-                  "extension": "flac"
-                },
-                null,
-                {
-                  "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/_stuff",
-                  "name": "_stuff",
-                  "type": "folder",
-                  "children": [
-                    null,
-                    {
-                      "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/_stuff/Cover.jpg",
-                      "name": "Cover.jpg",
-                      "type": "file",
-                      "extension": "jpg"
-                    },
-                    {
-                      "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/_stuff/Simmung.cue",
-                      "name": "Simmung.cue",
-                      "type": "file",
-                      "extension": "cue"
-                    },
-                    {
-                      "path": "/home/pi/usbdrv/Karlheinz Stockhausen/2007 - Stimmung/_stuff/Stmmung.log",
-                      "name": "Stmmung.log",
-                      "type": "file",
-                      "extension": "log"
-                    }
-                  ]
-                }
-              ]
-            },
             null,
             null
           ]
@@ -13942,74 +14014,86 @@
           "name": "Kenny Wheeler",
           "type": "folder",
           "children": [
-            null,
-            null,
             {
-              "path": "/home/pi/usbdrv/Kenny Wheeler/Angel Song",
-              "name": "Angel Song",
+              "path": "/home/pi/usbdrv/Kenny Wheeler/1997 Angel Song",
+              "name": "1997 Angel Song",
               "type": "folder",
+              "meta": {
+                "discogs_url": "https://api.discogs.com/releases/825934"
+              },
               "children": [
                 {
-                  "path": "/home/pi/usbdrv/Kenny Wheeler/Angel Song/01 Nicolette.mp3",
+                  "path": "/home/pi/usbdrv/Kenny Wheeler/1997 Angel Song/01 Nicolette.mp3",
                   "name": "01 Nicolette.mp3",
                   "type": "file",
                   "extension": "mp3"
                 },
                 {
-                  "path": "/home/pi/usbdrv/Kenny Wheeler/Angel Song/02 Present Past.mp3",
+                  "path": "/home/pi/usbdrv/Kenny Wheeler/1997 Angel Song/02 Present Past.mp3",
                   "name": "02 Present Past.mp3",
                   "type": "file",
                   "extension": "mp3"
                 },
                 {
-                  "path": "/home/pi/usbdrv/Kenny Wheeler/Angel Song/03 Kind Folk.mp3",
+                  "path": "/home/pi/usbdrv/Kenny Wheeler/1997 Angel Song/03 Kind Folk.mp3",
                   "name": "03 Kind Folk.mp3",
                   "type": "file",
                   "extension": "mp3"
                 },
                 {
-                  "path": "/home/pi/usbdrv/Kenny Wheeler/Angel Song/04 Unti.mp3",
+                  "path": "/home/pi/usbdrv/Kenny Wheeler/1997 Angel Song/04 Unti.mp3",
                   "name": "04 Unti.mp3",
                   "type": "file",
                   "extension": "mp3"
                 },
                 {
-                  "path": "/home/pi/usbdrv/Kenny Wheeler/Angel Song/05 Angel Song.mp3",
+                  "path": "/home/pi/usbdrv/Kenny Wheeler/1997 Angel Song/05 Angel Song.mp3",
                   "name": "05 Angel Song.mp3",
                   "type": "file",
                   "extension": "mp3"
                 },
                 {
-                  "path": "/home/pi/usbdrv/Kenny Wheeler/Angel Song/06 Onmo.mp3",
+                  "path": "/home/pi/usbdrv/Kenny Wheeler/1997 Angel Song/06 Onmo.mp3",
                   "name": "06 Onmo.mp3",
                   "type": "file",
                   "extension": "mp3"
                 },
                 {
-                  "path": "/home/pi/usbdrv/Kenny Wheeler/Angel Song/07 Nonetheless.mp3",
+                  "path": "/home/pi/usbdrv/Kenny Wheeler/1997 Angel Song/07 Nonetheless.mp3",
                   "name": "07 Nonetheless.mp3",
                   "type": "file",
                   "extension": "mp3"
                 },
                 {
-                  "path": "/home/pi/usbdrv/Kenny Wheeler/Angel Song/08 Past Present.mp3",
+                  "path": "/home/pi/usbdrv/Kenny Wheeler/1997 Angel Song/08 Past Present.mp3",
                   "name": "08 Past Present.mp3",
                   "type": "file",
                   "extension": "mp3"
                 },
                 {
-                  "path": "/home/pi/usbdrv/Kenny Wheeler/Angel Song/09 Kind Of Gentle.mp3",
+                  "path": "/home/pi/usbdrv/Kenny Wheeler/1997 Angel Song/09 Kind Of Gentle.mp3",
                   "name": "09 Kind Of Gentle.mp3",
                   "type": "file",
                   "extension": "mp3"
                 },
-                null
+                null,
+                {
+                  "path": "/home/pi/usbdrv/Kenny Wheeler/1997 Angel Song/_meta.json",
+                  "name": "_meta.json",
+                  "type": "file",
+                  "extension": "json"
+                }
               ]
             },
+            null,
+            null,
             {
               "path": "/home/pi/usbdrv/Kenny Wheeler/Kenny Wheeler Quintet - The Widow In The Window",
               "name": "Kenny Wheeler Quintet - The Widow In The Window",
               "type": "folder",
+              "meta": {
+                "discogs_url": "https://api.discogs.com/releases/825901"
+              },
               "children": [
                 {
                   "path": "/home/pi/usbdrv/Kenny Wheeler/Kenny Wheeler Quintet - The Widow In The Window/01 - Aspire.flac",
@@ -14048,6 +14132,12 @@
                   "extension": "flac"
                 },
                 null,
+                {
+                  "path": "/home/pi/usbdrv/Kenny Wheeler/Kenny Wheeler Quintet - The Widow In The Window/_meta.json",
+                  "name": "_meta.json",
+                  "type": "file",
+                  "extension": "json"
+                },
                 {
                   "path": "/home/pi/usbdrv/Kenny Wheeler/Kenny Wheeler Quintet - The Widow In The Window/_stuff",
                   "name": "_stuff",
@@ -14278,6 +14368,9 @@
               "path": "/home/pi/usbdrv/Lyle Mays/1986 - Lyle Mays",
               "name": "1986 - Lyle Mays",
               "type": "folder",
+              "meta": {
+                "discogs_url": "https://api.discogs.com/releases/5067491"
+              },
               "children": [
                 {
                   "path": "/home/pi/usbdrv/Lyle Mays/1986 - Lyle Mays/01 Highland Aire.flac",
@@ -14334,6 +14427,18 @@
                   "name": "Lyle Mays.flac",
                   "type": "file",
                   "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Lyle Mays/1986 - Lyle Mays/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Lyle Mays/1986 - Lyle Mays/_meta.json",
+                  "name": "_meta.json",
+                  "type": "file",
+                  "extension": "json"
                 },
                 {
                   "path": "/home/pi/usbdrv/Lyle Mays/1986 - Lyle Mays/_stuff",
@@ -14393,6 +14498,9 @@
               "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary",
               "name": "1993 - Fictionary",
               "type": "folder",
+              "meta": {
+                "discogs_url": "https://api.discogs.com/releases/6125297"
+              },
               "children": [
                 {
                   "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/01 - Bill Evans.flac",
@@ -14464,158 +14572,177 @@
                 null,
                 null,
                 {
-                  "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/Fictionary.cue",
-                  "name": "Fictionary.cue",
+                  "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/_discogs.json",
+                  "name": "_discogs.json",
                   "type": "file",
-                  "extension": "cue"
+                  "extension": "json"
                 },
                 {
-                  "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/Fictionary.jpg",
-                  "name": "Fictionary.jpg",
+                  "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/_meta.json",
+                  "name": "_meta.json",
                   "type": "file",
-                  "extension": "jpg"
+                  "extension": "json"
                 },
                 {
-                  "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/Lyle Mays with Marc Johnson and Jack DeJohnette - Fictionary.jpg",
-                  "name": "Lyle Mays with Marc Johnson and Jack DeJohnette - Fictionary.jpg",
-                  "type": "file",
-                  "extension": "jpg"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/Lyle Mays with Marc Johnson and Jack DeJohnette - Fictionary.log",
-                  "name": "Lyle Mays with Marc Johnson and Jack DeJohnette - Fictionary.log",
-                  "type": "file",
-                  "extension": "log"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/Lyle Mays with Marc Johnson and Jack DeJohnette - Fictionary.m3u",
-                  "name": "Lyle Mays with Marc Johnson and Jack DeJohnette - Fictionary.m3u",
-                  "type": "file",
-                  "extension": "m3u"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/Lyle Mays with Marc Johnson and Jack DeJohnette - Fictionary.txt",
-                  "name": "Lyle Mays with Marc Johnson and Jack DeJohnette - Fictionary.txt",
-                  "type": "file",
-                  "extension": "txt"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/artwork",
-                  "name": "artwork",
+                  "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/_stuff",
+                  "name": "_stuff",
                   "type": "folder",
                   "children": [
-                    null,
                     {
-                      "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/artwork/back.jpg",
+                      "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/_stuff/Fictionary.cue",
+                      "name": "Fictionary.cue",
+                      "type": "file",
+                      "extension": "cue"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/_stuff/Fictionary.jpg",
+                      "name": "Fictionary.jpg",
+                      "type": "file",
+                      "extension": "jpg"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/_stuff/Lyle Mays with Marc Johnson and Jack DeJohnette - Fictionary.jpg",
+                      "name": "Lyle Mays with Marc Johnson and Jack DeJohnette - Fictionary.jpg",
+                      "type": "file",
+                      "extension": "jpg"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/_stuff/Lyle Mays with Marc Johnson and Jack DeJohnette - Fictionary.log",
+                      "name": "Lyle Mays with Marc Johnson and Jack DeJohnette - Fictionary.log",
+                      "type": "file",
+                      "extension": "log"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/_stuff/Lyle Mays with Marc Johnson and Jack DeJohnette - Fictionary.m3u",
+                      "name": "Lyle Mays with Marc Johnson and Jack DeJohnette - Fictionary.m3u",
+                      "type": "file",
+                      "extension": "m3u"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/_stuff/Lyle Mays with Marc Johnson and Jack DeJohnette - Fictionary.txt",
+                      "name": "Lyle Mays with Marc Johnson and Jack DeJohnette - Fictionary.txt",
+                      "type": "file",
+                      "extension": "txt"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/_stuff/artwork",
+                      "name": "artwork",
+                      "type": "folder",
+                      "children": [
+                        null,
+                        {
+                          "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/_stuff/artwork/back.jpg",
+                          "name": "back.jpg",
+                          "type": "file",
+                          "extension": "jpg"
+                        },
+                        {
+                          "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/_stuff/artwork/booklet-1.jpg",
+                          "name": "booklet-1.jpg",
+                          "type": "file",
+                          "extension": "jpg"
+                        },
+                        {
+                          "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/_stuff/artwork/booklet-2.jpg",
+                          "name": "booklet-2.jpg",
+                          "type": "file",
+                          "extension": "jpg"
+                        },
+                        {
+                          "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/_stuff/artwork/booklet-3.jpg",
+                          "name": "booklet-3.jpg",
+                          "type": "file",
+                          "extension": "jpg"
+                        },
+                        {
+                          "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/_stuff/artwork/disc.jpg",
+                          "name": "disc.jpg",
+                          "type": "file",
+                          "extension": "jpg"
+                        },
+                        {
+                          "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/_stuff/artwork/front.jpg",
+                          "name": "front.jpg",
+                          "type": "file",
+                          "extension": "jpg"
+                        }
+                      ]
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/_stuff/back.jpg",
                       "name": "back.jpg",
                       "type": "file",
                       "extension": "jpg"
                     },
                     {
-                      "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/artwork/booklet-1.jpg",
-                      "name": "booklet-1.jpg",
+                      "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/_stuff/checksums.md5",
+                      "name": "checksums.md5",
+                      "type": "file",
+                      "extension": "md5"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/_stuff/cover.jpg",
+                      "name": "cover.jpg",
                       "type": "file",
                       "extension": "jpg"
                     },
                     {
-                      "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/artwork/booklet-2.jpg",
-                      "name": "booklet-2.jpg",
+                      "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/_stuff/folder.jpg",
+                      "name": "folder.jpg",
                       "type": "file",
                       "extension": "jpg"
                     },
                     {
-                      "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/artwork/booklet-3.jpg",
-                      "name": "booklet-3.jpg",
+                      "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/_stuff/info.txt",
+                      "name": "info.txt",
                       "type": "file",
-                      "extension": "jpg"
+                      "extension": "txt"
                     },
                     {
-                      "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/artwork/disc.jpg",
-                      "name": "disc.jpg",
-                      "type": "file",
-                      "extension": "jpg"
+                      "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/_stuff/scans (by mishka1981)",
+                      "name": "scans (by mishka1981)",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/_stuff/scans (by mishka1981)/1.jpg",
+                          "name": "1.jpg",
+                          "type": "file",
+                          "extension": "jpg"
+                        },
+                        {
+                          "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/_stuff/scans (by mishka1981)/2.jpg",
+                          "name": "2.jpg",
+                          "type": "file",
+                          "extension": "jpg"
+                        },
+                        {
+                          "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/_stuff/scans (by mishka1981)/3.jpg",
+                          "name": "3.jpg",
+                          "type": "file",
+                          "extension": "jpg"
+                        },
+                        {
+                          "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/_stuff/scans (by mishka1981)/4.jpg",
+                          "name": "4.jpg",
+                          "type": "file",
+                          "extension": "jpg"
+                        },
+                        null,
+                        {
+                          "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/_stuff/scans (by mishka1981)/Cover.jpg",
+                          "name": "Cover.jpg",
+                          "type": "file",
+                          "extension": "jpg"
+                        }
+                      ]
                     },
                     {
-                      "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/artwork/front.jpg",
-                      "name": "front.jpg",
+                      "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/_stuff/thumb.jpg",
+                      "name": "thumb.jpg",
                       "type": "file",
                       "extension": "jpg"
                     }
                   ]
-                },
-                {
-                  "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/back.jpg",
-                  "name": "back.jpg",
-                  "type": "file",
-                  "extension": "jpg"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/checksums.md5",
-                  "name": "checksums.md5",
-                  "type": "file",
-                  "extension": "md5"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/cover.jpg",
-                  "name": "cover.jpg",
-                  "type": "file",
-                  "extension": "jpg"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/folder.jpg",
-                  "name": "folder.jpg",
-                  "type": "file",
-                  "extension": "jpg"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/info.txt",
-                  "name": "info.txt",
-                  "type": "file",
-                  "extension": "txt"
-                },
-                {
-                  "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/scans (by mishka1981)",
-                  "name": "scans (by mishka1981)",
-                  "type": "folder",
-                  "children": [
-                    {
-                      "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/scans (by mishka1981)/1.jpg",
-                      "name": "1.jpg",
-                      "type": "file",
-                      "extension": "jpg"
-                    },
-                    {
-                      "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/scans (by mishka1981)/2.jpg",
-                      "name": "2.jpg",
-                      "type": "file",
-                      "extension": "jpg"
-                    },
-                    {
-                      "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/scans (by mishka1981)/3.jpg",
-                      "name": "3.jpg",
-                      "type": "file",
-                      "extension": "jpg"
-                    },
-                    {
-                      "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/scans (by mishka1981)/4.jpg",
-                      "name": "4.jpg",
-                      "type": "file",
-                      "extension": "jpg"
-                    },
-                    null,
-                    {
-                      "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/scans (by mishka1981)/Cover.jpg",
-                      "name": "Cover.jpg",
-                      "type": "file",
-                      "extension": "jpg"
-                    }
-                  ]
-                },
-                {
-                  "path": "/home/pi/usbdrv/Lyle Mays/1993 - Fictionary/thumb.jpg",
-                  "name": "thumb.jpg",
-                  "type": "file",
-                  "extension": "jpg"
                 }
               ]
             },
@@ -22075,6 +22202,9 @@
           "path": "/home/pi/usbdrv/Sylvain Luc, Jean-Marc Jafet, Andre Ceccarelli - Sud (2000)",
           "name": "Sylvain Luc, Jean-Marc Jafet, Andre Ceccarelli - Sud (2000)",
           "type": "folder",
+          "meta": {
+            "discogs_url": "https://api.discogs.com/releases/996100"
+          },
           "children": [
             {
               "path": "/home/pi/usbdrv/Sylvain Luc, Jean-Marc Jafet, Andre Ceccarelli - Sud (2000)/01 Night in Tunisia.flac",
@@ -22167,7 +22297,13 @@
             null,
             null,
             null,
-            null
+            null,
+            {
+              "path": "/home/pi/usbdrv/Sylvain Luc, Jean-Marc Jafet, Andre Ceccarelli - Sud (2000)/_meta.json",
+              "name": "_meta.json",
+              "type": "file",
+              "extension": "json"
+            }
           ]
         },
         {
@@ -22279,64 +22415,71 @@
           "name": "Tal Wilkenfeld",
           "type": "folder",
           "children": [
-            null,
-            null,
             {
-              "path": "/home/pi/usbdrv/Tal Wilkenfeld/Transformation",
-              "name": "Transformation",
+              "path": "/home/pi/usbdrv/Tal Wilkenfeld/2007 Transformation",
+              "name": "2007 Transformation",
               "type": "folder",
+              "meta": {
+                "discogs_url": "https://api.discogs.com/releases/2176508"
+              },
               "children": [
                 {
-                  "path": "/home/pi/usbdrv/Tal Wilkenfeld/Transformation/01 BC.flac",
+                  "path": "/home/pi/usbdrv/Tal Wilkenfeld/2007 Transformation/01 BC.flac",
                   "name": "01 BC.flac",
                   "type": "file",
                   "extension": "flac"
                 },
                 {
-                  "path": "/home/pi/usbdrv/Tal Wilkenfeld/Transformation/02 Cosmic joke.flac",
+                  "path": "/home/pi/usbdrv/Tal Wilkenfeld/2007 Transformation/02 Cosmic joke.flac",
                   "name": "02 Cosmic joke.flac",
                   "type": "file",
                   "extension": "flac"
                 },
                 {
-                  "path": "/home/pi/usbdrv/Tal Wilkenfeld/Transformation/03 Truth be told.flac",
+                  "path": "/home/pi/usbdrv/Tal Wilkenfeld/2007 Transformation/03 Truth be told.flac",
                   "name": "03 Truth be told.flac",
                   "type": "file",
                   "extension": "flac"
                 },
                 {
-                  "path": "/home/pi/usbdrv/Tal Wilkenfeld/Transformation/04 Serendipity.flac",
+                  "path": "/home/pi/usbdrv/Tal Wilkenfeld/2007 Transformation/04 Serendipity.flac",
                   "name": "04 Serendipity.flac",
                   "type": "file",
                   "extension": "flac"
                 },
                 {
-                  "path": "/home/pi/usbdrv/Tal Wilkenfeld/Transformation/05 The river of life.flac",
+                  "path": "/home/pi/usbdrv/Tal Wilkenfeld/2007 Transformation/05 The river of life.flac",
                   "name": "05 The river of life.flac",
                   "type": "file",
                   "extension": "flac"
                 },
                 {
-                  "path": "/home/pi/usbdrv/Tal Wilkenfeld/Transformation/06 Oatmeal bandage.flac",
+                  "path": "/home/pi/usbdrv/Tal Wilkenfeld/2007 Transformation/06 Oatmeal bandage.flac",
                   "name": "06 Oatmeal bandage.flac",
                   "type": "file",
                   "extension": "flac"
                 },
                 {
-                  "path": "/home/pi/usbdrv/Tal Wilkenfeld/Transformation/07 Table for one.flac",
+                  "path": "/home/pi/usbdrv/Tal Wilkenfeld/2007 Transformation/07 Table for one.flac",
                   "name": "07 Table for one.flac",
                   "type": "file",
                   "extension": "flac"
                 },
                 null,
                 {
-                  "path": "/home/pi/usbdrv/Tal Wilkenfeld/Transformation/_stuff",
+                  "path": "/home/pi/usbdrv/Tal Wilkenfeld/2007 Transformation/_meta.json",
+                  "name": "_meta.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Tal Wilkenfeld/2007 Transformation/_stuff",
                   "name": "_stuff",
                   "type": "folder",
                   "children": [
                     null,
                     {
-                      "path": "/home/pi/usbdrv/Tal Wilkenfeld/Transformation/_stuff/folder.jpg",
+                      "path": "/home/pi/usbdrv/Tal Wilkenfeld/2007 Transformation/_stuff/folder.jpg",
                       "name": "folder.jpg",
                       "type": "file",
                       "extension": "jpg"
@@ -22344,7 +22487,9 @@
                   ]
                 }
               ]
-            }
+            },
+            null,
+            null
           ]
         },
         {
@@ -22352,112 +22497,119 @@
           "name": "Terje Rypdal",
           "type": "folder",
           "children": [
-            null,
-            null,
             {
-              "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Lux Aeterna (2002)",
-              "name": "Terje Rypdal - Lux Aeterna (2002)",
+              "path": "/home/pi/usbdrv/Terje Rypdal/2002 Terje Rypdal - Lux Aeterna",
+              "name": "2002 Terje Rypdal - Lux Aeterna",
               "type": "folder",
+              "meta": {
+                "discogs_url": "https://api.discogs.com/releases/2864697"
+              },
               "children": [
                 {
-                  "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Lux Aeterna (2002)/01 - 1st Movement - Luminous Galaxy.flac",
+                  "path": "/home/pi/usbdrv/Terje Rypdal/2002 Terje Rypdal - Lux Aeterna/01 - 1st Movement - Luminous Galaxy.flac",
                   "name": "01 - 1st Movement - Luminous Galaxy.flac",
                   "type": "file",
                   "extension": "flac"
                 },
                 {
-                  "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Lux Aeterna (2002)/02 - 2nd Movement - Fjelld??pen.flac",
+                  "path": "/home/pi/usbdrv/Terje Rypdal/2002 Terje Rypdal - Lux Aeterna/02 - 2nd Movement - Fjelld??pen.flac",
                   "name": "02 - 2nd Movement - Fjelld??pen.flac",
                   "type": "file",
                   "extension": "flac"
                 },
                 {
-                  "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Lux Aeterna (2002)/03 - 3rd Movement - Escalator.flac",
+                  "path": "/home/pi/usbdrv/Terje Rypdal/2002 Terje Rypdal - Lux Aeterna/03 - 3rd Movement - Escalator.flac",
                   "name": "03 - 3rd Movement - Escalator.flac",
                   "type": "file",
                   "extension": "flac"
                 },
                 {
-                  "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Lux Aeterna (2002)/04 - 4th Movement - Toccata.flac",
+                  "path": "/home/pi/usbdrv/Terje Rypdal/2002 Terje Rypdal - Lux Aeterna/04 - 4th Movement - Toccata.flac",
                   "name": "04 - 4th Movement - Toccata.flac",
                   "type": "file",
                   "extension": "flac"
                 },
                 {
-                  "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Lux Aeterna (2002)/05 - 5th Movement - Lux Aeterna.flac",
+                  "path": "/home/pi/usbdrv/Terje Rypdal/2002 Terje Rypdal - Lux Aeterna/05 - 5th Movement - Lux Aeterna.flac",
                   "name": "05 - 5th Movement - Lux Aeterna.flac",
                   "type": "file",
                   "extension": "flac"
                 },
                 null,
                 {
-                  "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Lux Aeterna (2002)/_stuff",
+                  "path": "/home/pi/usbdrv/Terje Rypdal/2002 Terje Rypdal - Lux Aeterna/_meta.json",
+                  "name": "_meta.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Terje Rypdal/2002 Terje Rypdal - Lux Aeterna/_stuff",
                   "name": "_stuff",
                   "type": "folder",
                   "children": [
                     null,
                     {
-                      "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Lux Aeterna (2002)/_stuff/CD.jpg",
+                      "path": "/home/pi/usbdrv/Terje Rypdal/2002 Terje Rypdal - Lux Aeterna/_stuff/CD.jpg",
                       "name": "CD.jpg",
                       "type": "file",
                       "extension": "jpg"
                     },
                     {
-                      "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Lux Aeterna (2002)/_stuff/Torrent downloaded from Demonoid.me.txt",
+                      "path": "/home/pi/usbdrv/Terje Rypdal/2002 Terje Rypdal - Lux Aeterna/_stuff/Torrent downloaded from Demonoid.me.txt",
                       "name": "Torrent downloaded from Demonoid.me.txt",
                       "type": "file",
                       "extension": "txt"
                     },
                     {
-                      "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Lux Aeterna (2002)/_stuff/back.jpg",
+                      "path": "/home/pi/usbdrv/Terje Rypdal/2002 Terje Rypdal - Lux Aeterna/_stuff/back.jpg",
                       "name": "back.jpg",
                       "type": "file",
                       "extension": "jpg"
                     },
                     {
-                      "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Lux Aeterna (2002)/_stuff/booklet_1.jpg",
+                      "path": "/home/pi/usbdrv/Terje Rypdal/2002 Terje Rypdal - Lux Aeterna/_stuff/booklet_1.jpg",
                       "name": "booklet_1.jpg",
                       "type": "file",
                       "extension": "jpg"
                     },
                     {
-                      "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Lux Aeterna (2002)/_stuff/booklet_2.jpg",
+                      "path": "/home/pi/usbdrv/Terje Rypdal/2002 Terje Rypdal - Lux Aeterna/_stuff/booklet_2.jpg",
                       "name": "booklet_2.jpg",
                       "type": "file",
                       "extension": "jpg"
                     },
                     {
-                      "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Lux Aeterna (2002)/_stuff/booklet_3.jpg",
+                      "path": "/home/pi/usbdrv/Terje Rypdal/2002 Terje Rypdal - Lux Aeterna/_stuff/booklet_3.jpg",
                       "name": "booklet_3.jpg",
                       "type": "file",
                       "extension": "jpg"
                     },
                     {
-                      "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Lux Aeterna (2002)/_stuff/booklet_4.jpg",
+                      "path": "/home/pi/usbdrv/Terje Rypdal/2002 Terje Rypdal - Lux Aeterna/_stuff/booklet_4.jpg",
                       "name": "booklet_4.jpg",
                       "type": "file",
                       "extension": "jpg"
                     },
                     {
-                      "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Lux Aeterna (2002)/_stuff/booklet_5.jpg",
+                      "path": "/home/pi/usbdrv/Terje Rypdal/2002 Terje Rypdal - Lux Aeterna/_stuff/booklet_5.jpg",
                       "name": "booklet_5.jpg",
                       "type": "file",
                       "extension": "jpg"
                     },
                     {
-                      "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Lux Aeterna (2002)/_stuff/booklet_6.jpg",
+                      "path": "/home/pi/usbdrv/Terje Rypdal/2002 Terje Rypdal - Lux Aeterna/_stuff/booklet_6.jpg",
                       "name": "booklet_6.jpg",
                       "type": "file",
                       "extension": "jpg"
                     },
                     {
-                      "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Lux Aeterna (2002)/_stuff/cover.jpg",
+                      "path": "/home/pi/usbdrv/Terje Rypdal/2002 Terje Rypdal - Lux Aeterna/_stuff/cover.jpg",
                       "name": "cover.jpg",
                       "type": "file",
                       "extension": "jpg"
                     },
                     {
-                      "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Lux Aeterna (2002)/_stuff/info.txt",
+                      "path": "/home/pi/usbdrv/Terje Rypdal/2002 Terje Rypdal - Lux Aeterna/_stuff/info.txt",
                       "name": "info.txt",
                       "type": "file",
                       "extension": "txt"
@@ -22467,97 +22619,106 @@
               ]
             },
             {
-              "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Vossabrygg op.84  ECM Jazz 2006 TQMP",
-              "name": "Terje Rypdal - Vossabrygg op.84  ECM Jazz 2006 TQMP",
+              "path": "/home/pi/usbdrv/Terje Rypdal/2006 Terje Rypdal - Vossabrygg op.84  ECM Jazz TQMP",
+              "name": "2006 Terje Rypdal - Vossabrygg op.84  ECM Jazz TQMP",
               "type": "folder",
+              "meta": {
+                "discogs_url": "https://api.discogs.com/releases/1210592"
+              },
               "children": [
                 {
-                  "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Vossabrygg op.84  ECM Jazz 2006 TQMP/01 Ghostdancing.flac",
+                  "path": "/home/pi/usbdrv/Terje Rypdal/2006 Terje Rypdal - Vossabrygg op.84  ECM Jazz TQMP/01 Ghostdancing.flac",
                   "name": "01 Ghostdancing.flac",
                   "type": "file",
                   "extension": "flac"
                 },
                 {
-                  "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Vossabrygg op.84  ECM Jazz 2006 TQMP/02 Hidden Chapter.flac",
+                  "path": "/home/pi/usbdrv/Terje Rypdal/2006 Terje Rypdal - Vossabrygg op.84  ECM Jazz TQMP/02 Hidden Chapter.flac",
                   "name": "02 Hidden Chapter.flac",
                   "type": "file",
                   "extension": "flac"
                 },
                 {
-                  "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Vossabrygg op.84  ECM Jazz 2006 TQMP/03 Waltz for broken Hearts, Makes you wonder.flac",
+                  "path": "/home/pi/usbdrv/Terje Rypdal/2006 Terje Rypdal - Vossabrygg op.84  ECM Jazz TQMP/03 Waltz for broken Hearts, Makes you wonder.flac",
                   "name": "03 Waltz for broken Hearts, Makes you wonder.flac",
                   "type": "file",
                   "extension": "flac"
                 },
                 {
-                  "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Vossabrygg op.84  ECM Jazz 2006 TQMP/04 Incognito Traveller.flac",
+                  "path": "/home/pi/usbdrv/Terje Rypdal/2006 Terje Rypdal - Vossabrygg op.84  ECM Jazz TQMP/04 Incognito Traveller.flac",
                   "name": "04 Incognito Traveller.flac",
                   "type": "file",
                   "extension": "flac"
                 },
                 {
-                  "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Vossabrygg op.84  ECM Jazz 2006 TQMP/05 Key Witness.flac",
+                  "path": "/home/pi/usbdrv/Terje Rypdal/2006 Terje Rypdal - Vossabrygg op.84  ECM Jazz TQMP/05 Key Witness.flac",
                   "name": "05 Key Witness.flac",
                   "type": "file",
                   "extension": "flac"
                 },
                 {
-                  "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Vossabrygg op.84  ECM Jazz 2006 TQMP/06 That's more like it.flac",
+                  "path": "/home/pi/usbdrv/Terje Rypdal/2006 Terje Rypdal - Vossabrygg op.84  ECM Jazz TQMP/06 That's more like it.flac",
                   "name": "06 That's more like it.flac",
                   "type": "file",
                   "extension": "flac"
                 },
                 {
-                  "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Vossabrygg op.84  ECM Jazz 2006 TQMP/07 De Slagferdige.flac",
+                  "path": "/home/pi/usbdrv/Terje Rypdal/2006 Terje Rypdal - Vossabrygg op.84  ECM Jazz TQMP/07 De Slagferdige.flac",
                   "name": "07 De Slagferdige.flac",
                   "type": "file",
                   "extension": "flac"
                 },
                 {
-                  "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Vossabrygg op.84  ECM Jazz 2006 TQMP/08 Jungeltelegrafen.flac",
+                  "path": "/home/pi/usbdrv/Terje Rypdal/2006 Terje Rypdal - Vossabrygg op.84  ECM Jazz TQMP/08 Jungeltelegrafen.flac",
                   "name": "08 Jungeltelegrafen.flac",
                   "type": "file",
                   "extension": "flac"
                 },
                 {
-                  "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Vossabrygg op.84  ECM Jazz 2006 TQMP/09 You're making it personal.flac",
+                  "path": "/home/pi/usbdrv/Terje Rypdal/2006 Terje Rypdal - Vossabrygg op.84  ECM Jazz TQMP/09 You're making it personal.flac",
                   "name": "09 You're making it personal.flac",
                   "type": "file",
                   "extension": "flac"
                 },
                 {
-                  "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Vossabrygg op.84  ECM Jazz 2006 TQMP/10 A Quiet World.flac",
+                  "path": "/home/pi/usbdrv/Terje Rypdal/2006 Terje Rypdal - Vossabrygg op.84  ECM Jazz TQMP/10 A Quiet World.flac",
                   "name": "10 A Quiet World.flac",
                   "type": "file",
                   "extension": "flac"
                 },
                 {
-                  "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Vossabrygg op.84  ECM Jazz 2006 TQMP/11 (Bonus Track) The Curse.flac",
+                  "path": "/home/pi/usbdrv/Terje Rypdal/2006 Terje Rypdal - Vossabrygg op.84  ECM Jazz TQMP/11 (Bonus Track) The Curse.flac",
                   "name": "11 (Bonus Track) The Curse.flac",
                   "type": "file",
                   "extension": "flac"
                 },
                 {
-                  "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Vossabrygg op.84  ECM Jazz 2006 TQMP/12 (Bonus Track) Kompet G?r.flac",
+                  "path": "/home/pi/usbdrv/Terje Rypdal/2006 Terje Rypdal - Vossabrygg op.84  ECM Jazz TQMP/12 (Bonus Track) Kompet G?r.flac",
                   "name": "12 (Bonus Track) Kompet G?r.flac",
                   "type": "file",
                   "extension": "flac"
                 },
                 null,
                 {
-                  "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Vossabrygg op.84  ECM Jazz 2006 TQMP/_stuff",
+                  "path": "/home/pi/usbdrv/Terje Rypdal/2006 Terje Rypdal - Vossabrygg op.84  ECM Jazz TQMP/_meta.json",
+                  "name": "_meta.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Terje Rypdal/2006 Terje Rypdal - Vossabrygg op.84  ECM Jazz TQMP/_stuff",
                   "name": "_stuff",
                   "type": "folder",
                   "children": [
                     null,
                     {
-                      "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Vossabrygg op.84  ECM Jazz 2006 TQMP/_stuff/Backcover.jpg",
+                      "path": "/home/pi/usbdrv/Terje Rypdal/2006 Terje Rypdal - Vossabrygg op.84  ECM Jazz TQMP/_stuff/Backcover.jpg",
                       "name": "Backcover.jpg",
                       "type": "file",
                       "extension": "jpg"
                     },
                     {
-                      "path": "/home/pi/usbdrv/Terje Rypdal/Terje Rypdal - Vossabrygg op.84  ECM Jazz 2006 TQMP/_stuff/Frontcover.jpg",
+                      "path": "/home/pi/usbdrv/Terje Rypdal/2006 Terje Rypdal - Vossabrygg op.84  ECM Jazz TQMP/_stuff/Frontcover.jpg",
                       "name": "Frontcover.jpg",
                       "type": "file",
                       "extension": "jpg"
@@ -22565,13 +22726,18 @@
                   ]
                 }
               ]
-            }
+            },
+            null,
+            null
           ]
         },
         {
           "path": "/home/pi/usbdrv/Trio 3 (Andrew Cyrille, Reggie Workman, Oliver Lake) & Vijay Iyer - Wiring 2014",
           "name": "Trio 3 (Andrew Cyrille, Reggie Workman, Oliver Lake) & Vijay Iyer - Wiring 2014",
           "type": "folder",
+          "meta": {
+            "discogs_url": "https://api.discogs.com/releases/5837079"
+          },
           "children": [
             {
               "path": "/home/pi/usbdrv/Trio 3 (Andrew Cyrille, Reggie Workman, Oliver Lake) & Vijay Iyer - Wiring 2014/01-The Prowl.flac",
@@ -22641,16 +22807,29 @@
             },
             null,
             {
-              "path": "/home/pi/usbdrv/Trio 3 (Andrew Cyrille, Reggie Workman, Oliver Lake) & Vijay Iyer - Wiring 2014/auCDtect.txt",
-              "name": "auCDtect.txt",
+              "path": "/home/pi/usbdrv/Trio 3 (Andrew Cyrille, Reggie Workman, Oliver Lake) & Vijay Iyer - Wiring 2014/_meta.json",
+              "name": "_meta.json",
               "type": "file",
-              "extension": "txt"
+              "extension": "json"
             },
             {
-              "path": "/home/pi/usbdrv/Trio 3 (Andrew Cyrille, Reggie Workman, Oliver Lake) & Vijay Iyer - Wiring 2014/cover.jpg",
-              "name": "cover.jpg",
-              "type": "file",
-              "extension": "jpg"
+              "path": "/home/pi/usbdrv/Trio 3 (Andrew Cyrille, Reggie Workman, Oliver Lake) & Vijay Iyer - Wiring 2014/_stuff",
+              "name": "_stuff",
+              "type": "folder",
+              "children": [
+                {
+                  "path": "/home/pi/usbdrv/Trio 3 (Andrew Cyrille, Reggie Workman, Oliver Lake) & Vijay Iyer - Wiring 2014/_stuff/auCDtect.txt",
+                  "name": "auCDtect.txt",
+                  "type": "file",
+                  "extension": "txt"
+                },
+                {
+                  "path": "/home/pi/usbdrv/Trio 3 (Andrew Cyrille, Reggie Workman, Oliver Lake) & Vijay Iyer - Wiring 2014/_stuff/cover.jpg",
+                  "name": "cover.jpg",
+                  "type": "file",
+                  "extension": "jpg"
+                }
+              ]
             }
           ]
         },
@@ -23564,6 +23743,126 @@
           "name": "_new",
           "type": "folder",
           "children": [
+            {
+              "path": "/home/pi/usbdrv/_new/2000.Larry Coryell - New High",
+              "name": "2000.Larry Coryell - New High",
+              "type": "folder",
+              "meta": {
+                "discogs_url": "https://api.discogs.com/releases/4590119"
+              },
+              "children": [
+                {
+                  "path": "/home/pi/usbdrv/_new/2000.Larry Coryell - New High/01 - Bags' Groove.flac",
+                  "name": "01 - Bags' Groove.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/2000.Larry Coryell - New High/02 - Like Sonny.flac",
+                  "name": "02 - Like Sonny.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/2000.Larry Coryell - New High/03 - Funereal.flac",
+                  "name": "03 - Funereal.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/2000.Larry Coryell - New High/04 - Ursula.flac",
+                  "name": "04 - Ursula.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/2000.Larry Coryell - New High/05 - John Charles.flac",
+                  "name": "05 - John Charles.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/2000.Larry Coryell - New High/06 - Spiral Staircase.flac",
+                  "name": "06 - Spiral Staircase.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/2000.Larry Coryell - New High/07 - Old Folks.flac",
+                  "name": "07 - Old Folks.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/2000.Larry Coryell - New High/08 - New High.flac",
+                  "name": "08 - New High.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/2000.Larry Coryell - New High/_meta.json",
+                  "name": "_meta.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/2000.Larry Coryell - New High/_stuff",
+                  "name": "_stuff",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "path": "/home/pi/usbdrv/_new/2000.Larry Coryell - New High/_stuff/Larry Coryell - New High.log",
+                      "name": "Larry Coryell - New High.log",
+                      "type": "file",
+                      "extension": "log"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/2000.Larry Coryell - New High/_stuff/Larry Coryell - New High.m3u",
+                      "name": "Larry Coryell - New High.m3u",
+                      "type": "file",
+                      "extension": "m3u"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/2000.Larry Coryell - New High/_stuff/New High.cue",
+                      "name": "New High.cue",
+                      "type": "file",
+                      "extension": "cue"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/2000.Larry Coryell - New High/_stuff/Scan",
+                      "name": "Scan",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "path": "/home/pi/usbdrv/_new/2000.Larry Coryell - New High/_stuff/Scan/1.jpg",
+                          "name": "1.jpg",
+                          "type": "file",
+                          "extension": "jpg"
+                        },
+                        {
+                          "path": "/home/pi/usbdrv/_new/2000.Larry Coryell - New High/_stuff/Scan/2.jpg",
+                          "name": "2.jpg",
+                          "type": "file",
+                          "extension": "jpg"
+                        },
+                        {
+                          "path": "/home/pi/usbdrv/_new/2000.Larry Coryell - New High/_stuff/Scan/3.jpg",
+                          "name": "3.jpg",
+                          "type": "file",
+                          "extension": "jpg"
+                        }
+                      ]
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/2000.Larry Coryell - New High/_stuff/cover.jpg",
+                      "name": "cover.jpg",
+                      "type": "file",
+                      "extension": "jpg"
+                    }
+                  ]
+                }
+              ]
+            },
             null,
             {
               "path": "/home/pi/usbdrv/_new/Art Lande",
@@ -24215,6 +24514,95 @@
               ]
             },
             {
+              "path": "/home/pi/usbdrv/_new/Dieter Ilg, Mike Stern, Bob Berg, Randy Brecker, Jim Beard, Peter Erskine - Summerhill",
+              "name": "Dieter Ilg, Mike Stern, Bob Berg, Randy Brecker, Jim Beard, Peter Erskine - Summerhill",
+              "type": "folder",
+              "meta": {
+                "discogs_url": "https://api.discogs.com/releases/6131044"
+              },
+              "children": [
+                {
+                  "path": "/home/pi/usbdrv/_new/Dieter Ilg, Mike Stern, Bob Berg, Randy Brecker, Jim Beard, Peter Erskine - Summerhill/01. It's getting better.flac",
+                  "name": "01. It's getting better.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Dieter Ilg, Mike Stern, Bob Berg, Randy Brecker, Jim Beard, Peter Erskine - Summerhill/02. Springfever.flac",
+                  "name": "02. Springfever.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Dieter Ilg, Mike Stern, Bob Berg, Randy Brecker, Jim Beard, Peter Erskine - Summerhill/03. The shadows of the fall.flac",
+                  "name": "03. The shadows of the fall.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Dieter Ilg, Mike Stern, Bob Berg, Randy Brecker, Jim Beard, Peter Erskine - Summerhill/04. Summerhill.flac",
+                  "name": "04. Summerhill.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Dieter Ilg, Mike Stern, Bob Berg, Randy Brecker, Jim Beard, Peter Erskine - Summerhill/05. All childrens love song.flac",
+                  "name": "05. All childrens love song.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Dieter Ilg, Mike Stern, Bob Berg, Randy Brecker, Jim Beard, Peter Erskine - Summerhill/06. Somersault.flac",
+                  "name": "06. Somersault.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Dieter Ilg, Mike Stern, Bob Berg, Randy Brecker, Jim Beard, Peter Erskine - Summerhill/07. Under the skin of the earth.flac",
+                  "name": "07. Under the skin of the earth.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Dieter Ilg, Mike Stern, Bob Berg, Randy Brecker, Jim Beard, Peter Erskine - Summerhill/Covers",
+                  "name": "Covers",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "path": "/home/pi/usbdrv/_new/Dieter Ilg, Mike Stern, Bob Berg, Randy Brecker, Jim Beard, Peter Erskine - Summerhill/Covers/1.jpg",
+                      "name": "1.jpg",
+                      "type": "file",
+                      "extension": "jpg"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Dieter Ilg, Mike Stern, Bob Berg, Randy Brecker, Jim Beard, Peter Erskine - Summerhill/Covers/2.jpg",
+                      "name": "2.jpg",
+                      "type": "file",
+                      "extension": "jpg"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Dieter Ilg, Mike Stern, Bob Berg, Randy Brecker, Jim Beard, Peter Erskine - Summerhill/Covers/Back.jpg",
+                      "name": "Back.jpg",
+                      "type": "file",
+                      "extension": "jpg"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Dieter Ilg, Mike Stern, Bob Berg, Randy Brecker, Jim Beard, Peter Erskine - Summerhill/Covers/CD.jpg",
+                      "name": "CD.jpg",
+                      "type": "file",
+                      "extension": "jpg"
+                    }
+                  ]
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Dieter Ilg, Mike Stern, Bob Berg, Randy Brecker, Jim Beard, Peter Erskine - Summerhill/_meta.json",
+                  "name": "_meta.json",
+                  "type": "file",
+                  "extension": "json"
+                }
+              ]
+            },
+            {
               "path": "/home/pi/usbdrv/_new/Gregoire Maret - Gregoire Maret (2012)",
               "name": "Gregoire Maret - Gregoire Maret (2012)",
               "type": "folder",
@@ -24759,6 +25147,591 @@
               ]
             },
             {
+              "path": "/home/pi/usbdrv/_new/Julia Fischer",
+              "name": "Julia Fischer",
+              "type": "folder",
+              "children": [
+                {
+                  "path": "/home/pi/usbdrv/_new/Julia Fischer/CD1.flac",
+                  "name": "CD1.flac",
+                  "type": "file",
+                  "extension": "flac"
+                }
+              ]
+            },
+            {
+              "path": "/home/pi/usbdrv/_new/La Monte Young - Black Album",
+              "name": "La Monte Young - Black Album",
+              "type": "folder",
+              "children": [
+                null,
+                null,
+                {
+                  "path": "/home/pi/usbdrv/_new/La Monte Young - Black Album/A. - 31 VII 69 1026 - 1049 PM Munich From Map Of 49's Dream The Two Systems Of Eleven Sets Of Galactic Intervals Ornamental Lightyears Tracery.flac",
+                  "name": "A. - 31 VII 69 1026 - 1049 PM Munich From Map Of 49's Dream The Two Systems Of Eleven Sets Of Galactic Intervals Ornamental Lightyears Tracery.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/La Monte Young - Black Album/B. 23 VIII 64 25045-311 AM The Volga Delta From Studies In The Bowed Disc.flac",
+                  "name": "B. 23 VIII 64 25045-311 AM The Volga Delta From Studies In The Bowed Disc.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/La Monte Young - Black Album/_stuff",
+                  "name": "_stuff",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "path": "/home/pi/usbdrv/_new/La Monte Young - Black Album/_stuff/Artwork",
+                      "name": "Artwork",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "path": "/home/pi/usbdrv/_new/La Monte Young - Black Album/_stuff/Artwork/The Black Record-a.jpg",
+                          "name": "The Black Record-a.jpg",
+                          "type": "file",
+                          "extension": "jpg"
+                        },
+                        {
+                          "path": "/home/pi/usbdrv/_new/La Monte Young - Black Album/_stuff/Artwork/The Black Record-b.jpg",
+                          "name": "The Black Record-b.jpg",
+                          "type": "file",
+                          "extension": "jpg"
+                        }
+                      ]
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/La Monte Young - Black Album/_stuff/Black Album.CUE",
+                      "name": "Black Album.CUE",
+                      "type": "file",
+                      "extension": "CUE"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/La Monte Young - Black Album/_stuff/Black Album.log",
+                      "name": "Black Album.log",
+                      "type": "file",
+                      "extension": "log"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/La Monte Young - Black Album/_stuff/Front Cover.jpg",
+                      "name": "Front Cover.jpg",
+                      "type": "file",
+                      "extension": "jpg"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/La Monte Young - Black Album/_stuff/La Monte Young - Black Album.m3u",
+                      "name": "La Monte Young - Black Album.m3u",
+                      "type": "file",
+                      "extension": "m3u"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/La Monte Young - Black Album/_stuff/audiochecker.log",
+                      "name": "audiochecker.log",
+                      "type": "file",
+                      "extension": "log"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "/home/pi/usbdrv/_new/Larry Coryell & Philip Catherine - Splendid (1978, Wounded Bird)",
+              "name": "Larry Coryell & Philip Catherine - Splendid (1978, Wounded Bird)",
+              "type": "folder",
+              "meta": {
+                "discogs_url": "https://api.discogs.com/releases/4564062"
+              },
+              "children": [
+                {
+                  "path": "/home/pi/usbdrv/_new/Larry Coryell & Philip Catherine - Splendid (1978, Wounded Bird)/01 - One Plus Two Blues.flac",
+                  "name": "01 - One Plus Two Blues.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Larry Coryell & Philip Catherine - Splendid (1978, Wounded Bird)/02 - Snowshadows.flac",
+                  "name": "02 - Snowshadows.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Larry Coryell & Philip Catherine - Splendid (1978, Wounded Bird)/03 - Transvested Express.flac",
+                  "name": "03 - Transvested Express.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Larry Coryell & Philip Catherine - Splendid (1978, Wounded Bird)/04 - Deus Xango.flac",
+                  "name": "04 - Deus Xango.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Larry Coryell & Philip Catherine - Splendid (1978, Wounded Bird)/05 - My Serenade.flac",
+                  "name": "05 - My Serenade.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Larry Coryell & Philip Catherine - Splendid (1978, Wounded Bird)/06 - No More Booze.flac",
+                  "name": "06 - No More Booze.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Larry Coryell & Philip Catherine - Splendid (1978, Wounded Bird)/07 - Father Christmas.flac",
+                  "name": "07 - Father Christmas.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Larry Coryell & Philip Catherine - Splendid (1978, Wounded Bird)/08 - A Quiet Day in Spring.flac",
+                  "name": "08 - A Quiet Day in Spring.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Larry Coryell & Philip Catherine - Splendid (1978, Wounded Bird)/09 - The Train and the River.flac",
+                  "name": "09 - The Train and the River.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                null,
+                null,
+                {
+                  "path": "/home/pi/usbdrv/_new/Larry Coryell & Philip Catherine - Splendid (1978, Wounded Bird)/_meta.json",
+                  "name": "_meta.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Larry Coryell & Philip Catherine - Splendid (1978, Wounded Bird)/_stuff",
+                  "name": "_stuff",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "path": "/home/pi/usbdrv/_new/Larry Coryell & Philip Catherine - Splendid (1978, Wounded Bird)/_stuff/Artwork",
+                      "name": "Artwork",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "path": "/home/pi/usbdrv/_new/Larry Coryell & Philip Catherine - Splendid (1978, Wounded Bird)/_stuff/Artwork/back.jpg",
+                          "name": "back.jpg",
+                          "type": "file",
+                          "extension": "jpg"
+                        },
+                        {
+                          "path": "/home/pi/usbdrv/_new/Larry Coryell & Philip Catherine - Splendid (1978, Wounded Bird)/_stuff/Artwork/cover.jpg",
+                          "name": "cover.jpg",
+                          "type": "file",
+                          "extension": "jpg"
+                        }
+                      ]
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Larry Coryell & Philip Catherine - Splendid (1978, Wounded Bird)/_stuff/Larry Coryell & Philip Catherine - Splendid.cue",
+                      "name": "Larry Coryell & Philip Catherine - Splendid.cue",
+                      "type": "file",
+                      "extension": "cue"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Larry Coryell & Philip Catherine - Splendid (1978, Wounded Bird)/_stuff/Larry Coryell & Philip Catherine - Splendid.log",
+                      "name": "Larry Coryell & Philip Catherine - Splendid.log",
+                      "type": "file",
+                      "extension": "log"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Larry Coryell & Philip Catherine - Splendid (1978, Wounded Bird)/_stuff/Larry Coryell & Philip Catherine - Splendid.m3u",
+                      "name": "Larry Coryell & Philip Catherine - Splendid.m3u",
+                      "type": "file",
+                      "extension": "m3u"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Larry Coryell & Philip Catherine - Splendid (1978, Wounded Bird)/_stuff/aucdtect.log",
+                      "name": "aucdtect.log",
+                      "type": "file",
+                      "extension": "log"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Larry Coryell & Philip Catherine - Splendid (1978, Wounded Bird)/_stuff/folder.jpg",
+                      "name": "folder.jpg",
+                      "type": "file",
+                      "extension": "jpg"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "/home/pi/usbdrv/_new/Marco Di Marco Feat. Nathan Haines (2005) My london friends",
+              "name": "Marco Di Marco Feat. Nathan Haines (2005) My london friends",
+              "type": "folder",
+              "meta": {
+                "discogs_url": "https://api.discogs.com/releases/1054963"
+              },
+              "children": [
+                {
+                  "path": "/home/pi/usbdrv/_new/Marco Di Marco Feat. Nathan Haines (2005) My london friends/My London Friends - 01 - Marco Di Marco feat. Nathan Haines - Interlude At Dawn.flac",
+                  "name": "My London Friends - 01 - Marco Di Marco feat. Nathan Haines - Interlude At Dawn.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Marco Di Marco Feat. Nathan Haines (2005) My london friends/My London Friends - 02 - Marco Di Marco feat. Nathan Haines - Brazilian Waltz.flac",
+                  "name": "My London Friends - 02 - Marco Di Marco feat. Nathan Haines - Brazilian Waltz.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Marco Di Marco Feat. Nathan Haines (2005) My london friends/My London Friends - 03 - Marco Di Marco feat. Nathan Haines - Walking In St. James' Park.flac",
+                  "name": "My London Friends - 03 - Marco Di Marco feat. Nathan Haines - Walking In St. James' Park.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Marco Di Marco Feat. Nathan Haines (2005) My london friends/My London Friends - 04 - Marco Di Marco feat. Nathan Haines - Up West.flac",
+                  "name": "My London Friends - 04 - Marco Di Marco feat. Nathan Haines - Up West.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Marco Di Marco Feat. Nathan Haines (2005) My london friends/My London Friends - 05 - Marco Di Marco feat. Nathan Haines - Repeat After Me.flac",
+                  "name": "My London Friends - 05 - Marco Di Marco feat. Nathan Haines - Repeat After Me.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Marco Di Marco Feat. Nathan Haines (2005) My london friends/My London Friends - 06 - Marco Di Marco feat. Nathan Haines - Solaria.flac",
+                  "name": "My London Friends - 06 - Marco Di Marco feat. Nathan Haines - Solaria.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Marco Di Marco Feat. Nathan Haines (2005) My london friends/My London Friends - 07 - Marco Di Marco feat. Nathan Haines - Take Off.flac",
+                  "name": "My London Friends - 07 - Marco Di Marco feat. Nathan Haines - Take Off.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Marco Di Marco Feat. Nathan Haines (2005) My london friends/My London Friends - 08 - Marco Di Marco feat. Nathan Haines - Jumpy.flac",
+                  "name": "My London Friends - 08 - Marco Di Marco feat. Nathan Haines - Jumpy.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Marco Di Marco Feat. Nathan Haines (2005) My london friends/My London Friends - 09 - Marco Di Marco feat. Nathan Haines - Winding Dance.flac",
+                  "name": "My London Friends - 09 - Marco Di Marco feat. Nathan Haines - Winding Dance.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Marco Di Marco Feat. Nathan Haines (2005) My london friends/My London Friends - 10 - Marco Di Marco feat. Nathan Haines - Soft Rain, Gentle Breeze.flac",
+                  "name": "My London Friends - 10 - Marco Di Marco feat. Nathan Haines - Soft Rain, Gentle Breeze.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Marco Di Marco Feat. Nathan Haines (2005) My london friends/My London Friends - 11 - Marco Di Marco feat. Nathan Haines - The Twilight Interlude.flac",
+                  "name": "My London Friends - 11 - Marco Di Marco feat. Nathan Haines - The Twilight Interlude.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Marco Di Marco Feat. Nathan Haines (2005) My london friends/_discogs.json",
+                  "name": "_discogs.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Marco Di Marco Feat. Nathan Haines (2005) My london friends/_meta.json",
+                  "name": "_meta.json",
+                  "type": "file",
+                  "extension": "json"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Marco Di Marco Feat. Nathan Haines (2005) My london friends/_stuff",
+                  "name": "_stuff",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "path": "/home/pi/usbdrv/_new/Marco Di Marco Feat. Nathan Haines (2005) My london friends/_stuff/CDImage.ape.cue",
+                      "name": "CDImage.ape.cue",
+                      "type": "file",
+                      "extension": "cue"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Marco Di Marco Feat. Nathan Haines (2005) My london friends/_stuff/CDImage.cue",
+                      "name": "CDImage.cue",
+                      "type": "file",
+                      "extension": "cue"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Marco Di Marco Feat. Nathan Haines (2005) My london friends/_stuff/My London Friends.log",
+                      "name": "My London Friends.log",
+                      "type": "file",
+                      "extension": "log"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Marco Di Marco Feat. Nathan Haines (2005) My london friends/_stuff/a.jpg",
+                      "name": "a.jpg",
+                      "type": "file",
+                      "extension": "jpg"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Marco Di Marco Feat. Nathan Haines (2005) My london friends/_stuff/audiochecker.log",
+                      "name": "audiochecker.log",
+                      "type": "file",
+                      "extension": "log"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Marco Di Marco Feat. Nathan Haines (2005) My london friends/_stuff/b.jpg",
+                      "name": "b.jpg",
+                      "type": "file",
+                      "extension": "jpg"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Marco Di Marco Feat. Nathan Haines (2005) My london friends/_stuff/back.jpg",
+                      "name": "back.jpg",
+                      "type": "file",
+                      "extension": "jpg"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Marco Di Marco Feat. Nathan Haines (2005) My london friends/_stuff/by [MDL]",
+                      "name": "by [MDL]",
+                      "type": "file",
+                      "extension": ""
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Marco Di Marco Feat. Nathan Haines (2005) My london friends/_stuff/cover.jpg",
+                      "name": "cover.jpg",
+                      "type": "file",
+                      "extension": "jpg"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "/home/pi/usbdrv/_new/Masato Honda - Cross Hearts (2001)",
+              "name": "Masato Honda - Cross Hearts (2001)",
+              "type": "folder",
+              "children": [
+                {
+                  "path": "/home/pi/usbdrv/_new/Masato Honda - Cross Hearts (2001)/01. Parallelogram.mp3",
+                  "name": "01. Parallelogram.mp3",
+                  "type": "file",
+                  "extension": "mp3"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Masato Honda - Cross Hearts (2001)/02. A Distancia.mp3",
+                  "name": "02. A Distancia.mp3",
+                  "type": "file",
+                  "extension": "mp3"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Masato Honda - Cross Hearts (2001)/03. K2.mp3",
+                  "name": "03. K2.mp3",
+                  "type": "file",
+                  "extension": "mp3"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Masato Honda - Cross Hearts (2001)/04. Feel At Ease.mp3",
+                  "name": "04. Feel At Ease.mp3",
+                  "type": "file",
+                  "extension": "mp3"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Masato Honda - Cross Hearts (2001)/05. ?And You.mp3",
+                  "name": "05. ?And You.mp3",
+                  "type": "file",
+                  "extension": "mp3"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Masato Honda - Cross Hearts (2001)/06. Techno Mambo.mp3",
+                  "name": "06. Techno Mambo.mp3",
+                  "type": "file",
+                  "extension": "mp3"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Masato Honda - Cross Hearts (2001)/07. Digi-Shake.mp3",
+                  "name": "07. Digi-Shake.mp3",
+                  "type": "file",
+                  "extension": "mp3"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Masato Honda - Cross Hearts (2001)/08. Sea Amanusa.mp3",
+                  "name": "08. Sea Amanusa.mp3",
+                  "type": "file",
+                  "extension": "mp3"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Masato Honda - Cross Hearts (2001)/09. Stop! The Funk.mp3",
+                  "name": "09. Stop! The Funk.mp3",
+                  "type": "file",
+                  "extension": "mp3"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Masato Honda - Cross Hearts (2001)/10. I Can Give You My Love.mp3",
+                  "name": "10. I Can Give You My Love.mp3",
+                  "type": "file",
+                  "extension": "mp3"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Masato Honda - Cross Hearts (2001)/11. Tomorrow Is Another Day.mp3",
+                  "name": "11. Tomorrow Is Another Day.mp3",
+                  "type": "file",
+                  "extension": "mp3"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Masato Honda - Cross Hearts (2001)/Cover.jpg",
+                  "name": "Cover.jpg",
+                  "type": "file",
+                  "extension": "jpg"
+                }
+              ]
+            },
+            {
+              "path": "/home/pi/usbdrv/_new/Masato Honda - Real-Fusion (2000, Victor-Japan)",
+              "name": "Masato Honda - Real-Fusion (2000, Victor-Japan)",
+              "type": "folder",
+              "children": [
+                {
+                  "path": "/home/pi/usbdrv/_new/Masato Honda - Real-Fusion (2000, Victor-Japan)/01 - Houkago wa Nichiyoubi.flac",
+                  "name": "01 - Houkago wa Nichiyoubi.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Masato Honda - Real-Fusion (2000, Victor-Japan)/02 - Wake in Good.flac",
+                  "name": "02 - Wake in Good.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Masato Honda - Real-Fusion (2000, Victor-Japan)/03 - Step Up Action.flac",
+                  "name": "03 - Step Up Action.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Masato Honda - Real-Fusion (2000, Victor-Japan)/04 - Grand Blue.flac",
+                  "name": "04 - Grand Blue.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Masato Honda - Real-Fusion (2000, Victor-Japan)/05 - Mr. Dharma.flac",
+                  "name": "05 - Mr. Dharma.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Masato Honda - Real-Fusion (2000, Victor-Japan)/06 - Taste of Wind.flac",
+                  "name": "06 - Taste of Wind.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Masato Honda - Real-Fusion (2000, Victor-Japan)/07 - Good Moon.flac",
+                  "name": "07 - Good Moon.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Masato Honda - Real-Fusion (2000, Victor-Japan)/08 - Forget Me Not.flac",
+                  "name": "08 - Forget Me Not.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Masato Honda - Real-Fusion (2000, Victor-Japan)/09 - Tokyo Train.flac",
+                  "name": "09 - Tokyo Train.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Masato Honda - Real-Fusion (2000, Victor-Japan)/10 - Be Ambitious.flac",
+                  "name": "10 - Be Ambitious.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "path": "/home/pi/usbdrv/_new/Masato Honda - Real-Fusion (2000, Victor-Japan)/Artwork",
+                  "name": "Artwork",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "path": "/home/pi/usbdrv/_new/Masato Honda - Real-Fusion (2000, Victor-Japan)/Artwork/1.jpg",
+                      "name": "1.jpg",
+                      "type": "file",
+                      "extension": "jpg"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Masato Honda - Real-Fusion (2000, Victor-Japan)/Artwork/2.jpg",
+                      "name": "2.jpg",
+                      "type": "file",
+                      "extension": "jpg"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Masato Honda - Real-Fusion (2000, Victor-Japan)/Artwork/back.jpg",
+                      "name": "back.jpg",
+                      "type": "file",
+                      "extension": "jpg"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Masato Honda - Real-Fusion (2000, Victor-Japan)/Artwork/front.jpg",
+                      "name": "front.jpg",
+                      "type": "file",
+                      "extension": "jpg"
+                    }
+                  ]
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Masato Honda - Real-Fusion (2000, Victor-Japan)/Folder.auCDtect.txt",
+                  "name": "Folder.auCDtect.txt",
+                  "type": "file",
+                  "extension": "txt"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Masato Honda - Real-Fusion (2000, Victor-Japan)/Masato Honda - Real-Fusion.m3u",
+                  "name": "Masato Honda - Real-Fusion.m3u",
+                  "type": "file",
+                  "extension": "m3u"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Masato Honda - Real-Fusion (2000, Victor-Japan)/Misc",
+                  "name": "Misc",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "path": "/home/pi/usbdrv/_new/Masato Honda - Real-Fusion (2000, Victor-Japan)/Misc/spectrum.jpg",
+                      "name": "spectrum.jpg",
+                      "type": "file",
+                      "extension": "jpg"
+                    }
+                  ]
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Masato Honda - Real-Fusion (2000, Victor-Japan)/folder.jpg",
+                  "name": "folder.jpg",
+                  "type": "file",
+                  "extension": "jpg"
+                }
+              ]
+            },
+            {
               "path": "/home/pi/usbdrv/_new/Mauricio Kagel",
               "name": "Mauricio Kagel",
               "type": "folder",
@@ -25186,6 +26159,312 @@
               ]
             },
             {
+              "path": "/home/pi/usbdrv/_new/Nathan Haines",
+              "name": "Nathan Haines",
+              "type": "folder",
+              "children": [
+                {
+                  "path": "/home/pi/usbdrv/_new/Nathan Haines/2012 - The Poet's Embrace",
+                  "name": "2012 - The Poet's Embrace",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "path": "/home/pi/usbdrv/_new/Nathan Haines/2012 - The Poet's Embrace/01 - Realisation.flac",
+                      "name": "01 - Realisation.flac",
+                      "type": "file",
+                      "extension": "flac"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Nathan Haines/2012 - The Poet's Embrace/02 - Universal Man.flac",
+                      "name": "02 - Universal Man.flac",
+                      "type": "file",
+                      "extension": "flac"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Nathan Haines/2012 - The Poet's Embrace/03 - Ancestral Dance.flac",
+                      "name": "03 - Ancestral Dance.flac",
+                      "type": "file",
+                      "extension": "flac"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Nathan Haines/2012 - The Poet's Embrace/04 - The Poet's Embrace.flac",
+                      "name": "04 - The Poet's Embrace.flac",
+                      "type": "file",
+                      "extension": "flac"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Nathan Haines/2012 - The Poet's Embrace/05 - Eboness.flac",
+                      "name": "05 - Eboness.flac",
+                      "type": "file",
+                      "extension": "flac"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Nathan Haines/2012 - The Poet's Embrace/06 - Consequence.flac",
+                      "name": "06 - Consequence.flac",
+                      "type": "file",
+                      "extension": "flac"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Nathan Haines/2012 - The Poet's Embrace/07 - Offering.flac",
+                      "name": "07 - Offering.flac",
+                      "type": "file",
+                      "extension": "flac"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Nathan Haines/2012 - The Poet's Embrace/Nathan Haines - The Poet's Embrace (flac).cue",
+                      "name": "Nathan Haines - The Poet's Embrace (flac).cue",
+                      "type": "file",
+                      "extension": "cue"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Nathan Haines/2012 - The Poet's Embrace/Nathan Haines - The Poet's Embrace (flac).m3u",
+                      "name": "Nathan Haines - The Poet's Embrace (flac).m3u",
+                      "type": "file",
+                      "extension": "m3u"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Nathan Haines/2012 - The Poet's Embrace/audiochecker.log",
+                      "name": "audiochecker.log",
+                      "type": "file",
+                      "extension": "log"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Nathan Haines/2012 - The Poet's Embrace/poets-embrace-lp-front.jpg",
+                      "name": "poets-embrace-lp-front.jpg",
+                      "type": "file",
+                      "extension": "jpg"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Nathan Haines/2012 - The Poet's Embrace/ripping.log",
+                      "name": "ripping.log",
+                      "type": "file",
+                      "extension": "log"
+                    }
+                  ]
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Nathan Haines/Nathan Haines - Heaven And Earth 2010 (320 kbps)",
+                  "name": "Nathan Haines - Heaven And Earth 2010 (320 kbps)",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "path": "/home/pi/usbdrv/_new/Nathan Haines/Nathan Haines - Heaven And Earth 2010 (320 kbps)/00. Nathan Haines - Heaven And Earth 2010.jpg",
+                      "name": "00. Nathan Haines - Heaven And Earth 2010.jpg",
+                      "type": "file",
+                      "extension": "jpg"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Nathan Haines/Nathan Haines - Heaven And Earth 2010 (320 kbps)/00. Nathan Haines - Heaven And Earth 2010.m3u",
+                      "name": "00. Nathan Haines - Heaven And Earth 2010.m3u",
+                      "type": "file",
+                      "extension": "m3u"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Nathan Haines/Nathan Haines - Heaven And Earth 2010 (320 kbps)/01. Introducing....mp3",
+                      "name": "01. Introducing....mp3",
+                      "type": "file",
+                      "extension": "mp3"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Nathan Haines/Nathan Haines - Heaven And Earth 2010 (320 kbps)/02. Desert Town.mp3",
+                      "name": "02. Desert Town.mp3",
+                      "type": "file",
+                      "extension": "mp3"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Nathan Haines/Nathan Haines - Heaven And Earth 2010 (320 kbps)/03. Its Alright.mp3",
+                      "name": "03. Its Alright.mp3",
+                      "type": "file",
+                      "extension": "mp3"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Nathan Haines/Nathan Haines - Heaven And Earth 2010 (320 kbps)/04. Ruminiscing.mp3",
+                      "name": "04. Ruminiscing.mp3",
+                      "type": "file",
+                      "extension": "mp3"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Nathan Haines/Nathan Haines - Heaven And Earth 2010 (320 kbps)/05. Pathway.mp3",
+                      "name": "05. Pathway.mp3",
+                      "type": "file",
+                      "extension": "mp3"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Nathan Haines/Nathan Haines - Heaven And Earth 2010 (320 kbps)/06. Chimera Blues.mp3",
+                      "name": "06. Chimera Blues.mp3",
+                      "type": "file",
+                      "extension": "mp3"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Nathan Haines/Nathan Haines - Heaven And Earth 2010 (320 kbps)/07. Etched Into Gold.mp3",
+                      "name": "07. Etched Into Gold.mp3",
+                      "type": "file",
+                      "extension": "mp3"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Nathan Haines/Nathan Haines - Heaven And Earth 2010 (320 kbps)/08. Crane of Good Omen.mp3",
+                      "name": "08. Crane of Good Omen.mp3",
+                      "type": "file",
+                      "extension": "mp3"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Nathan Haines/Nathan Haines - Heaven And Earth 2010 (320 kbps)/09. Dervish at the Door.mp3",
+                      "name": "09. Dervish at the Door.mp3",
+                      "type": "file",
+                      "extension": "mp3"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Nathan Haines/Nathan Haines - Heaven And Earth 2010 (320 kbps)/10. Heaven and Earth.mp3",
+                      "name": "10. Heaven and Earth.mp3",
+                      "type": "file",
+                      "extension": "mp3"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Nathan Haines/Nathan Haines - Heaven And Earth 2010 (320 kbps)/11. The Night Air.mp3",
+                      "name": "11. The Night Air.mp3",
+                      "type": "file",
+                      "extension": "mp3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "/home/pi/usbdrv/_new/Nguyen Le - Celebrating The Dark Side Of The Moon (2014) [96-24]",
+              "name": "Nguyen Le - Celebrating The Dark Side Of The Moon (2014) [96-24]",
+              "type": "folder",
+              "children": [
+                {
+                  "path": "/home/pi/usbdrv/_new/Nguyen Le - Celebrating The Dark Side Of The Moon (2014) [96-24]/00 - Nguyen Le - Celebrating The Dark Side Of The Moon.m3u8",
+                  "name": "00 - Nguyen Le - Celebrating The Dark Side Of The Moon.m3u8",
+                  "type": "file",
+                  "extension": "m3u8"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Nguyen Le - Celebrating The Dark Side Of The Moon (2014) [96-24]/01 - Speak to Me.flac",
+                  "name": "01 - Speak to Me.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Nguyen Le - Celebrating The Dark Side Of The Moon (2014) [96-24]/02 - Inspire.flac",
+                  "name": "02 - Inspire.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Nguyen Le - Celebrating The Dark Side Of The Moon (2014) [96-24]/03 - Breathe.flac",
+                  "name": "03 - Breathe.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Nguyen Le - Celebrating The Dark Side Of The Moon (2014) [96-24]/04 - On the Run.flac",
+                  "name": "04 - On the Run.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Nguyen Le - Celebrating The Dark Side Of The Moon (2014) [96-24]/05 - Time.flac",
+                  "name": "05 - Time.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Nguyen Le - Celebrating The Dark Side Of The Moon (2014) [96-24]/06 - Magic Spells.flac",
+                  "name": "06 - Magic Spells.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Nguyen Le - Celebrating The Dark Side Of The Moon (2014) [96-24]/07 - Hear This Whispering.flac",
+                  "name": "07 - Hear This Whispering.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Nguyen Le - Celebrating The Dark Side Of The Moon (2014) [96-24]/08 - Great Gig in the Sky.flac",
+                  "name": "08 - Great Gig in the Sky.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Nguyen Le - Celebrating The Dark Side Of The Moon (2014) [96-24]/09 - Gotta Go Sometime.flac",
+                  "name": "09 - Gotta Go Sometime.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Nguyen Le - Celebrating The Dark Side Of The Moon (2014) [96-24]/10 - Money.flac",
+                  "name": "10 - Money.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Nguyen Le - Celebrating The Dark Side Of The Moon (2014) [96-24]/11 - Us and Them.flac",
+                  "name": "11 - Us and Them.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Nguyen Le - Celebrating The Dark Side Of The Moon (2014) [96-24]/12 - Purple or Blue.flac",
+                  "name": "12 - Purple or Blue.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Nguyen Le - Celebrating The Dark Side Of The Moon (2014) [96-24]/13 - Any Colour You Like.flac",
+                  "name": "13 - Any Colour You Like.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Nguyen Le - Celebrating The Dark Side Of The Moon (2014) [96-24]/14 - Brain Damage.flac",
+                  "name": "14 - Brain Damage.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Nguyen Le - Celebrating The Dark Side Of The Moon (2014) [96-24]/15 - Eclipse.flac",
+                  "name": "15 - Eclipse.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Nguyen Le - Celebrating The Dark Side Of The Moon (2014) [96-24]/artwork",
+                  "name": "artwork",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "path": "/home/pi/usbdrv/_new/Nguyen Le - Celebrating The Dark Side Of The Moon (2014) [96-24]/artwork/Celebrating the Dark Side of the Moon - booklet.pdf",
+                      "name": "Celebrating the Dark Side of the Moon - booklet.pdf",
+                      "type": "file",
+                      "extension": "pdf"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Nguyen Le - Celebrating The Dark Side Of The Moon (2014) [96-24]/artwork/Celebrating the Dark Side of the Moon - sleeve.jpg",
+                      "name": "Celebrating the Dark Side of the Moon - sleeve.jpg",
+                      "type": "file",
+                      "extension": "jpg"
+                    }
+                  ]
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Nguyen Le - Celebrating The Dark Side Of The Moon (2014) [96-24]/logs",
+                  "name": "logs",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "path": "/home/pi/usbdrv/_new/Nguyen Le - Celebrating The Dark Side Of The Moon (2014) [96-24]/logs/foo_dr.txt",
+                      "name": "foo_dr.txt",
+                      "type": "file",
+                      "extension": "txt"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "path": "/home/pi/usbdrv/_new/Norma Winstone - Dance Without Answer (2014) [88.2-24]",
               "name": "Norma Winstone - Dance Without Answer (2014) [88.2-24]",
               "type": "folder",
@@ -25298,6 +26577,141 @@
                   "name": "foo_dr.txt",
                   "type": "file",
                   "extension": "txt"
+                }
+              ]
+            },
+            {
+              "path": "/home/pi/usbdrv/_new/Pat Metheny - 2011 - What?s It All About [FLAC]",
+              "name": "Pat Metheny - 2011 - What?s It All About [FLAC]",
+              "type": "folder",
+              "children": [
+                {
+                  "path": "/home/pi/usbdrv/_new/Pat Metheny - 2011 - What?s It All About [FLAC]/01 - The Sound Of Silence.flac",
+                  "name": "01 - The Sound Of Silence.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Pat Metheny - 2011 - What?s It All About [FLAC]/02 - Cherish.flac",
+                  "name": "02 - Cherish.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Pat Metheny - 2011 - What?s It All About [FLAC]/03 - Alfie.flac",
+                  "name": "03 - Alfie.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Pat Metheny - 2011 - What?s It All About [FLAC]/04 - Pipeline.flac",
+                  "name": "04 - Pipeline.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Pat Metheny - 2011 - What?s It All About [FLAC]/05 - Garota De Ipanema.flac",
+                  "name": "05 - Garota De Ipanema.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Pat Metheny - 2011 - What?s It All About [FLAC]/06 - Rainy Days And Mondays.flac",
+                  "name": "06 - Rainy Days And Mondays.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Pat Metheny - 2011 - What?s It All About [FLAC]/07 - That?s The Way I?ve Always Heard It Should Be.flac",
+                  "name": "07 - That?s The Way I?ve Always Heard It Should Be.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Pat Metheny - 2011 - What?s It All About [FLAC]/08 - Slow Hot Wind.flac",
+                  "name": "08 - Slow Hot Wind.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Pat Metheny - 2011 - What?s It All About [FLAC]/09 - Betcha By Golly, Wow.flac",
+                  "name": "09 - Betcha By Golly, Wow.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Pat Metheny - 2011 - What?s It All About [FLAC]/10 - And I Love Her.flac",
+                  "name": "10 - And I Love Her.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "path": "/home/pi/usbdrv/_new/Pat Metheny - 2011 - What?s It All About [FLAC]/_stuff",
+                  "name": "_stuff",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "path": "/home/pi/usbdrv/_new/Pat Metheny - 2011 - What?s It All About [FLAC]/_stuff/02013841324928378934.jpg",
+                      "name": "02013841324928378934.jpg",
+                      "type": "file",
+                      "extension": "jpg"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Pat Metheny - 2011 - What?s It All About [FLAC]/_stuff/????? What?s It All About.cue",
+                      "name": "????? What?s It All About.cue",
+                      "type": "file",
+                      "extension": "cue"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Pat Metheny - 2011 - What?s It All About [FLAC]/_stuff/Artwork",
+                      "name": "Artwork",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "path": "/home/pi/usbdrv/_new/Pat Metheny - 2011 - What?s It All About [FLAC]/_stuff/Artwork/Scan 01.jpg",
+                          "name": "Scan 01.jpg",
+                          "type": "file",
+                          "extension": "jpg"
+                        },
+                        {
+                          "path": "/home/pi/usbdrv/_new/Pat Metheny - 2011 - What?s It All About [FLAC]/_stuff/Artwork/Scan 02.jpg",
+                          "name": "Scan 02.jpg",
+                          "type": "file",
+                          "extension": "jpg"
+                        },
+                        {
+                          "path": "/home/pi/usbdrv/_new/Pat Metheny - 2011 - What?s It All About [FLAC]/_stuff/Artwork/scan CD.jpg",
+                          "name": "scan CD.jpg",
+                          "type": "file",
+                          "extension": "jpg"
+                        }
+                      ]
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Pat Metheny - 2011 - What?s It All About [FLAC]/_stuff/Pat Metheny - What?s It All About.log",
+                      "name": "Pat Metheny - What?s It All About.log",
+                      "type": "file",
+                      "extension": "log"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Pat Metheny - 2011 - What?s It All About [FLAC]/_stuff/What?s It All About.cue",
+                      "name": "What?s It All About.cue",
+                      "type": "file",
+                      "extension": "cue"
+                    }
+                  ]
                 }
               ]
             },
@@ -27064,6 +28478,146 @@
                 {
                   "path": "/home/pi/usbdrv/_new/VA - Mike Taylor Remembered (1973, 2007, Dusk Fire) [MP3]/playlist.m3u",
                   "name": "playlist.m3u",
+                  "type": "file",
+                  "extension": "m3u"
+                }
+              ]
+            },
+            {
+              "path": "/home/pi/usbdrv/_new/Vienna Art Orchestra - The Minimalism of Erik Satie (1989)",
+              "name": "Vienna Art Orchestra - The Minimalism of Erik Satie (1989)",
+              "type": "folder",
+              "children": [
+                {
+                  "path": "/home/pi/usbdrv/_new/Vienna Art Orchestra - The Minimalism of Erik Satie (1989)/01 - Reflections On Aubade.flac",
+                  "name": "01 - Reflections On Aubade.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Vienna Art Orchestra - The Minimalism of Erik Satie (1989)/02 - Reflections On Meditation.flac",
+                  "name": "02 - Reflections On Meditation.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Vienna Art Orchestra - The Minimalism of Erik Satie (1989)/03 - Reflections On Severe Reprimande.flac",
+                  "name": "03 - Reflections On Severe Reprimande.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Vienna Art Orchestra - The Minimalism of Erik Satie (1989)/04 - Reflections On Idylle.flac",
+                  "name": "04 - Reflections On Idylle.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Vienna Art Orchestra - The Minimalism of Erik Satie (1989)/05 - Gnossienne No. 3 by Erik Satie.flac",
+                  "name": "05 - Gnossienne No. 3 by Erik Satie.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Vienna Art Orchestra - The Minimalism of Erik Satie (1989)/06 - Reflections on Gnossienne No. 2.flac",
+                  "name": "06 - Reflections on Gnossienne No. 2.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Vienna Art Orchestra - The Minimalism of Erik Satie (1989)/07 - Reflections on Gnossienne No. 1.flac",
+                  "name": "07 - Reflections on Gnossienne No. 1.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Vienna Art Orchestra - The Minimalism of Erik Satie (1989)/08 - Satie Ist Mir Im Traum 3x Nicht Erschienen.flac",
+                  "name": "08 - Satie Ist Mir Im Traum 3x Nicht Erschienen.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Vienna Art Orchestra - The Minimalism of Erik Satie (1989)/09 - Vexations 1801.flac",
+                  "name": "09 - Vexations 1801.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Vienna Art Orchestra - The Minimalism of Erik Satie (1989)/10 - Vexations 1611.flac",
+                  "name": "10 - Vexations 1611.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Vienna Art Orchestra - The Minimalism of Erik Satie (1989)/11 - Vexations 2105.flac",
+                  "name": "11 - Vexations 2105.flac",
+                  "type": "file",
+                  "extension": "flac"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Vienna Art Orchestra - The Minimalism of Erik Satie (1989)/Scans",
+                  "name": "Scans",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "path": "/home/pi/usbdrv/_new/Vienna Art Orchestra - The Minimalism of Erik Satie (1989)/Scans/01.jpg",
+                      "name": "01.jpg",
+                      "type": "file",
+                      "extension": "jpg"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Vienna Art Orchestra - The Minimalism of Erik Satie (1989)/Scans/02.jpg",
+                      "name": "02.jpg",
+                      "type": "file",
+                      "extension": "jpg"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Vienna Art Orchestra - The Minimalism of Erik Satie (1989)/Scans/03.jpg",
+                      "name": "03.jpg",
+                      "type": "file",
+                      "extension": "jpg"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Vienna Art Orchestra - The Minimalism of Erik Satie (1989)/Scans/04.jpg",
+                      "name": "04.jpg",
+                      "type": "file",
+                      "extension": "jpg"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Vienna Art Orchestra - The Minimalism of Erik Satie (1989)/Scans/05.jpg",
+                      "name": "05.jpg",
+                      "type": "file",
+                      "extension": "jpg"
+                    },
+                    {
+                      "path": "/home/pi/usbdrv/_new/Vienna Art Orchestra - The Minimalism of Erik Satie (1989)/Scans/cd.jpg",
+                      "name": "cd.jpg",
+                      "type": "file",
+                      "extension": "jpg"
+                    }
+                  ]
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Vienna Art Orchestra - The Minimalism of Erik Satie (1989)/The Minimalism of Erik Satie.cue",
+                  "name": "The Minimalism of Erik Satie.cue",
+                  "type": "file",
+                  "extension": "cue"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Vienna Art Orchestra - The Minimalism of Erik Satie (1989)/Vienna Art Orchestra - The Minimalism of Erik Satie.jpg",
+                  "name": "Vienna Art Orchestra - The Minimalism of Erik Satie.jpg",
+                  "type": "file",
+                  "extension": "jpg"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Vienna Art Orchestra - The Minimalism of Erik Satie (1989)/Vienna Art Orchestra - The Minimalism of Erik Satie.log",
+                  "name": "Vienna Art Orchestra - The Minimalism of Erik Satie.log",
+                  "type": "file",
+                  "extension": "log"
+                },
+                {
+                  "path": "/home/pi/usbdrv/_new/Vienna Art Orchestra - The Minimalism of Erik Satie (1989)/Vienna Art Orchestra - The Minimalism of Erik Satie.m3u",
+                  "name": "Vienna Art Orchestra - The Minimalism of Erik Satie.m3u",
                   "type": "file",
                   "extension": "m3u"
                 }

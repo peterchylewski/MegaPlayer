@@ -170,13 +170,15 @@
                 this.i = this.$;
                 this.v = this.o.parse(this.$.val());
                 this.v === '' && (this.v = this.o.min);
+                
                 this.$.bind(
                     'change blur',
                     function () {
                         s.val(s._validate(s.o.parse(s.$.val())));
                     }
                 );
-
+				
+				this.i.addClass('disabled').attr('disabled','disabled');
             }
 
             !this.o.displayInput && this.$.hide();

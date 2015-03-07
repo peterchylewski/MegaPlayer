@@ -108,13 +108,9 @@
 			font-size: .61em;
 		}
 		
-		.glyphicon-thumbs-up {
-			color: #17A323;
-		}
+		.glyphicon-thumbs-up { color: #17A323; }
 		
-		.glyphicon-thumbs-down {
-			color: #CA2614;
-		}
+		.glyphicon-thumbs-down { color: #CA2614; }
 		
 		div#nucontrols {
 			position: fixed;
@@ -123,13 +119,9 @@
 			z-index: 10000;
 		}
 		
-		div#nucontrols button {
-			display: block;
-		}
+		div#nucontrols button { display: block; }
 		
-		div#nucontrols button + button {
-			margin-top: 6px;
-		}
+		div#nucontrols button + button { margin-top: 6px; }
 		
 		div#controls {
 			position: relative;
@@ -142,12 +134,15 @@
 		
 		/* table#main { width: 100%; } */
 		
+		div#info { display: block; position: fixed; top: 128px; left: 256px; z-index: -100; padding-right: 64px;}
+		
 		table.treetable td {
 			border: 0px !important;
 		}
 
 		table#main {
 			min-width: 100%;
+			z-index: 1000;
 		}
 		
 		td#stations {
@@ -166,7 +161,14 @@
 			white-space: nowrap;	
 		}
 		
-		td#info { padding-left: 32px; }
+		ul#streams li.compact {
+			display: inline-block;
+			margin: 6px;
+		}
+		
+		ul#streams li.el .glyphicon {
+			display: none;
+		}
 		
 		table#files td {
 			font-size: 1em !important;
@@ -194,13 +196,6 @@
 		}
 		
 		h1 { min-height: 70px; }
-		
-		div.info {
-			margin-top: 100px;
-			margin-left: 100px;
-			font-size: 16px !important;
-			width: 100%;
-		}
 		
 		ul.track_extraartists li {
 			margin-left: 30px;
@@ -232,7 +227,6 @@
 			right: 8px;
 		}
 		
-		
 		img.thumbnail {
 			width: 256px;
 		}
@@ -240,12 +234,13 @@
 	</style>
 	
 	<script src="js/jquery-2.0.3.min.js"></script>
-	<script src="js/bootstrap-3.2.0.min.js"></script>
 	
 	<script src="js/jquery.knob.js"></script>
 	<script src="js/jquery.treetable.js"></script>
 	<script src="js/jquery.backstretch.min.js"></script>
 	<script src="js/jquery.cookie.js"></script>
+	
+	<script src="js/bootstrap-3.2.0.min.js"></script>
 	
 	<script src="js/underscore-min.js"></script>
 	<script src="js/socket.io-1.2.1.js"></script>
@@ -258,6 +253,12 @@
 
 		'use strict';
 		
+		function linToLog(linearValue) {
+			var MAX_VALUE = 100,
+    			logValue = 1 - ( Math.log(MAX_VALUE - linearValue) / Math.log(MAX_VALUE) ); 
+    		return linearValue >= MAX_VALUE ? MAX_VALUE : logValue * 100;
+    	}
+    					
 		var app = new MegaClient(),
 			socket = io('http://192.168.1.200:3000/'),
 			_stations,
@@ -360,7 +361,6 @@
 					case 'jpg':
 						// http://srobbin.com/jquery-plugins/backstretch/ 
 						$.backstretch(href);
-						//$(this).parent().append('<img src="' + href + '" class="thumbnail"/>')
 					break;
 				}
 			});
@@ -390,9 +390,7 @@
 		
 		socket.on('player_value_changed', function(key, value) {
 			//console.log('player_value_changed', key, value);
-			if (value === null || value === undefined) {
-				return 0;
-			}
+			if (value === null || value === undefined) { return 0; å}
 			_status[key] = value;
 			//console.log('_status', JSON.stringify(_status, null, 2));
 			switch (key) {
@@ -456,7 +454,7 @@
 					case 'prev': _prev();											break;
 					case 'next': _next();											break;
 					case 'stop': console.log('tsop'); socket.emit('cmd', 'stop');	break;
-					case 'reload_tree': _next();
+					case 'reload_tree':
 						$('#files-tab').html('<i class="fa fa-cog fa-spin"></i>');
 						socket.emit('cmd', 'reloadTree');
 					break;
@@ -549,9 +547,9 @@
 	</script>
 	
 	<script class="template" id="stations" type="text/template">
-		<ul ="streams">
+		<ul id="streams">
 		<% _.each(data, function(value, key) { %>
-			<li data-id="<%= key %>"><a class="station" href="<%= key %>"><%= value.name %></a><i class="el-icon-volume-up"></i></li>
+			<li data-id="<%= key %>"><a class="station" href="<%= key %>"><%= value.name %></a><i class="el el-icon-volume-up"></i></li>
 		<% }); %>
 		</ul>
 	</script>
@@ -676,6 +674,10 @@
 		<input type="text" class="dial volume" data-displayPrevious="true">
 	</div>
 	
+	<div id="info">
+		<h1>Foo</h1>
+	</div>
+	
 	<table id="main">
 		<tr>
 			<td id="stations">
@@ -692,12 +694,9 @@
 					</div>
 				</div>
 			</td>
-			<td id="info">
-				<h1></h1>
-			</td>
 		</tr>
 	</table>
-
+	
 </body>
 
 

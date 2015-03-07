@@ -1,5 +1,5 @@
 {
-	"srf_regi_bs_bl": {
+	"srf_regio_bs_bl": {
 		"name": "SRF Regio BS/BL",
 		"stream_url": "http://streaming.swisstxt.ch/m/regi_bs_bl/mp3_128"
 	},
@@ -136,6 +136,18 @@
 		"name": "RTÉ lyric",
 		"stream_url": "http://icecast2.rte.ie/lyric"
 	},
+	"vrt_klara": {
+		"name": "VRT Radio Klara",
+		"stream_url": "http://mp3.streampower.be/klara-high"
+	},
+	"vrt_klara_continuo": {
+		"name": "VRT Radio Klara continuo",
+		"stream_url": "http://mp3.streampower.be/klaracontinuo-high"
+	},
+	"rtbf_musiq3": {
+		"name": "RTBF Musiq 3",
+		"stream_url": "http://ice12.infomaniak.ch:80/musiq3-128.aac"
+	},
 	"cbc": {
 		"name": "CBC Radio-Canada",
 		"stream_url": "http://2QMTL0.akacast.akamaistream.net:80/7/953/177387/v1/rc.akacast.akamaistream.net/2QMTL0"
@@ -156,6 +168,11 @@
 		"name": "KEXP AAC 64",
 		"stream_url": "http://live-aacplus-64.kexp.org/kexp64.aac"
 	},
+	"inter_radio_katerinburg": {
+		"name": "Inter Radio Ekaterinburg",
+		"stream_url": "http://intervolna.com:8000/Inter",
+		"www": "http://www.intervolna.com/jazz.html"
+	},
 	"pdr_c": {
 		"name": "Public Domain Radio Classical",
 		"stream_url": "http://stream3137.init7.net:80"
@@ -163,5 +180,41 @@
 	"pdr_j": {
 		"name": "Public Domain Radio Jazz",
 		"stream_url": "http://stream3138.init7.net:80"
+	},
+	"smooth_jazz_israel": {
+		"name": "Smooth Jazz Israel",
+		"stream_url": "http://192.99.4.210:3760/stream"
+	},
+	"space_911_ibadan_nigeria": {
+		"name": "Space FM 90.1 Ibadan Nigeria",
+		"stream_url": "http://78.129.159.25:8096/"
+	},
+	"okolo_jazza": {
+		"name": "OkoloJazza",
+		"stream_url": "http://109.170.8.130:80/"
+	},
+	"radio_musicdays_pl": {
+		"name": "radio.musicdays.pl",
+		"stream_url": "http://s1.slotex.pl:7240/"
+	},
+	"eastside_radio": {
+		"name": "Eastside Radio",
+		"stream_url": "http://playstudio.serverroom.us:6034/"
+	},
+	"audiophile_live": {
+		"name": "Audiophile Live",
+		"stream_url": "http://50.7.173.162:8008/"
+	},
+	"anuhea": {
+		"name": "Anuhea Hawaii",
+		"stream_url": "http://173.193.205.96:8094/"
+	},
+	"audiophile_jazz": {
+		"name": "Audiophile Jazz ",
+		"stream_url": "http://50.7.173.162:8014/"
+	},
+	"soundstorm": {
+		"name": "Soundstorm Brooklyn",
+		"stream_url": "http://5.2.65.200:8000/"
 	}
 }

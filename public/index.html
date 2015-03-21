@@ -49,7 +49,9 @@
 			line-height: .85em;
 			letter-spacing: -.045em;
 			word-spacing: -.004em;
-			color: #D3D3D3;
+			color: #D3D3D3; /* A9BCCF */
+			position: relative;
+			left: -.05em;
 		}
 		
 		h2 { color: #D3D3D3; }
@@ -134,7 +136,16 @@
 		
 		/* table#main { width: 100%; } */
 		
-		div#info { display: block; position: fixed; top: 128px; left: 256px; z-index: -100; padding-right: 64px;}
+		div#info { display: block; position: fixed; top: 110px; left: 340px; z-index: -100; padding-right: 64px; }
+		
+		div#info p {
+			line-height: 1em:
+			margin: 0; padding: 0;
+		}
+		
+		table.treetable {
+			border: 0;
+		}
 		
 		table.treetable td {
 			border: 0px !important;
@@ -252,13 +263,19 @@
 	<script>
 
 		'use strict';
-		
+
 		function linToLog(linearValue) {
 			var MAX_VALUE = 100,
-    			logValue = 1 - ( Math.log(MAX_VALUE - linearValue) / Math.log(MAX_VALUE) ); 
-    		return linearValue >= MAX_VALUE ? MAX_VALUE : logValue * 100;
-    	}
-    					
+				logValue = 1 - (Math.log(MAX_VALUE - linearValue) / Math.log(MAX_VALUE)); 
+			return linearValue >= MAX_VALUE ? MAX_VALUE : logValue * 100;
+		}
+
+		function log2Lin(logValue) {
+			var MAX_VALUE = 4.382026634673881,
+			linValue = Math.pow(logValue, Math.E) / Math.pow(MAX_VALUE, Math.E); 
+			return linValue;
+		}
+
 		var app = new MegaClient(),
 			socket = io('http://192.168.1.200:3000/'),
 			_stations,
@@ -266,7 +283,7 @@
 			_currentStationID,
 			_status = {},
 			_$activeRow;
-		
+
 		function _setStation(id) {
 			if (id !== undefined) {
 				_currentStationID = id;
@@ -274,43 +291,44 @@
 				socket.emit('station', _currentStationID);
 			}
 		}
-		
+
 		function _previousStation() {
 			var currentIndex = _.indexOf(_stationIDs, _currentStationID),
 				nextIndex = currentIndex - 1;
 			if (nextIndex < 0 ) { nextIndex = _stationIDs.length - 1 ; }
 			_setStation(_stationIDs[nextIndex]);
 		}
-		
+
 		function _nextStation() {
 			var currentIndex = _.indexOf(_stationIDs, _currentStationID),
 				nextIndex = currentIndex + 1;
 			if (nextIndex >= _stationIDs.length) { nextIndex = 0; }
 			_setStation(_stationIDs[nextIndex]);
 		}
-		
+
 		function _prev() {
 			console.log('_prev');
 			console.log('_$activeRow', _$activeRow);
 			console.log('_$activeRow.prev()', _$activeRow.prev());
 			var $prev = _$activeRow.prev('.file');
-			console.log($prev.index('.file'));
 			$prev.find('a').click();
+			console.log($prev.index('.file'));
 		}
-		
+
 		function _next() {
-			console.log('_nextFile');
+			console.log('_next');
 			console.log('_$activeRow', _$activeRow);
-			console.log('_$activeRow.next()', _$activeRow.next());
-			_$activeRow.next().find('a').click();
+			console.log('_$activeRow', _$activeRow.get(0).outerHTML);
+			var $next = _$activeRow.next();
+			$next.find('a').click();
 		}
-		
+
 		socket.on('radiostations', function(stations) {
 			console.log('radio stations received: ', stations);
 			
 			_stations = stations;
 			_stationIDs = _.keys(_stations);
-			
+
 			var html = $('#stations.template').html(),
 				template = _.template(html);
 
@@ -321,7 +339,7 @@
 				_setStation($(this).attr('href'));
 			});
 		});
-		
+
 		socket.on('musictree', function(musictree) {
 			console.log('musictree', musictree);		
 			var html = $('#files.template').html(),
@@ -332,14 +350,14 @@
 				$table = $(template({ makeUUID: makeUUID, data: { children: [ musictree ] } })).treetable(treetableOptions);
 				
 			$('#files-tab').html($table);
-			
+
 			$('table#files a').on('click', function(e) {
 				e.preventDefault();
 				var href = $(this).attr('href'),
 					matches = href.match(/\.([0-9a-z]+)$/i),
 					extension = matches !== null && matches[1] !== undefined ? matches[1].toLowerCase() : '';
 				
-				_$activeRow = $(this).closest('tr');
+				_$activeRow = $(this).parents('tr:first');
 				
 				console.log('href', href);
 				console.log('matches', matches);
@@ -364,14 +382,14 @@
 					break;
 				}
 			});
-			
+
 			$('button[data-action="showDiscogsInfo"]').click(function() {
 				var that = this,
 					url =  $(this).attr('data-url'),
 					path = $(this).closest('tr.folder').attr('data-path');
 				$.getJSON(url, function(json) {
 					console.log(json);
-					var html = $('#info.template').html(),
+					var html = $('#discogsInfo.template').html(),
 						template = _.template(html);
 					socket.emit('cmd', 'saveDiscogsInfo', path, json);
 					$(that).parent().prev().append(template({ data: json }));
@@ -379,6 +397,11 @@
 				
 			});
 			
+		});
+		
+		socket.on('audio_info', function(audio) {
+			console.log('audio', audio);
+			$('#info .top').html(audio.sampleRate + ' ' + audio.sampleRateUnit + ' | ' + audio.bitRate + ' ' + audio.bitRateUnit + '/s | ' + (audio.bitsPerSample === 32 ? 24 : audio.bitsPerSample) + ' bits per sample');
 		});
 		
 		socket.on('station_id', function(id) {
@@ -399,8 +422,8 @@
 					var $files = $('table#files');
 					$files.find('tr, i').removeClass('active');
 					_$activeRow = $files.find('tr[data-path="' + value + '"]');
-					_$activeRow.addClass('active');
-					_$activeRow.find('i').addClass('active');
+					_$activeRow.addClass('active')
+									.find('i').addClass('active');
 				break;
 				case 'volume':
 					console.log('VOLUME CHANGED', value);
@@ -441,10 +464,9 @@
 		socket.on('connection', function(msg) { console.log(msg);  $('#status').html('<i class="glyphicon glyphicon-thumbs-up"></i> connected to server'); });
 		socket.on('disconnect', function() { console.log('disconnected from server'); $('#status').html('<i class="glyphicon glyphicon-thumbs-down"></i> disconnected from server'); });
 		
-		socket.on('event', 				function(type, val) { console('event received:', type, val ); } );
+		socket.on('event', 		function(type, val) { console('event received:', type, val ); } );
 		
 		$(document).ready(function() {
-		
 			console.log('***ready');
 			
 			socket.emit('ready', 'foobar');
@@ -604,7 +626,7 @@
 		</table>
 	</script>
 	
-	<script class="template" id="info" type="text/template">
+	<script class="template" id="discogsInfo" type="text/template">
 		<div class="info">
 			<h6><%= data.artists[0].name %>—<%= data.title %></h6>
 			<ul class="tracks">
@@ -675,7 +697,9 @@
 	</div>
 	
 	<div id="info">
+		<p class="top">lalalafoo</p>
 		<h1>Foo</h1>
+		<p class="bottom">lalala</p>
 	</div>
 	
 	<table id="main">

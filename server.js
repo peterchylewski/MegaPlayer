@@ -197,6 +197,11 @@ io.on('connection', function(socket) {
 		socket.emit('end_of_file_reached');
 	});
 	
+	player.on('audio_info', function(audio) {
+		console.log('a player emitted audio info_', audio);
+		socket.emit('audio_info', audio);
+	});
+	
 	player.on('station_message', function(msg) {
 		socket.emit('station_message', msg);
 	});

@@ -110,8 +110,11 @@ function startCatchingKeyboardEvents() {
 
 function startCatchingUSBEvents() {
 	var usb = require('USBStreamReader');
+	usb.on('keyDown', function(event) {
+		console.log('keyDown', event);
+	});
 	usb.on('keyUp', function(event) {
-		console.log('keyUp', event.name);
+		console.log('keyUp', event);
 		switch (event.name) {
 			case 'KEY_VOLUMEUP':
 				player.volumeUp(1, true);

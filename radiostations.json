@@ -11,9 +11,37 @@
 		"name": "SRF 2",
 		"stream_url": "http://stream.srg-ssr.ch/m/drs2/mp3_128"
 	},
+	"srf2_aac": {
+		"name": "SRF 2 AAC",
+		"stream_url": "http://stream.srg-ssr.ch/m/drs2/aacp_96"
+	},
 	"srf3": {
 		"name": "SRF 3",
 		"stream_url": "http://stream.srg-ssr.ch/m/drs3/mp3_128"
+	},
+	"KAMU_hi_1_ogg": {
+		"name": "KAMU HD1 Ogg",
+		"stream_url": "http://hd1-streams.kamu.tamu.edu:8006/HiBW.ogg"
+	},
+	"KAMU_hi_1_mp3": {
+		"name": "KAMU HD1 MP3",
+		"stream_url": "http://hd1-streams.kamu.tamu.edu:8000/HiBW.mp3"
+	},
+	"KAMU_hi_2": {
+		"name": "KAMU HD2",
+		"stream_url": "http://hd2-streams.kamu.tamu.edu:8006/HiBW.ogg"
+	},
+	"linn_radio": {
+		"name": "Linn Radio",
+		"stream_url": "http://89.16.185.174:8003/stream"
+	},
+	"linn_jazz": {
+		"name": "Linn Jazz",
+		"stream_url": "http://89.16.185.174:8000/stream"
+	},
+	"linn_classical": {
+		"name": "Linn Classical",
+		"stream_url": "http://89.16.185.174:8004/stream"
 	},
 	"fm": {
 		"name": "France musique",
@@ -47,6 +75,10 @@
 	"cro_jazz": {
 		"name": "Cro Jazz",
 		"stream_url": "http://stream3.rozhlas.cz:8000/jazz_high.ogg"
+	},
+	"magyar_jazzy": {
+		"name": "Magyar Jazzy",
+		"stream_url": "http://online.jazzy.hu/jazzy.mp3"
 	},
 	"wdr3": {
 		"name": "WDR 3",
@@ -128,6 +160,10 @@
 		"name": "DR P1",
 		"stream_url": "http://live-icy.gss.dr.dk:8000/A/A03H.mp3"
 	},
+	"dr_p2": {
+		"name": "DR P2 Klassisk",
+		"stream_url": "http://live-icy.gss.dr.dk:8000/A/A04H.mp3"
+	},
 	"dr_p8": {
 		"name": "DR P8 Jazz",
 		"stream_url": "http://live-icy.gss.dr.dk/A/A22H.mp3"
@@ -173,6 +209,10 @@
 		"stream_url": "http://intervolna.com:8000/Inter",
 		"www": "http://www.intervolna.com/jazz.html"
 	},
+	"npr": {
+		"name": "NPR 24 Hour Program Stream",
+		"stream_url": "http://nprdmp.ic.llnwd.net/stream/nprdmp_live01_mp3"
+	},
 	"pdr_c": {
 		"name": "Public Domain Radio Classical",
 		"stream_url": "http://stream3137.init7.net:80"
@@ -184,6 +224,10 @@
 	"smooth_jazz_israel": {
 		"name": "Smooth Jazz Israel",
 		"stream_url": "http://192.99.4.210:3760/stream"
+	},
+	"israel_musica": {
+		"name": "Israel Musica",
+		"stream_url": "http://switch3.castup.net/cunet/gm.asp?ai=31&ar=Kol_HaMusica"
 	},
 	"space_911_ibadan_nigeria": {
 		"name": "Space FM 90.1 Ibadan Nigeria",

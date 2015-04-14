@@ -241,7 +241,7 @@
 		img.thumbnail {
 			width: 256px;
 		}
-		
+
 	</style>
 	
 	<script src="js/jquery-2.0.3.min.js"></script>
@@ -250,16 +250,14 @@
 	<script src="js/jquery.treetable.js"></script>
 	<script src="js/jquery.backstretch.min.js"></script>
 	<script src="js/jquery.cookie.js"></script>
-	
+
 	<script src="js/bootstrap-3.2.0.min.js"></script>
-	
 	<script src="js/underscore-min.js"></script>
 	<script src="js/socket.io-1.2.1.js"></script>
-	
 	<script src="js/EventEmitter2.js"></script>
-	
-	<script src="js/MegaClient.js"></script>
-	
+
+	<!-- <script src="js/MegaClient.js"></script> -->
+
 	<script>
 
 		'use strict';
@@ -275,7 +273,9 @@
 			linValue = Math.pow(logValue, Math.E) / Math.pow(MAX_VALUE, Math.E); 
 			return linValue;
 		}
-
+		
+		
+		/*
 		var app = new MegaClient(),
 			socket = io('http://192.168.1.200:3000/'),
 			_stations,
@@ -283,7 +283,8 @@
 			_currentStationID,
 			_status = {},
 			_$activeRow;
-
+		*/
+		
 		function _setStation(id) {
 			if (id !== undefined) {
 				_currentStationID = id;
@@ -398,19 +399,19 @@
 			});
 			
 		});
-		
+
 		socket.on('audio_info', function(audio) {
 			console.log('audio', audio);
 			$('#info .top').html(audio.sampleRate + ' ' + audio.sampleRateUnit + ' | ' + audio.bitRate + ' ' + audio.bitRateUnit + '/s | ' + (audio.bitsPerSample === 32 ? 24 : audio.bitsPerSample) + ' bits per sample');
 		});
-		
+
 		socket.on('station_id', function(id) {
 			console.log('station id', id);
 			_currentStationID = id;
 			$('li i').removeClass('active');
 			$('li[data-id="' + id + '"] i').addClass('active');
 		});
-		
+
 		socket.on('player_value_changed', function(key, value) {
 			//console.log('player_value_changed', key, value);
 			if (value === null || value === undefined) { return 0; å}
@@ -434,29 +435,29 @@
 				case 'length':
 					console.log('>>>>>>>>>>>>>>>>length', value);
 					$('.dial.time').trigger('configure', {
-            			'min': 0,
-            			'max': value
-            		});
+						'min': 0,
+					'max': value
+				});
 				break;
 				case 'timePosition':
 					//console.log('timePosition', value);
 					var $timeKnob = $('.knob.time');
 					if ($timeKnob.data('mouseIsOver') === true) {
 						console.log('mouse is over time dial; ignoring update');
-        			} else {
-        				$timeKnob.find('.dial').val(Math.ceil(value)).trigger('change');
-        			}
+					} else {
+						$timeKnob.find('.dial').val(Math.ceil(value)).trigger('change');
+				}
 				break;
 			}
 		});
-		
+
 		// ------------------------------------------------------------------ receiving messages from the server
 		
 		socket.on('end_of_file_reached', function() {
 			console.log('player says: end of file has been reached.');
 			_next();
 		});
-		
+
 		socket.on('station_message', 	function(msg) { $('h1').text(msg); });
 		socket.on('prev', 				function() { _prev(); });
 		socket.on('next', 				function() { _next(); });
@@ -513,25 +514,24 @@
 			
 			$('.dial.time').val(0).knob({
 				'change': function(value) {
-    				console.log('change', value);
-    			},
-    			'draw': function(value) {
-    				//console.log('draw', value);
-    			},
-    			'release': function(value) {
-    				//console.log('release', value);
-    				var $timeKnob = $('.knob.time');
-    				if ($timeKnob.data('mouseIsOver') === true) {
-    					socket.emit('cmd', 'setTimePos', value);
-    				}
-    			},
-    			
+					console.log('change', value);
+				},
+				'draw': function(value) {
+					//console.log('draw', value);
+				},
+				'release': function(value) {
+					//console.log('release', value);
+					var $timeKnob = $('.knob.time');
+					if ($timeKnob.data('mouseIsOver') === true) {
+						socket.emit('cmd', 'setTimePos', value);
+					}
+				},
+
 				'width': 80,
-    			'height': 80,
-    			'font': 'FranklinGothicFSBook',
-    			'fgColor': '#1493B3'
-    			
-			}).addClass('time')
+				'height': 80,
+				'font': 'FranklinGothicFSBook',
+				'fgColor': '#1493B3'
+				}).addClass('time')
 				.on('mouseover', function() { console.log('mouseover'); $(this).data('mouseIsOver', true); })
 				.on('mouseleave', function() { console.log('mouseleave'); $(this).data('mouseIsOver', false); });
 			
@@ -697,9 +697,9 @@
 	</div>
 	
 	<div id="info">
-		<p class="top">lalalafoo</p>
+		<p class="top"></p>
 		<h1>Foo</h1>
-		<p class="bottom">lalala</p>
+		<p class="bottom"></p>
 	</div>
 	
 	<table id="main">

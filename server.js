@@ -88,6 +88,9 @@ function startCatchingKeyboardEvents() {
 	// listen for the "keypress" event
 	process.stdin.on('keypress', function (ch, key) {
 		console.log('got "keypress"', key);
+		
+		
+		
 		switch (key.name) {
 			case 't':
 				reloadTree();
@@ -106,15 +109,27 @@ function startCatchingKeyboardEvents() {
 			break;
 		}
 	});
+	
+	// make `process.stdin` begin emitting "keyup" events
+	/*
+	keyup(process.stdin);
+	process.stdin.on('keyup', function (ch, key) {
+		_socket.emit('keyup', key);
+	});
+	*/
 }
 
 function startCatchingUSBEvents() {
 	var usb = require('USBStreamReader');
+	
 	usb.on('keyDown', function(event) {
 		console.log('keyDown', event);
+		_socket.emit('event', 'keyDown', event);
 	});
+	
 	usb.on('keyUp', function(event) {
 		console.log('keyUp', event);
+		_socket.emit('event', 'keyUp', event);
 		switch (event.name) {
 			case 'KEY_VOLUMEUP':
 				player.volumeUp(1, true);
@@ -278,5 +293,7 @@ io.on('connection', function(socket) {
 http.listen(3000, function() {
 	console.log('listening on *:3000'.yellow);
 });
+
+//app.use(__dirname + '/public', 8080);
 
 var web = require('SimpleWebServer')(__dirname + '/public', 8080);

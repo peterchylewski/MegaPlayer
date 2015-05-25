@@ -101,7 +101,7 @@
 			border-bottom: 2px dotted #D2840B;
 		}
 		
-		div#status {
+		div#topLeft {
 			position: fixed;
 			top: 8px;
 			left: 32px;
@@ -139,7 +139,7 @@
 		div#info { display: block; position: fixed; top: 110px; left: 340px; z-index: -100; padding-right: 64px; }
 		
 		div#info p {
-			line-height: 1em:
+			line-height: 1em;
 			margin: 0; padding: 0;
 		}
 		
@@ -152,6 +152,7 @@
 		}
 
 		table#main {
+			margin-top: 100px;
 			min-width: 100%;
 			z-index: 1000;
 		}
@@ -256,7 +257,7 @@
 	<script src="js/socket.io-1.2.1.js"></script>
 	<script src="js/EventEmitter2.js"></script>
 
-	<!-- <script src="js/MegaClient.js"></script> -->
+	<script src="js/MegaClient.js"></script>
 
 	<script>
 
@@ -274,8 +275,6 @@
 			return linValue;
 		}
 		
-		
-		/*
 		var app = new MegaClient(),
 			socket = io('http://192.168.1.200:3000/'),
 			_stations,
@@ -283,7 +282,6 @@
 			_currentStationID,
 			_status = {},
 			_$activeRow;
-		*/
 		
 		function _setStation(id) {
 			if (id !== undefined) {
@@ -343,7 +341,7 @@
 
 		socket.on('musictree', function(musictree) {
 			console.log('musictree', musictree);		
-			var html = $('#files.template').html(),
+			var html = $('#template-files').html(),
 				template = _.template(html),
 				currentUUID = 0,
 				makeUUID = function() { return currentUUID++; },
@@ -402,7 +400,9 @@
 
 		socket.on('audio_info', function(audio) {
 			console.log('audio', audio);
-			$('#info .top').html(audio.sampleRate + ' ' + audio.sampleRateUnit + ' | ' + audio.bitRate + ' ' + audio.bitRateUnit + '/s | ' + (audio.bitsPerSample === 32 ? 24 : audio.bitsPerSample) + ' bits per sample');
+			var  bps = parseInt(audio.bitsPerSample.match(/([0-9]{2})/)[0]);
+			console.log('bps', bps);
+			$('#info .top').html(audio.channels + ' channels | ' + audio.sampleRate + ' Hz' + ' | ' + audio.bitRate + ' kbps | ' + (bps === '32' ? 24 : bps) + ' bits per sample');
 		});
 
 		socket.on('station_id', function(id) {
@@ -424,7 +424,7 @@
 					$files.find('tr, i').removeClass('active');
 					_$activeRow = $files.find('tr[data-path="' + value + '"]');
 					_$activeRow.addClass('active')
-									.find('i').addClass('active');
+							    .find('i').addClass('active');
 				break;
 				case 'volume':
 					console.log('VOLUME CHANGED', value);
@@ -464,8 +464,8 @@
 		
 		socket.on('connection', function(msg) { console.log(msg);  $('#status').html('<i class="glyphicon glyphicon-thumbs-up"></i> connected to server'); });
 		socket.on('disconnect', function() { console.log('disconnected from server'); $('#status').html('<i class="glyphicon glyphicon-thumbs-down"></i> disconnected from server'); });
-		
-		socket.on('event', 		function(type, val) { console('event received:', type, val ); } );
+				
+		socket.on('event', 			function(type, val) { console.log('event received:', type, JSON.stringify(val, null, 2)); } );
 		
 		$(document).ready(function() {
 			console.log('***ready');
@@ -576,7 +576,7 @@
 		</ul>
 	</script>
 	
-	<script class="template" id="files" type="text/template">
+	<script id="template-files" type="text/template">
 		<% var mUid = makeUUID; %>
 		<% var name; %>
 	 	<table id="files">
@@ -680,8 +680,11 @@
 	</script>
 </head>
 <body>
-	<div id="status">
-		status
+	<div id="topLeft">
+		<div id="status">
+			status
+		</div>
+		<button class="btn btn-danger" data-action="restartServer">Restart Server</button>
 	</div>
 	<div id="nucontrols">
 		<button class="btn btn-danger btn-small" data-action="stop"><i class="fa fa-pause"></i></button>
@@ -691,7 +694,6 @@
 	</div>
 	
 	<div id="controls">
-		<button class="btn btn-danger" data-action="restartServer">Restart Server</button>
 		<input type="text" class="dial time" data-displayPrevious="true">
 		<input type="text" class="dial volume" data-displayPrevious="true">
 	</div>

@@ -19,6 +19,14 @@
 		"name": "SRF 3",
 		"stream_url": "http://stream.srg-ssr.ch/m/drs3/mp3_128"
 	},
+	"rsi_rete_due": {
+		"name": "RSI Rete Due",
+		"stream_url": "http://stream.srg-ssr.ch/m/retedue/mp3_128"
+	},
+	"rts_espace_2": {
+		"name": "RTS Espace 2",
+		"stream_url": "http://stream.srg-ssr.ch/m/espace-2/mp3_128"
+	},
 	"KAMU_hi_1_ogg": {
 		"name": "KAMU HD1 Ogg",
 		"stream_url": "http://hd1-streams.kamu.tamu.edu:8006/HiBW.ogg"
@@ -196,7 +204,7 @@
 		"name": "Classic & Jazz",
 		"stream_url": "http://classicandjazzaac.ice.infomaniak.ch/classicandjazzaac.mp3"
 	},
-	"classic_and_jazz": {
+	"soul_andfunk_aac": {
 		"name": "Soul & Funk",
 		"stream_url": "http://soulandfunkaac.ice.infomaniak.ch/soulandfunkaac-0.mp3"
 	},
@@ -208,10 +216,6 @@
 		"name": "Inter Radio Ekaterinburg",
 		"stream_url": "http://intervolna.com:8000/Inter",
 		"www": "http://www.intervolna.com/jazz.html"
-	},
-	"npr": {
-		"name": "NPR 24 Hour Program Stream",
-		"stream_url": "http://nprdmp.ic.llnwd.net/stream/nprdmp_live01_mp3"
 	},
 	"pdr_c": {
 		"name": "Public Domain Radio Classical",

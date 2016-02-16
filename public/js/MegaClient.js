@@ -3,7 +3,7 @@
 var MegaClient = function() {
 
 	var _self = this,
-		_serverSocketURL = 'http://192.168.1.200:3000/',
+		_serverSocketURL = window.location.host,
 		_socket = io(_serverSocketURL),
 		_events = new EventEmitter2();
 			

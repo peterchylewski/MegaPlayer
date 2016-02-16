@@ -276,7 +276,7 @@
 		}
 		
 		var app = new MegaClient(),
-			socket = io('http://192.168.1.200:3000/'),
+			socket = io(window.location.host),
 			_stations,
 			_stationIDs,
 			_currentStationID,

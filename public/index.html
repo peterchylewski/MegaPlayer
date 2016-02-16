@@ -284,6 +284,7 @@
 			_$activeRow;
 		
 		function _setStation(id) {
+			console.log('_setStation', id);
 			if (id !== undefined) {
 				_currentStationID = id;
 				//socket.emit('cmd', 'setStation', _currentStationID);
@@ -335,7 +336,7 @@
 			$('a.station').click(function(e) {
 				console.log('klik');
 				e.preventDefault();
-				_setStation($(this).attr('href'));
+				_setStation($(this).attr('data-url'));
 			});
 		});
 
@@ -571,7 +572,7 @@
 	<script class="template" id="stations" type="text/template">
 		<ul id="streams">
 		<% _.each(data, function(value, key) { %>
-			<li data-id="<%= key %>"><a class="station" href="<%= key %>"><%= value.name %></a><i class="el el-icon-volume-up"></i></li>
+			<li data-id="<%= key %>"><a class="station" href="<%= key %>" data-url="<%= value.stream_url %>"><%= value.name %></a><i class="el el-icon-volume-up"></i></li>
 		<% }); %>
 		</ul>
 	</script>

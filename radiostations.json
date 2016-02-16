@@ -116,6 +116,10 @@
 		"name": "DLF",
 		"stream_url": "http://dradio_mp3_dlf_m.akacast.akamaistream.net/7/249/142684/v1/gnl.akacast.akamaistream.net/dradio_mp3_dlf_m"
 	},
+	"cz_live": {
+		"name": "Concertzender Live",
+		"stream_url": "http://streams.greenhost.nl:8080/live"
+	},
 	"cz_jazz": {
 		"name": "Concertzender Jazz",
 		"stream_url": "http://streams.greenhost.nl:8080/jazz"
@@ -130,35 +134,35 @@
 	},
 	"cz_gehoordestilte": {
 		"name": "Concertzender De gehoorde stilte",
-		"stream_url": "http://www.concertzender.nl/streams/gehoordestilte"
+		"stream_url": "http://streams.greenhost.nl:8080/gehoordestilte"
 	},
 	"cz_novembermusic": {
 		"name": "Concertzender November Music",
-		"stream_url": "http://www.concertzender.nl/streams/novembermusic"
+		"stream_url": "http://streams.greenhost.nl:8080/novembermusic"
 	},
 	"cz_klassiek": {
 		"name": "Concertzender Klassiek",
-		"stream_url": "http://www.concertzender.nl/streams/klassiek"
+		"stream_url": "http://streams.greenhost.nl:8080/klassiek"
 	},
 	"nederlandse_1": {
 		"name": "Nederlandse 1 Nieuws",
-		"stream_url": "http://icecast.omroep.nl:80/nieuws24-bb-mp3"
+		"stream_url": "http://icecast.omroep.nl/nieuws24-bb-mp3"
 	},
 	"nederlandse_4": {
 		"name": "Nederlandse 4",
-		"stream_url": "http://icecast.omroep.nl:80/radio4-bb-mp3"
+		"stream_url": "http://icecast.omroep.nl/radio4-bb-mp3"
 	},
 	"nederlandse_4_eigentijds": {
 		"name": "Nederlandse 4 Eigentijds",
-		"stream_url": "http://icecast.omroep.nl:80/radio4-eigentijds-mp3"
+		"stream_url": "http://icecast.omroep.nl/radio4-eigentijds-mp3"
 	},
 	"nederlandse_4_klassiek": {
-		"name": "Nederlandse 4 Klassiek",
-		"stream_url": "http://icecast.omroep.nl:80/radio4-jongklassiek-mp3"
+		"name": "Nederlandse 4 Jong Klassiek",
+		"stream_url": "http://icecast.omroep.nl/radio4-jongklassiek-mp3"
 	},
 	"nederlandse_6_jazz": {
 		"name": "Nederlandse 6 Jazz",
-		"stream_url": "http://icecast.omroep.nl:80/radio6-jazzjong-mp3"
+		"stream_url": "http://icecast.omroep.nl/radio6-jazz-bb-mp3"
 	},
 	"sr_p2": {
 		"name": "SR P2",

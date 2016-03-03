@@ -1,0 +1,284 @@
+{
+	"lora": {
+		"name": "LoRa",
+		"stream_url": "http://livestream.lora.ch/lora.mp3"
+	},
+	"wbgo_hd2": {
+		"name": "WBGO 88.3",
+		"stream_url": "http://wbgo.streamguys.net:80/wbgo"
+	},
+	"jazz_90_1": {
+		"name": "Rochester Jazz 90.1",
+		"stream_url": "http://greece-media.monroe.edu/wgmc.mp3"
+	},
+	"srf_regio_bs_bl": {
+		"name": "SRF Regio BS/BL",
+		"stream_url": "http://streaming.swisstxt.ch/m/regi_bs_bl/mp3_128"
+	},
+	"srf1": {
+		"name": "SRF 1",
+		"stream_url": "http://streaming.swisstxt.ch/m/drs1/mp3_128"
+	},
+	"srf2": {
+		"name": "SRF 2",
+		"stream_url": "http://stream.srg-ssr.ch/m/drs2/mp3_128"
+	},
+	"srf2_aac": {
+		"name": "SRF 2 AAC",
+		"stream_url": "http://stream.srg-ssr.ch/m/drs2/aacp_96"
+	},
+	"srf3": {
+		"name": "SRF 3",
+		"stream_url": "http://stream.srg-ssr.ch/m/drs3/mp3_128"
+	},
+	"rsi_rete_due": {
+		"name": "RSI Rete Due",
+		"stream_url": "http://stream.srg-ssr.ch/m/retedue/mp3_128"
+	},
+	"rts_espace_2": {
+		"name": "RTS Espace 2",
+		"stream_url": "http://stream.srg-ssr.ch/m/espace-2/mp3_128"
+	},
+	"KAMU_hi_1_ogg": {
+		"name": "KAMU HD1 Ogg",
+		"stream_url": "http://hd1-streams.kamu.tamu.edu:8006/HiBW.ogg"
+	},
+	"KAMU_hi_1_mp3": {
+		"name": "KAMU HD1 MP3",
+		"stream_url": "http://hd1-streams.kamu.tamu.edu:8000/HiBW.mp3"
+	},
+	"KAMU_hi_2": {
+		"name": "KAMU HD2",
+		"stream_url": "http://hd2-streams.kamu.tamu.edu:8006/HiBW.ogg"
+	},
+	"linn_jazz": {
+		"name": "Linn Jazz",
+		"stream_url": "http://89.16.185.174:8000/stream"
+	},
+	"linn_classical": {
+		"name": "Linn Classical",
+		"stream_url": "http://89.16.185.174:8004/stream"
+	},
+	"fm": {
+		"name": "France musique",
+		"stream_url": "http://audio.scdn.arkena.com/11012/francemusique-midfi128.mp3"
+	},
+	"fc": {
+		"name": "France culture",
+		"stream_url": "http://audio.scdn.arkena.com/11010/franceculture-midfi128.mp3"
+	},
+	"abc": {
+		"name": "ABC Jazz",
+		"stream_url": "http://streaming.radionomy.com/ABC-Jazz",
+		"just_played_stream_url": "http://www.abc.net.au/jazz/xml/ABC%20JazzJustPlayedRSS.xml"
+	},
+	"nrk_p2": {
+		"name": "NRK P2",
+		"stream_url": "http://lyd.nrk.no:80/nrk_radio_p2_mp3_h"
+	},
+	"nrk_jazz": {
+		"name": "NRK Jazz",
+		"stream_url": "http://lyd.nrk.no:80/nrk_radio_jazz_mp3_h"
+	},
+	"nrk_klassisk": {
+		"name": "NRK Klassisk",
+		"stream_url": "http://lyd.nrk.no:80/nrk_radio_klassisk_mp3_h"
+	},
+	"cro_d_dur": {
+		"name": "Cro D Dur flac",
+		"stream_url": "http://radio.cesnet.cz:8000/cro-d-dur.flac"
+	},
+	"cro_jazz": {
+		"name": "Cro Jazz",
+		"stream_url": "http://stream3.rozhlas.cz:8000/jazz_high.ogg"
+	},
+	"magyar_jazzy": {
+		"name": "Magyar Jazzy",
+		"stream_url": "http://online.jazzy.hu/jazzy.mp3"
+	},
+	"wdr3": {
+		"name": "WDR 3",
+		"stream_url": "http://wdr-3-320.akacast.akamaistream.net/7/827/119437/v1/gnl.akacast.akamaistream.net/wdr-3-320"
+	},
+	"swr2": {
+		"name": "SWR 2",
+		"stream_url": "http://swr-mp3-m-swr2.akacast.akamaistream.net/7/721/137135/v1/gnl.akacast.akamaistream.net/swr-mp3-m-swr2"
+	},
+	"ndr_info_spezial": {
+		"name": "NDR Info Spezial",
+		"stream_url": "http://ndr-ndrinfo-spezial-mp3.akacast.akamaistream.net/7/795/273757/v1/gnl.akacast.akamaistream.net/ndr_ndrinfo_spezial_mp3"
+	},
+	"ndr_kultur": {
+		"name": "NDR Kultur",
+		"stream_url": "http://ndr-ndrkultur-mp3.akacast.akamaistream.net/7/527/273758/v1/gnl.akacast.akamaistream.net/ndr_ndrkultur_mp3"
+	},
+	"ndr_kultur_neo": {
+		"name": "NDR Kultur Neo",
+		"stream_url": "http://ndr-ndrloop24-hi-mp3.akacast.akamaistream.net/7/142/160823/v1/gnl.akacast.akamaistream.net/ndr_ndrloop24_hi_mp3"
+	},
+	"ndr_info_jazz_nacht": {
+		"name": "NDR Info Jazz Nacht",
+		"stream_url": "http://ndr-ndrloop19-hi-mp3.akacast.akamaistream.net/7/287/160823/v1/gnl.akacast.akamaistream.net/ndr_ndrloop19_hi_mp3"
+	},
+	"ndr_info_play_jazz": {
+		"name": "NDR Info Play Jazz",
+		"stream_url": "http://ndr-ndrloop31-hi-mp3.akacast.akamaistream.net/7/517/160823/v1/gnl.akacast.akamaistream.net/ndr_ndrloop31_hi_mp3"
+	},
+	"br_klassik": {
+		"name": "BR Klassik 2",
+		"stream_url": "http://br-mp3-br-klassik-m.akacast.akamaistream.net/7/120/142693/v1/gnl.akacast.akamaistream.net/br_mp3_br-klassik_m"
+	},
+	"br_2_sued": {
+		"name": "BR 2 Süd",
+		"stream_url": "http://br-mp3-bayern2sued-m.akacast.akamaistream.net/7/731/256282/v1/gnl.akacast.akamaistream.net/br_mp3_bayern2sued_m"
+	},
+	"dlf": {
+		"name": "DLF",
+		"stream_url": "http://dradio_mp3_dlf_m.akacast.akamaistream.net/7/249/142684/v1/gnl.akacast.akamaistream.net/dradio_mp3_dlf_m"
+	},
+	"cz_jazz": {
+		"name": "Concertzender Jazz",
+		"stream_url": "http://streams.greenhost.nl:8080/jazz"
+	},
+	"cz_jazz_not_jazz": {
+		"name": "Concertzender Jazznotjazz",
+		"stream_url": "http://streams.greenhost.nl:8080/jazznotjazz"
+	},
+	"cz_nieuwemuziek": {
+		"name": "Concertzender Nieuwe muziek",
+		"stream_url": "http://streams.greenhost.nl:8080/nieuwemuziek"
+	},
+	"cz_gehoordestilte": {
+		"name": "Concertzender De gehoorde stilte",
+		"stream_url": "http://www.concertzender.nl/streams/gehoordestilte"
+	},
+	"cz_novembermusic": {
+		"name": "Concertzender November Music",
+		"stream_url": "http://www.concertzender.nl/streams/novembermusic"
+	},
+	"cz_klassiek": {
+		"name": "Concertzender Klassiek",
+		"stream_url": "http://www.concertzender.nl/streams/klassiek"
+	},
+	"nederlandse_1": {
+		"name": "Nederland 1 Nieuws",
+		"stream_url": "http://icecast.omroep.nl:80/nieuws24-bb-mp3"
+	},
+	"nederlandse_4": {
+		"name": "Nederland 4",
+		"stream_url": "http://icecast.omroep.nl:80/radio4-bb-mp3"
+	},
+	"nederlandse_4_eigentijds": {
+		"name": "Nederland 4 Eigentijds",
+		"stream_url": "http://icecast.omroep.nl:80/radio4-eigentijds-mp3"
+	},
+	"nederlandse_4_klassiek": {
+		"name": "Nederland 4 Jong Klassiek",
+		"stream_url": "http://icecast.omroep.nl:80/radio4-jongklassiek-mp3"
+	},
+	"nederlandse_4_film": {
+		"name": "Nederland 4 Film",
+		"stream_url": "http://icecast.omroep.nl:80/radio4-film-bb-mp3"
+	},
+	"nederlandse_4_baroque": {
+		"name": "Nederland 4 Baroque",
+		"stream_url": "http://icecast.omroep.nl:80/radio4-baroque-bb-mp3"
+	},
+	"nederlandse_4_orgel": {
+		"name": "Nederland 4 Orgel",
+		"stream_url": "http://icecast.omroep.nl:80/radio4-orgelradio-bb-mp3"
+	},
+	"nederlandse_6_jazz": {
+		"name": "Nederland 6 Jazz",
+		"stream_url": "http://icecast.omroep.nl:80/radio6-jazzjong-mp3"
+	},
+	"sr_p2": {
+		"name": "SR P2",
+		"stream_url": "http://http-live.sr.se/p2-mp3-192"
+	},
+	"dr_p1": {
+		"name": "DR P1",
+		"stream_url": "http://live-icy.gss.dr.dk:8000/A/A03H.mp3"
+	},
+	"dr_p2": {
+		"name": "DR P2 Klassisk",
+		"stream_url": "http://live-icy.gss.dr.dk:8000/A/A04H.mp3"
+	},
+	"dr_p8": {
+		"name": "DR P8 Jazz",
+		"stream_url": "http://live-icy.gss.dr.dk/A/A22H.mp3"
+	},
+	"rte_lyric": {
+		"name": "RTÉ lyric",
+		"stream_url": "http://icecast2.rte.ie/lyric"
+	},
+	"vrt_klara": {
+		"name": "VRT Radio Klara",
+		"stream_url": "http://mp3.streampower.be/klara-high"
+	},
+	"vrt_klara_continuo": {
+		"name": "VRT Radio Klara continuo",
+		"stream_url": "http://mp3.streampower.be/klaracontinuo-high"
+	},
+	"rtbf_musiq3": {
+		"name": "RTBF Musiq 3",
+		"stream_url": "http://ice12.infomaniak.ch:80/musiq3-128.aac"
+	},
+	"cbc": {
+		"name": "CBC Radio-Canada",
+		"stream_url": "http://2QMTL0.akacast.akamaistream.net:80/7/953/177387/v1/rc.akacast.akamaistream.net/2QMTL0"
+	},
+	"radio_birdseye": {
+		"name": "Bird’s Eye",
+		"stream_url": "http://rs33.stream24.org:8610/stream"
+	},
+	"classic_and_jazz": {
+		"name": "Classic & Jazz",
+		"stream_url": "http://classicandjazzaac.ice.infomaniak.ch/classicandjazzaac.mp3"
+	},
+	"KEXP_64": {
+		"name": "KEXP AAC 64",
+		"stream_url": "http://live-aacplus-64.kexp.org/kexp64.aac"
+	},
+	"inter_radio_ekaterinburg": {
+		"name": "Inter Radio Ekaterinburg",
+		"stream_url": "http://intervolna.com:8000/Inter",
+		"www": "http://www.intervolna.com/jazz.html"
+	},
+	"israel_musica": {
+		"name": "Israel Musica",
+		"stream_url": "http://switch3.castup.net/cunet/gm.asp?ai=31&ar=Kol_HaMusica"
+	},
+	"space_911_ibadan_nigeria": {
+		"name": "Space FM 90.1 Ibadan Nigeria",
+		"stream_url": "http://78.129.159.25:8096/"
+	},
+	"okolo_jazza": {
+		"name": "OkoloJazza",
+		"stream_url": "http://109.170.8.130:80/"
+	},
+	"radio_musicdays_pl": {
+		"name": "radio.musicdays.pl",
+		"stream_url": "http://s1.slotex.pl:7240/"
+	},
+	"eastside_radio": {
+		"name": "Eastside Radio",
+		"stream_url": "http://playstudio.serverroom.us:6034/"
+	},
+	"audiophile_live": {
+		"name": "Audiophile Live",
+		"stream_url": "http://50.7.173.162:8008/"
+	},
+	"anuhea": {
+		"name": "Anuhea Hawaii",
+		"stream_url": "http://173.193.205.96:8094/"
+	},
+	"audiophile_jazz": {
+		"name": "Audiophile Jazz ",
+		"stream_url": "http://50.7.173.162:8014/"
+	},
+	"soundstorm": {
+		"name": "Soundstorm Brooklyn",
+		"stream_url": "http://5.2.65.200:8000/"
+	}
+}

@@ -1,0 +1,2 @@
+
+var player = require('SimplePlayer');

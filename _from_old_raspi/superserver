@@ -1,0 +1,9 @@
+if pgrep node >/dev/null 2>&1
+  then
+     echo "node is running"
+  else
+    echo "node is not running, let's start it"
+    /opt/node-v0.10.2-linux-arm-pi/bin/node /home/node/player/server.js
+fi
+
+

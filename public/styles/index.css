@@ -1,0 +1,233 @@
+@import url("vendor/bootstrap/bootstrap.min.css");
+@import url("vendor/elusive-webfont.css");
+@import url("vendor/font-awesome/css/font-awesome.min.css");
+@import url("vendor/treetable/jquery.treetable.css");
+@import url("vendor/treetable/jquery.treetable.theme.default.css");
+@import url("fonts/Franklin/Franklin.font.css");
+		
+* {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	margin: 0;
+	padding: 0;
+	outline: 0 !important;
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+body {
+	font-family: "FranklinGothicFSBook" !important;
+	font-size: 2em !important;
+	line-height: 1.2em !important;
+	/* text-transform: lowercase; */
+	margin: 32px;
+	color: #333;
+	background: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "FranklinGothicFSHeavy" !important;
+	font-weight: 400 !important;
+	font-style: normal !important;
+	margin: 0 !important;
+}
+
+h1 { font-size: 3em; letter-spacing: -.01em; color: } h2 { font-size: 1.8em; } h6 { font-size: 1em; }
+
+h1 {
+	font-size: 6em;
+	line-height: .85em;
+	letter-spacing: -.045em;
+	word-spacing: -.004em;
+	color: #D3D3D3; /* A9BCCF */
+	position: relative;
+	left: -.05em;
+}
+
+h2 { color: #D3D3D3; }
+
+* + h1, * + h2, * + h3, * + h4, * + h5, * + h6 { margin-top: 16px; }
+
+#files h6 {
+	/* font-size: 1.61em; */
+	color: rgb(179, 20, 20); /* #6C8091 */
+	text-transform: uppercase;
+	letter-spacing: -.075em;
+	cursor: pointer;
+}
+
+b, strong {
+	font-family: "FranklinGothicFSDemi" !important;
+	font-weight: normal;
+}
+
+small {
+	font-size: .8em !important;
+}
+
+button i {
+	position: relative;
+	top: 2px;
+	font-size: 1.5em;
+}
+
+ul, ol { list-style-position: inside; }
+
+* + p { margin-top: 8px; }
+
+ul li {
+	list-style-type: none;
+	margin: 0;
+}
+
+a {
+	color: #D2840B;
+	text-decoration: none;
+}
+
+td.name a:hover {
+	color: #D2840B;
+	text-decoration: none;
+	border-bottom: 2px dotted #D2840B;
+}
+
+div#topLeft {
+	position: fixed;
+	top: 8px;
+	left: 32px;
+	z-index: 1000;
+	background: #fff;
+	font-size: .61em;
+}
+
+.glyphicon-thumbs-up { color: #17A323; }
+
+.glyphicon-thumbs-down { color: #CA2614; }
+
+div#nucontrols {
+	position: fixed;
+	top: 100px;
+	right: 26px;
+	z-index: 10000;
+}
+
+div#nucontrols button { display: block; }
+
+div#nucontrols button + button { margin-top: 6px; }
+
+div#controls {
+	position: relative;
+	margin-bottom: 32px;
+}
+
+.nav > li > a { padding: 4px 12px 4px 12px; }
+
+.tab-content { margin-top: 16px; }
+
+/* table#main { width: 100%; } */
+
+div#info { display: block; position: fixed; top: 110px; left: 340px; z-index: -100; padding-right: 64px; }
+
+div#info p {
+	line-height: 1em;
+	margin: 0; padding: 0;
+}
+
+table.treetable {
+	border: 0;
+}
+
+table.treetable td {
+	border: 0px !important;
+}
+
+table#main {
+	margin-top: 100px;
+	min-width: 100%;
+	z-index: 1000;
+}
+
+td#stations {
+	padding-top: 6px;
+	min-width: 200px;
+}
+
+td#stations li, td#stations li a { white-space: nowrap !important; }
+
+td {
+	vertical-align: top;
+	border: 0px solid #eee;
+}
+
+ul#streams a {
+	white-space: nowrap;	
+}
+
+ul#streams li.compact {
+	display: inline-block;
+	margin: 6px;
+}
+
+ul#streams li.el .glyphicon {
+	display: none;
+}
+
+table#files td {
+	font-size: 1em !important;
+	padding: 4px 8px 2px 8px !important;
+	/*white-space: nowrap;*/
+
+}
+
+table#files td:first-child {
+	min-width: 800px;
+}
+
+table#files tr.folder td {
+	white-space: nowrap;
+}
+
+table#files h6 { display: inline-block; cursor: pointer; }
+
+td.tags span { padding: 4px; }
+
+table#files tr.active td * { color: green !important; }
+
+button[data-action="showDiscogsInfo"] {
+	padding: 0px 12px;
+}
+
+h1 { min-height: 70px; }
+
+ul.track_extraartists li {
+	margin-left: 30px;
+}
+
+.el-icon-volume-up {
+	position: relative;
+	top: 2px;
+	padding-left: 6px;
+	display: none;
+}
+
+.el-icon-volume-up.active { display: inline; }
+
+td#stations .el-icon-volume-up.active { color: #D2840B; }
+
+.fa-cog { color: #aaa !important; }
+		
+.knob {
+	position: fixed;
+	top: 8px;
+}
+
+.knob.time {
+	right: 96px;
+}
+
+.knob.volume {
+	right: 8px;
+}
+
+img.thumbnail {
+	width: 256px;
+}

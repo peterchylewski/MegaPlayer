@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<title>MegaPlayer</title>
+
+	<link rel="stylesheet" href="styles/vendor/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="styles/elusive-webfont.css">
+	<link rel="stylesheet" href="styles/vendor/font-awesome/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="styles/vendor/treetable/jquery.treetable.css">
+	<link rel="stylesheet" href="styles/vendor/treetable/jquery.treetable.theme.default.css">
+	
+	<link rel="stylesheet" href="styles/fonts/Franklin/Franklin.font.css">
+	
+	<style>
+			
+		* {
+			-webkit-font-smoothing: antialiased;
+			text-rendering: optimizeLegibility;
+			margin: 0;
+			padding: 0;
+			outline: 0 !important;
+			-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+		}
+
+		body {
+			font-family: "FranklinGothicFSBook" !important;
+			font-size: 2em !important;
+			line-height: 1.2em !important;
+			/* text-transform: lowercase; */
+			margin: 32px;
+			color: #333;
+			background: #fff; /* #7398B3 */
+		}
+		
+		h1, h2, h3, h4, h5, h6 {
+			font-family: "FranklinGothicFSHeavy" !important;
+			font-weight: 400 !important;
+			font-style: normal !important;
+			margin: 0 !important;
+		}
+		
+		h1 { font-size: 3em; letter-spacing: -.01em; color: } h2 { font-size: 1.8em; } h6 { font-size: 1em; }
+		
+		h1 {
+			font-size: 6em;
+			line-height: .85em;
+			letter-spacing: -.045em;
+			word-spacing: -.004em;
+			color: #D3D3D3; /* A9BCCF */
+			position: relative;
+			left: -.05em;
+		}
+		
+		h2 { color: #D3D3D3; }
+	
+		* + h1, * + h2, * + h3, * + h4, * + h5, * + h6 { margin-top: 16px; }
+		
+		#files h6 {
+			/* font-size: 1.61em; */
+			color: rgb(179, 20, 20); /* #6C8091 */
+			text-transform: uppercase;
+			letter-spacing: -.075em;
+			cursor: pointer;
+		}
+		
+		b, strong {
+			font-family: "FranklinGothicFSDemi" !important;
+			font-weight: normal;
+		}
+		
+		small {
+			font-size: .8em !important;
+		}
+		
+		button i {
+			position: relative;
+			top: 2px;
+			font-size: 1.5em;
+		}
+		
+		ul, ol { list-style-position: inside; }
+		
+		* + p { margin-top: 8px; }
+		
+		ul li {
+			list-style-type: none;
+			margin: 0;
+		}
+		
+		a {
+			color: #D2840B;  /* #FF9E08 */
+			text-decoration: none;
+		}
+	
+		td.name a:hover {
+			color: #D2840B;
+			text-decoration: none;
+			border-bottom: 2px dotted #D2840B;
+		}
+		
+		div#topLeft {
+			position: fixed;
+			top: 8px;
+			left: 32px;
+			z-index: 1000;
+			background: #fff;
+			font-size: .61em;
+		}
+		
+		.glyphicon-thumbs-up { color: #17A323; }
+		
+		.glyphicon-thumbs-down { color: #CA2614; }
+		
+		div#nucontrols {
+			position: fixed;
+			top: 100px;
+			right: 26px;
+			z-index: 10000;
+		}
+		
+		div#nucontrols button { display: block; }
+		
+		div#nucontrols button + button { margin-top: 6px; }
+		
+		div#controls {
+			position: relative;
+			margin-bottom: 32px;
+		}
+		
+		.nav > li > a { padding: 4px 12px 4px 12px; }
+		
+		.tab-content { margin-top: 16px; }
+		
+		/* table#main { width: 100%; } */
+		
+		div#info { display: block; position: fixed; top: 110px; left: 340px; z-index: -100; padding-right: 64px; }
+		
+		div#info p {
+			line-height: 1em;
+			margin: 0; padding: 0;
+		}
+		
+		div#console { 
+			width: 500px; position: fixed; bottom: 32px; right: 32px; z-index: 100; padding: 4px;
+			font-family: courier;
+			font-size: 13px;
+			background: #fc0;
+			display: none;
+		}
+		
+		table.treetable {
+			border: 0;
+		}
+		
+		table.treetable td {
+			border: 0px !important;
+		}
+
+		table#main {
+			margin-top: 100px;
+			min-width: 100%;
+			z-index: 1000;
+		}
+		
+		td#stations {
+			padding-top: 6px;
+			min-width: 200px;
+		}
+		
+		td#stations li, td#stations li a { white-space: nowrap !important; }
+		
+		td {
+			vertical-align: top;
+			border: 0px solid #eee;
+		}
+		
+		ul#streams a {
+			white-space: nowrap;	
+		}
+		
+		ul#streams li.compact {
+			display: inline-block;
+			margin: 6px;
+		}
+		
+		ul#streams li.el .glyphicon {
+			display: none;
+		}
+		
+		table#files td {
+			font-size: 1em !important;
+			padding: 4px 8px 2px 8px !important;
+			/*white-space: nowrap;*/
+		
+		}
+		
+		table#files td:first-child {
+			min-width: 800px;
+		}
+		
+		table#files tr.folder td {
+			white-space: nowrap;
+		}
+		
+		table#files h6 { display: inline-block; cursor: pointer; }
+		
+		td.tags span { padding: 4px; }
+		
+		table#files tr.active td * { color: green !important; }
+		
+		button[data-action="showDiscogsInfo"] {
+			padding: 0px 12px;
+		}
+		
+		h1 { min-height: 70px; }
+		
+		ul.track_extraartists li {
+			margin-left: 30px;
+		}
+		
+		.el-icon-volume-up {
+			position: relative;
+			top: 2px;
+			padding-left: 6px;
+			display: none;
+		}
+		
+		.el-icon-volume-up.active { display: inline; }
+		
+		td#stations .el-icon-volume-up.active { color: #D2840B; }
+		
+		.fa-cog { color: #aaa !important; }
+				
+		.knob {
+			position: fixed;
+			top: 8px;
+		}
+		
+		.knob.time {
+			right: 96px;
+		}
+		
+		.knob.volume {
+			right: 8px;
+		}
+		
+		img.thumbnail {
+			width: 256px;
+		}
+
+	</style>
+	
+	<script src="js/jquery-2.0.3.min.js"></script>
+	
+	<script src="js/jquery.knob.js"></script>
+	<script src="js/jquery.treetable.js"></script>
+	<script src="js/jquery.backstretch.min.js"></script>
+	<script src="js/jquery.cookie.js"></script>
+
+	<script src="js/bootstrap-3.2.0.min.js"></script>
+	<script src="js/underscore-min.js"></script>
+	<script src="js/socket.io-1.2.1.js"></script>
+	<script src="js/EventEmitter2.js"></script>
+
+	<script src="js/MegaClient.js"></script>
+
+	<script>
+
+		'use strict';
+
+		function linToLog(linearValue) {
+			var MAX_VALUE = 100,
+				logValue = 1 - (Math.log(MAX_VALUE - linearValue) / Math.log(MAX_VALUE)); 
+			return linearValue >= MAX_VALUE ? MAX_VALUE : logValue * 100;
+		}
+
+		function log2Lin(logValue) {
+			var MAX_VALUE = 4.382026634673881,
+			linValue = Math.pow(logValue, Math.E) / Math.pow(MAX_VALUE, Math.E); 
+			return linValue;
+		}
+		
+		function lin2Log(linearValue) { var MAX_VOLUME  = 255; return logValue = 1 - (Math.log(MAX_VOLUME - linearValue) / Math.log(MAX_VOLUME)); }
+		function log2lin(logValue)    { var MAX_VOLUME  = 255; return 1 - Math.pow(MAX_VOLUME, 1 - logValue) / MAX_VOLUME; }
+		
+		var app = new MegaClient(),
+			socket = io('http://192.168.1.200:3000/'),
+			_stations,
+			_stationIDs,
+			_currentStationID,
+			_status = {},
+			_$activeRow;
+		
+		function _setStation(id) {
+			if (id !== undefined) {
+				_currentStationID = id;
+				//socket.emit('cmd', 'setStation', _currentStationID);
+				socket.emit('station', _currentStationID);
+			}
+		}
+
+		function _previousStation() {
+			var currentIndex = _.indexOf(_stationIDs, _currentStationID),
+				nextIndex = currentIndex - 1;
+			if (nextIndex < 0 ) { nextIndex = _stationIDs.length - 1 ; }
+			_setStation(_stationIDs[nextIndex]);
+		}
+
+		function _nextStation() {
+			var currentIndex = _.indexOf(_stationIDs, _currentStationID),
+				nextIndex = currentIndex + 1;
+			if (nextIndex >= _stationIDs.length) { nextIndex = 0; }
+			_setStation(_stationIDs[nextIndex]);
+		}
+
+		function _prev() {
+			console.log('_prev');
+			console.log('_$activeRow', _$activeRow);
+			console.log('_$activeRow.prev()', _$activeRow.prev());
+			var $prev = _$activeRow.prev('.file');
+			$prev.find('a').click();
+			console.log($prev.index('.file'));
+		}
+
+		function _next() {
+			console.log('_next');
+			console.log('_$activeRow', _$activeRow);
+			console.log('_$activeRow', _$activeRow.get(0).outerHTML);
+			var $next = _$activeRow.next();
+			$next.find('a').click();
+		}
+
+		socket.on('radiostations', function(stations) {
+			console.log('radio stations received: ', stations);
+			
+			_stations = stations;
+			_stationIDs = _.keys(_stations);
+
+			var html = $('#stations.template').html(),
+				template = _.template(html);
+
+			$('#streams-tab').html(template({ data: stations }));
+			$('a.station').click(function(e) {
+				console.log('klik');
+				e.preventDefault();
+				_setStation($(this).attr('href'));
+			});
+		});
+
+		socket.on('musictree', function(musictree) {
+			console.log('musictree', musictree);		
+			var html = $('#template-files').html(),
+				template = _.template(html),
+				currentUUID = 0,
+				makeUUID = function() { return currentUUID++; },
+				treetableOptions = { expandable: true, column: 0, indent: 16, initialState: 'collapsed', clickableNodeNames: true },
+				$table = $(template({ makeUUID: makeUUID, data: { children: [ musictree ] } })).treetable(treetableOptions);
+				
+			$('#files-tab').html($table);
+
+			$('table#files a').on('click', function(e) {
+				e.preventDefault();
+				var href = $(this).attr('href'),
+					matches = href.match(/\.([0-9a-z]+)$/i),
+					extension = matches !== null && matches[1] !== undefined ? matches[1].toLowerCase() : '';
+				
+				_$activeRow = $(this).parents('tr:first');
+				
+				console.log('href', href);
+				console.log('matches', matches);
+				console.log('extension', extension);
+				switch (extension) {
+					case 'mp3':
+					case 'aif':
+					case 'wav':
+					case 'm4a':
+					case 'flac':
+					case 'cue':
+					case 'ape':
+					case 'ogg':
+					case 'pls':
+					case 'm3u':
+						socket.emit('file', href);
+					break;
+					case 'png':
+					case 'jpg':
+						// http://srobbin.com/jquery-plugins/backstretch/ 
+						$.backstretch(href);
+					break;
+				}
+			});
+
+			$('button[data-action="showDiscogsInfo"]').click(function() {
+				var that = this,
+					url =  $(this).attr('data-url'),
+					path = $(this).closest('tr.folder').attr('data-path');
+				$.getJSON(url, function(json) {
+					console.log(json);
+					var html = $('#discogsInfo.template').html(),
+						template = _.template(html);
+					socket.emit('cmd', 'saveDiscogsInfo', path, json);
+					$(that).parent().prev().append(template({ data: json }));
+				});
+				
+			});
+			
+		});
+
+		socket.on('audio_info', function(audio) {
+			console.log('audio', audio);
+			var  bps = parseInt(audio.bitsPerSample.match(/([0-9]{2})/)[0]);
+			console.log('bps', bps);
+			$('#info .top').html(audio.channels + ' channels | ' + audio.sampleRate + ' Hz' + ' | ' + audio.bitRate + ' kbps | ' + (bps === '32' ? 24 : bps) + ' bits per sample');
+		});
+
+		socket.on('station_id', function(id) {
+			console.log('station id', id);
+			_currentStationID = id;
+			$('li i').removeClass('active');
+			$('li[data-id="' + id + '"] i').addClass('active');
+		});
+
+		socket.on('player_value_changed', function(key, value) {
+			//console.log('player_value_changed', key, value);
+			if (value === null || value === undefined) { return 0; å}
+			_status[key] = value;
+			//console.log('_status', JSON.stringify(_status, null, 2));
+			switch (key) {
+				case 'path':
+					console.log('PATH CHANGED', value);
+					var $files = $('table#files');
+					$files.find('tr, i').removeClass('active');
+					_$activeRow = $files.find('tr[data-path="' + value + '"]');
+					_$activeRow.addClass('active')
+							    .find('i').addClass('active');
+				break;
+				case 'volume':
+					console.log('VOLUME CHANGED', value);
+					console.log(log2lin(value));
+					
+					//$('.dial').val(10 * Math.pow(value, 100)).trigger('change');
+				break;
+				case 'length':
+					console.log('>>>>>>>>>>>>>>>>length', value);
+					$('.dial.time').trigger('configure', {
+						'min': 0,
+					'max': value
+				});
+				break;
+				case 'timePosition':
+					//console.log('timePosition', value);
+					var $timeKnob = $('.knob.time');
+					if ($timeKnob.data('mouseIsOver') === true) {
+						console.log('mouse is over time dial; ignoring update');
+					} else {
+						$timeKnob.find('.dial').val(Math.ceil(value)).trigger('change');
+				}
+				break;
+			}
+		});
+
+		// ------------------------------------------------------------------ receiving messages from the server
+		
+		socket.on('end_of_file_reached', function() {
+			console.log('player says: end of file has been reached.');
+			_next();
+		});
+
+		socket.on('station_message', 	function(msg) { $('h1').text(msg); });
+		socket.on('prev', 				function() { _prev(); });
+		socket.on('next', 				function() { _next(); });
+		
+		socket.on('connection', function(msg) 	{ console.log(msg);  $('#status').html('<i class="glyphicon glyphicon-thumbs-up"></i> connected to server'); });
+		socket.on('disconnect', function() 		{ console.log('disconnected from server'); $('#status').html('<i class="glyphicon glyphicon-thumbs-down"></i> disconnected from server'); });
+				
+		socket.on('event', 			function(type, val) { console.log('event received:', type, JSON.stringify(val, null, 2)); } );
+		
+		$(document).ready(function() {
+			console.log('***ready');
+			
+			socket.emit('ready', 'foobar');
+			
+			$('button').click(function() {
+				switch ($(this).attr('data-action')) {
+					case 'prev': _prev();											break;
+					case 'next': _next();											break;
+					case 'stop': console.log('tsop'); socket.emit('cmd', 'stop');	break;
+					case 'reload_tree':
+						$('#files-tab').html('<i class="fa fa-cog fa-spin"></i>');
+						socket.emit('cmd', 'reloadTree');
+					break;
+					case 'restartServer': socket.emit('cmd', 'restart');			break;
+				}
+			});
+			
+			$('#files-tab').html('<i class="fa fa-cog fa-spin"></i>');
+			
+			// -- TABS
+			
+			var tab = $.cookie('lastTab');
+			if (tab === undefined) { tab = '#streams-tab'; }
+		
+			$('.nav-tabs a[href="' + tab + '"]').tab('show');
+			
+			$('a[data-toggle="tab"]').on('shown.bs.tab', function(e) {
+				console.log('a tab has been clicked on');
+				tab = $(e.target).attr('href');				
+				$.cookie('lastTab', tab);
+				socket.emit('event', 'tabChanged', tab);
+			});
+			
+			// --- KNOBS
+			
+			var knobOptions = {
+				'width': 80,
+    			'height': 80,
+    			'font': 'FranklinGothicFSBook',
+    			'fgColor': '#1493B3'
+			};
+			
+			// ------------------ time knob
+			
+			$('.dial.time').val(0).knob({
+				'change': function(value) {
+					console.log('change', value);
+				},
+				'draw': function(value) {
+					//console.log('draw', value);
+				},
+				'release': function(value) {
+					//console.log('release', value);
+					var $timeKnob = $('.knob.time');
+					if ($timeKnob.data('mouseIsOver') === true) {
+						socket.emit('cmd', 'setTimePos', value);
+					}
+				},
+
+				'width': 80,
+				'height': 80,
+				'font': 'FranklinGothicFSBook',
+				'fgColor': '#1493B3'
+				}).addClass('time')
+				.on('mouseover', function() { console.log('mouseover'); $(this).data('mouseIsOver', true); })
+				.on('mouseleave', function() { console.log('mouseleave'); $(this).data('mouseIsOver', false); });
+			
+			// ------------------ volume knob
+			
+			$('.dial.volume').val(0).knob({							// http://anthonyterrien.com/knob/
+				'change': function(value) {
+    				console.log('change', value);
+    				
+    			},
+    			'release': function(linearValue) {
+    				console.log('release', linearValue);
+    				var MAX_VOLUME = 100,
+    					logValue = 1 - (Math.log(MAX_VOLUME - linearValue) / Math.log(MAX_VOLUME)); // http://stackoverflow.com/questions/5215459/android-mediaplayer-setvolume-function
+    				console.log(linearValue, logValue * 100);
+    				//console.log('>>', 100 * Math.pow(logValue, 10)));
+    				if (logValue > 1) { logValue = 1; }
+    				socket.emit('volume', logValue * 100);
+					
+    			},
+    			
+				'min': 0,
+    			'max': 100,
+    			//'angleArc': 270,
+    			//'angleOffset': -135,
+    			'width': 80,
+    			'height': 80,
+    			'font': 'FranklinGothicFSBook',
+    			'fgColor': '#B31414'
+    			//'rotation': 'counterclockwise',
+    			
+    		}).addClass('volume');
+			
+		});
+
+	</script>
+	
+	<script class="template" id="stations" type="text/template">
+		<ul id="streams">
+		<% _.each(data, function(value, key) { %>
+			<li data-id="<%= key %>"><a class="station" href="<%= key %>"><%= value.name %></a><i class="el el-icon-volume-up"></i></li>
+		<% }); %>
+		</ul>
+	</script>
+	
+	<script id="template-files" type="text/template">
+		<% var mUid = makeUUID; %>
+		<% var name; %>
+	 	<table id="files">
+			<tbody>
+				<% function row(data, parentID) { %>
+					<% _.each(data, function(item, i) { %>
+						<% if (item !== undefined && item !== null) { %>
+							<% var uid = mUid(); %>
+		 					<tr class="<%= item.type %>" data-tt-id="<%= uid %>" data-tt-parent-id="<%= parentID %>" data-path="<%= item.path %>">
+		 						<td>
+		 							<!--
+		 							<% if (item.type === 'file') { %>
+	 									<i class="fa fa-file"></i>
+	 								<% } else { %>
+										<i class="fa fa-folder"></i>
+									<% } %>
+									-->
+									<% if (item.type === 'folder') { %>
+										<% name = item.name.replace(/^([0-9]{4,4})[\.-\W]+(.*)$/g, '$2 ($1)'); %>
+										<h6><%= name %></h6>
+									<% } else { %>
+										<% name = item.name.replace(/^([0-9]{1,2})[\.]?[- ]+/g, function(s) { return parseInt(s) + '. '; } ).replace(/\.[mp3|flac|wav|m4a|aif|ogg]+$/i, ""); %>
+										<a href="<%= item.path %>"><%= name %></a>&nbsp;<i class="el-icon-volume-up"></i>
+									<% } %>
+								</td>
+								<td class="name">
+									<% if (item.meta !== undefined && item.meta.discogs_url !== undefined) { %>
+										<button class="btn btn-xs>" data-action="showDiscogsInfo" data-url="<%= item.meta.discogs_url %>">discogs</button>
+									<% } %>
+								</td>
+								<td class="tags">
+									<% if (item.meta !== undefined && item.meta.tags !== undefined) { %>
+										<% _.each(item.meta.tags, function(tag, i) { %>
+											<span class="badge"><%= tag %></span>
+										<% }); %>
+									<% } %>
+								<td>
+							</tr>
+							<% if (item.children !== undefined) { %>
+								<% row(item.children, uid); %>
+							<% } %>
+						<% } %>
+					<% }); %>
+				<% } %>
+	 		<% row(data.children, mUid()); %>
+	 		</tbody>
+		</table>
+	</script>
+	
+	<script class="template" id="discogsInfo" type="text/template">
+		<div class="info">
+			<h6><%= data.artists[0].name %>—<%= data.title %></h6>
+			<ul class="tracks">
+			<% _.each(data.tracklist, function(track) { %>
+				<li>
+					<% if (track.sub_tracks !== undefined &&  track.sub_tracks.length > 0) {  %>
+						<strong><%= track.title %></strong>
+						<ul>
+						<% _.each(track.sub_tracks, function(sub_track, i) { %>
+							<li><%= sub_track.title %></li>
+						<% }); %>
+						</ul>
+					<% } else { %>
+						<%= track.position %>. <strong><%= track.title %></strong> <%= track.duration %>
+					<% } %>
+					
+					
+					<% if (track.artists !== undefined &&  track.artists.length > 0) {  %>
+						(
+						<% _.each(track.artists, function(artist, i) { %>
+							<% if (artist.role !== undefined && artist.role !== "") { %><%= artist.role %> — <% } %><%= artist.name %><% if (i < track.artists.length - 1 ) { %>, <% } %>
+						<% }); %>
+						)
+					<% } %>
+					<% if (track.extraartists !== undefined &&  track.extraartists.length > 0) {  %>
+						<ul class="track_extraartists">
+						<% _.each(track.extraartists, function(artist) { %>
+							<li> <small><%= artist.role %> <strong><%= artist.name %></strong></small></li>
+						<% }); %>
+						</ul>
+					<% } %>
+				</li>
+			<% }); %>
+			</ul>
+			<h6>Artists: </h6>
+			<% _.each(data.artists, function(artist) { %>
+				<h6><%= artist.name %></h6>
+			<% }); %>
+			<ul>
+			<% _.each(data.extraartists, function(artist) { %>
+				<li><%= artist.role %> —  <strong><%= artist.name %></strong> </li>
+			<% }); %>
+			</ul>
+			<% _.each(data.labels, function(label) { %>
+				<p><%= label.name %>, <%= label.catno %></p>
+			<% }); %>
+			<% if (data.notes !== undefined) {  %>
+				<p><%= data.notes.replace(/\n/g, '<br>') %></p>
+			<% } %>
+		</div>
+	</script>
+</head>
+<body>
+	<div id="topLeft">
+		<div id="status">
+			status
+		</div>
+		<button class="btn btn-danger" data-action="restartServer">Restart Server</button>
+	</div>
+	<div id="nucontrols">
+		<button class="btn btn-danger btn-small" data-action="stop"><i class="fa fa-pause"></i></button>
+		<button class="btn btn-primary btn-small" data-action="prev"><i class="fa fa-arrow-up"></i></button>
+		<button class="btn btn-primary btn-small" data-action="next"><i class="fa fa-arrow-down"></i></button>
+		<button class="btn btn-small" data-action="reload_tree"><i class="fa fa-sitemap"></i></button>
+	</div>
+	
+	<div id="controls">
+		<input type="text" class="dial time" data-displayPrevious="true">
+		<input type="text" class="dial volume" data-displayPrevious="true">
+	</div>
+	
+	<div id="info">
+		<p class="top"></p>
+		<h1>Foo</h1>
+		<p class="bottom"></p>
+	</div>
+	
+	<div id="console">
+		console
+	</div>
+	
+	<table id="main">
+		<tr>
+			<td id="stations">
+				<ul class="nav nav-tabs">
+    				<li class="active"><a href="#streams-tab" data-toggle="tab">Streams</a></li>
+   					<li><a href="#files-tab" data-toggle="tab">Files</a></li>
+				</ul>
+				<div class="tab-content">
+					<div class="tab-pane active" id="streams-tab">
+						streams
+					</div>
+					<div class="tab-pane" id="files-tab">
+						files
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+	
+</body>
+
+
+</html>

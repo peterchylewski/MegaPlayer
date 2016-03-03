@@ -1,5 +1,6 @@
+'use strict';
 
 var server = require('MegaPlayerServer');
 server.start();
 
-console.log(' server', server);
+console.log('server', server);
